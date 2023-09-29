@@ -1,0 +1,1645 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Catalogusregister",
+            "deleteItem": "Weet u zeker dat u dit item wilt verwijderen?",
+            "availability": "Beschikbaarheid",
+            "versionInfo": "Versie-informatie",
+            "chooseCategory": "Categorie kiezen",
+            "chooseFile": "Bestand kiezen",
+            "versionNotes": "Versie-notities",
+            "review": "Reviewen",
+            "tooltipKeywords": "Voer hier de trefwoorden van uw dataset in!",
+            "pageDescriptionDataset": "Titel, beschrijving, catalogus, trefwoorden en categorieën toevoegen aan uw dataset!",
+            "no": "Nee",
+            "relatedResources": "gerelateerde items",
+            "pageDescriptionPublisher": "Voeg het type, de naam en de homepage van de uitgever toe aan uw dataset!",
+            "tooltipTitle": "Voer hier de titel van uw dataset in!",
+            "linkedData": "Gekoppelde gegevens",
+            "numSeries": "Aantal gegevensreeksen",
+            "releaseDate": "Verschijningsdatum",
+            "yes": "Ja",
+            "unitsOfMeasurement": "Meeteenheden",
+            "distributionsEmpty": "Sorry, er zijn momenteel geen geüploade verdelingen beschikbaar voor deze dataset. Voeg ten minste één verdeling toe!",
+            "enterDownloadUrl": "Download url invoeren",
+            "frequency": "Frequentie",
+            "type": "Soort",
+            "telephone": "Telefoon",
+            "label": "Etiket",
+            "addedToDataEuropaEU": "Toegevoegd aan data.europa.eu",
+            "tooltipCategories": "Kies hier de categorieën van uw dataset!",
+            "temporal": "Bestreken tijdvak",
+            "enterDescription": "Voer een beschrijving in",
+            "accrualPeriodicity": "Opbouwfrequentie",
+            "showXMore": "Toon  {increment}  meer ",
+            "identifier": "Identificatiecode",
+            "isPartOf": "Is subcatalogus van",
+            "dataServices": "Datadiensten",
+            "chooseType": "Soort kiezen",
+            "organizationName": "Naam van de organisatie",
+            "catalog": "Catalogus",
+            "qualityAnnotations": "Kwalitatieve annotaties",
+            "update": "Updaten",
+            "showAll": "Toon alles",
+            "coordinates": "Coördinaten",
+            "email": "E-mail",
+            "tooltipContactType": "Voer hier het type aanspreekpunt van uw dataset in!",
+            "checksum": "Checksum",
+            "enterEmail": "Voer een e-mailadres in",
+            "cancel": "Annuleren",
+            "conformsTo": "Is conform",
+            "downloadUrl": "Download-URL",
+            "chooseLicense": "Een licentie kiezen",
+            "tooltipDescription": "Voer hier de beschrijving van uw dataset in!",
+            "tags": "Labels",
+            "accessUrl": "Toegangs-URL",
+            "languages": "Talen",
+            "title": "Titel",
+            "enterTitle": "Voer een titel in",
+            "url": "URL",
+            "resource": "Bron",
+            "tooltipPublisherHomepage": "Voer hier de homepage van de uitgever van uw dataset in!",
+            "creator": "Maker",
+            "description": "Uw bericht",
+            "spatial": "Ruimtelijk",
+            "readLess": "Lees minder",
+            "tooltipPublisherType": "Kies hier het type uitgever van uw dataset!",
+            "accessRights": "Toegangsrechten",
+            "tooltipDistributionDownloadUrl": "Voer hier de download-URL van uw verdeling in!",
+            "attributes": "Attributen",
+            "mediaType": "Mediatype",
+            "categories": "Categorieën",
+            "pageDescriptionDistribution": "Voeg verdelingen toe aan uw dataset!",
+            "pages": "Pagina's",
+            "goToCatalog": "Ga naar cataloguspagina",
+            "tooltipDistributionDescription": "Voer hier de beschrijving van uw verdeling in!",
+            "identifiers": "Identificatoren",
+            "scheme": "Regeling",
+            "contactPoints": "Contactpunt",
+            "hasPart": "Heeft een subcatalogus",
+            "showLess": "Minder weergeven",
+            "byteSize": "Byte-omvang",
+            "tooltipCatalog": "Kies hier de catalogus van uw dataset!",
+            "methodologyPage": "Pagina MQA-methodologie",
+            "hasVersion": "Bevat versie",
+            "useDownloadUrl": "Ik wil een download-URL invoeren in plaats van een bestand uploaden!",
+            "created": "Aangemaakt",
+            "themeTaxonomy": "Themataxonomie",
+            "homepage": "Homepage",
+            "address": "Adres",
+            "visualisations": "Visualisaties",
+            "tooltipDistributionFormat": "Kies hier het formaat van uw verdeling!",
+            "upload": "Uploaden",
+            "notFound": "Niet gevonden",
+            "dimensions": "Afmetingen",
+            "addDistribution": "Distributie toevoegen",
+            "name": "Naam",
+            "metadataQuality": "Kwaliteit metadata",
+            "provenances": "Herkomst ",
+            "enterKeywords": "Voer trefwoorden in",
+            "landingPage": "Landingspagina",
+            "tooltipDistributionTitle": "Voer hier de titel van uw verdeling in!",
+            "license": "Licentie",
+            "chooseCatalog": "Catalogus kiezen",
+            "enterHomepage": "Voer een homepage in",
+            "tooltipDistributionLicence": "Kies hier de licentie van uw verdeling!",
+            "readMore": "Lees meer",
+            "format": "Formaat",
+            "chooseFormat": "Formaat kiezen",
+            "publisher": "Uitgever",
+            "dataset": "Dataset",
+            "updated": "Bijgewerkt",
+            "pageDescriptionUpload": "Voeg bestanden toe aan uw verdelingen!",
+            "spatialResource": "Ruimtelijk hulpmiddel",
+            "distribution": "Distributie",
+            "tooltipContactName": "Voer hier de naam van het aanspreekpunt van uw dataset in!",
+            "distributions": "Verdelingen",
+            "status": "Status",
+            "datasets": "Datasets",
+            "showMore": "Meer tonen",
+            "rights": "Rechten",
+            "tooltipContactEmail": "Voer hier het e-mailadres van het aanspreekpunt van uw dataset in!",
+            "otherIdentifiers": "Andere identificatoren",
+            "tooltipPublisherName": "Voer hier de naam van de uitgever van uw dataset in!",
+            "enterName": "Voer een naam in",
+            "documentations": "Documentatie",
+            "sources": "Bronnen",
+            "modificationDate": "Aanpassingsdatum",
+            "isVersionOf": "Is versie van",
+            "pageDescriptionContactPoint": "Voeg het type, de naam en het e-mailadres van het aanspreekpunt toe aan uw dataset!",
+            "goToDataset": "Ga naar datasetpagina",
+            "updatedOnDataEuropaEU": "Bijgewerkt op data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Klik op informatief icoon om een gedetailleerde uitleg van het veld weer te geven.",
+                "information": "Informatie"
+            },
+            "datasets": {
+                "step2": {
+                    "isReferencedBy": {
+                        "add-label": "Toevoegen als referentie door",
+                        "placeholder": "Gegevensset Is waarnaar wordt verwezen door tekst van de placeholder",
+                        "help": "Deze eigenschap gaat over een verwante hulpbron.",
+                        "info": "Deze eigenschap gaat over een gerelateerde hulpbron, zoals een publicatie, die verwijzingen naar, citaten of anderszins verwijst naar de dataset.",
+                        "label": "Wordt als referentie gebruikt"
+                    },
+                    "contactPointAddressCity": {
+                        "placeholder": "Contactpunt gegevensset Adres Stad placeholder tekst",
+                        "label": "Adres Stad"
+                    },
+                    "source": {
+                        "label": "Bron",
+                        "help": "Dataset waarvan de beschreven Dataset is afgeleid.",
+                        "info": "Is uw dataset afgeleid van een andere dataset, vermeld die andere dataset dan hier.",
+                        "placeholder": "Tekst van de gegevensset Bron placeholder",
+                        "add-label": "Bron toevoegen"
+                    },
+                    "type": {
+                        "label": "Type",
+                        "help": "Deze eigenschap verwijst naar het type Dataset.",
+                        "info": "Deze eigenschap verwijst naar het type Dataset. Er is voorzien in een aanbevolen rcontrolled vocabulaire gegevenstype.",
+                        "placeholder": "Tekst van de gegevensset Type placeholder"
+                    },
+                    "pageUrl": {
+                        "label": "URL",
+                        "placeholder": "Dataset Page Url placeholder tekst"
+                    },
+                    "admsIdentifierSkosNotation": {
+                        "help": "Datasets ADMS:Identifier Regeling help tekst",
+                        "label": "Regeling"
+                    },
+                    "spatialPlace": {
+                        "placeholder": "Tekst van de dataset ruimtelijke locatie (placeholder)",
+                        "label": "Plaats"
+                    },
+                    "subject": {
+                        "label": "Onderwerp",
+                        "help": "Een categorie van de Dataset.",
+                        "info": "Deze eigenschap verwijst naar een categorie van de Dataset. Een dataset kan worden geassocieerd met meerdere thema’s."
+                    },
+                    "qualifiedRelationUrl": {
+                        "placeholder": "Tekst van de gegevensset Qualified Relation Url placeholder",
+                        "label": "URL"
+                    },
+                    "accrualPeriodicity": {
+                        "info": "Deze eigenschap heeft betrekking op de frequentie waarmee de Dataset wordt bijgewerkt.",
+                        "label": "Periodeopbouw",
+                        "placeholder": "Dataset Accrual Periodicity placeholder text",
+                        "help": "Deze eigenschap heeft betrekking op de frequentie waarmee de Dataset wordt bijgewerkt."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL",
+                        "placeholder": "Gegevensset Is waarnaar wordt verwezen door tekst van de Url placeholder"
+                    },
+                    "versionNotes": {
+                        "placeholder": "Tekst van de gegevensset Versie Toelichting (placeholder)",
+                        "label": "Versie Opmerkingen",
+                        "help": "Een beschrijving van de wijzigingen in deze versie ten opzichte van de vorige.",
+                        "info": "Deze eigenschap bevat een beschrijving van de verschillen tussen deze versie en een vorige versie van de Dataset. Deze eigenschap kan worden herhaald voor parallelle taalversies van de versienota’s.",
+                        "add-label": "Versie Opmerkingen in een andere taal toevoegen"
+                    },
+                    "contactPointAddressStreet": {
+                        "label": "Adresstraat",
+                        "placeholder": "Contactpunt gegevensset Address Street placeholder tekst"
+                    },
+                    "relationUrl": {
+                        "label": "URL",
+                        "placeholder": "Tekst van de datet Relation Url placeholder"
+                    },
+                    "isVersionOfUrl": {
+                        "placeholder": "Gegevensset Is versie van de tekst van de werkplaatshouder",
+                        "label": "URL"
+                    },
+                    "conformsTo": {
+                        "label": "In overeenstemming met",
+                        "help": "Deze eigenschap heeft betrekking op een uitvoeringsregel of een andere specificatie.",
+                        "info": "Deze eigenschap heeft betrekking op een uitvoeringsregel of een andere specificatie.",
+                        "placeholder": "Gegevensset Conforms to placeholder text",
+                        "add-label": "Conforms toevoegen tot"
+                    },
+                    "pageFormat": {
+                        "placeholder": "Dataset Pagina Format placeholder tekst",
+                        "label": "Formaat"
+                    },
+                    "qualifiedAttributionUrl": {
+                        "placeholder": "Tekst van de gegevensset Qualified Attribution Url placeholder",
+                        "label": "URL"
+                    },
+                    "isVersionOf": {
+                        "add-label": "Toevoegen: Versie van f",
+                        "help": "Gegevensset is een versie, uitgave of aanpassing.",
+                        "label": "De versie van f",
+                        "info": "Is uw dataset een versie, bewerking of aanpassing van een andere dataset, vermeld die andere dataset dan hier.",
+                        "placeholder": "Gegevensset Is versie van de tekst van de placeholder"
+                    },
+                    "relation": {
+                        "placeholder": "Tekst van de gegevensset Relation Relation placeholder",
+                        "add-label": "Relatie toevoegen",
+                        "help": "Verwijzing naar eventuele gerelateerde resources.",
+                        "info": "Verwijzing naar eventuele gerelateerde resources.",
+                        "label": "Verband"
+                    },
+                    "provenance": {
+                        "label": "Herkomst",
+                        "help": "Verklaring omtrent de herkomst van de dataset.",
+                        "add-label": "Provenance toevoegen",
+                        "info": "Verklaring omtrent de herkomst van de dataset.",
+                        "placeholder": "Tekst van de gegevensset Provenance placeholder"
+                    },
+                    "language": {
+                        "help": "De taal of talen van de dataset.",
+                        "info": "De taal of talen van de dataset.",
+                        "placeholder": "Tekst van de datet Language placeholder",
+                        "label": "Taal"
+                    },
+                    "spatialContinent": {
+                        "placeholder": "Dataset ruimtelijk continentale placeholder tekst",
+                        "label": "Continent"
+                    },
+                    "spatialResolutionInMeters": {
+                        "help": "Minimale ruimtelijke scheiding oplosbaar in een dataset.",
+                        "info": "Deze eigenschap heeft betrekking op de minimale ruimtelijke scheiding die oplosbaar is in een dataset, gemeten in meters.",
+                        "label": "Ruimtelijke resolutie in meters",
+                        "placeholder": "Dataset Spatial Resolution in Meters placeholder tekst"
+                    },
+                    "qualifiedAttribution": {
+                        "add-label": "Gekwalificeerde attributie toevoegen",
+                        "help": "Link naar een functionaris met enige verantwoordelijkheid voor het middel",
+                        "info": "Deze eigenschap heeft betrekking op een verband met een gemachtigde die op enigerlei wijze verantwoordelijk is voor de bron.",
+                        "label": "Gekwalificeerde toewijking",
+                        "placeholder": "Tekst van de „Qualified Attribution placeholder” (gegevensset Qualified Attribution placeholder)"
+                    },
+                    "temporal": {
+                        "help": "Deze eigenschap verwijst naar een temporele periode waarop de Dataset betrekking heeft.",
+                        "info": "Deze eigenschap verwijst naar een temporele periode waarop de Dataset betrekking heeft.",
+                        "add-label": "Temporal toevoegen",
+                        "label": "In de tijd",
+                        "placeholder": "Dataset Temporal placeholder tekst"
+                    },
+                    "temporalResolutionYear": {
+                        "placeholder": "Dataset Tijdelijke resolutie Jaar placeholder tekst",
+                        "label": "Temporele resolutie Jaar"
+                    },
+                    "admsIdentifier": {
+                        "add-label": "Voeg nog eens toe ADMS:Identifier",
+                        "label": "ADMS:Identifier",
+                        "help": "Een identificatiecode in een bepaalde context, bestaande uit de tekenreeks die de identificatiecode is.",
+                        "info": "Een identificatiecode in een bepaalde context, bestaande uit de tekenreeks die de identificatiecode is; een facultatieve identificatiecode voor de identificatieregeling; een facultatieve identificatiecode voor de versie van de identificatieregeling; een facultatieve identificatiecode voor het agentschap dat de identificatieregeling beheert"
+                    },
+                    "accessRights": {
+                        "help": "Rechten op toegang tot gegevensbestanden.",
+                        "info": "Deze eigenschap heeft betrekking op informatie die aangeeft of de Dataset open data is, toegangsbeperkingen heeft of niet openbaar is.",
+                        "label": "Toegangsrechten",
+                        "placeholder": "Tekst van de placeholder voor datet Toegangsrechten"
+                    },
+                    "pageDescription": {
+                        "label": "Beschrijving",
+                        "placeholder": "Tekst van de pagina over de beschrijving van de gegevensset (placeholder)"
+                    },
+                    "identifier": {
+                        "add-label": "Identificatiecode toevoegen",
+                        "placeholder": "Tekst van de placeholder dataset Identifier",
+                        "label": "Identificatiecode",
+                        "help": "Deze eigenschap bevat de belangrijkste identificatiecode voor de Dataset.",
+                        "info": "Deze eigenschap bevat de belangrijkste identificatiecode voor de Dataset, bv. de URI of een andere unieke identificatiecode in het kader van de catalogus."
+                    },
+                    "creatorName": {
+                        "placeholder": "Tekst van de gegevensset Creator Name placeholder",
+                        "label": "Naam"
+                    },
+                    "hasVersionUrl": {
+                        "label": "URL",
+                        "placeholder": "Dataset Has Version Url placeholder tekst"
+                    },
+                    "versionInfo": {
+                        "label": "Versie Info",
+                        "placeholder": "Tekst van de gegevensset Versie Info placeholder",
+                        "help": "Versienummer van de Dataset.",
+                        "info": "Deze eigenschap bevat een versienummer of een andere versiering van de Dataset."
+                    },
+                    "theme": {
+                        "label": "Thema",
+                        "placeholder": "Dataset Theme placeholder tekst",
+                        "help": "Kies hier de EuroVoc-gebieden die van toepassing zijn op uw dataset.",
+                        "info": "De voor deze eigenschap te gebruiken waarden zijn de URI’s van de concepten in de woordenlijst."
+                    },
+                    "hasVersion": {
+                        "placeholder": "Gegevensset Has Version placeholder tekst",
+                        "help": "Dit is een versie, uitgave of aanpassing van de beschreven Dataset.",
+                        "info": "Deze eigenschap verwijst naar eventuele versies, bewerkingen of aanpassingen van uw dataset.",
+                        "add-label": "Has Version toevoegen",
+                        "label": "Heeft versie"
+                    },
+                    "temporalResolution": {
+                        "label": "Temporele resolutie",
+                        "help": "De in de dataset afwikkelbare minimumtermijn.",
+                        "info": "Dit eigenschap heeft betrekking op de in de dataset afwikkelbare minimumtermijn.",
+                        "placeholder": "Dataset Temporal Resolution placeholder text"
+                    },
+                    "wasGeneratedBy": {
+                        "label": "Werd gegenereerd door",
+                        "add-label": "Was generated by by toevoegen",
+                        "placeholder": "Gegevensset Was generated By placeholder text",
+                        "help": "Dit onroerend goed heeft betrekking op een activiteit die tot stand is gekomen.",
+                        "info": "Dit onroerend goed heeft betrekking op een activiteit die de opzet van de dataset heeft gegenereerd of de zakelijke context daarvoor verschaft."
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Dataset Temporal Resolution Hour placeholder tekst",
+                        "label": "Tijdsresolutie uur"
+                    },
+                    "qualifiedRelation": {
+                        "help": "Deze eigenschap geeft een link naar een beschrijving van een relatie met een andere bron",
+                        "info": "Deze eigenschap geeft een link naar een beschrijving van een relatie met een andere bron",
+                        "label": "Gekwalificeerde betrekkingen",
+                        "add-label": "Gekwalificeerde relatie toevoegen",
+                        "placeholder": "Tekst van de gegevensset „Qualified Relation placeholder”"
+                    },
+                    "pageTitle": {
+                        "placeholder": "Tekst van de gegevensset Page Title placeholder",
+                        "label": "Titel"
+                    },
+                    "landingPageUrl": {
+                        "label": "URL",
+                        "placeholder": "Dataset Landing Page Url placeholder tekst"
+                    },
+                    "conformsToTitle": {
+                        "placeholder": "Gegevensset Conforms to Title placeholder text",
+                        "label": "Titel"
+                    },
+                    "conformsToUrl": {
+                        "placeholder": "Gegevensset Conforms to Url placeholder text",
+                        "label": "URL"
+                    },
+                    "landingPage": {
+                        "help": "Deze eigenschap verwijst naar een webpagina die toegang biedt tot de Dataset.",
+                        "info": "Vul hier een website in waar de dataset, de distributies en eventuele aanvullende informatie te vinden is. Het is bedoeld om te wijzen op een landingspagina bij de oorspronkelijke gegevensverstrekker, niet op een pagina op een locatie van een derde partij, zoals een aggregator.",
+                        "label": "Aanlandingspagina",
+                        "placeholder": "Dataset Landing Page placeholder tekst",
+                        "add-label": "Pagina toevoegen"
+                    },
+                    "creatorType": {
+                        "label": "Type",
+                        "placeholder": "Tekst van gegevensset Creator Type placeholder"
+                    },
+                    "contactPointAddressPostcode": {
+                        "label": "Postcode adres",
+                        "placeholder": "Contactpunt gegevensset Adres Postcode placeholder tekst"
+                    },
+                    "contactPointTelephone": {
+                        "label": "Telefoon",
+                        "placeholder": "Telefoonplaceholder Contactpunt gegevensset"
+                    },
+                    "spatial": {
+                        "placeholder": "Tekst van de gegevensset Spatial placeholder",
+                        "help": "Een geografische regio die onder de Dataset valt.",
+                        "info": "Deze eigenschap heeft betrekking op een geografische regio die onder de Dataset valt.",
+                        "label": "Ruimtelijke ordening"
+                    },
+                    "page": {
+                        "label": "Pagina",
+                        "help": "Pagina of document over deze databank.",
+                        "placeholder": "Tekst van de gegevensset Page placeholder",
+                        "info": "Deze eigenschap verwijst naar een pagina of document over deze Dataset.",
+                        "add-label": "Bladzijde toevoegen"
+                    },
+                    "temporalResolutionMonth": {
+                        "placeholder": "Dataset Tijdelijke resolutie Maand placeholder tekst",
+                        "label": "Maand van de tijdsresolutie"
+                    },
+                    "temporalResolutionSecond": {
+                        "placeholder": "Dataset Temporale Resolutie Tweede plaatshouder tekst",
+                        "label": "Temporele resolutie Tweede"
+                    },
+                    "identifierText": {
+                        "placeholder": "Tekst van de gegevensset Identifier Tekst",
+                        "label": "Tekst"
+                    },
+                    "contactPointAddressCountry": {
+                        "label": "Land van het adres",
+                        "placeholder": "Dataset Contactpunt Adres Landplaatshouder tekst"
+                    },
+                    "contactPointName": {
+                        "placeholder": "Contactpersoon gegevensset Naam placeholder tekst",
+                        "label": "Naam"
+                    },
+                    "isUsedBy": {
+                        "help": "Dataset wordt gebruikt door helptekst",
+                        "label": "Wordt gebruikt door",
+                        "info": "Dataset wordt gebruikt door infotekst",
+                        "placeholder": "Dataset wordt gebruikt door placeholder tekst",
+                        "add-label": "Toevoegen Is gebruikt door"
+                    },
+                    "contactPointType": {
+                        "label": "Type",
+                        "placeholder": "Tekst van het contactpunt voor gegevensset"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Dataset Temporal Resolution Minute placeholder tekst",
+                        "label": "Temporele resolutie Notulen"
+                    },
+                    "sourceUrl": {
+                        "label": "URL",
+                        "placeholder": "Gegevensset Source Url placeholder tekst"
+                    },
+                    "spatialCountry": {
+                        "label": "Land",
+                        "placeholder": "Dataset Spatial Country placeholder tekst"
+                    },
+                    "creatorEmail": {
+                        "label": "E-mail",
+                        "placeholder": "Tekst van gegevensset Creator Email placeholder"
+                    },
+                    "contactPointEmail": {
+                        "label": "E-mail",
+                        "placeholder": "Tekst van het contactpunt voor gegevensset — placeholder"
+                    },
+                    "contactPointAddress": {
+                        "label": "Adres van het contactpunt",
+                        "help": "Dataset Contactpunt Adreshulptekst"
+                    },
+                    "admsIdentifierUrl": {
+                        "label": "URL",
+                        "placeholder": "Dataset ADMS:Identifier Url placeholder tekst"
+                    },
+                    "temporalStart": {
+                        "label": "Begin"
+                    },
+                    "contactPointOrganisationName": {
+                        "placeholder": "Contactpersoon organisatie gegevensset Naam placeholder tekst",
+                        "label": "Naam van de organisatie"
+                    },
+                    "creator": {
+                        "help": "Deze eigenschap verwijst naar de entiteit die verantwoordelijk is voor de productie van de dataset.",
+                        "add-label": "Creator toevoegen",
+                        "info": "Deze eigenschap verwijst naar de entiteit die verantwoordelijk is voor de productie van de dataset.",
+                        "label": "Maker"
+                    },
+                    "contactPoint": {
+                        "label": "Contactpunt",
+                        "placeholder": "Tekst van het contactpunt gegevensset",
+                        "add-label": "Contactpunt toevoegen",
+                        "help": "Deze eigenschap bevat contactgegevens.",
+                        "info": "Deze eigenschap bevat contactgegevens die kunnen worden gebruikt om opmerkingen over de Dataset in te dienen."
+                    },
+                    "admsIdentifierValue": {
+                        "placeholder": "Dataset ADMS:Identifier Identifier placeholder text",
+                        "label": "Identificatiecode"
+                    },
+                    "temporalEnd": {
+                        "label": "Einde"
+                    },
+                    "contactPointUrl": {
+                        "label": "URL",
+                        "placeholder": "Contactpunt gegevensset Url placeholder tekst"
+                    },
+                    "temporalResolutionDay": {
+                        "label": "Tijdelijke Dag van de Resolutie",
+                        "placeholder": "Dataset Temporal Resolution Day placeholder tekst"
+                    },
+                    "creatorHomepage": {
+                        "placeholder": "Dataset Creator Homepage placeholder tekst",
+                        "label": "Homepage"
+                    },
+                    "admsIdentifierType": {
+                        "label": "Soort"
+                    },
+                    "admsIdentifierCheckbox": {
+                        "label": "ADMS:Identifier Checkbox"
+                    },
+                    "wasGeneratedByUrl": {
+                        "label": "URL",
+                        "placeholder": "Dataset Was generated By Url placeholder tekst"
+                    },
+                    "provenanceText": {
+                        "label": "Tekst",
+                        "placeholder": "Tekst van de placeholder dataset Provenance Text"
+                    },
+                    "schemeIdentifier": {
+                        "label": "Identificatiecode van de regeling"
+                    }
+                },
+                "step1": {
+                    "description": {
+                        "label": "Beschrijving",
+                        "add-label": "Omschrijving toevoegen in een andere taal",
+                        "placeholder": "Tekst van de gegevensset Beschrijving van de placeholder",
+                        "help": "De belangrijkste beschrijving van de dataset.",
+                        "info": "De belangrijkste beschrijving van de dataset. Deze omschrijving verschijnt vaak samen met de titel. Begin met een korte zin die de dataset duidelijk omschrijft, want soms verschijnen alleen de eerste woorden op het scherm."
+                    },
+                    "publisherType": {
+                        "label": "Type",
+                        "placeholder": "Tekst van de gegevensset Publisher Type placeholder"
+                    },
+                    "title": {
+                        "add-label": "Titel toevoegen in een andere taal",
+                        "placeholder": "Tekst van de gegevensset Title placeholder",
+                        "help": "Geef een korte duidelijke naam aan de dataset.",
+                        "info": "Geef een korte duidelijke naam aan de dataset. Maak er geen volledige omschrijving van; gebruik daarvoor het veld „Omschrijving”. Zet geen punt na de titel. Schrijf niet de hele titel in hoofdletters.",
+                        "label": "Titel"
+                    },
+                    "datasetID": {
+                        "help": "Deze eigenschap bevat de belangrijkste identificatiecode voor de Dataset.",
+                        "info": "Deze eigenschap bevat de belangrijkste identificatiecode voor de dataset, bv. de URI of een andere unieke identificatiecode in de context van de catalogus.",
+                        "label": "ID dataset"
+                    },
+                    "publisherName": {
+                        "placeholder": "Dataset Publisher Name placeholder text",
+                        "label": "Naam"
+                    },
+                    "keyword": {
+                        "add-label": "Keyword toevoegen",
+                        "help": "Vul hier trefwoorden in, gescheiden door een komma, die de dataset beschrijven.",
+                        "placeholder": "Dataset Keyword placeholder tekst",
+                        "info": "Vul hier trefwoorden in, gescheiden door een komma, die de dataset beschrijven. Gebruik alleen cijfers, letters en de volgende symbolen: —_. Verbind bij elkaar horende woorden met een koppelteken. Voorbeeld: vervuiling, rivieren, chemische-waterkwaliteit, ecologische-waterkwaliteit",
+                        "label": "Trefwoord"
+                    },
+                    "modified": {
+                        "label": "Gewijzigd",
+                        "help": "Meest recente datum waarop de dataset is gewijzigd, bijgewerkt of gewijzigd.",
+                        "info": "Meest recente datum waarop de dataset is gewijzigd, bijgewerkt of gewijzigd. Aanvaardbare datumformaten: JJJJ-MM-DD, JJJJ-MM, JJJJ.",
+                        "placeholder": "Dataset Gewijzigde tekst van de placeholder"
+                    },
+                    "publisher": {
+                        "help": "De entiteit (zoals een persoon, organisatie of dienst) die verantwoordelijk is voor de publicatie van de dataset.",
+                        "add-label": "Uitgever in een andere taal toevoegen",
+                        "info": "De entiteit (zoals een persoon, organisatie of dienst) die verantwoordelijk is voor de publicatie van de dataset.",
+                        "placeholder": "Tekst van de gegevensset Publisher placeholder",
+                        "label": "Uitgever"
+                    },
+                    "datetime": {
+                        "label": "Datumtijd"
+                    },
+                    "catalog": {
+                        "placeholder": "Dataset Catalogus placeholder tekst",
+                        "help": "De catalogus van de dataset.",
+                        "label": "Catalogus",
+                        "info": "De catalogus van de dataset."
+                    },
+                    "issued": {
+                        "placeholder": "Dataset Uitgegeven placeholder tekst",
+                        "label": "Afgegeven",
+                        "help": "Datum van formele afgifte (bv. publicatie) van de dataset. Aanvaardbare datumformaten: JJJJ-MM-DD, JJJJ-MM, JJJJ.",
+                        "info": "Deze eigenschap bevat de datum van formele uitgifte (bv. publicatie) van de Dataset."
+                    },
+                    "language": {
+                        "placeholder": "Tekst van de datet Language placeholder",
+                        "label": "Taal",
+                        "help": "De taal of talen van de dataset.",
+                        "info": "De taal of talen van de dataset."
+                    },
+                    "publisherEmail": {
+                        "placeholder": "Publisher Email placeholder tekst dataset Publisher",
+                        "label": "E-mail"
+                    },
+                    "publisherHomepage": {
+                        "label": "Homepage",
+                        "placeholder": "Dataset Publisher Homepage placeholder tekst"
+                    },
+                    "date": {
+                        "label": "Datum"
+                    }
+                },
+                "step3": {
+                    "temporalResolution": {
+                        "help": "De minimumtermijn die afwikkelbaar is in de distributie van de dataset.",
+                        "info": "Deze eigenschap heeft betrekking op de minimumtermijn die afwikkelbaar is in de distributie van de dataset.",
+                        "placeholder": "Tekst van de placeholder van de distributiemodule voor afwikkeling",
+                        "label": "Temporele resolutie",
+                        "add-label": "Temporele resolutie toevoegen"
+                    },
+                    "spatialResolutionInMeters": {
+                        "help": "Minimale ruimtelijke scheiding oplosbaar in een dataset.",
+                        "info": "Deze eigenschap heeft betrekking op de minimale ruimtelijke scheiding die oplosbaar is in een dataset, gemeten in meters.",
+                        "placeholder": "Verspreidingsruimtelijke resolutie in Meters placeholder tekst",
+                        "label": "Ruimtelijke resolutie in meters"
+                    },
+                    "compressFormat": {
+                        "placeholder": "Fragment Compress Format placeholder tekst",
+                        "help": "Het formaat van het bestand waarin de gegevens in gecomprimeerde vorm zijn opgenomen.",
+                        "info": "Deze eigenschap verwijst naar het formaat van het bestand waarin de gegevens in gecomprimeerde vorm zijn opgeslagen, bijvoorbeeld om de omvang van het downloadbare bestand te verkleinen. IT SHOULD wordt uitgedrukt met behulp van een mediasoort zoals gedefinieerd in het officiële register van mediasoorten dat door IANA wordt beheerd.",
+                        "label": "Compress Format"
+                    },
+                    "mediaType": {
+                        "placeholder": "Tekst van de „Distribution Media Type” -placeholder",
+                        "help": "Het formaat van het bestand waarin de gegevens in gecomprimeerde vorm zijn opgenomen.",
+                        "info": "Deze eigenschap verwijst naar het formaat van het bestand waarin de gegevens in gecomprimeerde vorm zijn opgeslagen, bijvoorbeeld om de omvang van het downloadbare bestand te verkleinen. IT SHOULD wordt uitgedrukt met behulp van een mediatype zoals gedefinieerd door de ambtenaar",
+                        "label": "Soort media"
+                    },
+                    "pageTitle": {
+                        "label": "Titel",
+                        "placeholder": "Tekst van de plaatsaanduiding van de verspreidingspagina"
+                    },
+                    "language": {
+                        "placeholder": "Verspreiding van de tekst van de „Language placeholder”",
+                        "label": "Taal",
+                        "help": "Een taal die in de distributie wordt gebruikt.",
+                        "info": "Deze eigenschap verwijst naar een taal die in de distributie wordt gebruikt. Deze eigenschap kan worden herhaald als de metagegevens in meerdere talen worden verstrekt."
+                    },
+                    "packageFormat": {
+                        "placeholder": "Tekst van het distributiepakket in de vorm van een placeholder",
+                        "help": "Het formaat van het bestand waarin een of meer gegevensbestanden zijn gegroepeerd.",
+                        "info": "Deze eigenschap heeft betrekking op het formaat van het bestand waarin een of meer gegevensbestanden worden gegroepeerd, bijvoorbeeld om een reeks verwante bestanden samen te downloaden. IT SHOULD wordt uitgedrukt met behulp van een mediasoort zoals gedefinieerd in het officiële register van mediasoorten dat door IANA wordt beheerd.",
+                        "label": "Verpakkingsformaat"
+                    },
+                    "title": {
+                        "placeholder": "Tekst van de „Distribution Title placeholder”",
+                        "help": "Deze eigenschap bevat een naam die aan de Distribution wordt gegeven.",
+                        "info": "Deze eigenschap bevat een naam die aan de Distribution wordt gegeven. Deze eigenschap kan worden herhaald voor parallelle taalversies van de beschrijving.",
+                        "add-label": "Titel toevoegen in een andere taal",
+                        "label": "Titel"
+                    },
+                    "licenceDescription": {
+                        "label": "Beschrijving van de vergunning",
+                        "placeholder": "Catalogus Licentie Beschrijving Plaatshouder tekst"
+                    },
+                    "checksumAlgorithm": {
+                        "label": "Algoritme van checksum"
+                    },
+                    "status": {
+                        "help": "De status van de verdeling in het kader van de looptijdcyclus.",
+                        "info": "de status van de verdeling in het kader van de looptijdcyclus. Hierbij MOETEN een van de waarden Volledig, gedepreceerd, „Onder Ontwikkeling”, ingetrokken.",
+                        "label": "Status",
+                        "placeholder": "Tekst van de „Distribution Status placeholder”"
+                    },
+                    "downloadUrl": {
+                        "placeholder": "Download Url placeholder tekst (Download Url placeholder text)",
+                        "help": "Directe link naar een downloadbaar bestand in een bepaald formaat.",
+                        "info": "Deze eigenschap bevat een URL die een directe link is naar een downloadbaar bestand in een bepaald formaat.",
+                        "label": "Url downloaden"
+                    },
+                    "checksum": {
+                        "help": "Het controlebedrag is gerelateerd aan de downloadUrl.",
+                        "info": "Deze eigenschap biedt een mechanisme dat kan worden gebruikt om na te gaan of de inhoud van een distributie niet is gewijzigd. Het controlebedrag is gerelateerd aan de downloadUrl.",
+                        "placeholder": "Tekst van de placeholder van de distributiecontroller",
+                        "label": "Controlesom"
+                    },
+                    "licenceTitle": {
+                        "placeholder": "Catalogus Vergunning Titel placeholder tekst",
+                        "label": "Titel van de vergunning"
+                    },
+                    "type": {
+                        "label": "Soort",
+                        "help": "Het mediatype van de Distributie.",
+                        "info": "Deze eigenschap verwijst naar het mediatype van de Distributie zoals gedefinieerd in het officiële register van mediatypen die door IANA worden beheerd."
+                    },
+                    "hasPolicyUrl": {
+                        "label": "URL",
+                        "placeholder": "Distributie Has Policy Url placeholder tekst"
+                    },
+                    "accessServiceDescription": {
+                        "add-label": "Gegevensservice Beschrijving in een andere taal toevoegen",
+                        "label": "Beschrijving van de gegevensdienst"
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Dataset Temporal Resolution Day placeholder tekst",
+                        "label": "Tijdelijke Dag van de Resolutie"
+                    },
+                    "page": {
+                        "placeholder": "Verspreidingsplaattekst Page placeholder tekst",
+                        "add-label": "Bladzijde toevoegen",
+                        "label": "Pagina",
+                        "help": "Een pagina of document over deze verspreiding.",
+                        "info": "Deze eigenschap verwijst naar een pagina of document over deze verspreiding."
+                    },
+                    "accessService": {
+                        "help": "Een dataservice die toegang geeft tot de distributie van de dataset",
+                        "info": "Deze eigenschap verwijst naar een dataservice die toegang geeft tot de distributie van de dataset.",
+                        "add-label": "Voeg een andere dataservice toe",
+                        "label": "Gegevensdienst"
+                    },
+                    "availability": {
+                        "help": "Hoe lang is het gepland om de verspreiding van de databank beschikbaar te houden?",
+                        "info": "Deze eigenschap geeft aan hoe lang het is gepland om de verspreiding van de Dataset beschikbaar te houden.",
+                        "placeholder": "Tekst van de ruimte voor verspreiding beschikbaar",
+                        "label": "Beschikbaarheid"
+                    },
+                    "conformsToTitle": {
+                        "placeholder": "Distributie Conform to Title placeholder text",
+                        "label": "Titel"
+                    },
+                    "rights": {
+                        "label": "Rechten",
+                        "placeholder": "Tekst van de placeholder voor distributierechten",
+                        "help": "Deze eigendom verwijst naar een verklaring waarin de aan de distributie verbonden rechten worden gespecificeerd.",
+                        "info": "Deze eigendom verwijst naar een verklaring waarin de aan de distributie verbonden rechten worden gespecificeerd."
+                    },
+                    "format": {
+                        "placeholder": "Tekst van het verspreidingsformaat (placeholder)",
+                        "help": "Het bestandsformaat van de distributie.",
+                        "info": "Deze eigenschap verwijst naar het bestandsformaat van de Distribution.",
+                        "label": "Formaat"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Distributie Conform to placeholder text",
+                        "help": "Een vast schema waarmee de beschreven distributie in overeenstemming is.",
+                        "info": "Deze eigenschap verwijst naar een vast schema waarmee de beschreven Distribution in overeenstemming is.",
+                        "label": "In overeenstemming met",
+                        "add-label": "Conforms toevoegen tot"
+                    },
+                    "pageDescription": {
+                        "placeholder": "Verspreidingspagina Omschrijving placeholder tekst",
+                        "label": "Beschrijving"
+                    },
+                    "accessServiceTitle": {
+                        "add-label": "Gegevensservice Titel toevoegen in een andere taal",
+                        "label": "Titel van de gegevensdienst"
+                    },
+                    "issued": {
+                        "placeholder": "Tekst van de „Distributed placeholder”",
+                        "help": "De datum van de formele uitgifte (bv. publicatie) van de distributie.",
+                        "info": "Deze eigenschap bevat de datum van de formele uitgifte (bv. publicatie) van de distributie.",
+                        "label": "Afgegeven"
+                    },
+                    "licenceURL": {
+                        "placeholder": "Catalogus Licentie URL placeholder tekst",
+                        "label": "URL van de licentie"
+                    },
+                    "modified": {
+                        "label": "Gewijzigd",
+                        "placeholder": "Verspreiding Gewijzigde tekst van de placeholder",
+                        "help": "Datum waarop de distributie is gewijzigd of gewijzigd.",
+                        "info": "Deze eigenschap bevat de meest recente datum waarop de distributie is gewijzigd of gewijzigd."
+                    },
+                    "description": {
+                        "add-label": "Omschrijving toevoegen in een andere taal",
+                        "help": "Deze eigenschap bevat een vrijetekstaccount van de Distribution.",
+                        "info": "Deze eigenschap bevat een vrijetekstaccount van de Distribution. Deze eigenschap kan worden herhaald voor parallelle taalversies van de beschrijving.",
+                        "placeholder": "Tekst van de verspreidingsbeschrijving (placeholder)",
+                        "label": "Beschrijving"
+                    },
+                    "datetime": {
+                        "label": "Datumtijd"
+                    },
+                    "temporalResolutionYear": {
+                        "placeholder": "Dataset Tijdelijke resolutie Jaar placeholder tekst",
+                        "label": "Temporele resolutie Jaar"
+                    },
+                    "hasPolicy": {
+                        "add-label": "Has Policy toevoegen",
+                        "help": "Het beleid waarin de rechten tot uitdrukking worden gebracht.",
+                        "info": "Deze eigenschap verwijst naar de polis waarin de aan de distributie verbonden rechten tot uitdrukking worden gebracht indien de ODRL-vocabulaire wordt gebruikt.",
+                        "label": "Heeft beleid"
+                    },
+                    "byteSize": {
+                        "placeholder": "Tekst van de spreidingsbyte Size placeholder",
+                        "help": "De grootte van een distributie in bytes.",
+                        "info": "Deze eigenschap bevat de omvang van een distributie in bytes.",
+                        "label": "Byte Size"
+                    },
+                    "temporalResolutionMonth": {
+                        "placeholder": "Dataset Tijdelijke resolutie Maand placeholder tekst",
+                        "label": "Maand van de tijdsresolutie"
+                    },
+                    "accessUrl": {
+                        "help": "Deze eigenschap bevat een URL die toegang geeft tot een verspreiding van de Dataset.",
+                        "info": "Deze eigenschap bevat een URL die toegang geeft tot een verspreiding van de Dataset. De bron op de toegangsURL kan informatie bevatten over hoe u de Dataset kunt krijgen.",
+                        "label": "Toegang tot Url",
+                        "placeholder": "Tekst van de „Distribution Access Url placeholder”",
+                        "add-label": "Advance Access Url toevoegen"
+                    },
+                    "temporalResolutionMinute": {
+                        "label": "Temporele resolutie Notulen",
+                        "placeholder": "Dataset Temporal Resolution Minute placeholder tekst"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Dataset Temporal Resolution Hour placeholder tekst",
+                        "label": "Tijdsresolutie uur"
+                    },
+                    "temporalResolutionSecond": {
+                        "label": "Temporele resolutie Tweede",
+                        "placeholder": "Dataset Temporale Resolutie Tweede plaatshouder tekst"
+                    },
+                    "pageUrl": {
+                        "placeholder": "Verspreiding Page Url placeholder tekst",
+                        "label": "URL"
+                    },
+                    "pageFormat": {
+                        "label": "Formaat",
+                        "placeholder": "Informatie over het verspreidingsformaat in de tekst van de placeholder"
+                    },
+                    "licence": {
+                        "help": "De vergunning op grond waarvan de distributie ter beschikking wordt gesteld.",
+                        "label": "Vergunning",
+                        "placeholder": "Tekst van de „Distribution Licence placeholder”",
+                        "info": "Deze eigenschap verwijst naar de vergunning op grond waarvan de distributie ter beschikking wordt gesteld."
+                    },
+                    "accessServiceEndpointURL": {
+                        "placeholder": "Distributie Data Service Endpoint URL placeholder tekst",
+                        "label": "De URL van het eindpunt van de gegevensdienst"
+                    },
+                    "conformsToUrl": {
+                        "placeholder": "Distributie Conform to Url placeholder text",
+                        "label": "URL"
+                    },
+                    "date": {
+                        "label": "Datum"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Aanvullende informatie"
+                            },
+                            "distribution4": {
+                                "name": "Aanvullende informatie"
+                            },
+                            "distribution1": {
+                                "name": "Algemene informatie"
+                            },
+                            "distribution2": {
+                                "name": "Aanvullende informatie"
+                            }
+                        }
+                    },
+                    "overview": "Overzicht van de gegevensset",
+                    "step1": {},
+                    "step2": {}
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "rights": {
+                        "placeholder": "Catalogus Plaatshouder tekst rechten",
+                        "help": "Een verklaring die de rechten specificeert die verband houden met de Catalogus.",
+                        "label": "Rechten",
+                        "info": "Deze eigenschap verwijst naar een verklaring waarin de rechten worden gespecificeerd die verband houden met de Catalogus."
+                    },
+                    "isPartOf": {
+                        "label": "Maakt deel uit van f",
+                        "placeholder": "Catalogus is een deel van de tekst van de placeholder",
+                        "help": "Een gerelateerde catalogus waarin de beschreven catalogus fysiek of logisch is opgenomen.",
+                        "info": "Deze eigenschap verwijst naar een gerelateerde catalogus waarin de beschreven catalogus fysiek of logisch is opgenomen."
+                    },
+                    "catalog": {
+                        "label": "Catalogus",
+                        "help": "Een catalogus waarvan de inhoud in het kader van deze catalogus van belang is.",
+                        "info": "Deze eigenschap verwijst naar een catalogus waarvan de inhoud van belang is in het kader van deze catalogus.",
+                        "add-label": "Catalogus toevoegen in een andere taal",
+                        "placeholder": "Catalogus Catalogus plaatshouder tekst"
+                    },
+                    "creatorEmail": {
+                        "label": "E-mail",
+                        "placeholder": "Catalogus Creator E-mail plaatshouder tekst"
+                    },
+                    "language": {
+                        "help": "Een taal die wordt gebruikt in de tekstmetadata waarin titels, beschrijvingen enz. worden beschreven.",
+                        "info": "Deze eigenschap verwijst naar een taal die wordt gebruikt in de tekstmetadata waarin titels, beschrijvingen enz. van de Dataset worden beschreven. Deze eigenschap kan worden herhaald als de metagegevens in meerdere talen worden verstrekt.",
+                        "label": "Taal",
+                        "add-label": "Taal toevoegen in een andere taal",
+                        "placeholder": "Tekst van de catalogus van de „Language placeholder”"
+                    },
+                    "spatialContinent": {
+                        "label": "Continent",
+                        "placeholder": "Tekst van de catalogus van de placeholder van het ruimtelijk continent"
+                    },
+                    "spatial": {
+                        "help": "Deze eigenschap heeft betrekking op een geografisch gebied dat onder de catalogus valt.",
+                        "info": "Deze eigenschap heeft betrekking op een geografisch gebied dat onder de catalogus valt.",
+                        "add-label": "Ruimtelijk toevoegen in een andere taal",
+                        "label": "Ruimtelijke ordening",
+                        "placeholder": "Tekst van de catalogus van ruimtelijkeordeningshouders"
+                    },
+                    "creatorType": {
+                        "placeholder": "Catalogus Creator Type plaatshouder tekst",
+                        "label": "Soort"
+                    },
+                    "hasPart": {
+                        "add-label": "Haas deel toevoegen",
+                        "label": "Heeft een deel",
+                        "help": "Deze eigenschap verwijst naar een bijbehorende catalogus die deel uitmaakt van de beschreven catalogus.",
+                        "placeholder": "Catalogus Gezien de tekst van de „part part placeholder”",
+                        "info": "Deze eigenschap verwijst naar een bijbehorende catalogus die deel uitmaakt van de beschreven catalogus."
+                    },
+                    "spatialCountry": {
+                        "label": "Land",
+                        "placeholder": "Tekst van de catalogus van ruimtelijkeordeningshouders"
+                    },
+                    "creator": {
+                        "help": "De entiteit die verantwoordelijk is voor de opstelling van de catalogus",
+                        "info": "Deze eigenschap verwijst naar de entiteit die verantwoordelijk is voor het opstellen van de catalogus",
+                        "label": "Schepper",
+                        "add-label": "Schepper toevoegen"
+                    },
+                    "hasPartURL": {
+                        "placeholder": "Catalogus Has deel URL tekst van de placeholder",
+                        "label": "Heeft een deel"
+                    },
+                    "spatialPlace": {
+                        "placeholder": "Tekst van de catalogus van ruimtelijkeordeningsplaatsen",
+                        "label": "Plaats"
+                    },
+                    "creatorHomepage": {
+                        "label": "Startpagina",
+                        "placeholder": "Catalogus Creator Homepage plaatshouder tekst"
+                    },
+                    "creatorName": {
+                        "placeholder": "Catalogus Creator Naam plaatshouder tekst",
+                        "label": "Naam"
+                    }
+                },
+                "step1": {
+                    "issued": {
+                        "info": "Deze eigenschap bevat de datum waarop de beschrijving van de databank in de catalogus is opgenomen.",
+                        "add-label": "Afgifte in een andere taal toevoegen",
+                        "label": "Afgegeven",
+                        "placeholder": "Catalogus van uitgegeven placeholder tekst",
+                        "help": "Deze eigenschap bevat de datum waarop de beschrijving van de databank in de catalogus is opgenomen."
+                    },
+                    "title": {
+                        "label": "Titel",
+                        "placeholder": "Tekst van de titel van de catalogus",
+                        "help": "Een naam die aan het catalogusregister wordt gegeven. ",
+                        "info": "Deze eigenschap bevat een naam die wordt gegeven aan de catalogus. Deze eigenschap kan worden herhaald voor parallelle taalversies van de naam.",
+                        "add-label": "Titel toevoegen in een andere taal"
+                    },
+                    "catalog": {
+                        "help": "Een catalogus waarvan de inhoud in het kader van deze catalogus van belang is",
+                        "info": "Deze eigenschap verwijst naar een catalogus waarvan de inhoud van belang is in het kader van deze catalogus",
+                        "label": "Catalogus"
+                    },
+                    "description": {
+                        "label": "Beschrijving",
+                        "help": "Deze eigenschap bevat een vrijetekstaccount van de record.",
+                        "info": "Deze eigenschap bevat een vrijetekstaccount van de record. Deze eigenschap kan worden herhaald voor parallelle taalversies van de beschrijving.",
+                        "add-label": "Omschrijving toevoegen in een andere taal",
+                        "placeholder": "Tekst van de catalogus Beschrijving van de placeholder"
+                    },
+                    "publisherName": {
+                        "placeholder": "Catalogus Publisher Naam placeholder tekst",
+                        "label": "Naam"
+                    },
+                    "licence": {
+                        "help": "De vergunning op grond waarvan de catalogus kan worden gebruikt of hergebruikt.",
+                        "info": "Deze eigenschap verwijst naar de licentie op grond waarvan de catalogus kan worden gebruikt of hergebruikt.",
+                        "label": "Vergunning",
+                        "placeholder": "Tekst van de placeholder van de catalogus van vergunningen"
+                    },
+                    "licenceTitle": {
+                        "label": "Titel van de vergunning",
+                        "placeholder": "Catalogus Vergunning Titel placeholder tekst"
+                    },
+                    "publisherEmail": {
+                        "label": "E-mail",
+                        "placeholder": "Tekst van de placeholder van de catalogus Uitgever Email"
+                    },
+                    "modified": {
+                        "help": "De meest recente datum waarop de vermelding in de catalogus is gewijzigd of gewijzigd.",
+                        "info": "Deze eigenschap bevat de meest recente datum waarop de vermelding in de catalogus is gewijzigd of gewijzigd.",
+                        "placeholder": "Catalogus Gewijzigde tekst van de placeholder",
+                        "label": "Gewijzigd",
+                        "add-label": "Wijzigen in een andere taal toevoegen"
+                    },
+                    "publisher": {
+                        "label": "Uitgever",
+                        "placeholder": "Tekst van de placeholder van de catalogus van uitgeverijen",
+                        "help": "Deze eigenschap verwijst naar een entiteit (organisatie) die verantwoordelijk is voor het beschikbaar stellen van de Dataset.",
+                        "info": "Deze eigenschap verwijst naar een entiteit (organisatie) die verantwoordelijk is voor het beschikbaar stellen van de Dataset."
+                    },
+                    "publisherHomepage": {
+                        "placeholder": "Tekst van de placeholder van de cataloguspublicator Homepage",
+                        "label": "Homepage"
+                    },
+                    "licenceDescription": {
+                        "label": "Beschrijving van de vergunning",
+                        "placeholder": "Catalogus Licentie Beschrijving Plaatshouder tekst"
+                    },
+                    "licenceURL": {
+                        "placeholder": "Catalogus Licentie URL placeholder tekst",
+                        "label": "URL van de licentie"
+                    },
+                    "publisherType": {
+                        "label": "Type",
+                        "placeholder": "Tekst van de catalogus van het type placeholder van de uitgever"
+                    },
+                    "homepage": {
+                        "placeholder": "Tekst van de catalogus Homepage placeholder",
+                        "label": "Homepage",
+                        "help": "Een webpagina die fungeert als hoofdpagina van de catalogus.",
+                        "info": "Deze eigenschap verwijst naar een webpagina die fungeert als hoofdpagina van de catalogus."
+                    },
+                    "datetime": {
+                        "label": "Datumtijd"
+                    },
+                    "language": {
+                        "label": "Taal",
+                        "placeholder": "Tekst van de catalogus van de „Language placeholder”"
+                    },
+                    "catalogURL": {
+                        "label": "Catalogus-URL",
+                        "placeholder": "Catalogus Catalogus URL placeholer tekst"
+                    },
+                    "date": {
+                        "label": "Datum"
+                    }
+                },
+                "stepper": {
+                    "overview": "Overzicht van de catalogus",
+                    "step1": {
+                        "name": "Stap 1: Catalogus aanmaken"
+                    },
+                    "step2": {
+                        "name": "Stap 2: Kenmerken van de catalogus definiëren"
+                    }
+                }
+            },
+            "clear": "Duidelijk",
+            "deletemodal": {
+                "deleteDistribution": "Distributie verwijderen",
+                "areyousure": "Weet u zeker dat u deze distributie wilt verwijderen?"
+            },
+            "createUniqueID": "Maak een unieke ID",
+            "saveasdraft": "Opslaan als concept",
+            "savedataset": "Gegevensset opslaan",
+            "skipDistribution": "",
+            "next": "Volgende stap",
+            "noDistributions": "Geen distributies beschikbaar",
+            "savedraft": "Ontwerp opslaan",
+            "searchVocabulary": "Woordenlijst zoeken",
+            "error": {
+                "general": "Er is een fout opgetreden. Probeer het later opnieuw.",
+                "invalid-message": "Er ontbreken enkele velden. Vul alle vereiste velden in!"
+            },
+            "type": "Type",
+            "preview": "Vorige stap",
+            "submit": "Indienen",
+            "publishdataset": "Dataset publiceren",
+            "validationtitle": "Validering",
+            "publishdraft": "Ontwerp publiceren",
+            "newDistribution": "Voeg een andere verdeling toe",
+            "validationerror": "Er is een fout opgetreden bij het valideren van uw formulier!",
+            "createDataset": "Dataset aanmaken",
+            "defineDatasetProperties": "Kenmerken van Dataset definiëren",
+            "createDistributions": "Distributie aanmaken"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Kwaliteit",
+                "similarDatasets": "Vergelijkbare datasets",
+                "categories": "Categorieën",
+                "dataset": "Dataset",
+                "activityStream": "Activiteits-stream"
+            },
+            "quality": {
+                "licenceAvailability": "Licentie-informatie",
+                "mediaTypeAvailability": "Mediatype",
+                "temporalAvailability": "Zoeken op tijd",
+                "accessibility": "Toegankelijkheid",
+                "dcatApCompliance": "DCAT-AP-conformiteit",
+                "distributions": {
+                    "downloadUrlStatusCode": "Statuscode downloadUrl",
+                    "accessUrlStatusCode": "Statuscode AccessURL"
+                },
+                "accessRightsVocabularyAlignment": "Toegangsrestricties vocabulaire",
+                "contactPointAvailability": "Contactpunt",
+                "dateIssuedAvailability": "Datum van afgifte",
+                "nodata": "Aan onze kant lijkt er een probleem te zijn. Er konden geen gegevens van goede kwaliteit worden geladen. Probeer het later opnieuw.",
+                "dateModifiedAvailability": "Datum van bewerking",
+                "contextuality": "Contextgebondenheid",
+                "reusability": "Herbruikbaarheid",
+                "accessUrlStatusCode": "Meest voorkomende accessURL-statuscodes",
+                "downloadUrlStatusCode": "Meest voorkomende downloadURL-statuscodes",
+                "formatMediaTypeVocabularyAlignment": "Formaat / Mediatype uit vocabulaire",
+                "metaDataQuality": "Kwaliteit metadata",
+                "downloadUrlAvailability": "Download-URL",
+                "dataQuality": "Kwaliteit van de gegevens",
+                "categoryAvailability": "Categorieën",
+                "interoperability": "Interoperabiliteit",
+                "findability": "Vindbaarheid",
+                "spatialAvailability": "Zoeken op geografie",
+                "formatAvailability": "Formaat",
+                "byteSizeAvailability": "Bestandsgrootte",
+                "accessRightsAvailability": "Toegangsrestricties",
+                "distributionQuality": "Kwaliteit van de distributie",
+                "publisherAvailability": "Uitgever",
+                "keywordAvailability": "Trefwoordgebruik",
+                "rightsAvailability": "Rechten"
+            },
+            "follow": "Volgen",
+            "accessURLTooltip": "Deze link kan informatie bevatten over hoe u het referentiebestand kunt krijgen of is een directe link naar het referentiebestand.",
+            "dataStream": "Gegevensstromen",
+            "downloadURLTooltip": "Dit is een directe link naar het referentiebestand.",
+            "upload": {
+                "organisation": "Organisatie",
+                "individual": "Individu",
+                "resetText": "Het gehele formulier resetten?",
+                "person": "Persoon",
+                "unknownFormat": "Onbekend formaat",
+                "reset": "Formulier resetten"
+            },
+            "preview": "Vooraanzicht",
+            "feedback": "Feedback",
+            "access": "Toegang",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Bestanden downloaden",
+                    "zipNumberOfFiles": "Zip {nummer — bestanden",
+                    "waitingForDownload": "(wachten op downloaden)",
+                    "downloadProgress": "Progress downloaden",
+                    "notDownloaded": "Niet gedownload",
+                    "error": "Fout! Probeer te winnen",
+                    "okay": "Okay",
+                    "cancel": "Annuleren",
+                    "close": "Sluiten",
+                    "coupleOfMinutes": "(dit kan een paar minuten duren)",
+                    "notDownloadedTooltip": "Details zijn te vinden in bijgevoegd file_report.csv-bestand."
+                },
+                "leavePageWindow": {
+                    "text": "Weet u zeker dat u wilt vertrekken? De Download wordt stopgezet wanneer u vertrekt!"
+                },
+                "downloadAll": "Downloaden: Alle"
+            },
+            "translation": {
+                "update": "Er wordt gewerkt aan een bijgewerkte vertaling van deze dataset.",
+                "original": "Oorspronkelijke taal",
+                "message": "De titel en de beschrijving van deze\n dataset zijn machinaal vertaald",
+                "noTranslation": "Deze dataset is nog niet in uw taal beschikbaar. De vertaling is in voorbereiding.",
+                "link": "Klik hier om de dataset in de oorspronkelijke taal te bekijken"
+            },
+            "cite": "Citaat",
+            "relatedResources": "Daarmee verband houdende middelen",
+            "share": "Delen",
+            "geoVisualisation": "Open Geo-visualisatie",
+            "download": "Download",
+            "intro": {
+                "distribution": "Hieronder wordt een overzicht gegeven van de kwaliteitsmeting van alle verdelingen van de dataset. Voor informatie over de maatstaven die we gebruiken voor indicatormetingen, zie onze <a href='/mqa/methodology?locale={locale}'>methodologische pagina</a>.",
+                "metadataQuality": "De Metadata Quality Assurance is bedoeld om gegevensverstrekkers en gegevensportaalsites te helpen hun metagegevens te toetsen aan verschillende indicatoren. Voor informatie over de maatstaven die we gebruiken voor indicatormetingen, zie onze <a href='/mqa/methodology?locale={locale}'>methodologische pagina</a>."
+            },
+            "about": "over",
+            "datasetFeed": "Dataset Feed",
+            "delete": "Verwijderen",
+            "openResource": "Naar bron gaan",
+            "visualisation": "Open visualisering",
+            "isUsedBy": "Wordt gebruikt door",
+            "unfollow": "Niet meer volgen",
+            "shareOn": "Delen via",
+            "additionalInfo": "Aanvullende informatie",
+            "contactPoints": {
+                "organizationName": "Naam van de organisatie"
+            },
+            "edit": "Wijzigen",
+            "menu": "Menu",
+            "manage": "Beheren",
+            "geoInfo": "Omvang dataset",
+            "options": "Opties"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "De datum van formele uitgifte (bv. publicatie) van de catalogus.",
+                "publisher": "Een entiteit (organisatie) die verantwoordelijk is voor het beschikbaar stellen van de catalogus.",
+                "updated": "De meest recente datum waarop de catalogus is gewijzigd.",
+                "description": "Een beschrijving van de catalogus.",
+                "title": "De titel van de catalogus.",
+                "metadata": "Opties voor het downloaden van de metagegevens van de catalogus in verschillende gelinkte gegevensvoorstellingen.",
+                "language": "Taal die wordt gebruikt in de tekstmetadata waarin de titels, beschrijvingen enz. van de databases in de catalogus worden beschreven. Deze eigenschap kan worden herhaald als de metagegevens in meerdere talen worden verstrekt.",
+                "spatial": "Geografisch gebied waarop de catalogus betrekking heeft."
+            },
+            "datasetDetails": {
+                "frequency": "Frequentie waarmee de Dataset wordt bijgewerkt.",
+                "dataset": "Gegevens over de gegevensset of de dienst.",
+                "updated": "De meest recente datum waarop de dataset of dienst is gewijzigd of gewijzigd.",
+                "versionInfo": "Versienummer of andere versieringshanduiding van de Dataset.",
+                "distributions": {
+                    "updated": "Meest recente datum waarop de distributie is gewijzigd of gewijzigd.",
+                    "title": "Naam van de distributie.",
+                    "linkedSchema": "Vastgesteld schema waarop de beschreven Distribution in overeenstemming is.",
+                    "linkedData": "Opties om de verspreidingsmetagegevens in verschillende gelinkte gegevensweergaven te downloaden.",
+                    "status": "Looptijd van de distributie. Hierbij MOETEN een van de waarden Volledig, gedepreceerd, „Onder Ontwikkeling”, ingetrokken.",
+                    "licence": "Vergunning op grond waarvan de distributie beschikbaar wordt gesteld.",
+                    "availability": "Geeft aan hoe lang het is gepland om de verspreiding van de databank beschikbaar te houden.",
+                    "rights": "Verklaring waarin de aan de distributie verbonden rechten worden gespecificeerd.",
+                    "checksum": "Een mechanisme dat kan worden gebruikt om na te gaan of de inhoud van een distributie niet is gewijzigd. Het controlebedrag is gerelateerd aan de downloadUrl.",
+                    "mediaType": "Mediatype van de distributie zoals gedefinieerd in het officiële register van mediasoorten dat wordt beheerd door IANA.",
+                    "spatialResolution": "Minimale ruimtelijke scheiding oplosbaar in een gegevensetverdeling, gemeten in meters.",
+                    "byteSize": "Bevat de grootte van een distributie in bytes.",
+                    "download": "Download of toegang tot de verspreiding.",
+                    "type": "Links naar een type van de Dis, bv. dat het om een visualisatie gaat.",
+                    "created": "Datum van formele uitgifte (bv. publicatie) van de distributie.",
+                    "language": "Taal die in de distributie wordt gebruikt.",
+                    "options": "Open een voorbeeld van de verdeling.",
+                    "temporalResolution": "Verwijst naar de minimumtermijn die afwikkelbaar is in de distributie van de dataset."
+                },
+                "otherIdentifier": "Secundaire identificatiecode van de Dataset, zoals MAST/ADS16, DataCite17, DOI18, EZID19 of W3ID20.",
+                "numSeries": "Bevat het aantal gegevensreeksen in de Dataset.",
+                "versionOf": "Gerelateerde Dataset waarvan de beschreven Dataset een versie, uitgave of aanpassing is.",
+                "unitsOfMeasurement": "Een meeteenheid van de waarnemingen in de dataset.",
+                "distribution": "Een fysieke weergave van de dataset of dienst in een bepaald formaat, bv. een weblink naar het gegevensbestand.",
+                "quality": "Informatie over de kwaliteit van metagegevens voor deze dataset of dienst.",
+                "catalogue": "De catalogus waartoe deze dataset of dienst behoort.",
+                "linkedData": "Opties voor het downloaden van de metagegevens van de dataset of dienst in verschillende gelinkte gegevensvoorstellingen.",
+                "versionNotes": "Beschrijving van de verschillen tussen deze versie en een vorige versie van de Dataset. Deze eigenschap kan worden herhaald voor parallelle taalversies van de versienota’s.",
+                "similarDatasets": "Andere gegevensreeksen of diensten die vergelijkbaar zijn met deze.",
+                "identifier": "Belangrijkste identificatiecode voor de Dataset, bv. de URI of een andere unieke identificatiecode in het kader van de catalogus.",
+                "uriRef": "De URIref is een unieke identificatiecode voor de dataset/dataservice in data.europa.eu",
+                "creator": "Entiteit die primair verantwoordelijk is voor de productie van de dataset.",
+                "spatial": "Geografische regio die onder de Dataset valt.",
+                "language": "Taal van de databank.",
+                "format": "Het formaat dat beschikbaar is voor deze dataset of dienst.",
+                "conformsTo": "Uitvoeringsregel of andere specificatie.",
+                "landingPage": "Webpagina met toegang tot de Dataset, de verspreiding ervan en/of aanvullende informatie.",
+                "provenance": "Verklaring over de lijn van een Dataset.",
+                "documentation": "Pagina of document over deze databank.",
+                "publisher": "Een entiteit (organisatie) die verantwoordelijk is voor het beschikbaar stellen van de dataset of dienst.",
+                "created": "Datum van formele afgifte (bv. publicatie) van de dataset of dienst.",
+                "relatedResource": "Gerelateerde middelen.",
+                "categories": "Categorieën die aan deze dataset of dienst worden toegewezen.",
+                "share": "Deel deze dataset of dienst via sociale media.",
+                "feedback": "Laat ons weten wat u denkt aan deze dataset of dienst.",
+                "dqvData": "Opties om de gegevensset of kwaliteitsmetingen van de dienst te downloaden in verschillende gelinkte gegevensweergaven.",
+                "hasVersion": "Gerelateerde Dataset dat een versie, uitgave of aanpassing van de beschreven Dataset is"
+            },
+            "quality": {
+                "keywordAvailability": "Trefwoorden ondersteunen de zoekopdracht rechtstreeks en vergroten de vindbaarheid van de gegevensset. — br > — br > — br > Het systeem controleert of trefwoorden gedefinieerd zijn. Het aantal trefwoorden heeft geen invloed op de score.",
+                "formatMediaTypeVocabularyAlignment": "Controleer het formaat en het mediatype behoren tot een gecontroleerde vocabulaire. — br > δbr > The format vocabulary is te vinden in de databank van data.europa.eu GitLab. Misbr > δbr > Het mediatype wordt gecontroleerd aan de hand van de IANA-lijst.",
+                "licenceAvailability": "Een licentie is waardevolle informatie voor het hergebruik van gegevens.",
+                "publisherAvailability": "De uitgever is een persoon of organisatie die de gegevens heeft gepubliceerd.",
+                "formatAvailability": "Dit veld specificeert het bestandsformaat van de verspreiding. — br > — br > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld.",
+                "temporalAvailability": "Het gebruik van temporele informatie zou gebruikers in staat stellen tijdig een gefacetted zoekopdracht uit te voeren. — br > erbr > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld.",
+                "rightsAvailability": "In sommige gevallen kan een specifieke vergunning niet worden toegepast op een dataset. Het veld „Rechten” kan worden gebruikt om een verwijzing te specificeren naar een bron die een gebruiker informeert over de rechten die hij heeft bij het gebruik van de gegevensset. — br > — br > Het wordt gecontroleerd of het eigendom al dan niet is ingesteld.",
+                "mediaTypeAvailability": "Dit veld specificeert het mediatype van de distributie. — br > — br > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld.",
+                "accessRightsVocabularyAlignment": "Het gebruik van een gecontroleerde vocabulaire verhoogt de herbruikbaarheid. — br > — br > Het wordt gecontroleerd of de gecontroleerde vocabulaire voor toegangsrechten wordt gebruikt.",
+                "dcatApCompliance": "De naleving van DCAT-AP wordt berekend voor alle bronnen en datasets die beschikbaar zijn in een catalogus. Deze controle wordt alleen uitgevoerd als de metagegevens oorspronkelijk zijn geoogst als DCAT-AP of als geldig derivaat. DCAT-AP is een specificatie voor het beschrijven van gelinkte openbare gegevens in Europa. Het portaal data.europe.eu kan ook metagegevens verzamelen die niet volledig in overeenstemming zijn met DCAT-AP. Om de conformiteit met DCAT-AP te vergroten, controleert de MQA elke metagegevens op de naleving van de DCAT-AP-voorschriften. De metagegevens zijn niet conform, als de SHACL-validering ten minste één uitgave rapporteert. DCAT-AP SHACL-valideringssevice voor data.europe.eu’s DCAT-AP SHACL validatiesoftware is een aanbeveling van de W3C en wordt gebruikt voor het valideren van RDF-grafieken tegen een reeks vormen.",
+                "accessRightsAvailability": "Dit veld geeft aan of de toegang tot de gegevens openbaar dan wel beperkt is. — br > — br > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld.",
+                "accessUrlStatusCode": "De AccessURL is niet noodzakelijk een directe link naar de gegevens, maar kan ook verwijzen naar een URL die toegang geeft tot de dataset of waar meer informatie over de dataset beschikbaar is. — br > — - br > De gespecificeerde URL wordt gecontroleerd op toegankelijkheid via een HTTP HEAD-verzoek. Als de ingevulde statuscode in het bereik van 200 of 300 ligt, wordt de toegankelijkheid van de bron positief beoordeeld.",
+                "categoryAvailability": "Categorieën helpen gebruikers om gegevensverzamelingen thematisch te verkennen. — br > δbr > Het wordt gecontroleerd of een of meer categorieën aan de dataset worden toegewezen. Het aantal toegekende categorieën heeft geen invloed op de score.",
+                "downloadUrlStatusCode": "Als er een downloadUrl bestaat, wordt de toegankelijkheid gecontroleerd. — br > — br > — br > De opgegeven URL wordt gecontroleerd op de toegankelijkheid van e bronnen via HTTP HEAD-verzoek. Als de ingevulde statuscode in het bereik van 200 of 300 ligt, wordt de toegankelijkheid van de bron positief beoordeeld.",
+                "byteSizeAvailability": "Specificeert de grootte van het bestand in bytes. — br > δbr > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld.",
+                "downloadUrlAvailability": "De downloadUrl is een directe link naar de gegevens waarnaar wordt verwezen. — br > — br > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld.",
+                "spatialAvailability": "Het gebruik van ruimtelijke informatie zou gebruikers in staat stellen de dataset te vinden met een geo facetted search. — br > — br > Doorhalen > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld.",
+                "contactPointAvailability": "Het contactpunt bevat informatie die moet worden beantwoord in het geval van vragen over de gegevens. — br > erbr > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld.",
+                "dateIssuedAvailability": "De datum waarop de dataset of de verspreiding is vrijgegeven. — br > erbr > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld.",
+                "dateModifiedAvailability": "De datum waarop de gegevensset of distributie voor het laatst is gewijzigd. — br > — br > Het wordt gecontroleerd of de eigenschap al dan niet is ingesteld."
+            },
+            "catalogRecord": "Een beschrijving van de vermelding van een databank in de catalogus.",
+            "lastModified": "Sorteer de resultaten op basis van de meest recente wijziging van de dataset",
+            "editorialContent": "Zoeken naar redactionele inhoud, bv. nieuws, evenementen, use cases",
+            "datasets": "Zoeken naar datasets",
+            "relevance": "Sorteer de dataset op relevantie. Relevantie wordt berekend op basis van zoektermen in de titel, trefwoorden en beschrijving",
+            "contactPoints": "Contactgegevens die kunnen worden gebruikt voor het versturen van opmerkingen over de Dataset.",
+            "locationFilter": "Om datasets met betrekking tot een specifieke locatie te bekijken, klikt u op de kaart en gebruik het pen icoon om de kaart te selecteren. Klik vervolgens op „Toepassen” om alleen datasets te filteren die betrekking hebben op het geselecteerde gebied. Let op: alleen datasets die metagegevens over geo-informatie bevatten, worden in de zoekresultaten opgenomen.",
+            "catalogues": "Zoeken naar catalogi. Een catalogus bevat datasets en diensten"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Een staafdiagram toont numerieke waarden voor niveaus van een categorisch kenmerk als staven. De niveaus worden op één kaartas uitgezet en de waarden worden op de andere as uitgezet.",
+            "semicolon": "Puntkomma",
+            "exportSucceeded": "Configuratie aangemaakt!",
+            "yAxis": "y as",
+            "pipe": "Pijp",
+            "cancel": "Annuleren",
+            "fileTypeNotSupported": "U probeert een bestandstype te maken dat niet wordt ondersteund.",
+            "confirm": "Bevestig",
+            "fileNotFound": "U probeert een bestand te maken waarvan de inhoud niet kon worden gelezen.",
+            "comma": "Komma",
+            "space": "Ruimte",
+            "exportDataTip": "Het veld „invoer” mag niet leeg zijn!",
+            "countRow": "Telling",
+            "exportMessagesHeader": "Weet u zeker dat u uw configuratie wilt opslaan? Controleer het voordat u kunt opslaan!",
+            "exportMessagesLabel": "Vul de naam van uw configuratie in",
+            "exportNameExistsAlert": "Naam is al in gebruik. Probeer een ander!",
+            "hiddenMessages": "verborgen — klik om alles te tonen",
+            "connectedLineChart": "Connectieve lijnkaart",
+            "barChart": "Staafdiagram",
+            "someRows": "Sommige rijen",
+            "row": "Rijen",
+            "tab": "Tabblad",
+            "connectToDatabaseError": "Fout bij het ophalen van gegevens uit de databank. Probeer het nog eens of controleer uw input!",
+            "badgateway": "Server niet beschikbaar of onjuiste DNS-naam.",
+            "goBack": "Go Back",
+            "forbidden": "Toegang tot de gevraagde bron is verboden.",
+            "unauthorized": "Het verzoek is niet toegepast. Het beschikt niet over geldige authenticatiegegevens.",
+            "xAxis": "X as",
+            "delimiter": "Delimiter",
+            "someColumns": "Enkele kolommen",
+            "exportMessagesFooter": "Klik op „Bevestigen” om het op te slaan!",
+            "table": "Tabel",
+            "connectedLineChartExplain": "Het is een verbonden verstrooiing, in wezen een kruising tussen een verstrook en een lineplot. U moet Xaxis kiezen om deze te maken."
+        },
+        "sort": {
+            "lastCreated": "Laatst aangemaakt",
+            "lastUpdated": "Laatst gewijzigd",
+            "nameZA": "Naam, oplopend",
+            "relevance": "Relevantie",
+            "sortBy": "Ordenen op",
+            "nameAZ": "Naam, oplopend"
+        },
+        "distributionLicense": {
+            "openLA": "Open licentie-assistent",
+            "notProvided": "Geen licentie verstrekt",
+            "licensingAssistant": "Licentie assistent",
+            "notFound": "Geen licentie-informatie gevonden.",
+            "notFoundExtended": "Geen licentie-informatie gevonden. Controleer a.u.b. de bron voor meer informatie m.b.t. de licentie."
+        },
+        "catalogs": {
+            "countMessageSingular": "catalogus gevonden",
+            "geoBoundsMessagePre": "Uw zoekopdracht is beperkt tot:",
+            "downloadAsLinkedData": "Metagegevens van de catalogus als gekoppelde gegevens",
+            "countMessageNoResult": "Geen catalogi gevonden ",
+            "searchBar": {
+                "placeholder": "Catalogi zoeken …"
+            },
+            "countMessage": "catalogi gevonden voor ",
+            "loadingMessage": "Catalogi worden geladen …",
+            "geoBoundsMessageRemove": "Sluit deze melding om de beperking op te heffen of de reset-functie te gebruiken."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Nationale gegevens",
+                    "io": "Internationale gegevens",
+                    "eu": "Gegevens van de Europese Unie"
+                },
+                "datascope": "Toepassingsgebied van de gegevens",
+                "dataServices": {
+                    "dataServicesOnly": "Alleen datadiensten"
+                },
+                "country": "Landen",
+                "format": "Indelingen",
+                "scoring": {
+                    "badScoring": "Elke",
+                    "sufficientScoring": "Net voldoende",
+                    "goodScoring": "Goed",
+                    "excellentScoring": "Uitstekend"
+                },
+                "publisher": "@: message.metadata.uitgever",
+                "license": "Licenties",
+                "keywords": "Trefwoorden",
+                "categories": "Categorieën",
+                "catalog": "Catalogi",
+                "countrydata": "Data over landen",
+                "tags": "Labels"
+            },
+            "title": "Filters",
+            "and": "EN",
+            "settings": "Filterinstelling",
+            "scoring": "Waardering",
+            "or": "OF",
+            "europeanCatalogs": "Europese catalogi",
+            "operator": "Exploitant"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "EU en internationale data",
+                    "datasets": "Datasets",
+                    "catalogs": "Catalogi",
+                    "metadataquality": "Kwaliteit Metadata",
+                    "sparqleditor": "De redacteur van SPARQL",
+                    "statistics": "Statistieken",
+                    "sparqlsearch": "SPARQL-zoekopdracht",
+                    "title": "Data"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Impact van open data",
+                    "tellUsYourStory": "Vertel ons uw verhaal",
+                    "studies": "Onderzoeken",
+                    "opendatamaturity": "Open Data Maturity",
+                    "countryInsights": "Inzichten landen",
+                    "useCases": "Use cases",
+                    "title": "Impact en onderzoeken",
+                    "overview": "Overzicht"
+                },
+                "training": {
+                    "licensingAssistant": "Licentieassistent",
+                    "dataProvidersGuide": "Handleiding voor dataverstrekkers",
+                    "moreTrainingMaterial": "Meer trainingsmateriaal",
+                    "whatIsOpenData": "Wat is open data",
+                    "title": "Training",
+                    "elearning": "eLearning"
+                },
+                "about": {
+                    "beHarvestedByUs": "Word door ons vergaard",
+                    "documentation": "Documentatie",
+                    "title": "Over",
+                    "europeanDataPortal": "Europees Data Portaal"
+                },
+                "newsEvents": {
+                    "events": "Evenementen",
+                    "news": "Nieuws",
+                    "title": "Nieuws en evenementen",
+                    "stories": "Dataverhalen"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Datasets",
+                    "overview": "Overzicht",
+                    "initiatives": "Initiatieven op het gebied van data"
+                }
+            },
+            "subnav": {
+                "newsletter": "Nieuwsbrief",
+                "cookies": "Cookies",
+                "login": "Inloggen",
+                "contact": "Contact",
+                "search": "Zoeken",
+                "logout": "Uitloggen",
+                "legalNotice": "Wettelijke kennisgeving",
+                "faq": "Veelgestelde vragen"
+            },
+            "european": "Europees",
+            "searchInputPlaceholder": "Inhoud van de site doorzoeken …",
+            "dataPortal": "Dataportaal",
+            "searchOptions": {
+                "siteContent": "Site-content",
+                "datasets": "Datasets"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 catalogus gevonden",
+            "foundCatalogues": "{nummer -catalogi gevonden"
+        },
+        "datasets": {
+            "foundDatasets": "{aantal -datasets gevonden",
+            "countMessage": "datasets gevonden",
+            "foundDatasetsSingular": "1 gegevensverzameling gevonden",
+            "meta": {
+                "translationNotComplete": "De vertaling is niet volledig"
+            },
+            "geoBoundsMessageRemove": "Sluit deze melding om de beperking op te heffen of gebruik de functie \"Opnieuw instellen\".",
+            "createDataset": "Dataset aanmaken",
+            "geoBoundsMessagePre": "Uw zoekopdracht is beperkt tot:",
+            "loadingMessage": "Datasets worden geladen …",
+            "countMessageSingular": "dataset gevonden",
+            "datasetsFeed": "Invoer datasets",
+            "scoreDisclaimer": "De huidige zoekresultaten worden gefilterd om met de minimumkwaliteitsscore overeen te komen die aan de linkerzijde is gespecificeerd. Bezoek onze {0} als u meer te weten wilt komen over onze kwaliteitsmetingen.",
+            "noResult": "Geen datasets gevonden",
+            "findLocation": "Filter naar locatie",
+            "searchBar": {
+                "placeholder": "Datasets zoeken"
+            },
+            "createCatalogue": "Catalogus aanmaken",
+            "saveQuery": "Zoekopdracht opslaan"
+        },
+        "footer": {
+            "helpUsImproveText": "Met uw feedback kunnen we de algehele gebruikerservaring verbeteren. Hebt u misschien suggesties?",
+            "lastUpdated": "Laatst bijgewerkt",
+            "links": {
+                "cookies": "Cookies",
+                "contact": "Contact",
+                "faq": "Veelgestelde vragen",
+                "newsletter": "Nieuwsbrief",
+                "search": "Zoeken",
+                "login": "Inloggen",
+                "legalNotice": "Juridische mededeling"
+            },
+            "subscribe": "Abonneren",
+            "helpUsImprove": "Help ons om beter te worden",
+            "newsletterText": "Meld u aan voor onze nieuwsbrief",
+            "newsletter": "Nieuwsbrief",
+            "followUs": "Volg ons op",
+            "managedBy": "Beheerd door het Bureau voor publicaties van de Europese Unie",
+            "fundedBy": "Gefinancierd door de Europese Unie"
+        },
+        "helpIcon": {
+            "dataServices": "In data.europa.eu kan een verspreiding ook als datadienst fungeren. Dat betekent dat het niet naar een downloadbaar bestand, maar naar een API verwijst. Selecteer „Ja” als u datasets met ten minste één datadienst wilt filteren.",
+            "scoring": "data.europa.eu meet de kwaliteit van alle datasets en diensten. In de rubriek „Data/Metadata Quality” hebben we een methodologische pagina waarin het proces wordt beschreven. Elke dataset en dienst wordt ook weergegeven door een kwaliteitsscore. Deze score kan voldoende, goed of uitstekend zijn. Als het filter „Voldoende +” wordt ingesteld, worden alle datasets en diensten met een voldoende score of beter weergegeven. Hetzelfde geldt voor „goed”. „Uitstekend” laat alleen uitstekende datasets en diensten zien.",
+            "license": "Een vergunning beschrijft de wettelijke voorwaarden voor het gebruik van een dataset.",
+            "dataScope": "EU-gegevens bevatten datasets en diensten van EU-instellingen. Internationale gegevens bevatten datasets en diensten die van buiten de EU afkomstig zijn. De gegevens van de landen beschikken over datasets en diensten van de lidstaten van de EU.",
+            "format": "Elke dataset heeft verwijzingen naar bestanden of diensten. Het formaat beschrijft het bestandstype of het soort dienst van deze referenties. Niet elk bestandstype kan voor alle doeleinden dienen, bv. een berekening kan beter worden uitgevoerd met een CSV-bestand in plaats van met een pdf-bestand.",
+            "catalog": "Een catalogus of databank met datasets en diensten. Een catalogus is meestal een portaal waar de datasets worden verzameld.",
+            "settings": "Besluit of uw filterselectie al dan niet exclusief is. Selecteer EN alle zoekresultaten moeten overeenkomen met alle filters. Of betekent dat ten minste één filter moet matchen.",
+            "categories": "Een categorie groepeert datasets die een gemeenschappelijk onderwerp delen.",
+            "publisher": "Een uitgever is een entiteit (bv. organisatie) die verantwoordelijk is voor het beschikbaar stellen van de databank.",
+            "keywords": "Trefwoorden zijn ideeën en onderwerpen die bepalend zijn voor de inhoud."
+        },
+        "userQueries": {
+            "executeQuery": "Zoekopdracht uitvoeren",
+            "queriesFound": "{number} zoekopdrachten gevonden",
+            "placeholderNotes": "Enkele nuttige opmerkingen over de zoekopdracht",
+            "querySaved": "Zoekopdracht opgeslagen",
+            "queryFound": "{number} zoekopdracht gevonden",
+            "myQueries": "Mijn zoekopdrachten",
+            "noDescription": "Deze zoekopdracht heeft geen beschrijving",
+            "noQueryFound": "Geen zoekopdracht gevonden",
+            "queryDeleted": "Zoekopdracht verwijderd",
+            "searchAllQueries": "Zoekopdrachten …",
+            "save": "Zoekopdracht opslaan",
+            "areYourSure": "Weet u zeker dat u deze zoekopdracht wilt verwijderen?",
+            "noQueriesSaved": "U heeft geen zoekopdrachten opgeslagen.",
+            "searchQueries": "Mijn zoekopdrachten doorzoeken …"
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licenties",
+                "catalogs": "Catalogi",
+                "categories": "Categorieën",
+                "countries": "Landen",
+                "formats": "Formaten",
+                "keywords": "Trefwoorden"
+            },
+            "operator": "Beheerder",
+            "title": "Filters",
+            "europeanCatalogs": "Europese catalogi",
+            "or": "OF",
+            "and": "EN",
+            "euInstitutions": "EU-instellingen",
+            "settings": "Instellingen"
+        },
+        "statistics": {
+            "statistics": "Statistieken",
+            "datasetsPerCatalog": "Datasets per catalogus",
+            "currentState": "Huidige stand",
+            "datasetsPerCountry": "Datasets per land",
+            "selectType": "Selecteer het statistiektype",
+            "datasetsPerCountryAndCatalog": "Datasets per land en catalogus",
+            "evolution": "Ontwikkeling",
+            "evolutionStartEnd": "Ontwikkeling van het totale aantal datasets tussen {start_date} en {end_date}",
+            "increaseStartEnd": "Toename in procenten van {dataset_model} tussen {start_date} en {end_date}",
+            "totalNumber": "Totaal aantal datasets",
+            "datasetsPerCategory": "Datasets per categorie",
+            "selectTimePeriod": "Selecteer de tijdsperiode",
+            "evolutionNumber": "Ontwikkeling van het aantal {dataset_model} tussen {start_date} en {end_date}",
+            "numberDate": "Aantal {dataset_model} per {date}"
+        },
+        "categories": {
+            "tran": "Vervoer",
+            "heal": "Gezondheid",
+            "tech": "Wetenschap en technologie",
+            "envi": "Milieu",
+            "econ": "Economie en financiën",
+            "soci": "Bevolking en samenleving",
+            "agri": "Landbouw, visserij, bosbouw en voeding",
+            "educ": "Onderwijs, cultuur en sport",
+            "ener": "Energie",
+            "intr": "Internationale vraagstukken",
+            "gove": "Overheid en publieke sector",
+            "just": "Justitie, rechtsstelsel en openbare veiligheid",
+            "regi": "Regio's en steden"
+        },
+        "pagination": {
+            "nextPage": "Volgende",
+            "previousPage": "Vorige"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Home",
+                "about": "Over",
+                "data": "Data",
+                "privacyPolicy": "Privacybeleid",
+                "map": "Kaart",
+                "imprint": "Afdruk"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Geen beschrijving beschikbaar",
+            "more": "Meer"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} categorie gevonden",
+            "foundCategory": "{number} categorieën gevonden",
+            "noCategories": "Geen categorieën gevonden"
+        },
+        "mapModal": {
+            "fullscreen": "Volledig scherm",
+            "findDatasets": "Toepassen",
+            "reset": "Wissen",
+            "close": "Afsluiten",
+            "drawRectangleMsg": "Teken een rechthoek om een regio te selecteren",
+            "disclaimer": "Disclaimer",
+            "copyright": "Kaart © OpenStreetMap contributors"
+        },
+        "similarDatasets": {
+            "similar": "Vergelijkbaar",
+            "verySimilar": "Zeer vergelijkbaar",
+            "marginalSimilar": "Nauwelijks vergelijkbaar",
+            "notFound": "Geen vergelijkbare dataset(s) gevonden",
+            "lessSimilar": "Minder vergelijkbaar",
+            "similarDatasets": "Vergelijkbare datasets"
+        },
+        "searchTabs": {
+            "editorialContent": "Redactionele inhoud"
+        },
+        "visualisation": {
+            "loading": "Visualisatie is aan het laden …",
+            "previewAvailable": "Preview beschikbaar",
+            "info": "Klik hier indien de visualisatie niet binnen enkele seconden wordt geladen."
+        },
+        "catalog": {
+            "loadingMessage": "Catalogi zijn opgehaald",
+            "searchBar": {
+                "placeholder": "Zoeken naar catalogi"
+            },
+            "geoBoundsMessageRemove": "Sluit deze melding om de beperking op te heffen of gebruik de functie \"Opnieuw instellen\".",
+            "countMessage": "Catalogi gevonden"
+        },
+        "sparql": {
+            "subHeadlineText2": "Om gebruikers te helpen bij het opstellen van nuttige SPARQL-zoekopdrachten, geven we een pagina met de lijst met een <a href='{sample_sparql_queries}'>sample SPARQL queries</a>, die via ons eindpunt kan worden uitgevoerd. Datasets en catalogi die in de vorm van RDF-triples op het portaal worden gepubliceerd, volgen de <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Voor meer informatie over de metagegevensontologie, zie de pagina data.europa.eu academy op DCAT-AP op: —<a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Alle metagegevens van data.europa.eu worden opgeslagen als RDF triples (<a href='https://www.w3.org/RDF/'>RDF</a>) en kunnen op dit eindpunt worden opgevraagd in de zoektaal van SPARQL. Zoekopdrachten kunnen worden uitgevoerd via de redacteur van de zoekopdracht (hieronder) of via het machineleesbare eindpunt (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Downloaden"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Engels",
+        "cite": {
+            "copyToClipboard": "Kopie naar het klembord",
+            "title": "Citeer deze dataset"
+        },
+        "home": {
+            "msg": "Sorry, deze pagina heeft nog geen inhoud. Ga naar de data-tab om iets te zien!"
+        },
+        "imprint": {
+            "msg": "AFDRUK HIER INVOEGEN"
+        }
+    }
+}
