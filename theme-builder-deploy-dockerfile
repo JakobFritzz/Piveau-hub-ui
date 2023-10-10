@@ -1,0 +1,26 @@
+FROM registry.gitlab.com/piveau/hub/piveau-hub-ui/theme-builder:latest as builder
+
+COPY ./src /App/src
+COPY ./static /App/static
+
+WORKDIR /App
+
+RUN cp config/user-config.sample.js config/user-config.js \
+    && npm ci \
+    && npm run --silent build
+
+
+###
+### NGINX Image build
+###
+
+FROM registry.gitlab.com/piveau/hub/piveau-hub-ui:latest
+
+COPY --from=builder /App/dist /usr/share/nginx/html/
+
+RUN chmod a+rw /usr/share/nginx/html/ && \
+    chmod a+rw /usr/share/nginx/html/assets && \
+    chmod a+rw /usr/share/nginx/html/assets/* && \
+    chmod a+rw /usr/share/nginx/html/app.*.js
+
+CMD [ "/runtimeconfig.sh" ]
