@@ -1,0 +1,451 @@
+v/* Theme File for customization of Piveau */
+
+/*
+Datasets and Catalogs
+
+This page contains six different Vue.js components. (From top to bottom)
+
+- Datasets
+- Datasets top controls
+- Datasets facets
+- Datasets filters
+- Selected facets overview
+- PV data info box
+- Pagination
+- Catalogs
+
+*/
+
+/* ############### Datasets ############### START ###############*/
+
+.datasets-container {
+  /* Wrapper of Datasets with top navigation (not the header) */
+  .datasets {
+    /* Wrapper of Datasets */
+    h1 {
+      /* Datasets Header */
+    }
+    .datasets-found {
+      /* Wrapper of banner showing how many Datasets found */
+      div {
+        /* Banner text */
+      }
+    }
+  }
+}
+
+/* ############### Datasets ############### END ###############*/
+
+/* ############### Datasets Top Controls ############### START ###############*/
+
+.datasets-top-controls {
+  /* Wrapper of top controls */
+  .navbar-toggler {
+    /* Button to toggle top controls (only for smaller screen sizes) */
+    .navbar-toggler-icon {
+      /* span with an image for the toggle button (only for smaller screen sizes) */
+    }
+  }
+  #subNavigation {
+    /* Wrapper of top controls content */
+    & > div:first-child {
+      /* Wrapper of content */
+      .navbar-datasets-feed {
+        /* Datasets Feed datasets dropdown */
+        .nav-item {
+          .nav-link {
+            ins {
+            }
+          }
+          .dropdown-menu {
+            /* Wrapper of dropdown */
+            a {
+              /* Dropdown link */
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ############### Datasets Top Controls ############### END ###############*/
+
+/* ############### Datasets Facets ############### START ###############*/
+
+#datasetFacets, .catalog-facets {
+  /* Wrapper of Facets */
+  .catalog-details {
+    /* Wrapper of Catalog details (shows only if catalog is selected) */
+    & > span:first-child {
+      /* Wrapper of Catalog image */
+      .catalog-flag {
+        /* Image of Catalog */
+      }
+    }
+    .catalog-details-table {
+      /* Wrapper of Catalog details information */
+      div {
+        /* Wrapper of Catalog details information */
+        dl {
+          /* Wrapper of information section */
+          dt {
+            /* Wrapper of information headline */
+            span {
+              /* Information headline */
+            }
+          }
+          dd {
+            /* (Wrapper of) information */
+            a {
+              /* Information */
+            }
+          }
+          .dropdown {
+            /* Wrapper of linked data dropdown */
+            #linkedDataDropdownMenuLink {
+              /* Linked data dropdown */
+              span {
+                /* Linked data dropdown text */
+              }
+              &::after {
+                /* Dropdown icon */
+              }
+            }
+            .dropdown-menu {
+              /* Wrapper of dropdown menu */
+              .dropdown-item {
+                /* Dropdown item */
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  & > div:first-child {
+    /* Wrapper of Facets */
+    & > div:first-child {
+      /* Wrapper of Facets */
+      .facet-field {
+        /* Wrapper of one facet list */
+        & > div:first-child {
+          /* Wrapper of one facet list */
+          .facet-title {
+            /* Wrapper of facet header */
+            h2 {
+              /* Header */
+              i {
+                /* Information button */
+              }
+            }
+          }
+          .facet-title-mobile {
+            /* Wrapper of facet header (mobile) */
+            h2 {
+              /* Header */
+            }
+            button {
+              /* Expand facet button */
+              i {
+                /* Icon */
+              }
+            }
+          }
+          .facet-list {
+            /* Wrapper of facet list (all none radio facets) */
+            div {
+              /* Wrapper of list item */
+              button {
+                /* Wrapper of list item */
+                span {
+                  /* Item text left and right */
+                }
+                span:first-child {
+                  /* Item text left */
+                }
+                span + span {
+                  /* Item text right */
+                }
+              }
+            }
+            .facet-expand-button {
+              /* Expand facet button */
+              i {
+                /* Icon of expand button */
+              }
+            }
+          }
+        }
+        .radio-facet {
+          /* Wrapper of radio facet (this facet has also class facet-field
+             from above => change header there) */
+          div + div {
+            /* Wrapper of AND OR area */
+            span {
+              /* Wrapper of radio buttons AND & OR  */
+              .custom-control {
+                /* Wrapper of radio button */
+                padding-left: 1.5rem;
+                margin-right: 1rem;
+                .custom-control-input {
+                  /* Radio button */
+                  &:checked ~ .custom-control-label::before {
+                    /* Checked radio button */
+                    border-color: var(--primary);
+                    background-color: var(--primary);
+                  }
+                }
+                .custom-control-label {
+                  /* Label of radio button */
+                  &::before {
+                    /* Radio button without the dot in the middle
+                      before and after have to be the same value for left */
+                    left: -1.5rem !important;
+                  }
+                  &::after {
+                    /* Dot in radio button
+                      before and after have to be the same value for left */
+                    left: -1.5rem !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* ############### Datasets Facets ############### END ###############*/
+
+/* ############### Datasets Filters ############### START ###############*/
+
+.filters-group {
+  /* Wrapper of filter area */
+  .input-group {
+    /* Wrapper of search input row */
+    input {
+      /* Search input */
+    }
+    div {
+      /* Wrapper of search button */
+      button {
+        /* Search button */
+        i {
+          /* Search button icon */
+        }
+      }
+    }
+  }
+  #datasets-filters-tab {
+    /* Wrapper of navigation and filter row */
+    .datasets-filters-navigation {
+      /* Wrapper of navigation */
+      li {
+        /* Wrapper of navigation item */
+        a {
+          /* Navigation item */
+
+        }
+        .router-link-inactive {
+          /* Put changes for inactive navigation item here */
+        }
+        .router-link-active {
+          /* Put changes for active navigation item here */
+        }
+      }
+    }
+    .datasets-filters-filters {
+      /* Wrapper of filters */
+      .custom-button {
+        /* Left button */
+      }
+      .custom-middle-button {
+        /* Middle button */
+      }
+      div {
+        /* Wrapper of right dropdown button */
+        .custom-dropdown-button {
+          /* Wrapper of right dropdown button */
+          div {
+            /* Button text */
+          }
+          i {
+            /* Button icon */
+          }
+        }
+        ul {
+          /* Wrapper of dropdown list */
+          button {
+            /* Dropdown item */
+          }
+        }
+      }
+      .inactive-styles {
+        /* Inactive filter styles */
+      }
+      .active-styles {
+        /* Active filter styles */
+      }
+    }
+  }
+}
+
+/* ############### Datasets Filters ############### END ###############*/
+
+/* ############### Selected Facets Overview ############### START ###############*/
+
+.sfo-container {
+  /* Wrapper of Selected Facets Overview */
+  p {
+    /* Wrapper of Selected Facets Overview */
+    & > span:first-child {
+      /* Facet category title (e.g. Publisher) */
+    }
+    span + span {
+      /* Selected facet title */
+      span {
+        /* X to cancel selected facet */
+      }
+    }
+  }
+}
+
+/* ############### Selected Facets Overview ############### END ###############*/
+
+/* ############### PV Data Info Box ############### START ###############*/
+
+.dataset-info-box {
+  /* Wrapper of Dataset Info Box */
+  .dataset-info-box-header {
+    /* Wrapper of header */
+    h2 {
+      /* Header title */
+    }
+  }
+  .dataset-info-box-body {
+    /* Wrapper of body */
+    .catalog-img {
+      /* Catalog image (only catalog page) */
+    }
+    div {
+      /* Wrapper of body */
+      .dataset-info-box-description-container {
+        /* Wrapper of description */
+        div {
+          /* Wrapper of description */
+          .dataset-info-box-descripiton {
+            /* Description */
+          }
+        }
+      }
+      .dataset-info-box-badge-container {
+        /* Wrapper of badges */
+        .pv-badge {
+          /* Badge */
+          /* Change badge color like this or in styles.scss
+          &[type="CSV"] {
+            background-color: orange;
+          }
+          */
+        }
+      }
+    }
+  }
+  .dataset-info-box-footer {
+    /* Wrapper of footer */
+    div {
+      /* Wrapper of updated and created dates */
+      .dataset-info-box-footer-update-date {
+        /* Wrapper of update date */
+        & > span:first-child {
+          /* Update title */
+        }
+        span + span {
+          /* Wrapper of update date */
+          span {
+            /* Update date */
+          }
+        }
+      }
+      .dataset-info-box-footer-create-date {
+        /* Wrapper of create date */
+        & > span:first-child {
+          /* Create title */
+        }
+        span + span {
+          /* Wrapper of create date */
+          span {
+            /* Create date */
+          }
+        }
+      }
+    }
+    .dataset-info-box-footer-catalog {
+      /* Wrapper of catalog information */
+      .dataset-info-box-footer-catalog-img {
+        /* Catalog flag image */
+      }
+      .dataset-info-box-footer-catalog-description {
+        /* Catalog title */
+      }
+    }
+  }
+}
+
+/* ############### PV Data Info Box ############### END ###############*/
+
+/* ############### Pagination ############### START ###############*/
+
+.pagination-container {
+  /* Wrapper of Pagination */
+  & > div:first-child {
+    /* Wrapper of change page fields */
+    .pagination {
+      /* Wrapper of change page fields (ul) */
+      .page-item {
+        /* Wrapper of page items */
+        .page-link {
+          /* All page buttons */
+        }
+      }
+      .page-item-previous {
+        /* Wrapper of previous page button */
+        .prev-button {
+          /* Previous page button */
+        }
+      }
+      .page-item-next {
+        /* Wrapper of next page button */
+        .next-button {
+          /* Next page button */
+        }
+      }
+    }
+  }
+  .items-per-page {
+    /* Wrapper of items per page */
+    & > div:first-child {
+      /* Items per page title */
+    }
+    div + div {
+      /* Wrapper of items per page dropdown */
+      #itemsPerPageDropdown {
+        /* Dropdown button */
+      }
+      ul {
+        /* Wrapper of dropdown */
+        button {
+          /* Dropdown item */
+        }
+      }
+    }
+  }
+}
+
+/* ############### Pagination ############### END ###############*/
+
+
+// TODO: Test all the divs etc if childs are affected which should not be and make Catalog changes like facets, info box etc
