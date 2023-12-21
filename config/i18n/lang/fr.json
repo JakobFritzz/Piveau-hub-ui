@@ -1,0 +1,1644 @@
+{
+    "message": {
+        "metadata": {
+            "catalogRecord": "Compte rendu du catalogue",
+            "deleteItem": "Souhaitez-vous vraiment supprimer cet élément?",
+            "availability": "Disponibilité",
+            "versionInfo": "Infos sur la version",
+            "chooseCategory": "Choisir une catégorie",
+            "chooseFile": "Choisir un fichier",
+            "versionNotes": "Notes de version",
+            "review": "Examiner",
+            "tooltipKeywords": "Saisir les mots-clés de votre jeu de données ici!",
+            "pageDescriptionDataset": "Ajoutez un titre, une description, un catalogue, des mots-clés et des catégories à votre jeu de données!",
+            "no": "Non",
+            "relatedResources": "éléments connexes",
+            "pageDescriptionPublisher": "Ajouter le type d'éditeur, son nom et sa base de données à votre jeu de données!",
+            "tooltipTitle": "Saisir le titre de votre jeu de données ici!",
+            "linkedData": "Données liées",
+            "numSeries": "Nombre de séries de données",
+            "releaseDate": "Date de sortie",
+            "yes": "Oui",
+            "unitsOfMeasurement": "Unités de mesure",
+            "distributionsEmpty": "Désolé, aucune distribution n'est actuellement disponible pour ce jeu de données. Veuillez ajouter au moins une distribution!",
+            "enterDownloadUrl": "Entrez l'URL de téléchargement",
+            "frequency": "Fréquence",
+            "type": "Type",
+            "telephone": "Téléphone",
+            "label": "Étiquette",
+            "addedToDataEuropaEU": "Ajoutée à data.europa.eu",
+            "tooltipCategories": "Choisir les catégories de votre jeu de données ici!",
+            "temporal": "Couverture temporelle",
+            "enterDescription": "Saisir une description",
+            "accrualPeriodicity": "Périodicité de l'accumulation",
+            "showXMore": "Show {increment} more",
+            "identifier": "Identifiant",
+            "isPartOf": "Est un sous-catalogue de",
+            "dataServices": "Services de données",
+            "chooseType": "Choisir un type",
+            "organizationName": "Nom de l’organisation",
+            "catalog": "Catalogue",
+            "qualityAnnotations": "Annotations qualitatives",
+            "update": "Mettre à jour",
+            "showAll": "Afficher tous",
+            "coordinates": "Coordonnées",
+            "email": "Courriel",
+            "tooltipContactType": "Choisir le type de point de contact de votre jeu de données ici!",
+            "checksum": "Somme de contrôle",
+            "enterEmail": "Saisir une adresse électronique",
+            "cancel": "Annuler",
+            "conformsTo": "Correspond à",
+            "downloadUrl": "URL de téléchargement",
+            "chooseLicense": "Choisir une licence",
+            "tooltipDescription": "Saisir la description de votre jeu de données ici!",
+            "tags": "Étiquettes",
+            "accessUrl": "URL d'accès",
+            "languages": "Langues",
+            "title": "Titre",
+            "enterTitle": "Saisir un titre",
+            "url": "URL",
+            "resource": "Ressource",
+            "tooltipPublisherHomepage": "Saisir la page d'accueil de l'éditeur de votre jeu de données ici!",
+            "creator": "Créateur",
+            "description": "Description",
+            "spatial": "spatial",
+            "readLess": "Lire moins",
+            "tooltipPublisherType": "Choisir le type d'éditeur de votre jeu de données ici!",
+            "accessRights": "Droits d'accès",
+            "tooltipDistributionDownloadUrl": "Saisir l'URL de téléchargement de votre distribution ici!",
+            "attributes": "Attributs",
+            "mediaType": "Type de support",
+            "categories": "Catégories",
+            "pageDescriptionDistribution": "Ajouter des distributions à votre jeu de données!",
+            "pages": "Pages",
+            "goToCatalog": "Aller à la page des catalogues",
+            "tooltipDistributionDescription": "Saisir la description de votre distribution ici!",
+            "identifiers": "Identificateurs",
+            "scheme": "Régime d’aides",
+            "contactPoints": "Points de contact",
+            "hasPart": "A un sous-catalogue",
+            "showLess": "Voir moins",
+            "byteSize": "Taille en octets",
+            "tooltipCatalog": "Saisir le catalogue de votre jeu de données ici!",
+            "methodologyPage": "Page de méthode MQA",
+            "hasVersion": "A la version",
+            "useDownloadUrl": "Je souhaite saisir une URL de téléchargement au lieu de télécharger un fichier!",
+            "created": "Créé",
+            "themeTaxonomy": "Taxonomie thématique",
+            "homepage": "Page d'accueil",
+            "address": "Adresse",
+            "visualisations": "Visualisations",
+            "tooltipDistributionFormat": "Choisir le format de votre distribution ici!",
+            "upload": "Télécharger",
+            "notFound": "Introuvable",
+            "dimensions": "Dimensions",
+            "addDistribution": "Ajouter une distribution",
+            "name": "Titre",
+            "metadataQuality": "Qualité des métadonnées",
+            "provenances": "Provenance",
+            "enterKeywords": "Saisir des mots-clés",
+            "landingPage": "Page d'accueil",
+            "tooltipDistributionTitle": "Saisir le titre de votre distribution ici!",
+            "license": "Licence ",
+            "chooseCatalog": "Choisir un catalogue",
+            "enterHomepage": "Saisir une page d'accueil",
+            "tooltipDistributionLicence": "Choisir la licence de votre distribution ici!",
+            "readMore": "En savoir plus",
+            "format": "Format",
+            "chooseFormat": "Choisir un format",
+            "publisher": "éditeur",
+            "dataset": "Jeu de données",
+            "updated": "Mis à jour",
+            "pageDescriptionUpload": "Ajouter des fichiers à vos distributions!",
+            "spatialResource": "Ressource spatiale",
+            "distribution": "Distribution",
+            "tooltipContactName": "Saisir le nom du point de contact de votre jeu de données ici!",
+            "distributions": "Distributions",
+            "status": "Statut",
+            "datasets": "Jeux de données",
+            "showMore": "Suite",
+            "rights": "Droits",
+            "tooltipContactEmail": "Saisir l'adresse électronique du point de contact de votre jeu de données ici!",
+            "otherIdentifiers": "Autres identificateurs",
+            "tooltipPublisherName": "Saisir le nom de l'éditeur de votre jeu de données ici!",
+            "enterName": "Saisir un nom",
+            "documentations": "Documentations",
+            "sources": "Sources",
+            "modificationDate": "Date de modification",
+            "isVersionOf": "Est une version de",
+            "pageDescriptionContactPoint": "Ajouter le type de point de contact, son nom et son adresse électronique à votre ensemble de données!",
+            "goToDataset": "Aller à la page des jeux de données",
+            "updatedOnDataEuropaEU": "Mise à jour sur data.europa.eu"
+        },
+        "dataupload": {
+            "info": {
+                "defaultdescription": "Cliquez sur l’icône d’information pour afficher une explication détaillée du champ.",
+                "information": "Informations"
+            },
+            "datasets": {
+                "step2": {
+                    "isReferencedBy": {
+                        "add-label": "Ajouter Ie référencé par",
+                        "placeholder": "Ensemble de données I Référé par texte réservé",
+                        "help": "Cette propriété concerne une ressource connexe.",
+                        "info": "Cette propriété concerne une ressource connexe, telle qu’une publication, qui fait référence, cite ou renvoie à l’ensemble de données.",
+                        "label": "Est renvoyée par"
+                    },
+                    "contactPointAddressCity": {
+                        "placeholder": "Jeu de données Point de contact Address City placeholder texte",
+                        "label": "Adresse Ville"
+                    },
+                    "source": {
+                        "label": "Source",
+                        "help": "Ensemble de données à partir duquel l’ensemble de données décrit est dérivé.",
+                        "info": "Cette propriété renvoie à un jeu de données lié dont le jeu de données décrit est dérivé.",
+                        "placeholder": "Jeu de données Source texte réservé",
+                        "add-label": "Ajouter la source"
+                    },
+                    "type": {
+                        "label": "Type",
+                        "help": "Cette propriété correspond au type de jeu de données.",
+                        "info": "Cette propriété correspond au type de jeu de données. Un type de données du vocabulaire contrôlé recommandé est prévu.",
+                        "placeholder": "Jeu de données Texte réservé au type de données"
+                    },
+                    "pageUrl": {
+                        "label": "URL",
+                        "placeholder": "Jeu de données Page Url placeholder texte"
+                    },
+                    "admsIdentifierSkosNotation": {
+                        "help": "Jeux de données ADMS:Identifier Texte d’aide du système",
+                        "label": "Régime"
+                    },
+                    "spatialPlace": {
+                        "placeholder": "Jeu de données Texte réservé à la place géographique",
+                        "label": "Lieu"
+                    },
+                    "subject": {
+                        "label": "Objet",
+                        "help": "Une catégorie de l’ensemble de données.",
+                        "info": "Cette propriété fait référence à une catégorie du jeu de données. Un ensemble de données peut être associé à plusieurs thèmes."
+                    },
+                    "qualifiedRelationUrl": {
+                        "placeholder": "Jeu de données relatif à l’URL placeholder texte de l’URL de la relation qualifiée",
+                        "label": "URL"
+                    },
+                    "accrualPeriodicity": {
+                        "info": "Cette propriété correspond à la fréquence de mise à jour de l’ensemble de données.",
+                        "label": "Périodicité des droits constatés",
+                        "placeholder": "Jeu de données Texte porteur de la periodicité d’Accrual",
+                        "help": "Cette propriété correspond à la fréquence de mise à jour de l’ensemble de données."
+                    },
+                    "isReferencedByUrl": {
+                        "label": "URL",
+                        "placeholder": "Ensemble de données I Référé par le texte réservé à Url placeholder"
+                    },
+                    "versionNotes": {
+                        "placeholder": "Texte réservé à la version des notes de données",
+                        "label": "Version des notes",
+                        "help": "Description des changements introduits dans cette version du jeu de données par rapport à la version précédente.",
+                        "info": "Cette propriété contient une description des différences entre cette version et une version antérieure de l’ensemble de données. Cette propriété peut être répétée pour les versions linguistiques parallèles des notes de version.",
+                        "add-label": "Ajouter des notes de version dans une autre langue"
+                    },
+                    "contactPointAddressStreet": {
+                        "label": "Rue de l’adresse",
+                        "placeholder": "Jeu de données Point de contact Address Street placeholder texte"
+                    },
+                    "relationUrl": {
+                        "label": "URL",
+                        "placeholder": "Jeu de données Relation Url placeholder texte"
+                    },
+                    "isVersionOfUrl": {
+                        "placeholder": "Ensemble de données IS Version du texte réservé à Url placeholder",
+                        "label": "URL"
+                    },
+                    "conformsTo": {
+                        "label": "Conforme à",
+                        "help": "Ce bien fait référence à une règle d’exécution ou à une autre spécification.",
+                        "info": "Ce bien fait référence à une règle d’exécution ou à une autre spécification.",
+                        "placeholder": "Jeu de données Conforms to placeholder text",
+                        "add-label": "Ajouter des formulaires à"
+                    },
+                    "pageFormat": {
+                        "placeholder": "Jeu de données Page Format texte réservé",
+                        "label": "Format"
+                    },
+                    "qualifiedAttributionUrl": {
+                        "placeholder": "Jeu de données intitulé «Attribution qualifiée Url placeholder text»",
+                        "label": "URL"
+                    },
+                    "isVersionOf": {
+                        "add-label": "ADD Is Version of f",
+                        "help": "L’ensemble de données est une version, une édition ou une adaptation.",
+                        "label": "Est la version de",
+                        "info": "Cette propriété renvoie à un jeu de données lié dont le jeu de données décrit est une version, une édition ou une adaptation.",
+                        "placeholder": "Ensemble de données IS Version du texte réservé"
+                    },
+                    "relation": {
+                        "placeholder": "Jeu de données texte de l’espace réservé à la relation",
+                        "add-label": "Ajouter la relation",
+                        "help": "Cette propriété renvoie à une ressource liée.",
+                        "info": "Cette propriété renvoie à une ressource liée.",
+                        "label": "Relation"
+                    },
+                    "provenance": {
+                        "label": "Provenance",
+                        "help": "Cette propriété comprend une déclaration concernant la provenance d’un jeu de données.",
+                        "add-label": "Ajouter la provenance",
+                        "info": "Cette propriété comprend une déclaration concernant la provenance d’un jeu de données.",
+                        "placeholder": "Jeu de données «Provenance placeholder text»"
+                    },
+                    "language": {
+                        "help": "La couverture linguistique de ce jeu de données.",
+                        "info": "La couverture linguistique de ce jeu de données.",
+                        "placeholder": "Jeu de données Langue de texte",
+                        "label": "Langue"
+                    },
+                    "spatialContinent": {
+                        "placeholder": "Ensemble de données texte réservé à l’espace continental",
+                        "label": "Continent"
+                    },
+                    "spatialResolutionInMeters": {
+                        "help": "Séparation spatiale minimale résolvable dans un ensemble de données.",
+                        "info": "Cette propriété correspond à la séparation spatiale minimale résolvable dans un ensemble de données, mesurée en mètres.",
+                        "label": "Résolution spatiale dans les compteurs",
+                        "placeholder": "Jeu de données Résolution géographique dans les compteurs texte réservé au champ d’application"
+                    },
+                    "qualifiedAttribution": {
+                        "add-label": "Ajouter l’attribution qualifiée",
+                        "help": "Lien vers un agent ayant une certaine forme de responsabilité dans la ressource",
+                        "info": "Cette propriété fait référence à un lien avec un agent ayant une certaine forme de responsabilité dans la ressource.",
+                        "label": "Attribution qualifiée",
+                        "placeholder": "Jeu de données espace réservé pour l’attribution"
+                    },
+                    "temporal": {
+                        "help": "Cette propriété fait référence à une période couverte par l’ensemble de données.",
+                        "info": "Cette propriété fait référence à une période couverte par l’ensemble de données.",
+                        "add-label": "Ajouter dans le temps",
+                        "label": "Temporel",
+                        "placeholder": "Jeu de données Temporal placeholder text"
+                    },
+                    "temporalResolutionYear": {
+                        "placeholder": "Ensemble de données Résolution temporelle Texte de l’espace réservé de l’année",
+                        "label": "Année de résolution temporelle"
+                    },
+                    "admsIdentifier": {
+                        "add-label": "Ajouter un autre ADMS:Identifier",
+                        "label": "ADMS:Identifier",
+                        "help": "Un identificateur dans un contexte particulier, constitué de la chaîne qui est l’identifiant.",
+                        "info": "Un identificateur dans un contexte particulier, constitué de la chaîne qui est l’identifiant; un identifiant optionnel pour le schéma d’identification; un identifiant facultatif pour la version du schéma d’identification; un identifiant optionnel pour l’agence qui gère le schéma d’identification"
+                    },
+                    "accessRights": {
+                        "help": "Les droits d’accès au jeu de données.",
+                        "info": "Cette propriété fait référence à des informations indiquant si l’ensemble de données est ouvert, s’il est soumis à des restrictions d’accès ou s’il n’est pas public.",
+                        "label": "Droits d’accès",
+                        "placeholder": "Espace réservé aux droits d’accès au jeu de données"
+                    },
+                    "pageDescription": {
+                        "label": "Description",
+                        "placeholder": "Jeu de données Page Description de l’espace réservé"
+                    },
+                    "identifier": {
+                        "add-label": "Ajouter un identifiant",
+                        "placeholder": "Espace réservé à l’identifiant du jeu de données",
+                        "label": "Identifiant",
+                        "help": "Cette propriété contient l’identifiant principal de l’ensemble de données.",
+                        "info": "Cette propriété contient l’identifiant principal de l’ensemble de données, par exemple l’URI ou un autre identifiant unique dans le contexte du catalogue."
+                    },
+                    "creatorName": {
+                        "placeholder": "Jeu de données Creator Name text placeholder text",
+                        "label": "Nom"
+                    },
+                    "hasVersionUrl": {
+                        "label": "URL",
+                        "placeholder": "Jeu de données Has Version Url placeholder text"
+                    },
+                    "versionInfo": {
+                        "label": "Version Info",
+                        "placeholder": "Texte réservé à la version du jeu de données",
+                        "help": "Numéro de version du jeu de données.",
+                        "info": "Cette propriété contient un numéro de version ou une autre désignation de l’ensemble de données."
+                    },
+                    "theme": {
+                        "label": "Thème",
+                        "placeholder": "Ensemble de données Theme placeholder text",
+                        "help": "Les domaines EuroVoc pour ce jeu de données.",
+                        "info": "Les valeurs à utiliser pour cette propriété sont les URI des concepts du vocabulaire."
+                    },
+                    "hasVersion": {
+                        "placeholder": "Jeu de données Has Version placeholder texte",
+                        "help": "Il s’agit d’une version, d’une édition ou d’une adaptation du jeu de données décrit.",
+                        "info": "Cette propriété renvoie à un jeu de données lié qui est une version, une édition ou une adaptation du jeu de données décrit.",
+                        "add-label": "Ajouter une version Has",
+                        "label": "A Version"
+                    },
+                    "temporalResolution": {
+                        "label": "Résolution temporelle",
+                        "help": "La période de temps minimale résolvable dans l’ensemble de données.",
+                        "info": "Cette propriété correspond à la période de temps minimale résolutoire dans l’ensemble de données.",
+                        "placeholder": "Ensemble de données texte contenant un espace de résolution dans le temps"
+                    },
+                    "wasGeneratedBy": {
+                        "label": "A été produit par",
+                        "add-label": "Ajouter le Was généré par",
+                        "placeholder": "Ensemble de données Was generated by placeholder text",
+                        "help": "Ce bien fait référence à une activité qui a généré.",
+                        "info": "Cette propriété fait référence à une activité qui a généré, ou fournit le contexte commercial, de la création de l’ensemble de données."
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Jeu de données Résolution Temporale Texte de l’espace réservé de l’heure",
+                        "label": "Heure de résolution temporelle"
+                    },
+                    "qualifiedRelation": {
+                        "help": "Ce bien fournit un lien vers une description d’une relation avec une autre ressource.",
+                        "info": "Ce bien fournit un lien vers une description d’une relation avec une autre ressource.",
+                        "label": "Relations qualifiées",
+                        "add-label": "Ajouter une relation qualifiée",
+                        "placeholder": "Ensemble de données texte réservé à la relation"
+                    },
+                    "pageTitle": {
+                        "placeholder": "Jeu de données Page title placeholder texte",
+                        "label": "Titre"
+                    },
+                    "landingPageUrl": {
+                        "label": "URL",
+                        "placeholder": "Jeu de données Landing Page Url placeholder text"
+                    },
+                    "conformsToTitle": {
+                        "placeholder": "Jeu de données Conforms to Title placeholder text",
+                        "label": "Titre"
+                    },
+                    "conformsToUrl": {
+                        "placeholder": "Jeu de données Conforms to Url placeholder text",
+                        "label": "URL"
+                    },
+                    "landingPage": {
+                        "help": "Cette propriété fait référence à une page web qui donne accès au jeu de données.",
+                        "info": "Cette propriété renvoie à une page web qui permet d’accéder au jeu de données, à ses distributions et/ou à des informations supplémentaires. Il est destiné à indiquer une page d’atterrissage auprès du fournisseur de données d’origine et non une page sur un site d’un tiers, tel qu’un agrégateur.",
+                        "label": "Page d’atterrissage",
+                        "placeholder": "Jeu de données Attente Page texte réservé",
+                        "add-label": "Ajouter une page de débarquement"
+                    },
+                    "creatorType": {
+                        "label": "Type",
+                        "placeholder": "Jeu de données Texte porteur du champ «Creator Type»"
+                    },
+                    "contactPointAddressPostcode": {
+                        "label": "Adresse Code postal",
+                        "placeholder": "Jeu de données Adresse du point de contact texte réservé au code postal"
+                    },
+                    "contactPointTelephone": {
+                        "label": "Téléphone",
+                        "placeholder": "Jeu de données Texte réservé au point de contact Téléphone"
+                    },
+                    "spatial": {
+                        "placeholder": "Ensemble de données texte réservé aux espaces géographiques",
+                        "help": "Une région géographique couverte par l’ensemble de données.",
+                        "info": "Cette propriété fait référence à une région géographique couverte par l’ensemble de données.",
+                        "label": "Espace"
+                    },
+                    "page": {
+                        "label": "Page",
+                        "help": "Page ou document sur ce jeu de données.",
+                        "placeholder": "Jeu de données Page placeholder texte",
+                        "info": "Cette propriété fait référence à une page ou à un document concernant cet ensemble de données.",
+                        "add-label": "Ajouter une page"
+                    },
+                    "temporalResolutionMonth": {
+                        "placeholder": "Ensemble de données Résolution Temporale Texte de l’espace réservé du mois",
+                        "label": "Mois de résolution temporelle"
+                    },
+                    "temporalResolutionSecond": {
+                        "placeholder": "Ensemble de données Résolution Temporale Texte du deuxième espace réservé",
+                        "label": "Résolution temporelle Deuxième"
+                    },
+                    "identifierText": {
+                        "placeholder": "Ensemble de données Identifier text placeholder text",
+                        "label": "Texte"
+                    },
+                    "contactPointAddressCountry": {
+                        "label": "Adresse Pays",
+                        "placeholder": "Ensemble de données Adresse du point de contact Texte de l’espace réservé du pays"
+                    },
+                    "contactPointName": {
+                        "placeholder": "Jeu de données «Nom du point de contact» texte du titulaire",
+                        "label": "Nom"
+                    },
+                    "isUsedBy": {
+                        "help": "L’ensemble de données est utilisé par le texte d’aide",
+                        "label": "Est utilisé par",
+                        "info": "L’ensemble de données est utilisé par le texte d’information",
+                        "placeholder": "L’ensemble de données est utilisé par le texte de l’espace réservé",
+                        "add-label": "Ajouter est utilisé par"
+                    },
+                    "contactPointType": {
+                        "label": "Type",
+                        "placeholder": "Jeu de données Type de point de contact texte réservé"
+                    },
+                    "temporalResolutionMinute": {
+                        "placeholder": "Jeu de données Résolution Temporelle Texte de l’espace réservé de la minute",
+                        "label": "Procès-verbal de résolution temporelle"
+                    },
+                    "sourceUrl": {
+                        "label": "URL",
+                        "placeholder": "Jeu de données Source Url placeholder text"
+                    },
+                    "spatialCountry": {
+                        "label": "Pays",
+                        "placeholder": "Ensemble de données Texte réservé au pays géographique"
+                    },
+                    "creatorEmail": {
+                        "label": "Courriel",
+                        "placeholder": "Jeu de données Creator Email placeholder text"
+                    },
+                    "contactPointEmail": {
+                        "label": "Courriel",
+                        "placeholder": "Jeu de données texte réservé au point de contact Email"
+                    },
+                    "contactPointAddress": {
+                        "label": "Adresse du point de contact",
+                        "help": "Ensemble de données Point de contact Adresse texte d’aide"
+                    },
+                    "admsIdentifierUrl": {
+                        "label": "URL",
+                        "placeholder": "Jeu de données ADMS:Identifier Url texte de l’espace réservé"
+                    },
+                    "temporalStart": {
+                        "label": "Début"
+                    },
+                    "contactPointOrganisationName": {
+                        "placeholder": "Jeu de données «Nom de l’organisation du point de contact» texte du titulaire",
+                        "label": "Nom de l’organisation"
+                    },
+                    "creator": {
+                        "help": "Cette propriété fait référence à l’entité responsable de la production de l’ensemble de données.",
+                        "add-label": "Ajouter le créateur",
+                        "info": "Cette propriété fait référence à l’entité responsable de la production de l’ensemble de données.",
+                        "label": "Créateur"
+                    },
+                    "contactPoint": {
+                        "label": "Point de contact",
+                        "placeholder": "Jeu de données texte réservé au point de contact",
+                        "add-label": "Ajouter le point de contact",
+                        "help": "Ce bien contient des coordonnées.",
+                        "info": "Cette propriété contient les coordonnées qui peuvent être utilisées pour envoyer des commentaires sur le jeu de données."
+                    },
+                    "admsIdentifierValue": {
+                        "placeholder": "Jeu de données ADMS:Identifier Identifier texte de l’espace réservé",
+                        "label": "Identifiant"
+                    },
+                    "temporalEnd": {
+                        "label": "Fin"
+                    },
+                    "contactPointUrl": {
+                        "label": "URL",
+                        "placeholder": "Jeu de données texte réservé au point de contact Url"
+                    },
+                    "temporalResolutionDay": {
+                        "label": "Journée de résolution temporelle",
+                        "placeholder": "Jeu de données Résolution Temporale Texte de l’espace réservé de la journée"
+                    },
+                    "creatorHomepage": {
+                        "placeholder": "Jeu de données Teneur de page d’accueil",
+                        "label": "Page d’accueil"
+                    },
+                    "admsIdentifierType": {
+                        "label": "Type"
+                    },
+                    "admsIdentifierCheckbox": {
+                        "label": "ADMS:Identifier case à cocher"
+                    },
+                    "wasGeneratedByUrl": {
+                        "label": "URL",
+                        "placeholder": "Jeu de données généré par Url placeholder texte"
+                    },
+                    "provenanceText": {
+                        "label": "Texte",
+                        "placeholder": "Jeu de données «Provenance text placeholder text»"
+                    },
+                    "schemeIdentifier": {
+                        "label": "Identifiant du schéma"
+                    }
+                },
+                "step1": {
+                    "description": {
+                        "label": "Description",
+                        "add-label": "Ajouter une description dans une autre langue",
+                        "placeholder": "Jeu de données Description texte réservé à la description",
+                        "help": "La description principale du jeu de données.",
+                        "info": "La description principale du jeu de données. Elle est souvent affichée avec le titre du paquet. Elle doit notamment commencer par une courte phrase décrivant le jeu de données de manière succincte, car les premiers mots peuvent être utilisés seuls dans certains modes d’affichage des jeux de données."
+                    },
+                    "publisherType": {
+                        "label": "Type",
+                        "placeholder": "Jeu de données intitulé «Publisher Type text» (texte réservé à l’éditeur)"
+                    },
+                    "title": {
+                        "add-label": "Ajouter un titre dans une autre langue",
+                        "placeholder": "Jeu de données Titre texte réservé",
+                        "help": "Un bref intitulé descriptif pour le jeu de données.",
+                        "info": "Un bref intitulé descriptif pour le jeu de données. Il ne doit cependant pas s’agir d’une description, le champ «description» étant réservé à cette fin. Ne pas utiliser de point final. Ne pas écrire tout en lettres capitales.",
+                        "label": "Titre"
+                    },
+                    "datasetID": {
+                        "help": "Cette propriété contient l’identifiant principal du jeu de données.",
+                        "info": "Cette propriété contient l’identifiant principal du jeu de données, par exemple l’URI ou tout autre identifiant unique dans le cadre du catalogue.",
+                        "label": "Identifiant de l’ensemble de données"
+                    },
+                    "publisherName": {
+                        "placeholder": "Jeu de données Publisher Name text placeholder text",
+                        "label": "Nom"
+                    },
+                    "keyword": {
+                        "add-label": "Ajouter le mot clé",
+                        "help": "Des termes séparés par une virgule pouvant relier ce jeu de données à d’autres jeux similaires.",
+                        "placeholder": "Jeu de données «Keyword placeholder text»",
+                        "info": "Des termes séparés par une virgule pouvant relier ce jeu de données à d’autres jeux similaires. Les mots-clés doivent être composés de caractères alphanumériques en minuscules ou de symboles: —_. Les mots qui composent un même terme doivent être reliés par des tirets. Exemple: pollution, fleuves, eaux-usées",
+                        "label": "Mot-clé"
+                    },
+                    "modified": {
+                        "label": "Modifié",
+                        "help": "Date la plus récente à laquelle l’ensemble de données a été modifié, mis à jour ou modifié.",
+                        "info": "Date la plus récente à laquelle l’ensemble de données a été modifié, mis à jour ou modifié. Formats de dates acceptables: AAAA-MM-JJ, AAAA-MM, AAAA.",
+                        "placeholder": "Jeu de données texte modifié"
+                    },
+                    "publisher": {
+                        "help": "Une entité, telle qu’une personne, une organisation ou un service, qui est responsable de la mise à disposition du jeu de données.",
+                        "add-label": "Ajouter un éditeur dans une autre langue",
+                        "info": "Une entité, telle qu’une personne, une organisation ou un service, qui est responsable de la mise à disposition du jeu de données.",
+                        "placeholder": "Jeu de données «Publisher placeholder text»",
+                        "label": "Éditeur"
+                    },
+                    "datetime": {
+                        "label": "Date Heure"
+                    },
+                    "catalog": {
+                        "placeholder": "Dataset Catalog texte de l’espace réservé",
+                        "help": "Le catalogue du jeu de données.",
+                        "label": "Catalogue",
+                        "info": "Le catalogue du jeu de données."
+                    },
+                    "issued": {
+                        "placeholder": "Ensemble de données «Délivré de texte réservé»",
+                        "label": "Délivré",
+                        "help": "Date de délivrance officielle (par exemple, publication) de l’ensemble de données. Formats de dates acceptables: AAAA-MM-JJ, AAAA-MM, AAAA.",
+                        "info": "Ce bien contient la date d’émission officielle (par exemple, la publication) de l’ensemble de données."
+                    },
+                    "language": {
+                        "placeholder": "Jeu de données Langue de texte",
+                        "label": "Langue",
+                        "help": "La couverture linguistique de ce jeu de données.",
+                        "info": "La couverture linguistique de ce jeu de données."
+                    },
+                    "publisherEmail": {
+                        "placeholder": "Jeu de données Publisher Email placeholder text",
+                        "label": "Courriel"
+                    },
+                    "publisherHomepage": {
+                        "label": "Page d’accueil",
+                        "placeholder": "Jeu de données «Publisher Homepage placeholder text»"
+                    },
+                    "date": {
+                        "label": "Date"
+                    }
+                },
+                "step3": {
+                    "temporalResolution": {
+                        "help": "La durée minimale résolvable dans la distribution de l’ensemble de données.",
+                        "info": "Cette propriété correspond à la période de temps minimale résolutoire dans la distribution de l’ensemble de données.",
+                        "placeholder": "Texte réservé à la diffusion du champ de résolution dans le temps",
+                        "label": "Résolution temporelle",
+                        "add-label": "Ajouter la résolution dans le temps"
+                    },
+                    "spatialResolutionInMeters": {
+                        "help": "Séparation spatiale minimale résolvable dans un ensemble de données.",
+                        "info": "Cette propriété correspond à la séparation spatiale minimale résolvable dans un ensemble de données, mesurée en mètres.",
+                        "placeholder": "Texte réservé à la diffusion de la résolution géographique dans les compteurs",
+                        "label": "Résolution spatiale dans les compteurs"
+                    },
+                    "compressFormat": {
+                        "placeholder": "Texte réservé à la diffusion Compress Format",
+                        "help": "Le format du fichier dans lequel les données sont contenues sous forme compressée.",
+                        "info": "Cette propriété fait référence au format du fichier dans lequel les données sont contenues sous forme compressée, par exemple pour réduire la taille du fichier téléchargeable. Il DOIVENT être exprimé à l’aide d’un type de média tel que défini dans le registre officiel des types de médias gérés par l’IANA.",
+                        "label": "Compress Format"
+                    },
+                    "mediaType": {
+                        "placeholder": "Espace réservé à la diffusion du type de média",
+                        "help": "Le format du fichier dans lequel les données sont contenues sous forme compressée.",
+                        "info": "Cette propriété fait référence au format du fichier dans lequel les données sont contenues sous forme compressée, par exemple pour réduire la taille du fichier téléchargeable. Il DOIVENT être exprimé à l’aide d’un type de média tel que défini par le fonctionnaire",
+                        "label": "Type de média"
+                    },
+                    "pageTitle": {
+                        "label": "Titre",
+                        "placeholder": "Diffusion Page Titre texte réservé"
+                    },
+                    "language": {
+                        "placeholder": "Texte réservé à la langue de distribution",
+                        "label": "Langue",
+                        "help": "Langue utilisée dans la distribution.",
+                        "info": "Ce bien fait référence à une langue utilisée dans la distribution. Cette propriété peut être répétée si les métadonnées sont fournies dans plusieurs langues."
+                    },
+                    "packageFormat": {
+                        "placeholder": "Format Format de l’espace réservé à la distribution",
+                        "help": "Le format du fichier dans lequel un ou plusieurs fichiers de données sont regroupés.",
+                        "info": "Cette propriété fait référence au format du fichier dans lequel un ou plusieurs fichiers de données sont regroupés, par exemple pour permettre le téléchargement d’un ensemble de fichiers connexes. Il DOIVENT être exprimé à l’aide d’un type de média tel que défini dans le registre officiel des types de médias gérés par l’IANA.",
+                        "label": "Format des paquets"
+                    },
+                    "title": {
+                        "placeholder": "Espace réservé à la diffusion du titre",
+                        "help": "Ce bien contient un nom donné à la Distribution.",
+                        "info": "Ce bien contient un nom donné à la Distribution. Cette propriété peut être répétée pour les versions linguistiques parallèles de la description.",
+                        "add-label": "Ajouter un titre dans une autre langue",
+                        "label": "Titre"
+                    },
+                    "licenceDescription": {
+                        "label": "Description de la licence",
+                        "placeholder": "Catalogue Licence Description texte de l’espace réservé"
+                    },
+                    "checksumAlgorithm": {
+                        "label": "Algorithme de Checkum"
+                    },
+                    "status": {
+                        "help": "Le statut de la distribution dans le contexte du cycle de vie de la maturité.",
+                        "info": "le statut de la distribution dans le contexte du cycle de vie de la maturité. Il DOIT prendre l’une des valeurs «Achèvement, dépréé, sous développement», «Retirer».",
+                        "label": "Statut",
+                        "placeholder": "Espace réservé à la distribution"
+                    },
+                    "downloadUrl": {
+                        "placeholder": "Diffusion Télécharger Url placeholder texte",
+                        "help": "Lien direct vers un fichier téléchargeable dans un format donné.",
+                        "info": "Cette propriété contient une URL qui est un lien direct vers un fichier téléchargeable dans un format donné.",
+                        "label": "Télécharger Url"
+                    },
+                    "checksum": {
+                        "help": "La somme de contrôle est liée au téléchargement Url.",
+                        "info": "Ce bien fournit un mécanisme qui peut être utilisé pour vérifier que le contenu d’une distribution n’a pas changé. La somme de contrôle est liée au téléchargement Url.",
+                        "placeholder": "Diffusion Checksum placeholder texte",
+                        "label": "Total de contrôle"
+                    },
+                    "licenceTitle": {
+                        "placeholder": "Catalogue Licence Titre texte de l’espace réservé",
+                        "label": "Titre de la licence"
+                    },
+                    "type": {
+                        "label": "Type",
+                        "help": "Le type média de la Distribution.",
+                        "info": "Cette propriété fait référence au type média de la Distribution tel que défini dans le registre officiel des types de médias gérés par IANA."
+                    },
+                    "hasPolicyUrl": {
+                        "label": "URL",
+                        "placeholder": "Espace réservé à la distribution Has Policy Url"
+                    },
+                    "accessServiceDescription": {
+                        "add-label": "Ajouter la description du service de données dans une autre langue",
+                        "label": "Description du service de données"
+                    },
+                    "temporalResolutionDay": {
+                        "placeholder": "Jeu de données Résolution Temporale Texte de l’espace réservé de la journée",
+                        "label": "Journée de résolution temporelle"
+                    },
+                    "page": {
+                        "placeholder": "Diffusion Page placeholder texte",
+                        "add-label": "Ajouter une page",
+                        "label": "Page",
+                        "help": "Une page ou un document sur cette distribution.",
+                        "info": "Cette propriété fait référence à une page ou à un document relatif à cette distribution."
+                    },
+                    "accessService": {
+                        "help": "Un service de données donnant accès à la distribution de l’ensemble de données",
+                        "info": "Cette propriété fait référence à un service de données qui donne accès à la distribution de l’ensemble de données.",
+                        "add-label": "Ajouter un autre service de données",
+                        "label": "Service de données"
+                    },
+                    "availability": {
+                        "help": "La durée prévue pour la mise à disposition de la distribution du jeu de données.",
+                        "info": "Ce bien indique la durée prévue pour la mise à disposition de la distribution du jeu de données.",
+                        "placeholder": "Diffusion Disponibilité placeholder texte",
+                        "label": "Disponibilité"
+                    },
+                    "conformsToTitle": {
+                        "placeholder": "Diffusion Conforms to Title placeholder text",
+                        "label": "Titre"
+                    },
+                    "rights": {
+                        "label": "Droits",
+                        "placeholder": "Texte réservé aux droits de distribution",
+                        "help": "Ce bien fait référence à une déclaration qui précise les droits associés à la distribution.",
+                        "info": "Ce bien fait référence à une déclaration qui précise les droits associés à la distribution."
+                    },
+                    "format": {
+                        "placeholder": "Format de diffusion texte réservé à l’espace réservé à la distribution",
+                        "help": "Le format de fichier de la distribution.",
+                        "info": "Cette propriété correspond au format de fichier de la Distribution.",
+                        "label": "Format"
+                    },
+                    "conformsTo": {
+                        "placeholder": "Diffusion Conforms To placeholder text",
+                        "help": "Un schéma établi auquel la distribution décrite est conforme.",
+                        "info": "Ce bien fait référence à un schéma établi auquel la distribution décrite est conforme.",
+                        "label": "Conforme à",
+                        "add-label": "Ajouter des formulaires à"
+                    },
+                    "pageDescription": {
+                        "placeholder": "Diffusion Page Description de l’espace réservé",
+                        "label": "Description"
+                    },
+                    "accessServiceTitle": {
+                        "add-label": "Ajouter un titre de service de données dans une autre langue",
+                        "label": "Titre du service de données"
+                    },
+                    "issued": {
+                        "placeholder": "Diffusion du texte réservé à l’espace réservé",
+                        "help": "La date d’émission officielle (par exemple, la publication) de la distribution.",
+                        "info": "Ce bien contient la date d’émission officielle (par exemple, publication) de la distribution.",
+                        "label": "Délivré"
+                    },
+                    "licenceURL": {
+                        "placeholder": "Catalogue Licence URL texte de l’espace réservé",
+                        "label": "URL de licence"
+                    },
+                    "modified": {
+                        "label": "Modifié",
+                        "placeholder": "Diffusion Texte modifié de l’espace réservé",
+                        "help": "Date à laquelle la distribution a été modifiée ou modifiée.",
+                        "info": "Ce bien contient la date la plus récente à laquelle la distribution a été modifiée ou modifiée."
+                    },
+                    "description": {
+                        "add-label": "Ajouter une description dans une autre langue",
+                        "help": "Ce bien contient un compte en texte libre de la Distribution.",
+                        "info": "Ce bien contient un compte en texte libre de la Distribution. Cette propriété peut être répétée pour les versions linguistiques parallèles de la description.",
+                        "placeholder": "Diffusion Description du texte réservé",
+                        "label": "Description"
+                    },
+                    "datetime": {
+                        "label": "Date Heure"
+                    },
+                    "temporalResolutionYear": {
+                        "placeholder": "Ensemble de données Résolution temporelle Texte de l’espace réservé de l’année",
+                        "label": "Année de résolution temporelle"
+                    },
+                    "hasPolicy": {
+                        "add-label": "Ajouter la politique en matière de Has",
+                        "help": "La politique d’expression des droits.",
+                        "info": "Cette propriété fait référence à la politique exprimant les droits associés à la distribution en cas d’utilisation du vocabulaire ODRL.",
+                        "label": "A politique"
+                    },
+                    "byteSize": {
+                        "placeholder": "Texte porteur de l’octet de distribution",
+                        "help": "La taille d’une distribution en octets.",
+                        "info": "Cette propriété contient la taille d’une distribution en octets.",
+                        "label": "Taille des octets"
+                    },
+                    "temporalResolutionMonth": {
+                        "placeholder": "Ensemble de données Résolution Temporale Texte de l’espace réservé du mois",
+                        "label": "Mois de résolution temporelle"
+                    },
+                    "accessUrl": {
+                        "help": "Cette propriété contient une URL donnant accès à une distribution du jeu de données.",
+                        "info": "Cette propriété contient une URL donnant accès à une distribution du jeu de données. La ressource de l’URL d’accès peut contenir des informations sur la manière d’obtenir le jeu de données.",
+                        "label": "Accès Url",
+                        "placeholder": "Espace réservé à la distribution Accès Url",
+                        "add-label": "Ajouter Url d’accès"
+                    },
+                    "temporalResolutionMinute": {
+                        "label": "Procès-verbal de résolution temporelle",
+                        "placeholder": "Jeu de données Résolution Temporelle Texte de l’espace réservé de la minute"
+                    },
+                    "temporalResolutionHour": {
+                        "placeholder": "Jeu de données Résolution Temporale Texte de l’espace réservé de l’heure",
+                        "label": "Heure de résolution temporelle"
+                    },
+                    "temporalResolutionSecond": {
+                        "label": "Résolution temporelle Deuxième",
+                        "placeholder": "Ensemble de données Résolution Temporale Texte du deuxième espace réservé"
+                    },
+                    "pageUrl": {
+                        "placeholder": "Diffusion Page Url placeholder texte",
+                        "label": "URL"
+                    },
+                    "pageFormat": {
+                        "label": "Format",
+                        "placeholder": "Diffusion Page Format texte réservé"
+                    },
+                    "licence": {
+                        "help": "La licence au titre de laquelle la distribution est mise à disposition.",
+                        "label": "Licence",
+                        "placeholder": "Texte du titulaire de la licence de distribution",
+                        "info": "Ce bien fait référence à la licence en vertu de laquelle la distribution est mise à disposition."
+                    },
+                    "accessServiceEndpointURL": {
+                        "placeholder": "Distribution Data Service Endpoint URL texte de l’emplacement",
+                        "label": "URL du point de terminaison du service de données"
+                    },
+                    "conformsToUrl": {
+                        "placeholder": "Diffusion Conforms to Url placeholder text",
+                        "label": "URL"
+                    },
+                    "date": {
+                        "label": "Date"
+                    }
+                },
+                "stepper": {
+                    "step3": {
+                        "children": {
+                            "distribution3": {
+                                "name": "Informations complémentaires"
+                            },
+                            "distribution4": {
+                                "name": "Informations complémentaires"
+                            },
+                            "distribution1": {
+                                "name": "Informations générales"
+                            },
+                            "distribution2": {
+                                "name": "Informations complémentaires"
+                            }
+                        }
+                    },
+                    "overview": "Vue d’ensemble de l’ensemble de données",
+                    "step1": {},
+                    "step2": {}
+                }
+            },
+            "catalogues": {
+                "step2": {
+                    "rights": {
+                        "placeholder": "Catalogue Droits texte de l’espace réservé",
+                        "help": "Une déclaration précisant les droits associés au catalogue.",
+                        "label": "Droits",
+                        "info": "Cette propriété fait référence à une déclaration qui spécifie les droits associés au catalogue."
+                    },
+                    "isPartOf": {
+                        "label": "Fait partie de la",
+                        "placeholder": "Catalogue fait partie du texte réservé à l’espace réservé",
+                        "help": "Un catalogue connexe dans lequel le catalogue décrit est physiquement ou logiquement inclus.",
+                        "info": "Ce bien fait référence à un catalogue connexe dans lequel le catalogue décrit est physiquement ou logiquement inclus."
+                    },
+                    "catalog": {
+                        "label": "Catalogue",
+                        "help": "Un catalogue dont le contenu est intéressant dans le contexte de ce catalogue.",
+                        "info": "Cette propriété fait référence à un catalogue dont le contenu est intéressant dans le contexte de ce catalogue.",
+                        "add-label": "Ajouter un catalogue dans une autre langue",
+                        "placeholder": "Catalogue Catalogue texte de l’espace réservé"
+                    },
+                    "creatorEmail": {
+                        "label": "Courrier électronique",
+                        "placeholder": "Catalogue Creator Email placeholder texte"
+                    },
+                    "language": {
+                        "help": "Une langue utilisée dans les métadonnées textuelles décrivant les titres, les descriptions, etc.",
+                        "info": "Cette propriété fait référence à une langue utilisée dans les métadonnées textuelles décrivant les titres, descriptions, etc. du jeu de données. Cette propriété peut être répétée si les métadonnées sont fournies dans plusieurs langues.",
+                        "label": "Langue",
+                        "add-label": "Ajouter la langue dans une autre langue",
+                        "placeholder": "Catalogue Texte réservé à la langue"
+                    },
+                    "spatialContinent": {
+                        "label": "Continent",
+                        "placeholder": "Texte réservé au catalogue «Continent géographique»"
+                    },
+                    "spatial": {
+                        "help": "Ce bien fait référence à une zone géographique couverte par le catalogue.",
+                        "info": "Ce bien fait référence à une zone géographique couverte par le catalogue.",
+                        "add-label": "Ajouter l’espace dans une autre langue",
+                        "label": "Espace",
+                        "placeholder": "Texte réservé à l’espace réservé au catalogue"
+                    },
+                    "creatorType": {
+                        "placeholder": "Catalogue Creator Type texte de l’espace réservé",
+                        "label": "Type"
+                    },
+                    "hasPart": {
+                        "add-label": "Ajouter Has Part",
+                        "label": "A partie",
+                        "help": "Cette propriété fait référence à un catalogue connexe qui fait partie du catalogue décrit.",
+                        "placeholder": "Catalogue Has Part placeholder texte",
+                        "info": "Cette propriété fait référence à un catalogue connexe qui fait partie du catalogue décrit."
+                    },
+                    "spatialCountry": {
+                        "label": "Pays",
+                        "placeholder": "Texte réservé au catalogue «Pays Spatial Country»"
+                    },
+                    "creator": {
+                        "help": "L’entité responsable de la production du catalogue",
+                        "info": "Cette propriété fait référence à l’entité responsable de la production du catalogue",
+                        "label": "Créateur",
+                        "add-label": "Ajouter un créateur"
+                    },
+                    "hasPartURL": {
+                        "placeholder": "Catalogue Has Part URL placeholder text",
+                        "label": "A partie"
+                    },
+                    "spatialPlace": {
+                        "placeholder": "Texte réservé au catalogue Lieu Spatial",
+                        "label": "Lieu"
+                    },
+                    "creatorHomepage": {
+                        "label": "Page d’accueil",
+                        "placeholder": "Catalogue Creator Page d’accueil texte"
+                    },
+                    "creatorName": {
+                        "placeholder": "Catalogue Créateur Nom texte de l’espace réservé",
+                        "label": "Nom"
+                    }
+                },
+                "step1": {
+                    "issued": {
+                        "info": "Cette propriété contient la date à laquelle la description de l’ensemble de données a été incluse dans le catalogue.",
+                        "add-label": "Ajouter numéro dans une autre langue",
+                        "label": "Délivré",
+                        "placeholder": "Publication d’un espace réservé au catalogue",
+                        "help": "Cette propriété contient la date à laquelle la description de l’ensemble de données a été incluse dans le catalogue."
+                    },
+                    "title": {
+                        "label": "Titre",
+                        "placeholder": "Texte réservé au titre du catalogue",
+                        "help": "Un nom donné au registre du catalogue. ",
+                        "info": "Ce bien contient un nom donné au registre du catalogue. Cette propriété peut être répétée pour les versions linguistiques parallèles du nom.",
+                        "add-label": "Ajouter un titre dans une autre langue"
+                    },
+                    "catalog": {
+                        "help": "Un catalogue dont le contenu est d’intérêt dans le cadre de ce catalogue",
+                        "info": "Cette propriété fait référence à un catalogue dont le contenu est intéressant dans le contexte de ce catalogue",
+                        "label": "Catalogue"
+                    },
+                    "description": {
+                        "label": "Description",
+                        "help": "Cette propriété contient un compte en texte libre de l’enregistrement.",
+                        "info": "Cette propriété contient un compte en texte libre de l’enregistrement. Cette propriété peut être répétée pour les versions linguistiques parallèles de la description.",
+                        "add-label": "Ajouter une description dans une autre langue",
+                        "placeholder": "Texte réservé à la description du catalogue"
+                    },
+                    "publisherName": {
+                        "placeholder": "Texte réservé au nom de l’éditeur du catalogue",
+                        "label": "Nom"
+                    },
+                    "licence": {
+                        "help": "La licence sous laquelle le catalogue peut être utilisé ou réutilisé.",
+                        "info": "Ce bien fait référence à la licence en vertu de laquelle le catalogue peut être utilisé ou réutilisé.",
+                        "label": "Licence",
+                        "placeholder": "Texte réservé au catalogue du titulaire de la licence"
+                    },
+                    "licenceTitle": {
+                        "label": "Titre de la licence",
+                        "placeholder": "Catalogue Licence Titre texte de l’espace réservé"
+                    },
+                    "publisherEmail": {
+                        "label": "Courriel",
+                        "placeholder": "Espace réservé à l’éditeur du catalogue"
+                    },
+                    "modified": {
+                        "help": "La date la plus récente à laquelle l’entrée du catalogue a été modifiée ou modifiée.",
+                        "info": "Cette propriété contient la date la plus récente à laquelle l’entrée du catalogue a été modifiée ou modifiée.",
+                        "placeholder": "Catalogue Modifié texte réservé à l’espace réservé",
+                        "label": "Modifié",
+                        "add-label": "Ajouter modifié dans une autre langue"
+                    },
+                    "publisher": {
+                        "label": "Éditeur",
+                        "placeholder": "Texte réservé à l’éditeur du catalogue",
+                        "help": "Cette propriété désigne une entité (organisation) responsable de la mise à disposition de l’ensemble de données.",
+                        "info": "Cette propriété désigne une entité (organisation) responsable de la mise à disposition de l’ensemble de données."
+                    },
+                    "publisherHomepage": {
+                        "placeholder": "Texte de la page d’accueil de l’éditeur du catalogue",
+                        "label": "Page d’accueil"
+                    },
+                    "licenceDescription": {
+                        "label": "Description de la licence",
+                        "placeholder": "Catalogue Licence Description texte de l’espace réservé"
+                    },
+                    "licenceURL": {
+                        "placeholder": "Catalogue Licence URL texte de l’espace réservé",
+                        "label": "URL de licence"
+                    },
+                    "publisherType": {
+                        "label": "Type",
+                        "placeholder": "Texte réservé à un espace réservé à l’éditeur du catalogue"
+                    },
+                    "homepage": {
+                        "placeholder": "Texte réservé à la page d’accueil du catalogue",
+                        "label": "Page d’accueil",
+                        "help": "Une page web qui sert de page principale pour le catalogue.",
+                        "info": "Cette propriété fait référence à une page web qui sert de page principale pour le catalogue."
+                    },
+                    "datetime": {
+                        "label": "Date Heure"
+                    },
+                    "language": {
+                        "label": "Langue",
+                        "placeholder": "Catalogue Texte réservé à la langue"
+                    },
+                    "catalogURL": {
+                        "label": "URL du catalogue",
+                        "placeholder": "Catalogue Catalogue URL texte placeholer"
+                    },
+                    "date": {
+                        "label": "Date"
+                    }
+                },
+                "stepper": {
+                    "overview": "Vue d’ensemble du catalogue",
+                    "step1": {
+                        "name": "Étape 1: Créer un catalogue"
+                    },
+                    "step2": {
+                        "name": "Étape 2: Définir les propriétés du catalogue"
+                    }
+                }
+            },
+            "clear": "Clair",
+            "deletemodal": {
+                "deleteDistribution": "Supprimer la distribution",
+                "areyousure": "Êtes-vous sûr de vouloir supprimer cette distribution?"
+            },
+            "createUniqueID": "Créer un ID unique",
+            "saveasdraft": "Enregistrer en tant que brouillon",
+            "savedataset": "Enregistrer l’ensemble de données",
+            "next": "Étape suivante",
+            "noDistributions": "Aucune distribution disponible",
+            "savedraft": "Enregistrer le brouillon",
+            "searchVocabulary": "Vocabulaire de recherche",
+            "error": {
+                "general": "Une erreur s’est produite. Veuillez réessayer plus tard.",
+                "invalid-message": "Certains champs sont manquants. Veuillez remplir tous les champs requis!"
+            },
+            "type": "Type",
+            "preview": "Étape précédente",
+            "submit": "Soumettre",
+            "publishdataset": "Publier un jeu de données",
+            "validationtitle": "Validation",
+            "publishdraft": "Publier le projet",
+            "newDistribution": "Ajouter une autre distribution",
+            "validationerror": "Une erreur a été commise lors de la validation de votre formulaire!",
+            "createDataset": "Créer un jeu de données",
+            "defineDatasetProperties": "Définir les propriétés du jeu de données",
+            "createDistributions": "Créer des distributeurs"
+        },
+        "datasetDetails": {
+            "subnav": {
+                "quality": "Qualité",
+                "similarDatasets": "Jeux de données similaires",
+                "categories": "Catégories",
+                "dataset": "Jeu de données",
+                "activityStream": "Flux d'activités"
+            },
+            "quality": {
+                "licenceAvailability": "Informations sur la licence",
+                "mediaTypeAvailability": "Type de média",
+                "temporalAvailability": "Recherche fondée sur le temps",
+                "accessibility": "Accessibilité",
+                "dcatApCompliance": "Conformité DCAT AP",
+                "distributions": {
+                    "downloadUrlStatusCode": "Code de statut downloadUrl",
+                    "accessUrlStatusCode": "Code de statut d’AccessURL"
+                },
+                "accessRightsVocabularyAlignment": "Vocabulaire des restrictions d'accès",
+                "contactPointAvailability": "Point de contact",
+                "dateIssuedAvailability": "Date d'émission",
+                "nodata": "Il semble qu’il y ait un problème de notre côté. Aucune donnée de qualité n’a pu être chargée. Veuillez réessayer plus tard.",
+                "dateModifiedAvailability": "Données de modification",
+                "contextuality": "Contextualité",
+                "reusability": "Réutilisabilité",
+                "accessUrlStatusCode": "",
+                "downloadUrlStatusCode": "",
+                "formatMediaTypeVocabularyAlignment": "Format / Type de média à partir du vocabulaire",
+                "metaDataQuality": "Qualité des métadonnées",
+                "downloadUrlAvailability": "Télécharger l'URL",
+                "dataQuality": "Qualité des données",
+                "categoryAvailability": "Catégories",
+                "interoperability": "Interopérabilité",
+                "findability": "Facilité de recherche",
+                "spatialAvailability": "Recherche géographique",
+                "formatAvailability": "Format",
+                "byteSizeAvailability": "Taille du fichier",
+                "accessRightsAvailability": "Restrictions d'accès",
+                "distributionQuality": "Qualité de la distribution",
+                "publisherAvailability": "Éditeur",
+                "keywordAvailability": "Utilisation de mots-clés",
+                "rightsAvailability": "Droits"
+            },
+            "follow": "Suivre",
+            "accessURLTooltip": "Ce lien peut contenir des informations sur la façon d’obtenir le fichier référencé ou est un lien direct vers le fichier référencé.",
+            "dataStream": "Flux de données",
+            "downloadURLTooltip": "Il s’agit d’un lien direct vers le fichier référencé.",
+            "upload": {
+                "organisation": "Organisation",
+                "individual": "Individu",
+                "resetText": "Réinitialiser tout le formulaire?",
+                "person": "Personne",
+                "unknownFormat": "Format inconnu",
+                "reset": "Réinitialiser le formulaire"
+            },
+            "preview": "Prévisualisation",
+            "feedback": "Commentaires",
+            "access": "Accès",
+            "datasets": {
+                "modal": {
+                    "downloadingFiles": "Téléchargement de fichiers",
+                    "zipNumberOfFiles": "Fichiers zip {Numérol",
+                    "waitingForDownload": "(en attente de téléchargement)",
+                    "downloadProgress": "Télécharger Progress",
+                    "notDownloaded": "Non téléchargé",
+                    "error": "Erreur! Essayez une nouvelle fois",
+                    "okay": "Okay",
+                    "cancel": "Annuler",
+                    "close": "Fermer",
+                    "coupleOfMinutes": "(cela peut prendre quelques minutes)",
+                    "notDownloadedTooltip": "Les détails sont disponibles dans le fichier file_report.csv ci-joint."
+                },
+                "leavePageWindow": {
+                    "text": "Voulez-vous vraiment partir? Le téléchargement sera arrêté à votre départ!"
+                },
+                "downloadAll": "Téléchargez tout"
+            },
+            "translation": {
+                "update": "Une traduction à jour de ce jeu de données est en cours.",
+                "original": "Langue d'origine",
+                "message": "Le titre et la description de ce jeu de données\n sont traduits par machine.",
+                "noTranslation": "Ce jeu de données n’est pas encore disponible dans votre langue. Sa traduction est en cours.",
+                "link": "Cliquez ici pour afficher le jeux de données dans sa langue d'origine"
+            },
+            "cite": "Citez:",
+            "relatedResources": "Ressources connexes",
+            "share": "Partager",
+            "geoVisualisation": "Ouvrir le visualiseur de cartes graphiques ",
+            "download": "Télécharger",
+            "intro": {
+                "distribution": "La liste ci-après énumère la mesure de la qualité de toutes les distributions de l’ensemble de données. Pour obtenir des informations sur les mesures que nous utilisons pour mesurer les indicateurs, veuillez consulter notre <a href='/mqa/methodology?locale={locale}'>page consacrée à la méthodologie</a>.",
+                "metadataQuality": "L’assurance de la qualité des métadonnées vise à aider les fournisseurs de données et les portails de données à vérifier leurs métadonnées par rapport à divers indicateurs. Pour obtenir des informations sur les mesures que nous utilisons pour mesurer les indicateurs, veuillez consulter notre <a href='/mqa/methodology?locale={locale}'>page consacrée à la méthodologie</a>."
+            },
+            "about": "à propos de",
+            "datasetFeed": "Jeu de données Fourned",
+            "delete": "Supprimer",
+            "openResource": "Aller à la ressource",
+            "visualisation": "Ouvrir la visualisation",
+            "isUsedBy": "Est utilisé par",
+            "unfollow": "Se désabonner",
+            "shareOn": "Partager le",
+            "additionalInfo": "Informations complémentaires",
+            "contactPoints": {
+                "organizationName": "Nom de l’organisation"
+            },
+            "edit": "Modifier",
+            "menu": "Menu",
+            "manage": "Gérer",
+            "geoInfo": "Étendue du jeu de données",
+            "options": "Options"
+        },
+        "tooltip": {
+            "catalogDetails": {
+                "created": "La date de publication officielle (par exemple, la publication) du catalogue.",
+                "publisher": "Entité (organisation) responsable de la mise à disposition du catalogue.",
+                "updated": "La date la plus récente à laquelle le catalogue a été modifié.",
+                "description": "Une description du catalogue.",
+                "title": "Le titre du catalogue.",
+                "metadata": "Options de téléchargement des métadonnées du catalogue dans différentes représentations de données liées.",
+                "language": "Langue utilisée dans les métadonnées textuelles décrivant les titres, descriptions, etc. des ensembles de données du catalogue. Cette propriété peut être répétée si les métadonnées sont fournies dans plusieurs langues.",
+                "spatial": "Aire géographique couverte par le catalogue."
+            },
+            "datasetDetails": {
+                "frequency": "Fréquence de mise à jour de l’ensemble de données.",
+                "dataset": "Informations détaillées sur l’ensemble de données ou le service.",
+                "updated": "La date la plus récente à laquelle l’ensemble de données ou le service a été modifié ou modifié.",
+                "versionInfo": "Numéro de version ou autre désignation de la version du jeu de données.",
+                "distributions": {
+                    "updated": "Date la plus récente à laquelle la distribution a été modifiée ou modifiée.",
+                    "title": "Nom donné à la distribution.",
+                    "linkedSchema": "Schéma établi auquel la distribution décrite est conforme.",
+                    "linkedData": "Options de téléchargement des métadonnées de distribution dans différentes représentations de données liées.",
+                    "status": "Échéance de la distribution. Il DOIT prendre l’une des valeurs «Achèvement, dépréé, sous développement», «Retirer».",
+                    "licence": "Licence en vertu de laquelle la distribution est mise à disposition.",
+                    "availability": "Indique combien de temps il est prévu de maintenir la distribution du jeu de données disponible.",
+                    "rights": "Déclaration précisant les droits associés à la distribution.",
+                    "checksum": "Un mécanisme qui peut être utilisé pour vérifier que le contenu d’une distribution n’a pas changé. La somme de contrôle est liée au téléchargement Url.",
+                    "mediaType": "Type de média de la distribution tel que défini dans le registre officiel des types de médias gérés par l’IANA.",
+                    "spatialResolution": "Séparation spatiale minimale résolvable dans une distribution de données, mesurée en mètres.",
+                    "byteSize": "Contient la taille d’une distribution en octets.",
+                    "download": "Télécharger ou accéder à la distribution.",
+                    "type": "Liens vers un type de tribution Dis, par exemple, qu’il s’agit d’une visualisation.",
+                    "created": "Date d’émission officielle (par exemple, publication) de la distribution.",
+                    "language": "Langue utilisée dans la distribution.",
+                    "options": "Ouvrez un aperçu de la distribution.",
+                    "temporalResolution": "Désigne la période de temps minimale résolvable dans la distribution de l’ensemble de données."
+                },
+                "otherIdentifier": "Identifiant secondaire de l’ensemble de données, tel que MAST/ADS16, DataCite17, DOI18, EZID19 ou W3ID20.",
+                "numSeries": "Contient le nombre de séries de données contenues dans l’ensemble de données.",
+                "versionOf": "Ensemble de données connexe dont le jeu de données décrit est une version, une édition ou une adaptation.",
+                "unitsOfMeasurement": "Une unité de mesure des observations de l’ensemble de données.",
+                "distribution": "Une incorporation physique de l’ensemble de données ou du service dans un format particulier, par exemple un lien web vers le fichier du jeu de données.",
+                "quality": "Informations sur la qualité des métadonnées pour cet ensemble de données ou ce service.",
+                "catalogue": "Le catalogue auquel appartient cet ensemble de données ou ce service.",
+                "linkedData": "Options de téléchargement de l’ensemble de données ou des métadonnées du service dans différentes représentations de données liées.",
+                "versionNotes": "Description des différences entre cette version et une version antérieure de l’ensemble de données. Cette propriété peut être répétée pour les versions linguistiques parallèles des notes de version.",
+                "similarDatasets": "Autres ensembles de données ou services similaires au présent document.",
+                "identifier": "Identifiant principal de l’ensemble de données, par exemple l’URI ou tout autre identifiant unique dans le contexte du catalogue.",
+                "uriRef": "L’URIref est un identificateur unique pour l’ensemble de données/service de données dans data.europa.eu",
+                "creator": "Entité responsable au premier chef de la production de l’ensemble de données.",
+                "spatial": "Région géographique couverte par l’ensemble de données.",
+                "language": "Langue du jeu de données.",
+                "format": "Le format disponible pour cet ensemble de données ou ce service.",
+                "conformsTo": "Règle d’exécution ou autre spécification.",
+                "landingPage": "Page web donnant accès au jeu de données, à ses distributeurs et/ou à des informations complémentaires.",
+                "provenance": "Déclaration sur la ligne de démarcation d’un ensemble de données.",
+                "documentation": "Page ou document sur ce jeu de données.",
+                "publisher": "Entité (organisation) responsable de la mise à disposition de l’ensemble de données ou du service.",
+                "created": "Date de délivrance officielle (par exemple, publication) de l’ensemble de données ou du service.",
+                "relatedResource": "Ressources connexes.",
+                "categories": "Catégories qui sont attribuées à cet ensemble de données ou à ce service.",
+                "share": "Partager cet ensemble de données ou ce service par l’intermédiaire des médias sociaux.",
+                "feedback": "Donnez-nous ce que vous pensez de cet ensemble de données ou de ce service.",
+                "dqvData": "Options de téléchargement de l’ensemble de données ou des mesures de la qualité du service dans différentes représentations de données liées.",
+                "hasVersion": "Jeu de données associé qui est une version, une édition ou une adaptation du jeu de données décrit"
+            },
+            "quality": {
+                "keywordAvailability": "Les mots-clés prennent directement en charge la recherche et augmentent ainsi la recherche de l’ensemble de données. &br > &br > Le système vérifie si les mots-clés sont définis. Le nombre de mots-clés n’a aucune incidence sur la note.",
+                "formatMediaTypeVocabularyAlignment": "Vérifiez si le format et le type de média appartiennent à un vocabulaire contrôlé. &br > &br > Le vocabulaire de format se trouve dans le répertoire data.europa.eu GitLab. &br > &br > Le type de média est vérifié par rapport à la liste IANA.",
+                "licenceAvailability": "Une licence est une information précieuse pour la réutilisation des données. &br > &br > Il est vérifié si la propriété est fixée ou non.",
+                "publisherAvailability": "L’éditeur est une personne ou une organisation qui a publié les données. &br > &br > Il est vérifié si la propriété est fixée ou non.",
+                "formatAvailability": "Ce champ précise le format de fichier de la distribution. &br > &br > Il est vérifié si la propriété est réglée ou non.",
+                "temporalAvailability": "L’utilisation d’informations temporelles permettrait aux utilisateurs d’effectuer une recherche faciale en temps utile. &br > &br > Il est vérifié si la propriété est réglée ou non.",
+                "rightsAvailability": "Dans certains cas, une licence spécifique ne peut pas être appliquée à un ensemble de données. Le champ «Droits» peut être utilisé pour spécifier une référence à une ressource qui informera un utilisateur des droits dont il dispose lors de l’utilisation de l’ensemble de données. &br > &br > Il est vérifié si la propriété est fixée ou non.",
+                "mediaTypeAvailability": "Ce champ spécifie le type de média de la distribution. &br > &br > Il est vérifié si la propriété est réglée ou non.",
+                "accessRightsVocabularyAlignment": "L’utilisation d’un vocabulaire contrôlé augmente la réutilisabilité. &br > &br > Il est vérifié si le vocabulaire contrôlé pour les droits d’accès est utilisé.",
+                "dcatApCompliance": "La conformité DCAT-AP est calculée pour toutes les sources et ensembles de données disponibles dans un catalogue. Ce contrôle n’est effectué que si les métadonnées sont initialement récoltées en tant que DCAT-AP ou en tant que dérivé valide. &br > &br > DCAT-AP est une spécification pour décrire les données publiques liées en Europe. Le portail data.europe.eu peut également récolter des métadonnées qui ne sont pas totalement conformes au DCAT-AP. Afin d’améliorer la conformité à la DCAT-AP, le MQA vérifie chaque métadonnées pour vérifier sa conformité DCAT-AP. &br > &br > Les métadonnées sont validées par rapport à un ensemble de formes SHACL. Les métadonnées ne sont pas conformes si la validation SHACL porte sur au moins un numéro. &br > &br > Le MQA utilise les données DCAT-AP SHACL sevice. &br > &br > SCHACL est une recommandation du W3C et est utilisée pour valider les graphiques RDF par rapport à un ensemble de formes.",
+                "accessRightsAvailability": "Ce champ indique si l’accès aux données est public ou restreint. &br > &br > Il est vérifié si la propriété est fixée ou non.",
+                "accessUrlStatusCode": "L’AccessURL n’est pas nécessairement un lien direct vers les données, mais peut également faire référence à une URL qui donne accès à l’ensemble de données ou lorsque davantage d’informations sur l’ensemble de données sont disponibles. &br > &br > L’URL spécifiée est vérifiée au moyen d’une demande HTTP HEAD. Si le code d’état répondu se situe dans la fourchette 200 ou 300, l’accessibilité de la ressource est évaluée positivement.",
+                "categoryAvailability": "Les catégories aident les utilisateurs à explorer les ensembles de données de manière thématique. &br > &br > Il est vérifié si une ou plusieurs catégories sont attribuées à l’ensemble de données. Le nombre de catégories attribuées n’a aucune incidence sur la note.",
+                "downloadUrlStatusCode": "S’il existe un téléchargement Url, l’accessibilité est vérifiée. &br > &br > L’URL spécifiée est vérifiée pour l’accessibilité des ressources via la demande HTTP HEAD. Si le code d’état répondu se situe dans la fourchette 200 ou 300, l’accessibilité de la ressource est évaluée positivement.",
+                "byteSizeAvailability": "Spécifie la taille du fichier en octets. &br > &br > Il est vérifié si la propriété est réglée ou non.",
+                "downloadUrlAvailability": "Le téléchargement Url est un lien direct vers les données référencées. &br > &br > Il est vérifié si la propriété est réglée ou non.",
+                "spatialAvailability": "L’utilisation des informations géographiques permettrait aux utilisateurs de trouver le jeu de données avec une recherche géo-facetée. &br > &br > Il est vérifié si la propriété est ou non définie.",
+                "contactPointAvailability": "Le point de contact contient des informations sur les personnes à contacter en cas de questions concernant les données. &br > &br > Il est vérifié si la propriété est posée ou non.",
+                "dateIssuedAvailability": "Date à laquelle le jeu de données ou la diffusion a été diffusé. &br > &br > Il est vérifié si la propriété est ou non fixée.",
+                "dateModifiedAvailability": "La date à laquelle l’ensemble de données ou la distribution a été modifié pour la dernière fois. &br > &br > Il est vérifié si la propriété est fixée ou non."
+            },
+            "catalogRecord": "Une description de l’entrée d’un jeu de données dans le catalogue.",
+            "lastModified": "Trier les résultats en fonction de la dernière modification de l’ensemble de données",
+            "editorialContent": "Recherche de contenu éditorial, par exemple actualités, événements, cas d’utilisation",
+            "datasets": "Recherche d’ensembles de données",
+            "relevance": "Trier l’ensemble de données par pertinence. La pertinence est calculée sur la base des correspondances des termes de recherche dans le titre, les mots-clés et la description.",
+            "contactPoints": "Coordonnées pouvant être utilisées pour envoyer des commentaires sur le jeu de données.",
+            "locationFilter": "Pour visualiser les ensembles de données relatifs à un emplacement spécifique, cliquez sur la carte et utilisez l’icône stylo pour la sélectionner. Cliquez ensuite sur «Appliquer» pour filtrer uniquement les ensembles de données qui se rapportent à la zone sélectionnée. Veuillez noter que seuls les ensembles de données comprenant des métadonnées de géo-information seront inclus dans les résultats de recherche.",
+            "catalogues": "Recherche de catalogues. Un catalogue héberge des ensembles de données et des services"
+        },
+        "visualisationDistribution": {
+            "barChartExplain": "Un diagramme en barres affiche des valeurs numériques pour les niveaux d’une caractéristique catégorique en barres. Les niveaux sont tracés sur un axe graphique et les valeurs sont tracées sur l’autre axe.",
+            "semicolon": "Point-virgule",
+            "exportSucceeded": "Configuration créée avec succès!",
+            "yAxis": "y Axis",
+            "pipe": "Tuyau",
+            "cancel": "Annuler",
+            "fileTypeNotSupported": "Vous essayez de rendre un type de fichier qui n’est pas pris en charge.",
+            "confirm": "Confirmer",
+            "fileNotFound": "Vous essayez de créer un fichier dont le contenu n’a pas pu être lu.",
+            "comma": "Virgule",
+            "space": "Espace",
+            "exportDataTip": "Le champ de saisie ne doit pas être vide!",
+            "countRow": "Dénombrement",
+            "exportMessagesHeader": "Êtes-vous sûr (e) de vouloir sauvegarder votre configuration? Veuillez le vérifier avant de sauvegarder!",
+            "exportMessagesLabel": "Veuillez indiquer le nom de votre configuration",
+            "exportNameExistsAlert": "Le nom est déjà utilisé. Veuillez en essayer une autre!",
+            "hiddenMessages": "sont masqués — cliquez pour afficher tout",
+            "connectedLineChart": "Graphique des lignes connectées",
+            "barChart": "Diagramme en barre",
+            "someRows": "Quelques Rows",
+            "row": "Lignes",
+            "tab": "Onglet",
+            "connectToDatabaseError": "Erreur lors de l’obtention des données de la base de données. Essayez ou vérifiez à nouveau votre contribution!",
+            "badgateway": "Serveur non disponible ou nom DNS incorrect.",
+            "goBack": "«Go Back»",
+            "forbidden": "L’accès à la ressource demandée est interdit.",
+            "unauthorized": "La demande n’a pas été appliquée. Il ne contient pas d’identifiants d’authentification valides.",
+            "xAxis": "X Axis",
+            "delimiter": "Délimiteur",
+            "someColumns": "Certaines colonnes",
+            "exportMessagesFooter": "Cliquez sur «Confirmer» pour le sauvegarder!",
+            "table": "Tableau",
+            "connectedLineChartExplain": "Il s’agit d’une parcelle scatterplote connectée, qui est essentiellement hybride entre une scatterplot et une placette de ligne. Vous devez choisir XAxe pour le rendre."
+        },
+        "sort": {
+            "lastCreated": "Dernière création",
+            "lastUpdated": "Dernière modification",
+            "nameZA": "Ordre alphabétique décroissant",
+            "relevance": "Pertinence",
+            "sortBy": "Trier par",
+            "nameAZ": "Ordre alphabétique croissant"
+        },
+        "distributionLicense": {
+            "openLA": "Ouvrir l'assistant licences",
+            "notProvided": "Aucune licence fournie",
+            "licensingAssistant": "Assistant de licences",
+            "notFound": "Aucune information sur la licence n'a été trouvée.",
+            "notFoundExtended": "Aucune information sur la licence n'a été trouvée - veuillez consulter la source pour obtenir plus de détails sur la licence. "
+        },
+        "catalogs": {
+            "countMessageSingular": "catalogue trouvé ",
+            "geoBoundsMessagePre": "Votre recherche a été limitée à:",
+            "downloadAsLinkedData": "Catalogue des métadonnées en tant que données liées",
+            "countMessageNoResult": "Aucun catalogue trouvé ",
+            "searchBar": {
+                "placeholder": "Recherche de catalogues…"
+            },
+            "countMessage": " catalogues trouvés pour ",
+            "loadingMessage": "Chargement des catalogues…",
+            "geoBoundsMessageRemove": "Fermer cette notification pour supprimer la limitation ou utiliser la fonction de réinitialisation."
+        },
+        "datasetFacets": {
+            "facets": {
+                "datascopeField": {
+                    "countryData": "Données nationales",
+                    "io": "Données internationales",
+                    "eu": "Données de l’Union européenne"
+                },
+                "datascope": "Champ d’application des données",
+                "dataServices": {
+                    "dataServicesOnly": "Services de données uniquement"
+                },
+                "country": "Pays",
+                "format": "Formats",
+                "scoring": {
+                    "badScoring": "Tout",
+                    "sufficientScoring": "Passable",
+                    "goodScoring": "Bon",
+                    "excellentScoring": "Excellent"
+                },
+                "publisher": "@: message.metadata.éditeur",
+                "license": "Licences",
+                "keywords": "Mots-clés",
+                "categories": "Catégories",
+                "catalog": "Catalogues",
+                "countrydata": "Données nationales",
+                "tags": "Étiquettes"
+            },
+            "title": "Filtres",
+            "and": "ET",
+            "settings": "Réglage du filtre",
+            "scoring": "Notation",
+            "or": "ou",
+            "europeanCatalogs": "Catalogues européens",
+            "operator": "Opérateur"
+        },
+        "header": {
+            "navigation": {
+                "data": {
+                    "euInternationalData": "Données internationales et de l'UE",
+                    "datasets": "Jeux de données",
+                    "catalogs": "Catalogues",
+                    "metadataquality": "Qualité des métadonnées",
+                    "sparqleditor": "Éditeur de SPARQL",
+                    "statistics": "Statistiques",
+                    "sparqlsearch": "Recherche SPARQL",
+                    "title": "Données"
+                },
+                "impactStudies": {
+                    "opendataimpact": "Incidence des données ouvertes",
+                    "tellUsYourStory": "Faites-nous part de votre expérience",
+                    "studies": "Études",
+                    "opendatamaturity": "Maturité des données ouvertes",
+                    "countryInsights": "Informations sur les pays",
+                    "useCases": "Cas d'utilisation",
+                    "title": "Incidence et études",
+                    "overview": "Aperçu"
+                },
+                "training": {
+                    "licensingAssistant": "Assistant de licences",
+                    "dataProvidersGuide": "Manuel pour les fournisseurs de données",
+                    "moreTrainingMaterial": "Plus de supports de formation",
+                    "whatIsOpenData": "Les données ouvertes, qu'est-ce que c'est?",
+                    "title": "Formation",
+                    "elearning": "Formation en ligne"
+                },
+                "about": {
+                    "beHarvestedByUs": "Mise à disposition de vos données",
+                    "documentation": "Documentation",
+                    "title": "À propos de",
+                    "europeanDataPortal": "Portail européen de données"
+                },
+                "newsEvents": {
+                    "events": "Évènements",
+                    "news": "Actualités",
+                    "title": "Actualités et évènements",
+                    "stories": "Histoire sur les données"
+                },
+                "covid-19": {
+                    "title": "COVID-19",
+                    "datasets": "Jeu de données",
+                    "overview": "Aperçu",
+                    "initiatives": "Initiatives liées aux données"
+                }
+            },
+            "subnav": {
+                "newsletter": "Lettre d'information",
+                "cookies": "Cookies",
+                "login": "Connexion",
+                "contact": "Contact",
+                "search": "Rechercher",
+                "logout": "Déconnexion",
+                "legalNotice": "Avis juridique",
+                "faq": "FAQ"
+            },
+            "european": "Portail européen",
+            "searchInputPlaceholder": "Rechercher dans le contenu du site…",
+            "dataPortal": "Portail de données",
+            "searchOptions": {
+                "siteContent": "Contenu du site",
+                "datasets": "Jeux de données"
+            }
+        },
+        "catalogues": {
+            "foundCataloguesSingular": "1 catalogue trouvé",
+            "foundCatalogues": "{nombre de catalogues trouvés"
+        },
+        "datasets": {
+            "foundDatasets": "{nombre d’ensembles de données trouvés",
+            "countMessage": "jeux de données trouvés pour ",
+            "foundDatasetsSingular": "1 ensemble de données trouvé",
+            "meta": {
+                "translationNotComplete": "Traduction inachevée"
+            },
+            "geoBoundsMessageRemove": "Fermez cette notification pour supprimer la limitation ou utiliser la fonction de réinitialisation",
+            "createDataset": "Créer un jeu de donnes",
+            "geoBoundsMessagePre": "Votre recherche a été limitée à:",
+            "loadingMessage": "Chargement des jeux de données…",
+            "countMessageSingular": "jeu de données trouvé ",
+            "datasetsFeed": "Fil de jeux de données",
+            "scoreDisclaimer": "Les résultats de la recherche actuelle sont filtrés pour correspondre à la note de qualité minimale requise qui est indiquée dans le volet de gauche. Consultez notre page {0} si vous souhaitez en savoir plus sur nos mesures de qualité.",
+            "noResult": "Aucun jeu de données n'a été trouvé ",
+            "findLocation": "Filtrer selon le lieu",
+            "searchBar": {
+                "placeholder": "Rechercher des jeux de données"
+            },
+            "createCatalogue": "Créer un catalogue",
+            "saveQuery": "Enregistrer la requête"
+        },
+        "footer": {
+            "helpUsImproveText": "Vos commentaires nous aideront à améliorer l'expérience globale des utilisateurs.\nUne suggestion?",
+            "lastUpdated": "Dernière mise à jour",
+            "links": {
+                "cookies": "Cookies",
+                "contact": "Contact",
+                "faq": "FAQ",
+                "newsletter": "Lettre d'information",
+                "search": "Rechercher",
+                "login": "Connexion",
+                "legalNotice": "Avis juridique"
+            },
+            "subscribe": "Inscription",
+            "helpUsImprove": "Aidez-nous à nous améliorer",
+            "newsletterText": "Abonnez-vous à notre lettre d'information",
+            "newsletter": "Lettre d'information",
+            "followUs": "Suivez-nous sur",
+            "managedBy": "Géré par l'Office des publications de l'Union européenne",
+            "fundedBy": "Financé par l'Union européenne"
+        },
+        "helpIcon": {
+            "dataServices": "Dans data.europa.eu, une distribution peut également servir de service de données. Cela signifie qu’il ne renvoie pas à un fichier téléchargeable, mais plutôt à un API. Sélectionnez «Oui» si vous souhaitez filtrer des ensembles de données qui disposent d’au moins un service de données.",
+            "scoring": "data.europa.eu mesure la qualité de tous les ensembles de données et services. Dans la section Qualité des données/métadonnées, nous disposons d’une page consacrée à la méthodologie qui décrit le processus. Chaque ensemble de données et chaque service est également représenté par une note de qualité. Cette note peut être suffisante, bonne ou excellente. Si le filtre «Sufficient +» est défini, tous les ensembles de données et services ayant une note suffisante ou meilleure seront affichés. Il en va de même pour «Good». «Excellent» ne montre que d’excellents ensembles de données et services.",
+            "license": "Une licence décrit les conditions juridiques régissant l’utilisation d’un ensemble de données.",
+            "dataScope": "Les données de l’UE détiennent des ensembles de données et des services provenant des institutions de l’UE. Les données internationales détiennent des ensembles de données et des services provenant de pays tiers. Les données par pays détiennent des ensembles de données et des services provenant des États membres de l’UE.",
+            "format": "Chaque ensemble de données contient des références à des fichiers ou à des services. Le format décrit le type de fichier ou le type de service de ces références. Tous les types de fichiers ne peuvent pas servir à toutes les fins; par exemple, un calcul peut être effectué avec un fichier CSV au lieu d’un PDF.",
+            "catalog": "Un catalogue ou un référentiel qui héberge des ensembles de données et des services. Un catalogue représente principalement un portail à partir duquel les ensembles de données ont été collectés.",
+            "settings": "Décidez si votre sélection de filtres est exclusive ou non. Si vous sélectionnez ET tous les résultats de recherche doivent correspondre à tous les filtres. Ou signifie qu’au moins un filtre doit correspondre.",
+            "categories": "Une catégorie regroupe des ensembles de données qui partagent un thème commun.",
+            "publisher": "Un éditeur est une entité (par exemple une organisation) qui est responsable de la mise à disposition de l’ensemble de données.",
+            "keywords": "Les mots-clés sont des idées et des sujets qui définissent le contenu."
+        },
+        "userQueries": {
+            "executeQuery": "Exécuter la requête",
+            "queriesFound": "{number} requêtes trouvées",
+            "placeholderNotes": "par exemple, des remarques utiles sur cette requête",
+            "querySaved": "Requête enregistrée",
+            "queryFound": "{number} requête trouvée",
+            "myQueries": "Mes requêtes",
+            "noDescription": "Cette requête ne comporte pas de description",
+            "noQueryFound": "Aucune requête n'a été trouvée",
+            "queryDeleted": "Requête supprimée",
+            "searchAllQueries": "Requêtes de recherche…",
+            "save": "Enregistrer la requête",
+            "areYourSure": "Souhaitez-vous vraiment supprimer cette requête?",
+            "noQueriesSaved": "Vous n'avez enregistré aucune requête",
+            "searchQueries": "Rechercher mes requêtes"
+        },
+        "catalogFacets": {
+            "facets": {
+                "licences": "Licences",
+                "catalogs": "Catalogues",
+                "categories": "Catégories",
+                "countries": "Pays",
+                "formats": "Formats",
+                "keywords": "Mots-clés"
+            },
+            "operator": "Opérateur",
+            "title": "Filtres",
+            "europeanCatalogs": "Catalogues européens",
+            "or": "OU",
+            "and": "ET",
+            "euInstitutions": "Institutions de l’UE",
+            "settings": "Paramètres"
+        },
+        "statistics": {
+            "statistics": "Satistiques",
+            "datasetsPerCatalog": "Jeux de données par catalogue",
+            "currentState": "État actuel",
+            "datasetsPerCountry": "Jeux de données par pays",
+            "selectType": "Sélectionner le type de statistiques",
+            "datasetsPerCountryAndCatalog": "Jeux de données par pays et catalogue",
+            "evolution": "Évolution",
+            "evolutionStartEnd": "Évolution du nombre total de jeux de données entre le {start_date} et le {end_date}",
+            "increaseStartEnd": "Augmentation de {dataset_model} en pourcentage entre le {start_date} et le {end_date}",
+            "totalNumber": "Nombre total de jeux de données",
+            "datasetsPerCategory": "Jeux de données par catégorie",
+            "selectTimePeriod": "Sélectionner la période",
+            "evolutionNumber": "Évolution du nombre de {dataset_model} entre le {start_date} et le {end_date}",
+            "numberDate": "Nombre de {dataset_model} au {date}"
+        },
+        "categories": {
+            "tran": "Transports",
+            "heal": "Santé",
+            "tech": "Science et technologie",
+            "envi": "Environnement",
+            "econ": "Économie et finances",
+            "soci": "Population et société",
+            "agri": "Agriculture, pêche, sylviculture et alimentation",
+            "educ": "Éducation, culture et sport",
+            "ener": "Énergie",
+            "intr": "Questions internationales",
+            "gove": "Gouvernement et secteur public",
+            "just": "Justice, système juridique et sécurité publique",
+            "regi": "Régions et villes"
+        },
+        "pagination": {
+            "nextPage": "Suivant",
+            "previousPage": "Précédent"
+        },
+        "navigation": {
+            "navItems": {
+                "home": "Accueil",
+                "about": "à propos de",
+                "data": "Données",
+                "privacyPolicy": "Politique de confidentialité",
+                "map": "Carte",
+                "imprint": "Empreinte"
+            }
+        },
+        "catalogsAndDatasets": {
+            "noDescriptionAvailable": "Aucune description disponible",
+            "more": "En savoir plus"
+        },
+        "datasetCategories": {
+            "foundCategories": "{number} catégorie trouvée",
+            "foundCategory": "{number} catégories trouvées",
+            "noCategories": "Pas de categories trouvées"
+        },
+        "mapModal": {
+            "fullscreen": "Plein écran",
+            "findDatasets": "Appliquer",
+            "reset": "Enlever",
+            "close": "Fermer",
+            "drawRectangleMsg": "Tracez un rectangle pour sélectionner une région",
+            "disclaimer": "Clause de non-responsabilité",
+            "copyright": "Carte © OpenStreetMap contributors"
+        },
+        "similarDatasets": {
+            "similar": "similaire",
+            "verySimilar": "très similaire",
+            "marginalSimilar": "marginalement similaire",
+            "notFound": "Pas de jeux de données similaires trouvés",
+            "lessSimilar": "peu similaire",
+            "similarDatasets": "Jeux de données similaires"
+        },
+        "searchTabs": {
+            "editorialContent": "Contenu éditorial"
+        },
+        "visualisation": {
+            "loading": "Visualisation en cours de chargement…",
+            "previewAvailable": "Aperçu disponible",
+            "info": "Si la visualisation ne démarre pas après quelques secondes, veuillez cliquer ici."
+        },
+        "catalog": {
+            "loadingMessage": "Les catalogues sont extraits",
+            "searchBar": {
+                "placeholder": "Rechercher des catalogues"
+            },
+            "geoBoundsMessageRemove": "Fermez cette notification pour supprimer la limitation ou utiliser la fonction de réinitialisation",
+            "countMessage": "Catalogues trouvés"
+        },
+        "sparql": {
+            "subHeadlineText2": "Afin d’aider les utilisateurs à construire des requêtes SPARQL utiles, nous fournissons une page contenant un échantillon de requêtes SPARQL <a href='{sample_sparql_queries}'>sample SPARQL queries</a> qui peuvent être exécutées via notre point d’arrivée. Les ensembles de données et les catalogues publiés sous forme de triples RDF sur le portail suivent <a href='https://github.com/SEMICeu/DCAT-AP'>DCAT-AP specification</a>. Pour en savoir plus sur l’ontologie des métadonnées, veuillez consulter la page data.europa.eu sur DCAT-AP à l’adresse suivante: <a href=' https://data.europa.eu/en/academy/dcat-and-dcat-ap'> https://data.europa.eu/en/academy/dcat-and-dcat-ap</a>.",
+            "subHeadlineText1": "Toutes les métadonnées de data.europa.eu sont stockées comme RDF triples (<a href='https://www.w3.org/RDF/'>RDF</a>) et peuvent être interrogées à l’aide du langage de recherche SPARQL à cet effet. Les requêtes peuvent être exécutées par l’intermédiaire de l’éditeur de la requête (ci-dessous) ou par l’intermédiaire du point final lisible par machine (<a href='https://data.europa.eu/sparql'>https://data.europa.eu/sparql</a>)."
+        },
+        "distributions": {
+            "footerLink": "Télécharger"
+        },
+        "distributionDetails": "{}",
+        "spokenLanguage": "Anglais",
+        "cite": {
+            "copyToClipboard": "Copie au clipboard",
+            "title": "Citez cet ensemble de données"
+        },
+        "home": {
+            "msg": "Désolé, cette page n'a pas encore de contenu.\nConsultez l'onglet Données pour visualiser des informations!"
+        },
+        "imprint": {
+            "msg": "INSÉRER L'EMPREINTE ICI"
+        }
+    }
+}
