@@ -162,6 +162,7 @@ const glueConfig = {
       },
     },
     datasetDetails: {
+      properties: "",
       header: {
         navigation: "top",
         hidePublisher: false,
