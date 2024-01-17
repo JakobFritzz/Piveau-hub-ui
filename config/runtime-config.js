@@ -87,6 +87,7 @@ export default {
       }
     },
     datasetDetails: {
+      properties: "$VUE_APP_CONTENT_DATASETDETAILS_PROPERTIES",
       header: {
         navigation: '$VUE_APP_CONTENT_DATASETDETAILS_HEADER_NAVIGATION',
         hidePublisher: '$VUE_APP_CONTENT_DATASETDETAILS_HEADER_HIDE_PUBLISHER',

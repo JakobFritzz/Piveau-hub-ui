@@ -101,7 +101,6 @@ import {
 } from '@piveau/piveau-hub-ui-modules';
 import '@piveau/piveau-hub-ui-modules/styles';
 
-
 Vue.config.devtools = true;
 
 Vue.use(runtimeConfigurationService, runtimeConfig, { baseConfig: GLUE_CONFIG, debug: false });
@@ -113,6 +112,7 @@ configureModules({
     baseUrl: env.api.baseUrl,
     qualityBaseUrl: env.api.qualityBaseUrl,
     similarityBaseUrl: env.api.similarityBaseUrl,
+    similarityEndpoint: env.api.similarityEndpoint,
     gazetteerBaseUrl: env.api.gazetteerBaseUrl,
     hubUrl: env.api.hubUrl,
     keycloak: env.authentication.keycloak,
@@ -335,22 +335,26 @@ const createVueApp = () => {
 
 // Loads keycloak and if it fails it still loads the Vue app.
 
-Vue.use(vueKeyCloak, {
-  config: {
-    rtp: env.authentication.rtp,
-    ...env.authentication.keycloak,
-  },
-  init: {
-    onLoad: 'check-sso',
-    silentCheckSsoRedirectUri: `${window.location.origin}/static/silent-check-sso.html`,
-    ...env.authentication.keycloakInit,
-  },
-  onReady: () => {
-    console.log("Keycloak loaded")
-    createVueApp().$mount('#app');
-  },
-  onInitError: () => {
-    console.log("Error loading keycloak")
-    createVueApp().$mount('#app');
-  }
-});
+if (env.authentication.useService) {
+  Vue.use(vueKeyCloak, {
+    config: {
+      rtp: env.authentication.rtp,
+      ...env.authentication.keycloak,
+    },
+    init: {
+      onLoad: 'check-sso',
+      silentCheckSsoRedirectUri: `${window.location.origin}/silent-check-sso.html`,
+      ...env.authentication.keycloakInit,
+    },
+    onReady: () => {
+      console.log("Keycloak loaded")
+      createVueApp().$mount('#app');
+    },
+    onInitError: () => {
+      console.log("Error loading keycloak")
+      createVueApp().$mount('#app');
+    }
+  });
+} else {
+  createVueApp().$mount('#app');
+}

@@ -9,25 +9,26 @@ import i18n from './i18n';
 
 const glueConfig = {
   api: {
-    baseUrl: 'https://data.europa.eu/api/hub/search/',
+    // baseUrl: 'https://data.europa.eu/api/hub/search/',
     // baseUrl: 'https://ppe.data.europa.eu/api/hub/search/',
-    // baseUrl: 'https://piveau-hub-search-data-europa-eu.apps.osc.fokus.fraunhofer.de/',
+    baseUrl: 'https://piveau-hub-search-piveau.apps.osc.fokus.fraunhofer.de/',
 
-    hubUrl: 'https://data.europa.eu/api/hub/repo/',
+    // hubUrl: 'https://data.europa.eu/api/hub/repo/',
     // hubUrl: 'https://ppe.data.europa.eu/api/hub/repo/',
-    // hubUrl: 'https://piveau-hub-repo-data-europa-eu.apps.osc.fokus.fraunhofer.de/',
+    hubUrl: 'https://piveau-hub-repo-piveau.apps.osc.fokus.fraunhofer.de/',
 
-    qualityBaseUrl: 'https://data.europa.eu/api/mqa/cache/',
+    // qualityBaseUrl: 'https://data.europa.eu/api/mqa/cache/',
     // qualityBaseUrl: 'https://ppe.data.europa.eu/api/mqa/cache/',
-    // qualityBaseUrl: 'https://piveau-metrics-cache-data-europa-eu.apps.osc.fokus.fraunhofer.de/',
+    qualityBaseUrl: 'https://piveau-metrics-cache-piveau.apps.osc.fokus.fraunhofer.de/',
 
-    similarityBaseUrl: 'https://data.europa.eu/api/similarities/',
+    // similarityBaseUrl: 'https://data.europa.eu/api/similarities/',
     // similarityBaseUrl: 'https://ppe.data.europa.eu/api/similarities/',
-    // similarityBaseUrl: 'https://piveau-metrics-dataset-similarities-data-europa-eu.apps.osc.fokus.fraunhofer.de/',
+    similarityEndpoint: 'similarities',
+    similarityBaseUrl: 'https://piveau-metrics-dataset-similarities-piveau.apps.osc.fokus.fraunhofer.de/',
 
-    fileUploadUrl: 'https://data.europa.eu/api/hub/store/',
+    // fileUploadUrl: 'https://data.europa.eu/api/hub/store/',
     // fileUploadUrl: 'https://ppe.data.europa.eu/api/hub/store/',
-    // fileUploadUrl: 'https://piveau-hub-store-data-europa-eu.apps.osc.fokus.fraunhofer.de/',
+    fileUploadUrl: 'https://piveau-hub-store-piveau.apps.osc.fokus.fraunhofer.de/',
 
     sparqlUrl: 'https://data.europa.eu/sparql',
     gazetteerBaseUrl: 'https://data.europa.eu/api/hub/search/gazetteer/',
@@ -40,17 +41,17 @@ const glueConfig = {
       useLogin: true,
 
       loginTitle: 'Login',
-      loginURL: '/login',
-      loginRedirectUri: '/',
+      loginURL: '/data/login',
+      loginRedirectUri: '/data',
 
       logoutTitle: 'Logout',
-      logoutURL: '/logout',
-      logoutRedirectUri: '/',
+      logoutURL: '/data/logout',
+      logoutRedirectUri: '/data',
     },
     keycloak: {
-      realm: 'piveau',
+      realm: 'vanilla',
       clientId: 'piveau-hub-ui',
-      url: 'https://keycloak-piveau.apps.osc.fokus.fraunhofer.de/',
+      url: 'https://keycloak-piveau.apps.osc.fokus.fraunhofer.de',
 
       // TODO: Do we need to include these properties? They seem to be default values that never change #2763
       'ssl-required': 'external',
@@ -70,7 +71,7 @@ const glueConfig = {
   },
   routing: {
     routerOptions: {
-      base: '/', // TODO: Include piveau-header-footer instead of deu-header-footer to make test app working with default base path #2765
+      base: '/data', // TODO: Include piveau-header-footer instead of deu-header-footer to make test app working with default base path #2765
       mode: 'history',
     },
     navigation: {
@@ -98,7 +99,7 @@ const glueConfig = {
       maxKeywordLength: 15,
       facets: {
         useDatasetFacets: true,
-        useDatasetFacetsMap: true,
+        useDatasetFacetsMap: false,
         showClearButton: false,
         showFacetsTitle: false,
         cutoff: 5 ,
@@ -106,7 +107,7 @@ const glueConfig = {
         MAX_FACET_LIMIT: 50,
         FACET_OPERATORS: Object.freeze({ or: 'OR', and: 'AND' }),
         FACET_GROUP_OPERATORS: Object.freeze({ or: 'OR', and: 'AND' }),
-        defaultFacetOrder: ["publisher", "format", "catalog", "categories", "keywords", "dataScope", "country", "dataServices", "scoring", "license"],
+        defaultFacetOrder: ['publisher', 'format', 'catalog', 'categories', 'keywords', 'dataScope', 'country', 'dataServices', 'scoring', 'license'],
         scoringFacets: {
           useScoringFacets: true, // TODO: Make use of this property #2764
           defaultScoringFacets: {
@@ -157,10 +158,11 @@ const glueConfig = {
         MAX_FACET_LIMIT: 100,
         FACET_OPERATORS: Object.freeze({ or: 'OR', and: 'AND' }),
         FACET_GROUP_OPERATORS: Object.freeze({ or: 'OR', and: 'AND' }),
-        defaultFacetOrder: ["country"],
+        defaultFacetOrder: ['country'],
       },
     },
     datasetDetails: {
+      properties: "",
       header: {
         navigation: "top",
         hidePublisher: false,
@@ -169,6 +171,10 @@ const glueConfig = {
       keywords: {
         isVisible: true,
         showTitle: false,
+        collapsed: false,  // displayAll
+      },
+      categoriesKey: {
+        isVisible: true,
         collapsed: false,  // displayAll
       },
       description: {
@@ -180,10 +186,10 @@ const glueConfig = {
         incrementSteps: [10, 50],
         descriptionMaxLines: 3,
         descriptionMaxChars: 250,
-        showValidationButton: false, // TODO: Make use of this property #2764
+        showValidationButton: true,
       },
       downloadAs: {
-        enable: true,
+        enable: false,
         proxyUrl: 'https://piveau-corsproxy-piveau.apps.osc.fokus.fraunhofer.de',
         url: 'https://piveau-fifoc-piveau.apps.osc.fokus.fraunhofer.de/v1/convert',
         conversionFormats: [
@@ -196,6 +202,14 @@ const glueConfig = {
           { sourceFileFormat: 'XLS', targetFileFormat: [ 'xls', 'csv',]},
           { sourceFileFormat: 'PDF', targetFileFormat: [ 'pdf', 'txt',]}
         ]
+      },
+      // Embed Dataset feat
+      embed: {
+        enable: false,
+        defaultWidth: 900,
+        defaultHeight: 600,
+        minRange: 0,
+        maxRange: 9999,
       },
       similarDatasets: {
         breakpoints: {
@@ -235,7 +249,7 @@ const glueConfig = {
         isVisible: false,
       },
       bulkDownload: {
-        buttonPosition: "top",
+        buttonPosition: "bottom",
         MAX_FILE_TITLE_LENGTH: 80,
         MAX_REQUESTS_COUNT: 5, // TODO: Make use of this property #2764
         INTERVAL_MS: 10, // TODO: Make use of this property #2764
@@ -252,7 +266,7 @@ const glueConfig = {
       }
     },
     maps: {
-      mapVisible: true,
+      mapVisible: false,
       useAnimation: true,
       location: [[52.526, 13.314], 10],
       spatialType: 'Point',
@@ -292,6 +306,8 @@ const glueConfig = {
       basePath: '/dpi',
       specification: 'dcatap',
       annifIntegration: false,
+      annifLinkSubject:'https://data.europa.eu/annif/v1/projects/eurovoc-nn-ensemble-eurlex-en/suggest',
+      annifLinkTheme:'https://data.europa.eu/annif/v1/projects/data-theme-nn-ensemble-en/suggest',
       enableFileUploadReplace: false,
       buttons: {
         Dataset: true,
