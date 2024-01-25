@@ -187,6 +187,7 @@ const glueConfig = {
         descriptionMaxLines: 3,
         descriptionMaxChars: 250,
         showValidationButton: true,
+        hidePreviewButton: true,
       },
       downloadAs: {
         enable: false,
