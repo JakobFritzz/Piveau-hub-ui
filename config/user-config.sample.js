@@ -236,7 +236,7 @@ const glueConfig = {
         descriptionMaxChars: 250,
       },
       dataServices: {
-        isVisible: false,
+        isVisible: true,
         displayAll: false,
         displayCount: 7,
         incrementSteps: [10, 50],
