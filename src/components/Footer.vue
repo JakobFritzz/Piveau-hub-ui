@@ -4,9 +4,20 @@
   <div id="piveau-footer" class="p-5 d-flex justify-content-center">
     <div class="w-33">
       <h4>Information</h4>
+      
       <ul>
-        <li><a href="/imprint">Impressum</a></li>
-        <li><a href="/privacypolicy">Datenschutz</a></li>
+        <li class="mb-2">
+          <component :is="isNuxt ? 'nuxt-link' : 'router-link'" :to="'/imprint'" 
+            active-class="router-link-active">
+            Impressum
+          </component>
+        </li>
+        <li>
+          <component :is="isNuxt ? 'nuxt-link' : 'router-link'" :to="'/privacypolicy'" 
+            active-class="router-link-active">
+            Datenschutz
+          </component>
+        </li>
       </ul>
     </div>
     <div class="w-33">
@@ -26,6 +37,11 @@ export default {
   props: {
 
   },
+  data() {
+    return {
+      isNuxt: false
+    }
+  }
 };
 </script>
 
@@ -47,12 +63,14 @@ export default {
 
   ul {
     list-style: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
   }
-  a{
+
+  a {
     color: white;
   }
+
 }
 
 .w-33 {
