@@ -13,9 +13,9 @@ import {
   Datasets,
   Catalogues,
   NotFound,
+  // Imprint,
+  // PrivacyPolicy,
   SparqlSearch,
-  Imprint,
-  PrivacyPolicy,
   DataProviderInterface,
   DataFetchingComponent,
   OverviewPage,
@@ -27,6 +27,8 @@ import {
   decode,
 } from "@piveau/piveau-hub-ui-modules";
 
+import Imprint from './components/Imprint.vue'
+import PrivacyPolicy from './components/PrivacyPolicy.vue'
 
 Vue.use(Router);
 
@@ -44,7 +46,7 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      redirect: { name: 'Datasets'  },
+      redirect: { name: 'Datasets' },
       meta: {
         title,
       },
@@ -213,74 +215,74 @@ if (GLUE_CONFIG.content.dataProviderInterface.useService) {
       requiresAuth: true,
     }
   }),
-  router.addRoute({
-    path: '/dpi/draft/:name.:format',
-    name: 'DataProviderInterface-LinkedData',
-    component: LinkedDataViewer,
-    props: true,
-    meta: {
-      requiresAuth: true,
-    }
-  }),
-  router.addRoute({
-    path: '/dpi/user/',
-    name: 'DataProviderInterface-UserProfile',
-    component: UserProfilePage,
-    meta: {
-      requiresAuth: true,
-    }
-  }),
-  router.addRoute({
-    path: '/dpi/user-catalogues',
-    name: 'DataProviderInterface-UserCatalogues',
-    component: UserCataloguesPage,
-    meta: {
-      requiresAuth: true,
-    }
-  }),
-  router.addRoute({
-    path: '/dpi/edit/:catalog/:property/:id',
-    name: "DataProviderInterface-Edit",
-    component: DataFetchingComponent,
-    props: true
-  }),
-  router.addRoute({
-    path: "/dpi",
-    name: "DataProviderInterface",
-    component: DataProviderInterface,
-    meta: {
-      requiresAuth: true,
+    router.addRoute({
+      path: '/dpi/draft/:name.:format',
+      name: 'DataProviderInterface-LinkedData',
+      component: LinkedDataViewer,
+      props: true,
+      meta: {
+        requiresAuth: true,
+      }
+    }),
+    router.addRoute({
+      path: '/dpi/user/',
+      name: 'DataProviderInterface-UserProfile',
+      component: UserProfilePage,
+      meta: {
+        requiresAuth: true,
+      }
+    }),
+    router.addRoute({
+      path: '/dpi/user-catalogues',
+      name: 'DataProviderInterface-UserCatalogues',
+      component: UserCataloguesPage,
+      meta: {
+        requiresAuth: true,
+      }
+    }),
+    router.addRoute({
+      path: '/dpi/edit/:catalog/:property/:id',
+      name: "DataProviderInterface-Edit",
+      component: DataFetchingComponent,
+      props: true
+    }),
+    router.addRoute({
+      path: "/dpi",
+      name: "DataProviderInterface",
+      component: DataProviderInterface,
+      meta: {
+        requiresAuth: true,
+      },
+      children: [
+        {
+          path: ":property",
+          name: "DataProviderInterface-Home",
+          redirect: { path: ':property/step1' },
+          props: true
+        },
+        {
+          path: ":property/overview",
+          name: "DataProviderInterface-Overview",
+          component: OverviewPage,
+          props: true
+        },
+        {
+          path: ":property/:page",
+          name: "DataProviderInterface-Input",
+          component: InputPage,
+          props: true,
+          children: [
+            {
+              path: ":id",
+              name: "DataProviderInterface-ID",
+              component: InputPage,
+              props: true,
+            },
+          ],
+        },
+      ]
     },
-    children: [
-      {
-        path: ":property",
-        name: "DataProviderInterface-Home",
-        redirect: { path: ':property/step1' },
-        props: true
-      },
-      {
-        path: ":property/overview",
-        name: "DataProviderInterface-Overview",
-        component: OverviewPage,
-        props: true
-      },
-      {
-        path: ":property/:page",
-        name: "DataProviderInterface-Input",
-        component: InputPage,
-        props: true,
-        children: [
-          {
-            path: ":id",
-            name: "DataProviderInterface-ID",
-            component: InputPage,
-            props: true,
-          },
-        ],
-      },
-    ]
-  },
-  );
+    );
 }
 
 router.beforeEach((to, from, next) => {
