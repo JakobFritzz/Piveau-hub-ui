@@ -1,6 +1,7 @@
 <template>
     <div>
         <h2>Datenschutzerklärung</h2>
+        <hr>
         <div class="impressText">
 
             <b>Datenschutzinformation Piveau Metadatenportal</b>
