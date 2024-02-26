@@ -26,6 +26,8 @@ const glueConfig = {
     similarityEndpoint: 'similarities',
     similarityBaseUrl: 'https://piveau-metrics-dataset-similarities-piveau.apps.osc.fokus.fraunhofer.de/',
 
+    similarityServiceName: 'similarity',
+
     // fileUploadUrl: 'https://data.europa.eu/api/hub/store/',
     // fileUploadUrl: 'https://ppe.data.europa.eu/api/hub/store/',
     fileUploadUrl: 'https://piveau-hub-store-piveau.apps.osc.fokus.fraunhofer.de/',

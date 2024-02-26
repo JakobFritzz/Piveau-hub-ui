@@ -1,7 +1,31 @@
 
 
 <template>
-  <div id="piveau-footer">
+  <div id="piveau-footer" class="p-5 d-flex justify-content-center">
+    <div class="w-33">
+      <h4>Information</h4>
+      
+      <ul>
+        <li class="mb-2">
+          <component :is="isNuxt ? 'nuxt-link' : 'router-link'" :to="'/imprint'" 
+            active-class="router-link-active">
+            Impressum
+          </component>
+        </li>
+        <li>
+          <component :is="isNuxt ? 'nuxt-link' : 'router-link'" :to="'/privacypolicy'" 
+            active-class="router-link-active">
+            Datenschutz
+          </component>
+        </li>
+      </ul>
+    </div>
+    <div class="w-33">
+      <h4></h4>
+    </div>
+    <div class="w-33">
+      <h4></h4>
+    </div>
   </div>
 </template>
 
@@ -13,6 +37,11 @@ export default {
   props: {
 
   },
+  data() {
+    return {
+      isNuxt: false
+    }
+  }
 };
 </script>
 
@@ -22,15 +51,30 @@ export default {
 
 
 #piveau-footer {
-    margin-top: 60px;
-    padding: 60px 0 160px 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #FFF;
-    text-align: left;
-    background: $primary;
-    background-color: $primary;
+  margin-top: 60px;
+  padding: 60px 0 160px 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #FFF;
+  text-align: left;
+  background: $primary;
+  background-color: $primary;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: white;
+  }
+
+}
+
+.w-33 {
+  min-width: 33%;
 }
 
 /***********************************
@@ -38,10 +82,11 @@ export default {
 ***********************************/
 
 #piveau-footer .container {
-	max-width: 1340px !important;
+  max-width: 1340px !important;
 }
+
 #piveau-footer *:not(.far):not(.fas):not(.fab) {
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /***********************************
@@ -52,21 +97,25 @@ export default {
   padding-top: 35px;
   padding-bottom: 20px;
 }
+
 #piveau-footer #footer_first .region-footer-first-left,
 #piveau-footer #footer_first .region-footer-first-middle,
 #piveau-footer #footer_first .region-footer-first-right {
   padding-bottom: 25px;
 }
+
 #piveau-footer #footer_first {
   font-size: 1em;
   font-weight: normal;
   color: $primary;
 }
+
 #piveau-footer .btn.btn-footer {
   background-color: $primary;
   border-color: $primary;
   // border-radius: 4px;
 }
+
 #piveau-footer .btn.btn-footer:hover {
   background-color: #196fd2;
   border-color: #196fd2;
@@ -78,6 +127,7 @@ BOTTOM SITE BRANDING
 #piveau-footer #footer_first #block-sitebranding {
   margin-bottom: 25px;
 }
+
 // #piveau-footer #footer_first #block-sitebranding > a {
 //   float: left;
 // }
@@ -92,8 +142,9 @@ BOTTOM SITE BRANDING
   text-transform: uppercase;
   font-weight: 300;
 }
+
 #piveau-footer #footer_first #block-edp3-branding .site-branding__text a strong {
-font-weight: bold;
+  font-weight: bold;
 }
 
 /***********************************
@@ -105,6 +156,7 @@ FUNDED BY NOTICE
   float: none;
   margin-right: 10px;
 }
+
 #piveau-footer #footer_first #block-fundedby p {
   margin: 0;
   line-height: 40px;
@@ -120,9 +172,11 @@ FUNDED BY NOTICE
   margin-top: 25px;
   margin-bottom: 15px;
 }
+
 #piveau-footer #footer_first #block-helpusimprove p {
   line-height: 20px;
 }
+
 #piveau-footer #footer_first #block-helpusimprove p a {
   color: $primary;
   font-size: 14px;
@@ -135,10 +189,12 @@ FOLLOW US
   margin: 25px 0 0 0;
   padding: 0;
 }
+
 #piveau-footer #footer_first #block-followuson ul li {
   list-style-type: none;
   overflow: hidden;
 }
+
 #piveau-footer #footer_first #block-followuson ul li a {
   color: $primary;
   line-height: 20px;
@@ -151,6 +207,7 @@ FOLLOW US
   color: #196fd2;
   text-decoration: none;
 }
+
 #piveau-footer #footer_first #block-followuson ul li a:before {
   font-family: "Font Awesome 5 Brands";
   font-weight: 900;
@@ -165,7 +222,7 @@ RESPONSIVE
 ***********************************/
 @media screen and (min-width: 768px) and (max-width:1090px) {
   #piveau-footer #footer_first #block-sitebranding .site-branding__text a {
-    line-height:1;
+    line-height: 1;
     width: 150px;
     padding-top: 13px;
     padding-left: 5px;
@@ -188,7 +245,4 @@ RESPONSIVE
     display: inline-block;
   }
 }
-
-
-
 </style>
