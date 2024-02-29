@@ -1,0 +1,146 @@
+{
+  "name": "vanilla-piveau-hub-ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "vite --host",
+    "build": "vite build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint"
+  },
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ],
+  "dependencies": {
+    "@braid/vue-formulate": "^2.5.3",
+    "@citation-js/core": "^0.5.7",
+    "@citation-js/plugin-bibtex": "^0.5.7",
+    "@citation-js/plugin-csl": "^0.5.7",
+    "@citation-js/plugin-doi": "^0.5.7",
+    "@deu/deu-cookie-consent": "^2.1.0",
+    "@deu/deu-header-footer": "^4.20.2-beta.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "@piveau/dcatap-frontend": "^2.5.0",
+    "@piveau/piveau-header-footer": "^3.13.1",
+    "@piveau/piveau-hub-ui-modules": "^3.16.18",
+    "@piveau/piveau-universal-piwik": "^3.1.1",
+    "@rdfjs/dataset": "^2.0.1",
+    "@triply/yasgui": "^4.2.25",
+    "@triply/yasqe": "^4.2.23",
+    "@triply/yasr": "^4.2.25",
+    "animejs": "^2.2.0",
+    "axios": "^0.21.1",
+    "babel-eslint": "^10.0.1",
+    "bootstrap": "^4.3.1",
+    "core-js": "^3.22.4",
+    "dayjs": "^1.11.10",
+    "dompurify": "^2.3.6",
+    "es6-promise": "^4.2.4",
+    "file-loader": "^6.2.0",
+    "file-saver": "^2.0.5",
+    "i18n-iso-countries": "^7.4.0",
+    "jquery": "^3.6.0",
+    "jsonld": "^5.2.0",
+    "jszip": "^3.9.1",
+    "jwt-decode": "^2.2.0",
+    "keycloak-js": "^22.0.3",
+    "leaflet": "^1.8.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-easybutton": "^2.4.0",
+    "leaflet-editable": "^1.2.0",
+    "lodash": "^4.17.21",
+    "marked": "^4.0.15",
+    "merge-anything": "^2.4.1",
+    "moment": "^2.29.4",
+    "popper.js": "^1.14.3",
+    "qs": "^6.10.3",
+    "vee-validate": "^2.2.6",
+    "vue": ">=2.x",
+    "vue-clickaway": "^2.2.2",
+    "vue-cookie": "^1.1.4",
+    "vue-head": "^2.1.2",
+    "vue-i18n": "^8.27.1",
+    "vue-inject": "^2.1.0",
+    "vue-matomo": "^3.9.1-2",
+    "vue-meta": "^2.3.1",
+    "vue-position-sticky": "^0.2.1",
+    "vue-progressbar": "^0.7.4",
+    "vue-router": "^3.5.0",
+    "vue-select": "^3.18.3",
+    "vue-step-progress": "^0.3.7",
+    "vue2-datepicker": "^3.11.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/gitlab": "^12.0.1",
+    "@types/jest": "^27.0.1",
+    "@types/jquery": "^3.5.14",
+    "@types/jsonld": "^1.5.8",
+    "@types/node": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "@vue/test-utils": "^1.1.3",
+    "@vue/vue2-jest": "^27.0.0-alpha.2",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "jest": "^27.0.5",
+    "rollup": "^3.3.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "sass": "^1.32.7",
+    "semantic-release": "^21.0.5",
+    "skeleton-loader-vue": "^1.0.10",
+    "ts-jest": "^27.0.4",
+    "typescript": "~4.5.5",
+    "url-loader": "^4.1.1",
+    "vue-template-compiler": "^2.7.14",
+    "vuex-router-sync": "^5.0.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "volta": {
+    "node": "16.18.1"
+  },
+  "release": {
+    "branches": [
+      {
+        "name": "master"
+      },
+      {
+        "name": "develop",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/gitlab",
+        {
+          "gitlabUrl": "https://gitlab.fokus.fraunhofer.de"
+        }
+      ]
+    ]
+  }
+}
