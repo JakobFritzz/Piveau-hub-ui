@@ -44,7 +44,6 @@ Router.prototype.replace = function replace(location) {
  return originalReplace.call(this, location).catch(error => error.name !== 'NavigationDuplicated' ? Promise.reject(error) : error);
 };
 
-
 const router = new Router({
   base: '/',
   mode: GLUE_CONFIG.routing.routerOptions.mode,
