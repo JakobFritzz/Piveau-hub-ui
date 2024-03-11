@@ -33,7 +33,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.1",
     "@piveau/dcatap-frontend": "^2.5.0",
     "@piveau/piveau-header-footer": "^3.13.1",
-    "@piveau/piveau-hub-ui-modules": "^3.16.18",
+    "@piveau/piveau-hub-ui-modules": "^3.16.24",
     "@piveau/piveau-universal-piwik": "^3.1.1",
     "@rdfjs/dataset": "^2.0.1",
     "@triply/yasgui": "^4.2.25",
