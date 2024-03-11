@@ -34,16 +34,6 @@ Vue.use(Router);
 
 const title = GLUE_CONFIG.metadata.title;
 
-const originalPush = Router.prototype.push;
-Router.prototype.push = function push(location) {
- return originalPush.call(this, location).catch(error => error.name !== 'NavigationDuplicated' ? Promise.reject(error) : error);
-};
-
-const originalReplace = Router.prototype.replace;
-Router.prototype.replace = function replace(location) {
- return originalReplace.call(this, location).catch(error => error.name !== 'NavigationDuplicated' ? Promise.reject(error) : error);
-};
-
 const router = new Router({
   base: '/',
   mode: GLUE_CONFIG.routing.routerOptions.mode,
