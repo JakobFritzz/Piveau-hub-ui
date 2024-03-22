@@ -23,6 +23,14 @@ git checkout -b $theme_name
 rm -r config images public tests types
 rm -r babel.config.js .browserslistrc CONTRIBUTING.md cypress.json Dockerfile .dockerignore .editorconfig .eslintignore .eslintrc.js index.html jest.config.js nginx.vh.default.conf .npmrc .nvmrc package.json package-lock.json README.md runtimeconfig.sh theme_generator.sh theme-run-dev.sh tsconfig.json vite.config.ts
 
+echo "**************"
+echo "Done"
+echo "**************"
+echo "To launch the theme editor enter:"
+echo "sudo docker-compose -f theme-builder-docker-compose-dev.yml --env-file ./theme-env.sample up"
+echo "**************"
+echo ""
+
 read -p "Do you want to push this brach to origin? Type 'y' or 'n': " user_input
 
 if [ "$user_input" != "y" ]; then
@@ -33,9 +41,6 @@ else
 fi
 
 echo "**************"
-echo "All done"
+echo "All done!"
 echo "**************"
-echo "To launch the theme editor enter:"
-echo "sudo docker-compose -f theme-builder-docker-compose-dev.yml --env-file ./theme-env.sample up"
-echo "**************"
-echo ""
+
