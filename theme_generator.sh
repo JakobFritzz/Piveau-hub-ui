@@ -26,10 +26,10 @@ rm -r babel.config.js .browserslistrc CONTRIBUTING.md cypress.json Dockerfile .d
 read -p "Do you want to push this brach to origin? Type 'y' or 'n': " user_input
 
 if [ "$user_input" != "y" ]; then
-    echo "Operation aborted."
-    exit 1
+    echo "Your branch is only stored locally"
 else
   git push origin $theme_name
+  echo "Your branch has been pushed to the remote repository"
 fi
 
 echo "**************"
