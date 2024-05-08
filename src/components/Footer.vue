@@ -4,19 +4,13 @@
   <div id="piveau-footer" class="p-5 d-flex justify-content-center">
     <div class="w-33">
       <h4>Information</h4>
-      
+
       <ul>
         <li class="mb-2">
-          <component :is="isNuxt ? 'nuxt-link' : 'router-link'" :to="'/imprint'" 
-            active-class="router-link-active">
-            Impressum
-          </component>
+          <router-link to="/imprint">Impressum</router-link>
         </li>
-        <li>
-          <component :is="isNuxt ? 'nuxt-link' : 'router-link'" :to="'/privacypolicy'" 
-            active-class="router-link-active">
-            Datenschutz
-          </component>
+        <li class="mb-2">
+          <router-link to="/privacypolicy">Datenschutz</router-link>
         </li>
       </ul>
     </div>

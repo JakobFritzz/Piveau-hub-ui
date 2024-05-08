@@ -23,19 +23,24 @@ git checkout -b $theme_name
 rm -r config images public tests types
 rm -r babel.config.js .browserslistrc CONTRIBUTING.md cypress.json Dockerfile .dockerignore .editorconfig .eslintignore .eslintrc.js index.html jest.config.js nginx.vh.default.conf .npmrc .nvmrc package.json package-lock.json README.md runtimeconfig.sh theme_generator.sh theme-run-dev.sh tsconfig.json vite.config.ts
 
-read -p "Do you want to push this brach to origin? Type 'y' or 'n': " user_input
-
-if [ "$user_input" != "y" ]; then
-    echo "Operation aborted."
-    exit 1
-else
-  git push origin $theme_name
-fi
-
 echo "**************"
-echo "All done"
+echo "Done"
 echo "**************"
 echo "To launch the theme editor enter:"
 echo "sudo docker-compose -f theme-builder-docker-compose-dev.yml --env-file ./theme-env.sample up"
 echo "**************"
 echo ""
+
+read -p "Do you want to push this brach to origin? Type 'y' or 'n': " user_input
+
+if [ "$user_input" != "y" ]; then
+    echo "Your branch is only stored locally"
+else
+  git push origin $theme_name
+  echo "Your branch has been pushed to the remote repository"
+fi
+
+echo "**************"
+echo "All done!"
+echo "**************"
+
