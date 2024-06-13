@@ -1,0 +1,194 @@
+// import custom theme
+@import 'bootstrap_theme';
+
+// import full bootstrap framework
+@import "~bootstrap/scss/bootstrap.scss";
+
+// Import Piveau modules
+@import "@modules-scss/main.scss";
+
+.distribution-dropdown-download-one-url {
+  margin-top: -0.35rem;
+  text-align: left;
+}
+
+
+// Hacky solution to fix the dataset details -- needs to be fixed in the modules #### start ######
+.additional-information-overlay {
+  opacity: 0;
+}
+
+#myTab {
+  max-height: 100% !important;
+}
+
+.keywords__item {
+  margin-left: 8rem;
+}
+
+.alert-dismissible {
+  margin-left: 5rem;
+}
+
+.dsd-subject-feature {
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+.dsd-subject-feature {
+  .mb-4 {
+    margin-left:8rem;
+    font-weight: 400 !important;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+.dsd-item{
+  table{
+    padding: 1rem
+  }
+}
+// Hacky solution to fix the dataset details #### end ######
+.circle {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 12px;
+  line-height: 1px;
+  border-radius: 50%;
+  background-color: #595959;
+
+  &[type="HTML"] {
+    background-color: #285C76;
+  }
+
+  &[type="JSON"] {
+    background-color: var(--dark-orange);
+  }
+
+  &[type="XML"] {
+    background-color: #8F4300;
+  }
+
+  &[type="TXT"] {
+    background-color: #2B5E73;
+  }
+
+  &[type="CSV"] {
+    background-color: var(--badge-green);
+  }
+
+  &[type="XLS"],
+  &[type="Excel XLSX"] {
+    background-color: #1A6537;
+  }
+
+  &[type="ZIP"] {
+    background-color: #252525;
+  }
+
+  &[type="API"] {
+    background-color: #923560;
+  }
+
+  &[type="PDF"] {
+    background-color: #B30519;
+  }
+
+  &[type="SHP"] {
+    background-color: var(--badge-black);
+  }
+
+  &[type="RDF"],
+  &[type="NQUAD"],
+  &[type="NTRIPLES"],
+  &[type="TURTLE"] {
+    background-color: #0b4498;
+  }
+}
+
+.dsd-item {
+  @extend .col-12, .col-lg-11, .offset-lg-1;
+}
+
+.dsd-feature {
+  @extend .d-flex, .flex-wrap, .mt-5;
+}
+
+.dsd-feature-title {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.dsd-properties .show-more {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+
+  // less than lg
+  .dsd-nav-button button {
+    min-width: 200px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .dsd-features {
+    .row {
+
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+.mt-4 {
+  margin-top: 30px !important;
+}
+
+.mb-4 {
+  margin-bottom: 30px !important;
+}
+
+#navbar-toggle {
+  margin-bottom: 0 !important;
+}
+
+#blur {
+  // height: 130px !important;
+  // background-color: #efefef;
+  display: none !important;
+}
+
+#subStepperBox {
+  top: 215px !important;
+  background-color: #efefef;
+
+  // height: 130px;
+  #stepper .step-progress__step {
+    border: solid #efefef 20px;
+  }
+
+  .step-progress__wrapper {
+    background-color: #efefef;
+    border-bottom: 20px solid #efefef;
+  }
+
+  .step-progress__wrapper-before {
+    top: 35% !important
+  }
+
+  .step-progress__step--active .step-progress__step-label {
+    background-color: #efefef !important
+  }
+
+  .step-progress__wrapper-after {
+    top: 35% !important
+  }
+}
+
+// import empty theme after styles are loaded
+@import "empty_theme";
+@import "datasets_catalogs";
