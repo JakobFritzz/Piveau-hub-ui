@@ -85,6 +85,7 @@ app.config.performance = true;
 // Runtime Configuration Service
 app.use(runtimeConfigurationService, runtimeConfig, { baseConfig: GLUE_CONFIG, debug: false });
 const env = app.config.globalProperties.$env;
+console.log("ENV", env);
 
 configureModules(app, store, {
   serviceParams: {
