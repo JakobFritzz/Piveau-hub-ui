@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "npm run serve",
     "serve": "vite --host",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "sideEffects": [
     "*.css",
