@@ -1,0 +1,53 @@
+version: '3.3'
+services:
+
+    # To start an container where you can develop your own theme and see changes instantly, uncomment the followging lines.
+    # A piveau hub-ui instance will be launched at localhost:17085
+    # Please note that the folders src and public should contain a "theme"
+
+    hub-ui-theme-dev:
+        image: 'registry.gitlab.com/piveau/hub/piveau-hub-ui/theme-builder:latest'
+        # image: 'dockerhub.fokus.fraunhofer.de:5000/piveau/hub/piveau-hub-ui/theme-builder:latest'
+        volumes:
+            - './src:/App/src'
+            - './static:/App/static'
+        restart: "no"
+        # Do not load environment variables:
+        # command: /bin/sh -c "cd /App && cp -a src original_src && npm --silent ci && cp config/user-config.sample.js config/user-config.js && npm run serve"
+        # Load environment variables. You can define them in this file.
+        command: /bin/sh -c "/App/theme-run-dev.sh"
+        ports:
+            - '17085:8080'
+        environment:
+          # Ugly but no other way around: https://github.com/docker/compose/issues/9181
+          - VITE_METADATA_TITLE=${VITE_METADATA_TITLE:-My title}
+          - VITE_METADATA_KEYWORDS=${VITE_METADATA_KEYWORDS:-My keywords}
+          # api
+          - VITE_API_BASE_URL=${VITE_API_BASE_URL:-https://data.europa.eu/api/hub/search/}
+          - VITE_API_HUB_URL=${VITE_API_HUB_URL:-https://data.europa.eu/api/hub/repo/}
+          - VITE_API_QUALITY_BASE_URL=${VITE_API_QUALITY_BASE_URL:-https://data.europa.eu/api/mqa/cache/}
+          - VITE_API_SIMILARITY_BASE_URL=${VITE_API_SIMILARITY_BASE_URL:-https://data.europa.eu/api/similarities/}
+          - VITE_FILEUPLOAD_URL=${VITE_FILEUPLOAD_URL:-https://data.europa.eu/api/hub/store/}
+          - VITE_SPARQL_URL=${VITE_SPARQL_URL:-https://data.europa.eu/sparql}
+          - VITE_API_GAZETTEER_BASE_URL=${VITE_API_GAZETTEER_BASE_URL:-https://data.europa.eu/api/hub/search/gazetteer/}
+          - VITE_API_CATALOG_BASE_URL=${VITE_API_CATALOG_BASE_URL:-https://europeandataportal.eu/}
+          - VITE_CORSPROXY_API_URL=${VITE_CORSPROXY_API_URL:-https://piveau-corsproxy-piveau.apps.osc.fokus.fraunhofer.de}
+          # Keycloak
+          - VITE_AUTHENTICATION_KEYCLOAK_REALM=${VITE_AUTHENTICATION_KEYCLOAK_REALM:-piveau}
+          - VITE_AUTHENTICATION_KEYCLOAK_URL=${VITE_AUTHENTICATION_KEYCLOAK_URL:-https://keycloak-simtest.apps.osc.fokus.fraunhofer.de}
+          - VITE_AUTHENTICATION_KEYCLOAK_SSL_REQUIRED=${VITE_AUTHENTICATION_KEYCLOAK_SSL_REQUIRED:-external}
+          - VITE_AUTHENTICATION_KEYCLOAK_CLIENT_ID=${VITE_AUTHENTICATION_KEYCLOAK_CLIENT_ID:-piveau-hub-ui}
+          - VITE_AUTHENTICATION_KEYCLOAK_PUBLIC_CLIENT=${VITE_AUTHENTICATION_KEYCLOAK_PUBLIC_CLIENT:-true}
+          - VITE_AUTHENTICATION_KEYCLOAK_VERIFY_TOKEN_AUDIENCE=${VITE_AUTHENTICATION_KEYCLOAK_VERIFY_TOKEN_AUDIENCE:-true}
+          - VITE_AUTHENTICATION_KEYCLOAK_USE_RESOURCE_ROLE_MAPPINGS=${VITE_AUTHENTICATION_KEYCLOAK_USE_RESOURCE_ROLE_MAPPINGS:-true}
+          - VITE_AUTHENTICATION_KEYCLOAK_CONFIDENTIAL_PORT=${VITE_AUTHENTICATION_KEYCLOAK_CONFIDENTIAL_PORT:-0}
+          - VITE_AUTHENTICATION_KEYCLOAK_INIT_PKCE_METHOD=${VITE_AUTHENTICATION_KEYCLOAK_INIT_PKCE_METHOD:-S256}
+          - VITE_CONTENT_DATA_PROVIDER_INTERFACE_SPECIFICATION=${VITE_CONTENT_DATA_PROVIDER_INTERFACE_SPECIFICATION:-dcatapde}
+          - VITE_CONTENT_DATA_PROVIDER_INTERFACE_ENABLE_FILE_UPLOAD_REPLACE=${VITE_CONTENT_DATA_PROVIDER_INTERFACE_ENABLE_FILE_UPLOAD_REPLACE:-true}
+        deploy:
+          restart_policy:
+            condition: on-failure
+            max_attempts: 3
+        logging:
+            options:
+                max-size: 1g

@@ -1,0 +1,134 @@
+/* ############### Annif Boxes ###############       START         ###############*/
+.annifItems a{
+    background-color: none;
+    text-decoration: none;
+    color: black;
+    &:hover{
+        text-decoration: none;
+        box-shadow: none;
+
+    }
+}
+.annifItems select{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.annifItems{
+//  Misc
+    border: 1px solid #efefef;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+//  Transition config
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%);
+    transition-duration: 280ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+    transition-property: box-shadow background-color transform;
+//  Font  config
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+    &:hover{
+
+        text-decoration: none;
+        box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+
+    }
+
+}
+
+
+#suggestedAnnifItemsTheme{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    opacity: 1;
+    .annifItems{
+        opacity: 0;
+        width: 140px;
+    }
+}
+.annifButtonWrap{
+margin: 0 0 1rem 0;
+    .inactiveHandleBtn{
+        background-color: rgba(255, 255, 255, 0.363);
+        @extend .transitionDefinitionBezier;
+            transition-property: background;
+
+    }
+}
+.annifPlusIcon{
+    position: relative;
+    margin-right: 30px;
+    svg{
+        width: 20px;
+        height: 20px;
+        z-index: -99;
+        position: absolute;
+        transform: rotate(0deg);
+        transition-duration: 80ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-delay: 0s;
+        transition-property: transform;
+    }
+
+}
+.fadeIn {
+    animation: fadeLeft 0.8s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    margin-left: 0.5rem;
+
+}
+
+  @keyframes fadeLeft {
+
+
+    30%
+     {
+        margin-left: 0.25rem;
+        opacity: 0.2;
+    }
+
+    100%
+     {
+        margin-left: 0.5rem;
+        opacity: 1;
+    }
+
+
+  }
+/* ############### Annif Boxes ###############         END         ###############*/
+/* ############### Prebuilt Animations ###############       START         ###############*/
+
+.rotate45{
+    transform: rotate(45deg) !important;
+}
+.greenBG{
+    background-color:rgba(0, 235, 0, 0.2);
+}
+.transitionDefinitionBezier{
+        transition-duration: 80ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-delay: 0s;
+}
+.dpiSpecialPropWrap td{
+
+
+
+}
+.table-responsive{
+tr{
+   display: flex;
+
+}
+}
+.dpiSpecialPropWrap{
+    tr{
+       display: flex;
+    }
+}
+
+/* Changing style sheet structure is a breaking change! (https://gitlab.fokus.fraunhofer.de/piveau/organisation/piveau-scrum-board/-/issues/2632) */

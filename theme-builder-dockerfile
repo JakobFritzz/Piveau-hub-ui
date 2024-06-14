@@ -1,0 +1,17 @@
+FROM node:18-alpine
+
+COPY . /App
+
+# Installs envsubst, creates configuration files and folder for distribution files.
+# Install node modules to speed up development
+RUN apk add gettext && \
+    cd /App && \
+    npm --silent ci && \
+    cp config/runtime-config.js config/runtime-config.tmp && \
+    cp config/user-config.sample.js config/user-config.js && \
+    chmod +x theme-run-dev.sh && \
+    mkdir -p /usr/share/nginx/html/
+
+
+# Rebuilds the application on start
+CMD [ "/bin/sh", "-c", "cd /App && npm run --silent build && cp -a dist/* /usr/share/nginx/html/ && rm -r dist" ]
