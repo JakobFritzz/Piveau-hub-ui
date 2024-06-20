@@ -1158,11 +1158,13 @@ If no errors or warnings are shown and the application is running as before, the
 
 ## 12. Changes to runtime-config.js
 
+<details><summary>Open</summary>
+
 The string values defined in runtime-config.js (in the config folder) have changed (among other changes, they now 
-start with "$Vite_" instead of "$VUE_APP_") use the latest version of this file in Vanilla-hub-ui and
+start with `$Vite_` instead of `$VUE_APP_`) use the latest version of this file in Vanilla-hub-ui and
 adapt variable definitions in your deployment accordingly.
 
-All variables now start with "$VITE_" instead of "$VUE_APP_". Additionally, we have the following
+All variables now start with `$VITE_` instead of `$VUE_APP_`. Additionally, we have the following
 changes (read as "before --> new"):
 
 ```
@@ -1209,6 +1211,8 @@ $VITE_CONTENT_DATASETDETAILS_BULKDOWNLOAD_INTERVAL_MS --> $VITE_CONTENT_DATASET_
 $VITE_CONTENT_DATASETDETAILS_BULKDOWNLOAD_TIMEOUT_MS --> $VITE_CONTENT_DATASET_DETAILS_BULK_DOWNLOAD_TIMEOUT__MS
 $VITE_CONTENT_DATASETDETAILS_QUALITY_CSV_LINTER_ENABLE --> $VITE_CONTENT_DATASET_DETAILS_QUALITY_CSV_LINTER_ENABLE
 ```
+
+</details>
 
 ## References
 
