@@ -5,7 +5,7 @@ function join_by { local IFS="$1"; shift; echo "$*"; }
 echo I am $(whoami)
 
 # Find vue env vars
-vars=$(env | grep VUE_APP_ | awk -F = '{print "$"$1}')
+vars=$(env | grep VITE_ | awk -F = '{print "$"$1}')
 vars=$(join_by ',' $vars)
 echo "Found variables $vars"
 

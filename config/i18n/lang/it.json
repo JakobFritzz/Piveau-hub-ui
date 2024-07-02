@@ -128,7 +128,8 @@
             "isVersionOf": "è la versione di",
             "pageDescriptionContactPoint": "Aggiungi il tipo, il nome e l'e-mail del punto di contatto al tuo set di dati",
             "goToDataset": "Vai alla pagina del set di dati",
-            "updatedOnDataEuropaEU": "Aggiornato su data.europa.eu"
+            "updatedOnDataEuropaEU": "Aggiornato su data.europa.eu",
+            "protecteddata": "Dati protetti"
         },
         "dataupload": {
             "info": {
@@ -136,706 +137,6 @@
                 "information": "Informazioni"
             },
             "datasets": {
-                "step2": {
-                    "isReferencedBy": {
-                        "add-label": "Aggiungi is referenced by",
-                        "placeholder": "Serie di dati Is referenced by placeholder text",
-                        "help": "Si tratta di una risorsa correlata.",
-                        "info": "Questa proprietà riguarda una risorsa correlata, come una pubblicazione, che fa riferimento, cita o indica in altro modo l'insieme di dati.",
-                        "label": "È oggetto di riferimento"
-                    },
-                    "contactPointAddressCity": {
-                        "placeholder": "Serie di dati: punto di contatto Indirizzo città (placeholder)",
-                        "label": "Indirizzo città"
-                    },
-                    "source": {
-                        "label": "Fonte",
-                        "help": "Serie di dati da cui si ricava il set di dati descritto.",
-                        "info": "Questa proprietà fa riferimento a un set di dati correlato dal quale deriva il set di dati descritto.",
-                        "placeholder": "Serie di dati Source placeholder text",
-                        "add-label": "Aggiungi fonte"
-                    },
-                    "type": {
-                        "label": "Tipo",
-                        "help": "Questa proprietà si riferisce al tipo di set di dati.",
-                        "info": "Questa proprietà si riferisce al tipo di set di dati. È previsto un tipo di dati del vocabolario controllato raccomandato.",
-                        "placeholder": "Testo dello spazio riservato al tipo di serie di dati"
-                    },
-                    "pageUrl": {
-                        "label": "URL",
-                        "placeholder": "Testo del placeholder della serie di dati Page Url"
-                    },
-                    "admsIdentifierSkosNotation": {
-                        "help": "Dataset Risoluzione temporanea Testo segnaposto verbale",
-                        "label": "Un identificatore in un particolare contesto, costituito dalla stringa che è l'identificatore;"
-                    },
-                    "spatialPlace": {
-                        "placeholder": "Serie di dati Spatial Place placeholder text",
-                        "label": "Luogo"
-                    },
-                    "subject": {
-                        "label": "Documento completo",
-                        "help": "Catalogo Diritti segnaposto testo",
-                        "info": "Una dichiarazione che specifica i diritti associati al catalogo. Questa proprietà si riferisce a una dichiarazione che specifica i diritti associati al Catalogo."
-                    },
-                    "qualifiedRelationUrl": {
-                        "placeholder": "Serie di dati \"Qualified Relation Url\" (spazio riservato Url)",
-                        "label": "URL"
-                    },
-                    "accrualPeriodicity": {
-                        "info": "Questa proprietà si riferisce alla frequenza di aggiornamento del set di dati.",
-                        "label": "Periodicità per competenza",
-                        "placeholder": "Testo della serie di dati sul placeholder di periodicità per competenza",
-                        "help": "Questa proprietà si riferisce alla frequenza di aggiornamento del set di dati."
-                    },
-                    "isReferencedByUrl": {
-                        "label": "URL",
-                        "placeholder": "Serie di dati Is referenced by Url placeholder text"
-                    },
-                    "versionNotes": {
-                        "placeholder": "Testo riservato alle note della serie di dati (Version Note)",
-                        "label": "Note di versione",
-                        "help": "Descrizione delle modifiche tra la versione in oggetto e quella precedente del set di dati.",
-                        "info": "Questa proprietà contiene una descrizione delle differenze tra questa versione e una versione precedente del set di dati. Questa proprietà può essere ripetuta per le versioni linguistiche parallele delle note di versione.",
-                        "add-label": "Aggiungi note di versione in un'altra lingua"
-                    },
-                    "contactPointAddressStreet": {
-                        "label": "Via dell'indirizzo",
-                        "placeholder": "Testo del punto di contatto Address Street della serie di dati"
-                    },
-                    "relationUrl": {
-                        "label": "URL",
-                        "placeholder": "Data et Relation Url placeholder text"
-                    },
-                    "isVersionOfUrl": {
-                        "placeholder": "Serie di dati Is Version Of Url placeholder text",
-                        "label": "URL"
-                    },
-                    "conformsTo": {
-                        "label": "Conforme a quanto segue:",
-                        "help": "Questa proprietà si riferisce a una norma di attuazione o ad altre specifiche.",
-                        "info": "Questa proprietà si riferisce a una norma di attuazione o ad altre specifiche.",
-                        "placeholder": "Contenuto dell'insieme di dati verso il testo dello spazio riservato",
-                        "add-label": "Aggiungi Conforme a"
-                    },
-                    "pageFormat": {
-                        "placeholder": "Testo dello spazio riservato al formato della serie di dati",
-                        "label": "Formato"
-                    },
-                    "qualifiedAttributionUrl": {
-                        "placeholder": "Insieme di dati Qualificato Attribution text Url placeholder text",
-                        "label": "URL"
-                    },
-                    "isVersionOf": {
-                        "add-label": "Aggiungi IS versione della",
-                        "help": "La serie di dati è una versione, un'edizione o un adattamento.",
-                        "label": "È versione del",
-                        "info": "Questa proprietà fa riferimento a un set di dati correlato del quale il set di dati descritto costituisce una versione, una riedizione o un adattamento.",
-                        "placeholder": "Serie di dati Is Versione del testo dello spazio riservato"
-                    },
-                    "relation": {
-                        "placeholder": "Testo dello spazio riservato alla relazione sulla serie di dati",
-                        "add-label": "Aggiungi relazione",
-                        "help": "Questa proprietà fa riferimento a una risorsa correlata.",
-                        "info": "Questa proprietà fa riferimento a una risorsa correlata.",
-                        "label": "Relazione"
-                    },
-                    "provenance": {
-                        "label": "Provenienza",
-                        "help": "Questa proprietà contiene un'indicazione relativa alla genealogia di un set di dati.",
-                        "add-label": "Aggiungi la prova",
-                        "info": "Questa proprietà contiene un'indicazione relativa alla genealogia di un set di dati.",
-                        "placeholder": "Testo dello spazio riservato alla prova della serie di dati"
-                    },
-                    "language": {
-                        "help": "La copertura linguistica di questo set di dati.",
-                        "info": "La copertura linguistica di questo set di dati.",
-                        "placeholder": "Testo dello spazio riservato alla lingua della serie di dati",
-                        "label": "Lingua"
-                    },
-                    "spatialContinent": {
-                        "placeholder": "Serie di dati Spatial Continent placeholder text",
-                        "label": "Continente"
-                    },
-                    "spatialResolutionInMeters": {
-                        "help": "Separazione spaziale minima risolvibile in un insieme di dati.",
-                        "info": "Questa proprietà si riferisce alla separazione spaziale minima risolvibile in una serie di dati, misurata in metri.",
-                        "label": "Risoluzione spaziale nei parametri",
-                        "placeholder": "Risoluzione territoriale della serie di dati in Meters placeholder text"
-                    },
-                    "qualifiedAttribution": {
-                        "add-label": "Aggiungi Attribuzione qualificata",
-                        "help": "Collegamento a un agente avente una qualche forma di responsabilità per la risorsa",
-                        "info": "Questa proprietà si riferisce a un collegamento con un agente avente una qualche forma di responsabilità per la risorsa.",
-                        "label": "Attribuzione qualificata",
-                        "placeholder": "Serie di dati: testo del placeholder \"Attribuzione qualificata\""
-                    },
-                    "temporal": {
-                        "help": "Tale proprietà si riferisce a un periodo temporale coperto dal Dataset.",
-                        "info": "Tale proprietà si riferisce a un periodo temporale coperto dal Dataset.",
-                        "add-label": "Aggiungi Temporale",
-                        "label": "Temporale",
-                        "placeholder": "Serie di dati: testo del placeholder Temporal"
-                    },
-                    "temporalResolutionYear": {
-                        "placeholder": "Catalogo Creator E-mail segnaposto testo",
-                        "label": "Catalogo Creatore Nome segnaposto testo"
-                    },
-                    "admsIdentifier": {
-                        "add-label": "Catalogo Licenza Titolo segnaposto testo",
-                        "label": "catalogo",
-                        "help": "Un catalogo i cui contenuti sono di interesse nel contesto di questo catalogo.",
-                        "info": "Catalogo Catalogo segnaposto testo Aggiungi Catalogo in un'altra lingua L'ente responsabile della produzione del catalogo Aggiungi creatore"
-                    },
-                    "accessRights": {
-                        "help": "Diritti di accesso agli insiemi di dati.",
-                        "info": "Questa proprietà si riferisce a informazioni che indicano se il set di dati è dati aperti, è soggetto a restrizioni di accesso o non è pubblico.",
-                        "label": "Diritti di accesso",
-                        "placeholder": "Spazio riservato all'insieme di dati sui diritti di accesso"
-                    },
-                    "pageDescription": {
-                        "label": "Descrizione",
-                        "placeholder": "Testo dello spazio riservato alla descrizione della serie di dati"
-                    },
-                    "identifier": {
-                        "add-label": "Aggiungi Identifier",
-                        "placeholder": "Testo del placeholder Identifier set di dati",
-                        "label": "Identificatore",
-                        "help": "Questa proprietà contiene l'identificativo principale del set di dati.",
-                        "info": "Questa proprietà contiene l'identificativo principale del set di dati, ad esempio l'URI o altro identificativo univoco nel contesto del catalogo."
-                    },
-                    "creatorName": {
-                        "placeholder": "Serie di dati Creator Name placeholder text",
-                        "label": "Nome"
-                    },
-                    "hasVersionUrl": {
-                        "label": "URL",
-                        "placeholder": "Testo del placeholder della serie di dati Has Version Url"
-                    },
-                    "versionInfo": {
-                        "label": "Versione Info",
-                        "placeholder": "Testo dello spazio riservato alle informazioni sulla versione della serie di dati",
-                        "help": "Numero di versione del set di dati.",
-                        "info": "Questa proprietà contiene un numero di versione o un'altra denominazione della serie di dati."
-                    },
-                    "theme": {
-                        "label": "Tema",
-                        "placeholder": "Testo del gruppo di dati Tema placeholder",
-                        "help": "I settori di EuroVoc per questo set di dati.",
-                        "info": "I valori da utilizzare per questa proprietà sono gli URI dei concetti del vocabolario."
-                    },
-                    "hasVersion": {
-                        "placeholder": "Testo della serie di dati Has Version placeholder",
-                        "help": "Si tratta di una versione, di un'edizione o di un adattamento del set di dati descritto.",
-                        "info": "Questa proprietà fa riferimento a un set di dati correlato che costituisce una versione, una riedizione o un adattamento del set di dati descritto.",
-                        "add-label": "Aggiungi la versione Has",
-                        "label": "Ha versione"
-                    },
-                    "temporalResolution": {
-                        "label": "Risoluzione temporale",
-                        "help": "Il periodo di tempo minimo risolvibile nell'insieme di dati.",
-                        "info": "Questa proprietà si riferisce al periodo di tempo minimo risolvibile nell'insieme di dati.",
-                        "placeholder": "Serie di dati: testo dello spazio riservato alla risoluzione temporanea"
-                    },
-                    "wasGeneratedBy": {
-                        "label": "È stata generata da",
-                        "add-label": "Aggiungi Was Generated by",
-                        "placeholder": "Serie di dati \"Was Generated by placeholder text\"",
-                        "help": "Questa proprietà si riferisce a un'attività che ha generato.",
-                        "info": "Questa proprietà si riferisce a un'attività che ha generato o fornisce il contesto commerciale per la creazione dell'insieme di dati."
-                    },
-                    "temporalResolutionHour": {
-                        "placeholder": "Crea un ID univoco",
-                        "label": "Questa proprietà contiene l'identificatore principale per il Dataset."
-                    },
-                    "qualifiedRelation": {
-                        "help": "Questa proprietà fornisce un collegamento a una descrizione di una relazione con un'altra risorsa",
-                        "info": "Questa proprietà fornisce un collegamento a una descrizione di una relazione con un'altra risorsa",
-                        "label": "Relazione qualificata",
-                        "add-label": "Aggiungi relazione qualificata",
-                        "placeholder": "Serie di dati: spazio riservato alle relazioni qualificate"
-                    },
-                    "pageTitle": {
-                        "placeholder": "Serie di dati: spazio riservato al titolo della pagina",
-                        "label": "Titolo"
-                    },
-                    "landingPageUrl": {
-                        "label": "URL",
-                        "placeholder": "Spazio riservato alla serie di dati per l'atterraggio della pagina Url"
-                    },
-                    "conformsToTitle": {
-                        "placeholder": "Contenuto dei set di dati verso il testo dello spazio riservato al titolo",
-                        "label": "Titolo"
-                    },
-                    "conformsToUrl": {
-                        "placeholder": "Serie di dati Conforme per urtare il testo del placeholder",
-                        "label": "URL"
-                    },
-                    "landingPage": {
-                        "help": "Questa proprietà si riferisce a una pagina web che fornisce accesso al set di dati.",
-                        "info": "Questa proprietà fa riferimento a una pagina web che fornisce accesso al set di dati, alle sue distribuzioni e/o a informazioni aggiuntive. Lo scopo è quello di indicare una pagina di arrivo presso il fornitore di dati originale e non una pagina di un sito di terzi, come un aggregatore.",
-                        "label": "Pagina di sbarco",
-                        "placeholder": "Serie di dati: testo dello spazio riservato alla pagina di atterraggio",
-                        "add-label": "Aggiungi pagina di sbarco"
-                    },
-                    "creatorType": {
-                        "label": "Tipo",
-                        "placeholder": "Testo della serie di dati \"Creator Type placeholder\""
-                    },
-                    "contactPointAddressPostcode": {
-                        "label": "Indirizzo Codice postale",
-                        "placeholder": "Data set di dati Indirizzo del punto di contatto Postcode placeholder text"
-                    },
-                    "contactPointTelephone": {
-                        "label": "Telefono",
-                        "placeholder": "Testo dell'insieme di dati per il punto di contatto telefonico (placeholder)"
-                    },
-                    "spatial": {
-                        "placeholder": "Testo della serie di dati Spatial placeholder",
-                        "help": "Regione geografica coperta dal Dataset.",
-                        "info": "Questa proprietà si riferisce a una regione geografica coperta da Dataset.",
-                        "label": "Spazio"
-                    },
-                    "page": {
-                        "label": "Pagina",
-                        "help": "Pagina o documento relativo a questo set di dati.",
-                        "placeholder": "Testo dello spazio riservato alla serie di dati",
-                        "info": "Questa proprietà si riferisce a una pagina o a un documento relativo a questo set di dati.",
-                        "add-label": "Aggiungi pagina"
-                    },
-                    "temporalResolutionMonth": {
-                        "placeholder": "Questa proprietà si riferisce ad un catalogo il cui contenuto è di interesse nel contesto di questo catalogo.",
-                        "label": "Catalogo Creator Homepage segnaposto testo"
-                    },
-                    "temporalResolutionSecond": {
-                        "placeholder": "Catalogo Licenza Descrizione segnaposto testo",
-                        "label": "Descrizione della licenza"
-                    },
-                    "identifierText": {
-                        "placeholder": "Data set di dati Identifier Text placeholder text text (Identifier text)",
-                        "label": "Testo"
-                    },
-                    "contactPointAddressCountry": {
-                        "label": "31 gennaio 2022",
-                        "placeholder": "Adottata il 16 dicembre 2021."
-                    },
-                    "contactPointName": {
-                        "placeholder": "Serie di dati: nome del punto di contatto (placeholder)",
-                        "label": "Nome"
-                    },
-                    "isUsedBy": {
-                        "help": "Titolo della licenza",
-                        "label": "URL della licenza",
-                        "info": "Descrizione della licenza",
-                        "placeholder": "Catalogo Licenza URL segnaposto testo",
-                        "add-label": "Catalogo Licenza Titolo segnaposto testo"
-                    },
-                    "contactPointType": {
-                        "label": "Tipo",
-                        "placeholder": "Testo dello spazio riservato al tipo di punto di contatto della serie di dati"
-                    },
-                    "temporalResolutionMinute": {
-                        "placeholder": "Catalogo",
-                        "label": "Questa proprietà contiene l'identificatore principale per l'insieme di dati, ad esempio l'URI o un altro identificatore unico nel contesto del catalogo."
-                    },
-                    "sourceUrl": {
-                        "label": "URL",
-                        "placeholder": "Serie di dati Fonte URL, testo del placeholder"
-                    },
-                    "spatialCountry": {
-                        "label": "Paese",
-                        "placeholder": "Testo della serie di dati Spatial Country placeholder text"
-                    },
-                    "creatorEmail": {
-                        "label": "E-mail",
-                        "placeholder": "Data et Creator Email placeholder text"
-                    },
-                    "contactPointEmail": {
-                        "label": "E-mail",
-                        "placeholder": "Testo dello spazio riservato al punto di contatto dell'indirizzo e-mail della serie di dati"
-                    },
-                    "contactPointAddress": {
-                        "label": "Scienza, Sicurezza alimentare, Sostenibilità.",
-                        "help": "Documento di programmazione 2022-2024"
-                    },
-                    "admsIdentifierUrl": {
-                        "label": "Un identificatore in un particolare contesto, costituito dalla stringa che è l'identificatore.",
-                        "placeholder": "Verbale della risoluzione temporale"
-                    },
-                    "temporalStart": {
-                        "label": "Inizio"
-                    },
-                    "contactPointOrganisationName": {
-                        "placeholder": "Spazio riservato al nome dell'organizzazione del set di dati del punto di contatto",
-                        "label": "Nome dell'organizzazione"
-                    },
-                    "creator": {
-                        "help": "Questa proprietà si riferisce all'entità responsabile della produzione dell'insieme di dati.",
-                        "add-label": "Aggiungi Creator",
-                        "info": "Questa proprietà si riferisce all'entità responsabile della produzione dell'insieme di dati.",
-                        "label": "Creatore"
-                    },
-                    "contactPoint": {
-                        "label": "Punto di contatto",
-                        "placeholder": "Testo dello spazio riservato al punto di contatto della serie di dati",
-                        "add-label": "Aggiungi punto di contatto",
-                        "help": "Questa proprietà contiene informazioni di contatto.",
-                        "info": "Questa proprietà contiene informazioni di contatto che possono essere utilizzate per inviare commenti sul set di dati."
-                    },
-                    "admsIdentifierValue": {
-                        "placeholder": "Titolo della licenza",
-                        "label": "Un identificativo facoltativo per il sistema di identificatori;"
-                    },
-                    "temporalEnd": {
-                        "label": "Fine"
-                    },
-                    "contactPointUrl": {
-                        "label": "URL",
-                        "placeholder": "Testo dell'insieme di dati del punto di contatto Url placeholder"
-                    },
-                    "temporalResolutionDay": {
-                        "label": "Creatore",
-                        "placeholder": "ID del set di dati"
-                    },
-                    "creatorHomepage": {
-                        "placeholder": "Data set di dati Creator Homepage placeholder text",
-                        "label": "Homepage"
-                    },
-                    "admsIdentifierType": {
-                        "label": "Tipo"
-                    },
-                    "admsIdentifierCheckbox": {
-                        "label": "catalogo Creator Tipo segnaposto testo"
-                    },
-                    "wasGeneratedByUrl": {
-                        "label": "URL",
-                        "placeholder": "Serie di dati \"Was Generated by Url placeholder text\" (Was Generated by Url placeholder text)"
-                    },
-                    "provenanceText": {
-                        "label": "Testo",
-                        "placeholder": "Data set di dati Il testo del testo provvisorio"
-                    },
-                    "schemeIdentifier": {
-                        "label": "Questa proprietà si riferisce all'entità responsabile della produzione del catalogo"
-                    }
-                },
-                "step1": {
-                    "description": {
-                        "label": "Descrizione",
-                        "add-label": "Aggiungi descrizione in un'altra lingua",
-                        "placeholder": "Serie di dati: testo dello spazio riservato alla descrizione",
-                        "help": "La descrizione principale del set di dati.",
-                        "info": "La descrizione principale del set di dati. Spesso è indicata insieme al titolo del pacchetto. In particolare, dovrebbe iniziare con una frase che descriva brevemente il set di dati, poiché alcune visualizzazioni dei set di dati consentono di utilizzare solo poche parole."
-                    },
-                    "publisherType": {
-                        "label": "Tipo",
-                        "placeholder": "Serie di dati: spazio riservato al tipo dell'editore"
-                    },
-                    "title": {
-                        "add-label": "Aggiungere titolo in un'altra lingua",
-                        "placeholder": "Testo dello spazio riservato al titolo della serie di dati",
-                        "help": "Breve titolo descrittivo per il set di dati.",
-                        "info": "Breve titolo descrittivo per il set di dati. Non deve essere una descrizione: quella va inserita nell'apposito campo. Non smettere di fermarsi completamente. Non utilizzare tutte lettere maiuscole.",
-                        "label": "Titolo"
-                    },
-                    "datasetID": {
-                        "help": "Chiudi",
-                        "info": "Documento di lavoro dei servizi della Commissione sulla valutazione della direttiva sui servizi postali",
-                        "label": "grow-c3@ec.europa.eu"
-                    },
-                    "publisherName": {
-                        "placeholder": "Serie di dati del nome dell'editore (placeholder)",
-                        "label": "Nome"
-                    },
-                    "keyword": {
-                        "add-label": "Aggiungi parola chiave",
-                        "help": "Termini separati da virgole che possono collegare questo set di dati ad altri set di dati simili.",
-                        "placeholder": "Testo della serie di dati Keyword placeholder",
-                        "info": "Termini separati da virgole che possono collegare questo set di dati ad altri set di dati simili. Le parole chiave devono essere composte da caratteri alfanumerici minuscoli o simboli: —_. Le sequenze di più parole devono essere unite da un trattino, ad es. \"water-quality (qualità dell'acqua)\"",
-                        "label": "Parola chiave"
-                    },
-                    "modified": {
-                        "label": "Modificato",
-                        "help": "Data più recente in cui l'insieme di dati è stato modificato, aggiornato o modificato.",
-                        "info": "Data più recente in cui l'insieme di dati è stato modificato, aggiornato o modificato. Formati di data accettabili: AAAA-MM-GG, AAAA-MM, AAAA.",
-                        "placeholder": "Serie di dati Modificated placeholder text (testo modificato)"
-                    },
-                    "publisher": {
-                        "help": "Entità (persona, organizzazione o servizio) responsabile della messa a disposizione del set di dati.",
-                        "add-label": "Aggiungi editore in un'altra lingua",
-                        "info": "Entità (persona, organizzazione o servizio) responsabile della messa a disposizione del set di dati.",
-                        "placeholder": "Serie di dati: testo dello spazio riservato all'editore",
-                        "label": "Editore"
-                    },
-                    "datetime": {
-                        "label": "Il set di dati è usato dal testo della guida"
-                    },
-                    "catalog": {
-                        "placeholder": "Si prega di inviare quando si può proformarlo per pagare e dirci quando possiamo prendere i prodotti.",
-                        "help": "Relazione sull'applicazione e l'attuazione del regolamento sui servizi di consegna transfrontaliera dei pacchi",
-                        "label": "Documento di lavoro dei servizi della Commissione sulla valutazione della direttiva sui servizi postali — Sintesi",
-                        "info": "Grazie mille"
-                    },
-                    "issued": {
-                        "placeholder": "Serie di dati: testo dello spazio riservato",
-                        "label": "Rilasciato",
-                        "help": "Data di rilascio formale (ad esempio pubblicazione) dell'insieme di dati. Formati di data accettabili: AAAA-MM-GG, AAAA-MM, AAAA.",
-                        "info": "Questa proprietà contiene la data di rilascio formale (ad esempio, pubblicazione) del set di dati."
-                    },
-                    "language": {
-                        "placeholder": "Testo dello spazio riservato alla lingua della serie di dati",
-                        "label": "Lingua",
-                        "help": "La copertura linguistica di questo set di dati.",
-                        "info": "La copertura linguistica di questo set di dati."
-                    },
-                    "publisherEmail": {
-                        "placeholder": "Serie di dati del gruppo di dati Email",
-                        "label": "E-mail"
-                    },
-                    "publisherHomepage": {
-                        "label": "Homepage",
-                        "placeholder": "Data set di dati Homepage Homepage dell'editore"
-                    },
-                    "date": {
-                        "label": "Il set di dati è utilizzato dal testo del segnaposto"
-                    }
-                },
-                "step3": {
-                    "temporalResolution": {
-                        "help": "Il periodo di tempo minimo risolvibile nella distribuzione dell'insieme di dati.",
-                        "info": "Questa proprietà si riferisce al periodo di tempo minimo risolvibile nella distribuzione dell'insieme di dati.",
-                        "placeholder": "Distribuzione testo dello spazio riservato alla risoluzione nel tempo",
-                        "label": "Risoluzione temporale",
-                        "add-label": "Aggiungi risoluzione temporale"
-                    },
-                    "spatialResolutionInMeters": {
-                        "help": "Separazione spaziale minima risolvibile in un insieme di dati.",
-                        "info": "Questa proprietà si riferisce alla separazione spaziale minima risolvibile in una serie di dati, misurata in metri.",
-                        "placeholder": "Risoluzione territoriale della distribuzione nel testo dello spazio riservato ai contatori",
-                        "label": "Risoluzione spaziale nei parametri"
-                    },
-                    "compressFormat": {
-                        "placeholder": "Distribuzione testo placeholder in formato Compress",
-                        "help": "Il formato del file in cui i dati sono contenuti in forma compressa.",
-                        "info": "Questa proprietà si riferisce al formato del file in cui i dati sono contenuti in forma compressa, ad esempio per ridurre le dimensioni del file scaricabile. DOVREBBE essere espresso utilizzando un tipo di mezzo definito nel registro ufficiale dei tipi di media gestiti dalla IANA.",
-                        "label": "Formato compresso"
-                    },
-                    "mediaType": {
-                        "placeholder": "Distribution Media Type placeholder text (testo dello spazio riservato ai media di distribuzione)",
-                        "help": "Il formato del file in cui i dati sono contenuti in forma compressa.",
-                        "info": "Questa proprietà si riferisce al formato del file in cui i dati sono contenuti in forma compressa, ad esempio per ridurre le dimensioni del file scaricabile. IT DOVREBBE essere espresso utilizzando un tipo di supporto quale definito dal funzionario",
-                        "label": "Tipo di mezzo di comunicazione"
-                    },
-                    "pageTitle": {
-                        "label": "Titolo",
-                        "placeholder": "Spazio riservato al titolo della pagina di distribuzione"
-                    },
-                    "language": {
-                        "placeholder": "Distribuzione testo dello spazio riservato alla lingua",
-                        "label": "Lingua",
-                        "help": "Una lingua utilizzata nella distribuzione.",
-                        "info": "Questa proprietà si riferisce a una lingua utilizzata nella distribuzione. Questa proprietà può essere ripetuta se i metadati sono forniti in più lingue."
-                    },
-                    "packageFormat": {
-                        "placeholder": "Testo dello spazio riservato al formato del pacchetto di distribuzione",
-                        "help": "Il formato del file in cui sono raggruppati uno o più file di dati.",
-                        "info": "Questa proprietà si riferisce al formato del file in cui sono raggruppati uno o più file di dati, ad esempio per consentire di scaricare insieme una serie di file correlati. DOVREBBE essere espresso utilizzando un tipo di mezzo definito nel registro ufficiale dei tipi di media gestiti dalla IANA.",
-                        "label": "Formato del pacchetto"
-                    },
-                    "title": {
-                        "placeholder": "Spazio riservato al titolo della distribuzione",
-                        "help": "Questa proprietà contiene un nome attribuito alla distribuzione.",
-                        "info": "Questa proprietà contiene un nome attribuito alla distribuzione. Questa proprietà può essere ripetuta per le versioni linguistiche parallele della descrizione.",
-                        "add-label": "Aggiungere titolo in un'altra lingua",
-                        "label": "Titolo"
-                    },
-                    "licenceDescription": {
-                        "label": "Una categoria del Dataset.",
-                        "placeholder": "Questa proprietà si riferisce a una categoria del Dataset."
-                    },
-                    "checksumAlgorithm": {
-                        "label": "Elimina la distribuzione"
-                    },
-                    "status": {
-                        "help": "Lo stato della distribuzione nel contesto del ciclo di vita delle scadenze.",
-                        "info": "lo stato della distribuzione nel contesto del ciclo di vita delle scadenze. DEVE assumere uno dei valori Completed, deprecated, Under Development, Withdrawn.",
-                        "label": "Status",
-                        "placeholder": "Testo dello spazio riservato allo stato della distribuzione"
-                    },
-                    "downloadUrl": {
-                        "placeholder": "Distribuzione Sownload Url placeholder text",
-                        "help": "Link diretto a un file scaricabile in un dato formato.",
-                        "info": "Questa proprietà contiene un URL che è un link diretto a un file scaricabile in un dato formato.",
-                        "label": "Scarica Url"
-                    },
-                    "checksum": {
-                        "help": "Il totale di controllo è collegato al download Url.",
-                        "info": "Questa proprietà fornisce un meccanismo che può essere utilizzato per verificare che il contenuto di una distribuzione non sia cambiato. Il totale di controllo è collegato al download Url.",
-                        "placeholder": "Distribuzione testo del placeholder Checksum",
-                        "label": "Somma di controllo"
-                    },
-                    "licenceTitle": {
-                        "placeholder": "Oggetto",
-                        "label": "Dataset Contatto Indirizzo Paese segnaposto testo"
-                    },
-                    "type": {
-                        "label": "Tipo",
-                        "help": "Salva bozza",
-                        "info": "Pubblica il progetto"
-                    },
-                    "hasPolicyUrl": {
-                        "label": "URL",
-                        "placeholder": "Distribuzione testo del placeholder Url Policy Has"
-                    },
-                    "accessServiceDescription": {
-                        "add-label": "Pubblica set di dati",
-                        "label": "L'URIref è un identificatore univoco per l'insieme di dati/servizio di dati in data.europa.eu"
-                    },
-                    "temporalResolutionDay": {
-                        "placeholder": "Dataset ADMS:Identifier testo del segnaposto Url",
-                        "label": "Risorse correlate"
-                    },
-                    "page": {
-                        "placeholder": "Distribuzione testo dello spazio riservato alla pagina",
-                        "add-label": "Aggiungi pagina",
-                        "label": "Pagina",
-                        "help": "Una pagina o un documento su questa distribuzione.",
-                        "info": "Questa proprietà si riferisce a una pagina o a un documento relativo a questa distribuzione."
-                    },
-                    "accessService": {
-                        "help": "URL della licenza",
-                        "info": "Catalogo Licenza URL segnaposto testo",
-                        "add-label": "URL",
-                        "label": "Catalogo Licenza Descrizione segnaposto testo"
-                    },
-                    "availability": {
-                        "help": "Per quanto tempo si prevede di mantenere a disposizione la distribuzione del set di dati.",
-                        "info": "Questa proprietà indica la durata prevista per mantenere a disposizione la distribuzione del set di dati.",
-                        "placeholder": "Distribuzione Il testo dello spazio riservato alla disponibilità",
-                        "label": "Disponibilità"
-                    },
-                    "conformsToTitle": {
-                        "placeholder": "Conforme di distribuzione verso il testo dello spazio riservato al titolo",
-                        "label": "Titolo"
-                    },
-                    "rights": {
-                        "label": "Diritti",
-                        "placeholder": "Testo dello spazio riservato ai diritti di distribuzione",
-                        "help": "Questa proprietà si riferisce a una dichiarazione che specifica i diritti associati alla distribuzione.",
-                        "info": "Questa proprietà si riferisce a una dichiarazione che specifica i diritti associati alla distribuzione."
-                    },
-                    "format": {
-                        "placeholder": "Formato di distribuzione testo del placeholder",
-                        "help": "Il formato di file della distribuzione.",
-                        "info": "Questa proprietà si riferisce al formato di file della distribuzione.",
-                        "label": "Formato"
-                    },
-                    "conformsTo": {
-                        "placeholder": "Distribuzione Conforme verso il testo dello spazio riservato",
-                        "help": "Uno schema consolidato al quale è conforme la distribuzione descritta.",
-                        "info": "Questa proprietà si riferisce a uno schema consolidato al quale è conforme la distribuzione descritta.",
-                        "label": "Conforme a quanto segue:",
-                        "add-label": "Aggiungi Conforme a"
-                    },
-                    "pageDescription": {
-                        "placeholder": "Distribuzione Il testo dello spazio riservato alla descrizione della pagina di distribuzione",
-                        "label": "Descrizione"
-                    },
-                    "accessServiceTitle": {
-                        "add-label": "Identificativo",
-                        "label": "Regime"
-                    },
-                    "issued": {
-                        "placeholder": "Distribuzione testo dello spazio riservato",
-                        "help": "La data di rilascio formale (ad esempio, pubblicazione) della distribuzione.",
-                        "info": "Questa proprietà contiene la data di rilascio formale (ad esempio, pubblicazione) della distribuzione.",
-                        "label": "Rilasciato"
-                    },
-                    "licenceURL": {
-                        "placeholder": "ADMS:Identifier",
-                        "label": "Un insieme di dati può essere associato a più temi."
-                    },
-                    "modified": {
-                        "label": "Modificato",
-                        "placeholder": "Distribuzione testo del placeholder modificato",
-                        "help": "Data in cui la distribuzione è stata modificata o modificata.",
-                        "info": "Questa proprietà contiene la data più recente in cui la distribuzione è stata modificata o modificata."
-                    },
-                    "description": {
-                        "add-label": "Aggiungi descrizione in un'altra lingua",
-                        "help": "Questa proprietà contiene un account a testo libero della distribuzione.",
-                        "info": "Questa proprietà contiene un account a testo libero della distribuzione. Questa proprietà può essere ripetuta per le versioni linguistiche parallele della descrizione.",
-                        "placeholder": "Distribuzione: testo dello spazio riservato alla descrizione",
-                        "label": "Descrizione"
-                    },
-                    "datetime": {
-                        "label": "Aggiungi è usato da"
-                    },
-                    "temporalResolutionYear": {
-                        "placeholder": "Nome dell'organizzazione",
-                        "label": "Sei sicuro di voler eliminare questa distribuzione?"
-                    },
-                    "hasPolicy": {
-                        "add-label": "Aggiungi la politica in materia di Has",
-                        "help": "La politica che esprime i diritti.",
-                        "info": "Questa proprietà si riferisce alla polizza che esprime i diritti associati alla distribuzione se si usa il vocabolario dell'ODRL.",
-                        "label": "Ha una politica"
-                    },
-                    "byteSize": {
-                        "placeholder": "Distribuzione testo placeholder Byte Size",
-                        "help": "Le dimensioni di una distribuzione in byte.",
-                        "info": "Questa proprietà contiene le dimensioni di una distribuzione in byte.",
-                        "label": "Dimensione del byte"
-                    },
-                    "temporalResolutionMonth": {
-                        "placeholder": "È utilizzato da",
-                        "label": "URL"
-                    },
-                    "accessUrl": {
-                        "help": "Tale proprietà contiene un URL che dà accesso a una distribuzione del set di dati.",
-                        "info": "Tale proprietà contiene un URL che dà accesso a una distribuzione del set di dati. La risorsa dell'URL di accesso può contenere informazioni su come ottenere il set di dati.",
-                        "label": "Access Url",
-                        "placeholder": "Distribuzione testo del placeholder Access Url",
-                        "add-label": "Aggiungi Url di accesso"
-                    },
-                    "temporalResolutionMinute": {
-                        "label": "Aggiungi un altro ADMS:Identifier",
-                        "placeholder": "Risoluzione temporale Seconda"
-                    },
-                    "temporalResolutionHour": {
-                        "placeholder": "Dataset ADMS:Identifier testo segnaposto identificativo",
-                        "label": "Datasets ADMS:Identifier Schema aiuto testo"
-                    },
-                    "temporalResolutionSecond": {
-                        "label": "Dataset Risoluzione temporanea Secondo testo segnaposto",
-                        "placeholder": "È usato da"
-                    },
-                    "pageUrl": {
-                        "placeholder": "Distribuzione testo del placeholder Url sulla pagina",
-                        "label": "URL"
-                    },
-                    "pageFormat": {
-                        "label": "Formato",
-                        "placeholder": "Formato di distribuzione, testo dello spazio riservato al formato della pagina"
-                    },
-                    "licence": {
-                        "help": "La licenza in base alla quale è messa a disposizione la distribuzione.",
-                        "label": "Licenza",
-                        "placeholder": "Testo dello spazio riservato alla licenza di distribuzione",
-                        "info": "Questa proprietà si riferisce alla licenza in base alla quale è messa a disposizione la distribuzione."
-                    },
-                    "accessServiceEndpointURL": {
-                        "placeholder": "Salva l'insieme di dati",
-                        "label": "Salva come bozza"
-                    },
-                    "conformsToUrl": {
-                        "placeholder": "Conforme di distribuzione per urtare il testo dello spazio riservato",
-                        "label": "URL"
-                    },
-                    "date": {
-                        "label": "organizzazioni Le organizzazioni devono essere registrate per poter presentare domanda."
-                    }
-                },
                 "stepper": {
                     "step3": {
                         "children": {
@@ -853,187 +154,10 @@
                             }
                         }
                     },
-                    "overview": "Panoramica della serie di dati",
-                    "step1": {},
-                    "step2": {}
+                    "overview": "Panoramica della serie di dati"
                 }
             },
             "catalogues": {
-                "step2": {
-                    "rights": {
-                        "placeholder": "Le statistiche postali offrono uno strumento di lavoro analitico per gli utenti di dati postali in un'unica fonte.",
-                        "help": "Statistiche postali",
-                        "label": "Diritti",
-                        "info": "Dal 1993 la Commissione promuove e sostiene la creazione di norme tecniche nel settore postale."
-                    },
-                    "isPartOf": {
-                        "label": "È parte di",
-                        "placeholder": "Catalogo Is Parte del testo dello spazio riservato",
-                        "help": "Un catalogo correlato in cui il catalogo descritto è fisicamente o logicamente incluso.",
-                        "info": "Questa proprietà si riferisce a un catalogo correlato in cui il catalogo descritto è fisicamente o logicamente incluso."
-                    },
-                    "catalog": {
-                        "label": "Maggiori dettagli e presentazioni",
-                        "help": "La direttiva sui servizi postali riconosce il ruolo svolto dalla normazione a vantaggio dei clienti e degli operatori postali, ad esempio fornendo una misurazione standardizzata della qualità del servizio.",
-                        "info": "Periodo di transizione alla Brexit",
-                        "add-label": "La Commissione europea rappresenta l'UE in qualità di osservatore ufficiale presso l'agenzia specializzata delle Nazioni Unite per il settore postale, l'Unione postale universale (UPU).",
-                        "placeholder": "Standardizzazione nel settore postale"
-                    },
-                    "creatorEmail": {
-                        "label": "E-mail",
-                        "placeholder": "Studi sul settore postale"
-                    },
-                    "language": {
-                        "help": "Una lingua utilizzata nei metadati testuali che descrivono titoli, descrizioni, ecc.",
-                        "info": "Questa proprietà si riferisce a una lingua utilizzata nei metadati testuali che descrivono titoli, descrizioni, ecc. del set di dati. Questa proprietà può essere ripetuta se i metadati sono forniti in più lingue.",
-                        "label": "Lingua",
-                        "add-label": "Aggiungi lingua in un'altra lingua",
-                        "placeholder": "Testo dello spazio riservato alla lingua del catalogo"
-                    },
-                    "spatialContinent": {
-                        "label": "Continente",
-                        "placeholder": "Catalogo Spatial Continent placeholder text"
-                    },
-                    "spatial": {
-                        "help": "Questa proprietà si riferisce a una zona geografica coperta dal catalogo.",
-                        "info": "Questa proprietà si riferisce a una zona geografica coperta dal catalogo.",
-                        "add-label": "Aggiungi spazio in un'altra lingua",
-                        "label": "Spazio",
-                        "placeholder": "Catalogo Spatial placeholder text"
-                    },
-                    "creatorType": {
-                        "placeholder": "Studi sul settore postale",
-                        "label": "Tipo"
-                    },
-                    "hasPart": {
-                        "add-label": "Aggiungi parte Has",
-                        "label": "Ha parte",
-                        "help": "Questa proprietà si riferisce a un catalogo correlato che fa parte del catalogo descritto.",
-                        "placeholder": "Catalogo Has Part placeholder text (testo dello spazio riservato alla parte del catalogo)",
-                        "info": "Questa proprietà si riferisce a un catalogo correlato che fa parte del catalogo descritto."
-                    },
-                    "spatialCountry": {
-                        "label": "Paese",
-                        "placeholder": "Catalogo Spatial Country placeholder text (spazio riservato ai paesi del catalogo)"
-                    },
-                    "creator": {
-                        "help": "La Commissione ha uno status consultivo in seno al Comitato europeo per la regolamentazione postale (CERP).",
-                        "info": "Attività internazionali sui servizi postali",
-                        "label": "Orientamenti delle parti interessate sulle norme dell'UE in relazione all'acquisto online con successiva consegna dei pacchi",
-                        "add-label": "Anche i servizi postali fanno parte dei negoziati di adesione all'UE e degli accordi di libero scambio in termini di disposizioni normative e impegni."
-                    },
-                    "hasPartURL": {
-                        "placeholder": "Catalogo Has parte URL del testo",
-                        "label": "Ha parte"
-                    },
-                    "spatialPlace": {
-                        "placeholder": "Catalogo Spatial Place placeholder text",
-                        "label": "Luogo"
-                    },
-                    "creatorHomepage": {
-                        "label": "Pagina iniziale",
-                        "placeholder": "L'8 novembre 2021 la Commissione europea ha adottato la relazione sull'applicazione della direttiva sui servizi postali e la relazione sull'applicazione e l'attuazione del regolamento sui servizi di consegna transfrontaliera dei pacchi:"
-                    },
-                    "creatorName": {
-                        "placeholder": "Commissioniamo una serie di studi sul settore postale nell'UE.",
-                        "label": "Richiesta urgente di certificato"
-                    }
-                },
-                "step1": {
-                    "issued": {
-                        "info": "Questa proprietà contiene la data in cui la descrizione del set di dati è stata inserita nel catalogo.",
-                        "add-label": "Aggiungi emesso in un'altra lingua",
-                        "label": "Rilasciato",
-                        "placeholder": "Testo dello spazio riservato al catalogo rilasciato",
-                        "help": "Questa proprietà contiene la data in cui la descrizione del set di dati è stata inserita nel catalogo."
-                    },
-                    "title": {
-                        "label": "Titolo",
-                        "placeholder": "Spazio riservato al titolo del catalogo",
-                        "help": "Il nome attribuito al registro del catalogo. ",
-                        "info": "Questa proprietà contiene un nome attribuito al registro del catalogo. Questa proprietà può essere ripetuta per versioni linguistiche parallele del nome.",
-                        "add-label": "Aggiungere titolo in un'altra lingua"
-                    },
-                    "catalog": {
-                        "help": "Un servizio dati che dà accesso alla distribuzione del dataset",
-                        "info": "Questa proprietà si riferisce a un servizio di dati che dà accesso alla distribuzione del set di dati.",
-                        "label": "Servizio dati"
-                    },
-                    "description": {
-                        "label": "Descrizione",
-                        "help": "Questa proprietà contiene un account a testo libero della registrazione.",
-                        "info": "Questa proprietà contiene un account a testo libero della registrazione. Questa proprietà può essere ripetuta per le versioni linguistiche parallele della descrizione.",
-                        "add-label": "Aggiungi descrizione in un'altra lingua",
-                        "placeholder": "Testo dello spazio riservato alla descrizione del catalogo"
-                    },
-                    "publisherName": {
-                        "placeholder": "Spazio riservato al nome dell'editore del catalogo",
-                        "label": "Nome"
-                    },
-                    "licence": {
-                        "help": "La licenza in base alla quale il catalogo può essere utilizzato o riutilizzato.",
-                        "info": "Questa proprietà si riferisce alla licenza in base alla quale il catalogo può essere utilizzato o riutilizzato.",
-                        "label": "Licenza",
-                        "placeholder": "Testo dello spazio riservato alla licenza di catalogo"
-                    },
-                    "licenceTitle": {
-                        "label": "Il catalogo del set di dati.",
-                        "placeholder": "Dataset testo del segnaposto del catalogo"
-                    },
-                    "publisherEmail": {
-                        "label": "E-mail",
-                        "placeholder": "Spazio riservato all'editore del catalogo Email"
-                    },
-                    "modified": {
-                        "help": "La data più recente in cui la voce del catalogo è stata modificata o modificata.",
-                        "info": "Questa proprietà contiene la data più recente in cui la voce del catalogo è stata modificata o modificata.",
-                        "placeholder": "Testo dello spazio riservato al catalogo modificato",
-                        "label": "Modificato",
-                        "add-label": "Aggiungi modificato in un'altra lingua"
-                    },
-                    "publisher": {
-                        "label": "Editore",
-                        "placeholder": "Testo dello spazio riservato agli editori del catalogo",
-                        "help": "Questa proprietà si riferisce a un'entità (organizzazione) responsabile della messa a disposizione del set di dati.",
-                        "info": "Questa proprietà si riferisce a un'entità (organizzazione) responsabile della messa a disposizione del set di dati."
-                    },
-                    "publisherHomepage": {
-                        "placeholder": "Spazio riservato all'editore del catalogo Homepage",
-                        "label": "Homepage"
-                    },
-                    "licenceDescription": {
-                        "label": "Il catalogo del set di dati.",
-                        "placeholder": "Indirizzo del punto di contatto"
-                    },
-                    "licenceURL": {
-                        "placeholder": "Indirizzo Paese",
-                        "label": "Dataset Contact Point Indirizzo aiuto testo"
-                    },
-                    "publisherType": {
-                        "label": "Tipo",
-                        "placeholder": "Testo dello spazio riservato al tipo di editore"
-                    },
-                    "homepage": {
-                        "placeholder": "Catalogo Homepage placeholder text",
-                        "label": "Homepage",
-                        "help": "Una pagina web che funge da pagina principale del catalogo.",
-                        "info": "Questa proprietà si riferisce a una pagina web che funge da pagina principale del catalogo."
-                    },
-                    "datetime": {
-                        "label": "Dataset è usato Per info testo"
-                    },
-                    "language": {
-                        "label": "Lingua",
-                        "placeholder": "Testo dello spazio riservato alla lingua del catalogo"
-                    },
-                    "catalogURL": {
-                        "label": "Aggiungi un altro servizio dati",
-                        "placeholder": "Titolo del servizio dati"
-                    },
-                    "date": {
-                        "label": "Data"
-                    }
-                },
                 "stepper": {
                     "overview": "Panoramica del catalogo",
                     "step1": {
@@ -1133,7 +257,7 @@
             "datasets": {
                 "modal": {
                     "downloadingFiles": "Scaricare file",
-                    "zipNumberOfFiles": "File zip \"Cascicolo\"",
+                    "zipNumberOfFiles": "File zip \"Cascicolo\" {number}",
                     "waitingForDownload": "(in attesa del download)",
                     "downloadProgress": "Scarica Progress",
                     "notDownloaded": "Non scaricati",
@@ -1339,7 +463,13 @@
             },
             "countMessage": "Trovati cataloghi per ",
             "loadingMessage": "Caricamento cataloghi…",
-            "geoBoundsMessageRemove": "Chiudi questa notifica per rimuovere la restrizione o usa la funzione di ripristino."
+            "geoBoundsMessageRemove": "Chiudi questa notifica per rimuovere la restrizione o usa la funzione di ripristino.",
+            "meta": {
+                "page": {
+                    "title": "Cataloghi dei seti di dati aperti | Dati europei | data.europa.eu"
+                },
+                "description": "Scarica, condividi e analizza i seti di dati per catalogo. Esplora oltre 80 cataloghi di dati di istituzioni ufficiali in Europa."
+            }
         },
         "datasetFacets": {
             "facets": {
@@ -1360,7 +490,7 @@
                     "goodScoring": "Buono",
                     "excellentScoring": "Eccellente"
                 },
-                "publisher": "@: message.metadata.editore",
+                "publisher": "Editore",
                 "license": "Licenze",
                 "keywords": "Parole chiave",
                 "categories": "Categorie",
@@ -1381,7 +511,7 @@
                 "data": {
                     "euInternationalData": "Dati dell'UE e internazionali",
                     "datasets": "Set di dati",
-                    "catalogs": "Cataloghi",
+                    "catalogs": "Katalogai",
                     "metadataquality": "Qualità dei metadati",
                     "sparqleditor": "Editor SPARQL",
                     "statistics": "Statistiche",
@@ -1452,7 +582,11 @@
             "countMessage": "set di dati trovati per ",
             "foundDatasetsSingular": "1 serie di dati trovata",
             "meta": {
-                "translationNotComplete": "Traduzione non completa"
+                "translationNotComplete": "Traduzione non completa",
+                "page": {
+                    "title": "Set di dati aperti dell'UE | Portale ufficiale dei dati europei"
+                },
+                "description": "Il più grande portale di set di dati aperti in Europa. Consulta i seti di dati dell'UE suddivisi per paese, istituzione, catalogo, categorie, parole chiave e molto altro ancora."
             },
             "geoBoundsMessageRemove": "Chiudi questa notifica per rimuovere la restrizione o usa la funzione di ripristino.",
             "createDataset": "Crea un set di dati",
@@ -1486,7 +620,7 @@
             "newsletterText": "Iscriviti alla nostra newsletter",
             "newsletter": "Newsletter",
             "followUs": "Seguici su",
-            "managedBy": "Gestito dall'Ufficio delle pubblicazioni dell'Unione Europea",
+            "managedBy": "Gestito dall'Ufficio delle pubblicazioni dell'Unione Europea.",
             "fundedBy": "Finanziato dall'Unione europea"
         },
         "helpIcon": {
@@ -1639,6 +773,18 @@
         },
         "imprint": {
             "msg": "INSERIRE IMPRINT QUI"
+        },
+        "cookieConsent": {
+            "more": "Maggiori informazioni",
+            "text": "Usiamo i cookie su questo sito per migliorare l'esperienza dell'utente"
+        },
+        "notFound": {
+            "contactUsAbout": "Si invita a contattarci riguardo a questo messaggio di errore.",
+            "requested": {
+                "parttwo": "Pagina di ricerca del set di dati",
+                "page": "la pagina richiesta non è stata trovata. È possibile iniziare di nuovo dalla home page."
+            },
+            "error": "Errore"
         }
     }
 }

@@ -1,88 +1,49 @@
 // @ts-nocheck
 
-// Import IE Promise polyfill
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// import '@babel/polyfill';
 import 'es6-promise/auto';
 import $ from 'jquery';
-import { sync } from 'vuex-router-sync';
-import VueProgressBar from 'vue-progressbar';
-import VueI18n from 'vue-i18n';
-import VueFormulate from '@braid/vue-formulate';
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue';
-import Meta from 'vue-meta';
-import injector from 'vue-inject';
-import VeeValidate from 'vee-validate';
 
-
-import { library } from '@fortawesome/fontawesome-svg-core';
-import {
-  faHome, faChevronDown, faBars, faTimes, faSearch, faExternalLinkAlt, faUser,
-} from '@fortawesome/free-solid-svg-icons';
-import {
-  faComments,
-} from '@fortawesome/free-regular-svg-icons';
-import {
-  faFacebook, faTwitter, faYoutube,
-  faFacebookSquare, faTwitterSquare, faLinkedin, faYoutubeSquare,
-} from '@fortawesome/free-brands-svg-icons';
-
-library.add([
-  faHome, faChevronDown, faBars, faTimes, faSearch, faExternalLinkAlt, faComments, faUser,
-  faFacebook, faTwitter, faYoutube,
-  faFacebookSquare, faTwitterSquare, faLinkedin, faYoutubeSquare,
-]);
-
-
-import Header from './components/Header.vue';
-import Footer from './components/Footer.vue';
-
-import UniversalPiwik from '@piveau/piveau-universal-piwik';
-// import AppToast from '@/components/AppToast';
-// Import v-select
-// Import i18n validation messages for vueformulate
-// import {
-// ca, cs, da, nl, de, en, fr, hu, it, lt, nb, pl, pt, ru, sr, sk, es, tr, sv,
-// } from '@braid/vue-formulate-i18n';
-
-import { library } from '@fortawesome/fontawesome-svg-core';
-import {
-  faGoogle,
-  faGooglePlus,
-  faGooglePlusG,
-  faFacebook,
-  faFacebookF,
-  faInstagram,
-  faTwitter,
-  faLinkedinIn,
-} from '@fortawesome/free-brands-svg-icons';
-import {
-  faComment,
-  faExternalLinkAlt,
-  faPlus,
-  faMinus,
-  faArrowDown,
-  faArrowUp,
-  faInfoCircle,
-  faExclamationTriangle,
-} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+// Vue packages
+import VueProgressBar from "@aacassandra/vue3-progressbar";
+import VueClickAway from "vue3-click-away";
+import { plugin as FormKitPlugin, defaultConfig } from '@formkit/vue'
+import '@formkit/themes/genesis'
+import config from '../formkit.config.ts';
+import VueCookies from 'vue3-cookies';
 import VuePositionSticky from 'vue-position-sticky';
-// Import main user configurations (glueConfig) and i18n configurations
-import { glueConfig as GLUE_CONFIG, i18n as I18N_CONFIG } from '../config/user-config';
-import runtimeConfig from '../config/runtime-config';
+import { createHead } from '@unhead/vue';
+import { Skeletor } from 'vue-skeletor';
+import 'vue-skeletor/dist/vue-skeletor.css';
+
+// Fontawesome library
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faHome, faChevronDown, faBars, faTimes, faSearch, faExternalLinkAlt, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faComments } from '@fortawesome/free-regular-svg-icons';
+import { faFacebook, faTwitter, faYoutube, faFacebookSquare, faTwitterSquare, faLinkedin, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faGoogle, faGooglePlus, faGooglePlusG, faFacebook, faFacebookF, faInstagram, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faComment, faExternalLinkAlt, faPlus, faMinus, faArrowDown, faArrowUp, faInfoCircle, faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+// Vue setup
+import { createI18n } from 'vue-i18n';
+import { createApp } from 'vue';
+
 import router from './router';
 import App from './App';
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
+import vueKeyCloak from "./services/keycloakService";
+import UniversalPiwik from '@piveau/piveau-universal-piwik';
 
-import vueKeyCloak from "./services/keycloakService"
+import { glueConfig as GLUE_CONFIG, i18n as I18N_CONFIG } from '../config/user-config';
+import runtimeConfig from '../config/runtime-config';
 
 import {
   dateFilters,
   AppSnackbar,
   AppConfirmationDialog,
-  // VueKeyCloak,
   bulkDownloadCorsProxyService ,
   corsProxyService,
   runtimeConfigurationService,
@@ -90,24 +51,42 @@ import {
   InfoSlot,
   ConditionalInput,
   AutocompleteInput,
-  CustomNumber,
-  CustomURL,
   UniqueIdentifierInput,
   FileUpload,
-  DatePicker,
-  DateTimePicker,
   configureModules,
-  SelectedFacetsOverview
+  helpers,
 } from '@piveau/piveau-hub-ui-modules';
 import '@piveau/piveau-hub-ui-modules/styles';
 
-Vue.config.devtools = true;
 
-Vue.use(runtimeConfigurationService, runtimeConfig, { baseConfig: GLUE_CONFIG, debug: false });
-const env = Vue.prototype.$env;
+// Add Font Awesome Icons
+library.add([faHome, faChevronDown, faBars, faTimes, faSearch, faExternalLinkAlt, faComments, faUser, faFacebook, faTwitter, faYoutube, faFacebookSquare, faTwitterSquare, faLinkedin, faYoutubeSquare]);
+library.add(faGoogle, faGooglePlus, faGooglePlusG, faFacebook, faFacebookF, faInstagram, faTwitter, faLinkedinIn, faComment, faExternalLinkAlt, faPlus, faMinus, faArrowDown, faArrowUp, faInfoCircle, faExclamationTriangle);
 
-configureModules({
-  services: GLUE_CONFIG.services,
+// Bootstrap requirements to use js-features of bs-components
+import 'popper.js';
+import 'bootstrap';
+
+import './styles/styles.scss';
+import 'leaflet/dist/leaflet.css';
+import '@fortawesome/fontawesome-free/css/all.css';
+
+$(() => {
+  $('[data-toggle="popover"]').popover({ container: 'body' });
+  $('[data-toggle="tooltip"]').tooltip({ container: 'body' });
+});
+
+
+// Create the application
+const app = createApp(App);
+
+app.config.performance = true;
+
+// Runtime Configuration Service
+app.use(runtimeConfigurationService, runtimeConfig, { baseConfig: GLUE_CONFIG, debug: false });
+const env = app.config.globalProperties.$env;
+
+configureModules(app, store, {
   serviceParams: {
     baseUrl: env.api.baseUrl,
     qualityBaseUrl: env.api.qualityBaseUrl,
@@ -123,100 +102,61 @@ configureModules({
   }
 });
 
+app.component('piveau-header', Header);
+app.component('piveau-footer', Footer);
+app.component('InfoSlot', InfoSlot);
+app.component('ConditionalInput', ConditionalInput);
+app.component('AutocompleteInput', AutocompleteInput);
+app.component('UniqueIdentifierInput', UniqueIdentifierInput);
+app.component('FileUpload', FileUpload);
+app.component('AppSnackbar', AppSnackbar);
+app.component('AppConfirmationDialog', AppConfirmationDialog);
+app.component('font-awesome-icon', FontAwesomeIcon);
 
-Vue.component('piveau-header', Header);
-Vue.component('piveau-footer', Footer);
+// Vue i18n
+const LOCALE = env.languages.locale;
+const FALLBACKLOCALE = env.languages.fallbackLocale;
 
-Vue.component('InfoSlot', InfoSlot);
-Vue.component('ConditionalInput', ConditionalInput);
-Vue.component('AutocompleteInput', AutocompleteInput);
-Vue.component('UniqueIdentifierInput', UniqueIdentifierInput);
-Vue.component('FileUpload', FileUpload);
-Vue.component('DatePicker', DatePicker);
-Vue.component('DateTimePicker', DateTimePicker);
-Vue.component('CustomNumber', CustomNumber);
-Vue.component('CustomURL', CustomURL)
-
-// Vue.component('AppToast', AppToast);
-Vue.component('AppSnackbar', AppSnackbar);
-Vue.component('AppConfirmationDialog', AppConfirmationDialog);
-
-// DEU Redesign Components
-Vue.component('SelectedFacetsOverview', SelectedFacetsOverview);
-
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-import VueCookie from 'vue-cookie';
-
-Vue.use(VueCookie);
-
-Vue.use(VueFormulate, {
-  // plugins: [ca, cs, da, nl, de, en, fr, hu, it, lt, nb, pl, pt, ru, sr, sk, es, tr, sv],
-  validationNameStrategy: vm => vm.context.label,
-  // Define our custom slot component(s)
-  slotComponents: {
-    label: 'InfoSlot',
-  },
-  // Define any props we want to pass to our slot component
-  slotProps: {
-    label: ['info', 'collapsed'],
-  },
-  components: {
-    ConditionalInput,
-  },
-  library: {
-    fileupload: {
-      classification: 'text',
-      component: 'FileUpload',
-    },
-    'conditional-input': {
-      classification: 'text',
-      component: 'ConditionalInput',
-      slotProps: {
-        component: ['data'],
-      },
-    },
-    'autocomplete-input': {
-      classification: 'text',
-      component: 'AutocompleteInput',
-      slotProps: {
-        component: ['voc', 'multiple'],
-      },
-    },
-    'custom-url': {
-      classification: 'text',
-      component: 'CustomURL',
-      slotProps: {
-        component: ['context'],
-      },
-    },
-    'custom-number': {
-      classification: 'text',
-      component: 'CustomNumber',
-      slotProps: {
-        component: ['context'],
-      },
-    },
-    'unique-identifier-input': {
-      classification: 'text',
-      component: 'UniqueIdentifierInput',
-    },
-    'date-picker': {
-      classification: 'date',
-      component: 'DatePicker',
-    },
-    'datetime-picker': {
-      classification: 'datetime-local',
-      component: 'DateTimePicker',
-    },
-  },
+const i18n = createI18n({
+  locale: LOCALE,
+  fallbackLocale: FALLBACKLOCALE,
+  messages: I18N_CONFIG,
+  allowComposition: true,
+  legacy: false,
+  globalInjection: true,
+  fallbackWarn: false,
+  silentFallbackWarn: true,
+  silentTranslationWarn: true,
+  warnHtmlMessage: false,
 });
 
-Vue.use(corsProxyService, env.api.vueAppCorsproxyApiUrl);
+// Vue Router
+router.beforeEach(helpers.createStickyLocale(LOCALE || FALLBACKLOCALE))
+router.app = app;
+app.use(router);
 
-Vue.use(bulkDownloadCorsProxyService, GLUE_CONFIG, env.api.vueAppCorsproxyApiUrl);
+// Vuex Store
+app.use(store);
 
+
+app.config.globalProperties.i18n = i18n;
+app.use(i18n);
+
+// Set locale for dateFilters
+dateFilters.setLocale(LOCALE);
+
+// Skeleton Loader
+app.component(Skeletor.name, Skeletor);
+
+// Vue Cookies
+app.use(VueCookies);
+
+// Vue Clickaway
+app.use(VueClickAway);
+
+// Matomo / Piwik
 const { isPiwikPro, siteId, trackerUrl } = env.tracker;
-Vue.use(UniversalPiwik, {
+app.use(UniversalPiwik, {
   router,
   isPiwikPro,
   trackerUrl,
@@ -244,53 +184,18 @@ Vue.use(UniversalPiwik, {
   },
 });
 
+// Cors Proxy and Bulk Download Services
+app.use(corsProxyService, env.api.corsproxyApiUrl);
+app.use(bulkDownloadCorsProxyService, GLUE_CONFIG, env.api.corsproxyApiUrl);
 
-// Configured language
-const LOCALE = env.languages.locale;
-const FALLBACKLOCALE = env.languages.fallbackLocale;
+// Form Kit
+app.use(FormKitPlugin, defaultConfig(config));
 
-Vue.use(VueI18n);
-// eslint-disable-next-line
-export const i18n = new VueI18n({
-  locale: LOCALE,
-  fallbackLocale: FALLBACKLOCALE,
-  messages: I18N_CONFIG,
-  silentTranslationWarn: true,
-});
+// Vue Meta
+const head = createHead();
+app.use(head);
 
-// Make i18n globally available
-Vue.i18n = i18n;
-
-// Set locale for dateFilters
-dateFilters.setLocale(LOCALE);
-
-// Vue-meta setup
-Vue.use(Meta, {
-  refreshOnceOnNavigation: true,
-  debounceWait: 100,
-});
-
-// Bootstrap requirements to use js-features of bs-components
-import 'popper.js';
-
-import 'bootstrap';
-
-import './styles/styles.scss';
-
-
-$(() => {
-  $('[data-toggle="popover"]').popover({ container: 'body' });
-  $('[data-toggle="tooltip"]').tooltip({ container: 'body' });
-});
-
-import '@fortawesome/fontawesome-free/css/all.css';
-
-// OpenStreetMaps popup styles
-import 'leaflet/dist/leaflet.css';
-
-import '@piveau/dcatap-frontend/dist/dcatap-frontend.css';
-
-// Vue-progressbar setup
+// Vue Progressbar
 const progressBarOptions = {
   thickness: '5px',
   autoRevert: false,
@@ -300,61 +205,32 @@ const progressBarOptions = {
     termination: 1000,
   },
 };
-Vue.use(VueProgressBar, progressBarOptions);
+app.use(VueProgressBar, progressBarOptions);
 
-// Vee-validate (form validation) setup
-Vue.use(VeeValidate, { errorBagName: 'vee_validator_errors' });
+// Vue Position Sticky
+app.use(VuePositionSticky);
 
-// Vue-inject setup
-Vue.use(injector, { components: true });
-
-// Vue.use(PiveauHeaderFooter);
-
-Vue.use(VuePositionSticky);
-
-// Sync store and router
-sync(store, router);
-
-// Add Font Awesome Icons
-library.add(faGoogle, faGooglePlus, faGooglePlusG, faFacebook, faFacebookF, faInstagram, faTwitter, faLinkedinIn, faComment, faExternalLinkAlt, faPlus, faMinus, faArrowDown, faArrowUp, faInfoCircle, faExclamationTriangle);
-Vue.component('font-awesome-icon', FontAwesomeIcon);
-
-Vue.config.productionTip = false;
-
-// Creates the root Vue instance
-const createVueApp = () => {
-  const app = new Vue({
-    router,
-    store,
-    i18n,
-    render: h => h(App),
-  });
-
-  return app;
-};
-
-// Loads keycloak and if it fails it still loads the Vue app.
-
+// Vue Keycloak (Vue App is mounted on success and error)
 if (env.authentication.useService) {
-  Vue.use(vueKeyCloak, {
+  app.use(vueKeyCloak, {
     config: {
       rtp: env.authentication.rtp,
       ...env.authentication.keycloak,
     },
     init: {
       onLoad: 'check-sso',
-      silentCheckSsoRedirectUri: `${window.location.origin}/silent-check-sso.html`,
       ...env.authentication.keycloakInit,
     },
     onReady: () => {
-      console.log("Keycloak loaded")
-      createVueApp().$mount('#app');
+      console.log("Keycloak loaded");
+      app.mount('#app');
     },
-    onInitError: () => {
-      console.log("Error loading keycloak")
-      createVueApp().$mount('#app');
+    onInitError: (error) => {
+      console.log("Error loading keycloak");
+      console.log(error);
+      app.mount('#app');
     }
   });
 } else {
-  createVueApp().$mount('#app');
+  app.mount('#app');
 }

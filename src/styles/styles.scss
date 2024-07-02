@@ -12,6 +12,44 @@
   text-align: left;
 }
 
+
+// Hacky solution to fix the dataset details -- needs to be fixed in the modules #### start ######
+.additional-information-overlay {
+  opacity: 0;
+}
+
+#myTab {
+  max-height: 100% !important;
+}
+
+.keywords__item {
+  margin-left: 8rem;
+}
+
+.alert-dismissible {
+  margin-left: 5rem;
+}
+
+.dsd-subject-feature {
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+.dsd-subject-feature {
+  .mb-4 {
+    margin-left:8rem;
+    font-weight: 400 !important;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+.dsd-item{
+  table{
+    padding: 1rem
+  }
+}
+// Hacky solution to fix the dataset details #### end ######
 .circle {
   width: 40px;
   height: 40px;
@@ -127,22 +165,27 @@
 #subStepperBox {
   top: 215px !important;
   background-color: #efefef;
+
   // height: 130px;
   #stepper .step-progress__step {
     border: solid #efefef 20px;
   }
-  .step-progress__wrapper{
+
+  .step-progress__wrapper {
     background-color: #efefef;
     border-bottom: 20px solid #efefef;
   }
-  .step-progress__wrapper-before{
-    top:35% !important
+
+  .step-progress__wrapper-before {
+    top: 35% !important
   }
-  .step-progress__step--active .step-progress__step-label{
+
+  .step-progress__step--active .step-progress__step-label {
     background-color: #efefef !important
   }
-  .step-progress__wrapper-after{
-   top: 35% !important
+
+  .step-progress__wrapper-after {
+    top: 35% !important
   }
 }
 

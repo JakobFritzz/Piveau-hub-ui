@@ -1,5 +1,6 @@
 // @ts-nocheck
 /* eslint-disable */
+import { reactive } from 'vue';
 import Keycloak from 'keycloak-js';
 import qs from 'qs';
 import axios from 'axios';
@@ -11,7 +12,7 @@ let installed = false;
 let rtpToken = null;
 
 export default {
-  install(Vue, params = {}) {
+  install(app, params = {}) {
     if (installed) return;
     installed = true;
 
@@ -22,48 +23,44 @@ export default {
     const options = Object.assign({}, defaultParams, params);
     if (assertOptions(options).hasError) throw new Error(`Invalid options given: ${assertOptions(options).error}`);
 
-    const watch = new Vue({
-      data() {
-        return {
-          ready: false,
-          authenticated: false,
-          userName: null,
-          fullName: null,
-          token: null,
-          rtpToken: null,
-          tokenParsed: null,
-          logoutFn: null,
-          loginFn: null,
-          login: null,
-          createLoginUrl: null,
-          createLogoutUrl: null,
-          createRegisterUrl: null,
-          register: null,
-          accountManagement: null,
-          createAccountUrl: null,
-          loadUserProfile: null,
-          loadUserInfo: null,
-          subject: null,
-          idToken: null,
-          idTokenParsed: null,
-          realmAccess: null,
-          resourceAccess: null,
-          refreshToken: null,
-          refreshTokenParsed: null,
-          timeSkew: null,
-          responseMode: null,
-          responseType: null,
-          hasRealmRole: null,
-          hasResourceRole: null,
-          getRtpToken: null,
-        };
-      },
+    const watch = reactive({
+      ready: false,
+      authenticated: false,
+      userName: null,
+      fullName: null,
+      token: null,
+      rtpToken: null,
+      tokenParsed: null,
+      logoutFn: null,
+      loginFn: null,
+      login: null,
+      createLoginUrl: null,
+      createLogoutUrl: null,
+      createRegisterUrl: null,
+      register: null,
+      accountManagement: null,
+      createAccountUrl: null,
+      loadUserProfile: null,
+      loadUserInfo: null,
+      subject: null,
+      idToken: null,
+      idTokenParsed: null,
+      realmAccess: null,
+      resourceAccess: null,
+      refreshToken: null,
+      refreshTokenParsed: null,
+      timeSkew: null,
+      responseMode: null,
+      responseType: null,
+      hasRealmRole: null,
+      hasResourceRole: null,
+      getRtpToken: null,
     });
 
     getConfig(options.config)
     .then((config) => {
       init(config, watch, options);
-      Object.defineProperty(Vue.prototype, '$keycloak', {
+      Object.defineProperty(app.config.globalProperties, '$keycloak', {
         get() {
           return watch;
         },
@@ -79,14 +76,10 @@ function init(config, watch, options) {
   const ctor = sanitizeConfig(config);
   const keycloak = new Keycloak(ctor);
 
-  watch.$once('ready', (cb) => {
-    cb && cb();
-  });
-
   keycloak.onReady = function (authenticated) {
     updateWatchVariables(authenticated);
     watch.ready = true;
-    typeof options.onReady === 'function' && watch.$emit('ready', options.onReady.bind(this, keycloak));
+    typeof options.onReady === 'function' && options.onReady(keycloak, watch);
   };
 
   keycloak.onAuthSuccess = function () {

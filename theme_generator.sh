@@ -20,8 +20,8 @@ theme_name=theme-$slug
 
 git checkout -b $theme_name
 
-rm -r config images public tests types
-rm -r babel.config.js .browserslistrc CONTRIBUTING.md cypress.json Dockerfile .dockerignore .editorconfig .eslintignore .eslintrc.js index.html jest.config.js nginx.vh.default.conf .npmrc .nvmrc package.json package-lock.json README.md runtimeconfig.sh theme_generator.sh theme-run-dev.sh tsconfig.json vite.config.ts
+rm -r config images public tests themes types
+rm -r .browserslistrc CONTRIBUTING.md cypress.json Dockerfile .dockerignore .editorconfig .eslintignore .eslintrc.js index.html jest.config.js nginx.vh.default.conf .npmrc .nvmrc package.json package-lock.json README.md runtimeconfig.sh theme_generator.sh theme-run-dev.sh tsconfig.json vite.config.ts
 
 echo "**************"
 echo "Done"

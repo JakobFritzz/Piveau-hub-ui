@@ -14,7 +14,7 @@
      gazetteerBaseUrl: 'https://data.europa.eu/api/hub/search/gazetteer/',
      hubUrl: 'http://cypress-stubbed.api-hub-url/',
      catalogBaseUrl: 'https://europeandataportal.eu/',
-     vueAppCorsproxyApiUrl: 'https://piveau-corsproxy-piveau.apps.osc.fokus.fraunhofer.de',
+     corsproxyApiUrl: 'https://piveau-corsproxy-piveau.apps.osc.fokus.fraunhofer.de',
      sparqlUrl: 'https://data.europa.eu/sparql',
    },
    tracker: {
@@ -23,16 +23,16 @@
      trackerUrl: 'http://localhost/'
    },
    authentication: {
-    useService: true, 
+    useService: true,
     keycloak: {
       realm: 'piveau',
       clientId: 'piveau-hub-ui',
       url: 'http://cypress-stubbed.keycloak.url/auth',
       'ssl-required': 'external',
-      'public-client': true, 
-      'verify-token-audience': true, 
-      'use-resource-role-mappings': true, 
-      'confidential-port': 0, 
+      'public-client': true,
+      'verify-token-audience': true,
+      'use-resource-role-mappings': true,
+      'confidential-port': 0,
     },
   },
  }

@@ -45,7 +45,7 @@ $ docker run -i -p 8080:8080 piveau-hub-ui
 
 ## Configurations
 
-**Note:** _Just like the default configuration, Runtime configurations (or environment variables) will be loaded client-side. Therefore, it is recommended that you <ins>**SHOULD NOT**</ins> store sensitive information like passwords or tokens in environment variables. The Runtime configuration file <ins>**MUST**</ins> be structurally identical to the standard `user-config.js` file. Each value <ins>**MUST**</ins> start with the `$VUE_APP_` prefix and <ins>**SHOULD**</ins> be followed by its path. Their corresponding environment variable keys <ins>**MUST**</ins> equal that value without the `$` sign. Environment variables created by the Runtime configuration will always override the corresponding User configuration from `user-config.js` when used correctly!_
+**Note:** _Just like the default configuration, Runtime configurations (or environment variables) will be loaded client-side. Therefore, it is recommended that you <ins>**SHOULD NOT**</ins> store sensitive information like passwords or tokens in environment variables. The Runtime configuration file <ins>**MUST**</ins> be structurally identical to the standard `user-config.js` file. Each value <ins>**MUST**</ins> start with the `$VITE_` prefix and <ins>**SHOULD**</ins> be followed by its path. Their corresponding environment variable keys <ins>**MUST**</ins> equal that value without the `$` sign. Environment variables created by the Runtime configuration will always override the corresponding User configuration from `user-config.js` when used correctly!_
 
 _Runtime Configurations are only applied, when running the application via [Docker](#run-it-via-docker)._
 
@@ -101,7 +101,7 @@ URL to the Hub-Search Gazetteer API (default: `https://data.europa.eu/api/hub/se
 Catalog Base URL (default: `https://europeandataportal.eu/`).
 
 
-#### vueAppCorsproxyApiUrl
+#### corsproxyApiUrl
 URL to the CORS Proxy API (default: `https://piveau-corsproxy-piveau.apps.osc.fokus.fraunhofer.de`).
 
 
@@ -643,18 +643,18 @@ Let's go through the steps outlined above:
 ```
 export default {
   API: {
-      BASE_URL: '$VUE_APP_API_BASE_URL',
-      HUB_URL: '$VUE_APP_API_HUB_URL'
+      BASE_URL: '$VITE_API_BASE_URL',
+      HUB_URL: '$VITE_API_HUB_URL'
   }
 }
 ```
 
 Build and deploy the application.
 
-2.  Set the environment variables `VUE_APP_API_BASE_URL` and `VUE_APP_API_HUB_URL`:
+2.  Set the environment variables `VITE_API_BASE_URL` and `VITE_API_HUB_URL`:
 ```
-VUE_APP_API_BASE_URL=https://data.europa.eu/newBaseUrl
-VUE_APP_API_HUB_URL=https://data.europa.eu/newHubUrl
+VITE_API_BASE_URL=https://data.europa.eu/newBaseUrl
+VITE_API_HUB_URL=https://data.europa.eu/newHubUrl
 ```
 
 

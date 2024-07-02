@@ -1,9 +1,8 @@
-import vue from '@vitejs/plugin-vue2';
+import vue from '@vitejs/plugin-vue';
+import { defineConfig } from 'vite';
 import { lstatSync } from 'node:fs';
 import path from 'path';
-import { defineConfig } from 'vite';
 import config from './config';
-import pkg from './package.json';
 
 const isSymlink = (pkg: string) => {
   const packagePath = path.resolve('..', '..', 'node_modules', pkg);
@@ -22,68 +21,71 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const buildConfig = {
-
   BASE_PATH: config[buildMode].assetsPublicPath,
   SERVICE_URL: config[buildMode].serviceUrl,
 };
 
-const externalPackages = [
-  ...Object.keys(pkg.dependencies || {}),
-];
-
-// Creating regexes of the packages to make sure subpaths of the
-// packages are also treated as external
-const regexesOfPackages = externalPackages
-  .map(packageName => new RegExp(`^${packageName}(/.*)?`));
-
 export default defineConfig({
   base: buildConfig.BASE_PATH,
+  define: {},
   plugins: [
-    vue(
-      { template: { compilerOptions: { whitespace: 'preserve' } } }
-    ),
+    vue({ 
+      template: { 
+        compilerOptions: { 
+          whitespace: 'preserve' ,
+          compatConfig: {
+            MODE: 3,
+          },
+        },
+      },
+    }),
   ],
-  server: {
-    port: 8080
-  },
-  define: {
-    // Shim process.env from webpack
-    'process.env': {
-      buildconf: buildConfig
-    }
-  },
-
   resolve: {
     alias: [
       {
         find: '@',
-        replacement: path.resolve(__dirname, 'src')
+        replacement: path.resolve(__dirname, 'src'),
       },
       {
         find: '@modules-scss',
         replacement: isSymlink('@piveau/piveau-hub-ui-modules') ?
           path.resolve(__dirname, '..', '..', 'node_modules', '@piveau/piveau-hub-ui-modules', 'dist', 'scss')
-          : path.resolve(__dirname, 'node_modules', '@piveau/piveau-hub-ui-modules', 'dist', 'scss')
+          : path.resolve(__dirname, 'node_modules', '@piveau/piveau-hub-ui-modules', 'dist', 'scss'),
       },
       {
         find: /^~(.*)$/,
         replacement: '$1',
       },
       {
-        // Use lodash-es instead of lodash
         find: 'lodash',
         replacement: 'lodash-es',
       },
+      {
+        find: 'vue-i18n',
+        replacement: 'vue-i18n/dist/vue-i18n.cjs.js',
+      },
     ],
     extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue'],
-    preserveSymlinks: false
+    preserveSymlinks: false,
   },
-
+  server: {
+    port: 8080
+  },
   build: {
     rollupOptions: {
       output: {
         entryFileNames: 'app.[hash].js',
       }
     }
-  }
+  },
+  optimizeDeps: {
+    exclude: ['js-big-decimal'],
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        quietDeps: true,
+      },
+    },
+  },
 });

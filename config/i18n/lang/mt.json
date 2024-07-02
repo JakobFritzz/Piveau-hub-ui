@@ -128,7 +128,8 @@
             "isVersionOf": "Huwa verżjoni ta'",
             "pageDescriptionContactPoint": "Żid tip, isem u indirizz elettroniku ta' punt ta' kuntatt fis-sett tad-data tiegħek! ",
             "goToDataset": "Mur fil-Paġna tas-Sett tad-Data",
-            "updatedOnDataEuropaEU": "Aġġornat fuq data.europa.eu"
+            "updatedOnDataEuropaEU": "Aġġornat fuq data.europa.eu",
+            "protecteddata": "Data protetta"
         },
         "dataupload": {
             "info": {
@@ -136,706 +137,6 @@
                 "information": "Informazzjoni"
             },
             "datasets": {
-                "step2": {
-                    "isReferencedBy": {
-                        "add-label": "Add I Referenzjat Sa",
-                        "placeholder": "Sett ta’ data huwa Riferenzjat B’test bi spazju riżervat",
-                        "help": "Din il-proprjetà hija dwar riżorsa relatata.",
-                        "info": "Din il-proprjetà hija dwar riżorsa relatata, bħal pubblikazzjoni, li tirreferi, tikkwota, jew inkella tindika s-sett tad-data.",
-                        "label": "Hija Referenzjata Sa"
-                    },
-                    "contactPointAddressCity": {
-                        "placeholder": "Spazju riżervat għall-Punt ta’ Kuntatt tas-Sett tad-Data għall-Belt",
-                        "label": "Indirizz tal-Belt"
-                    },
-                    "source": {
-                        "label": "Sors",
-                        "help": "Sett ta’ data li minnu huwa derivat is-Sett ta’ Data deskritt.",
-                        "info": "Din il-karatterisitka tirreferi għal sett tad-data relatat li minnu s-Sett tad-Data deskritt hu derivat.",
-                        "placeholder": "Sett ta’ data Sors ta’ spazju riżervat",
-                        "add-label": "Żid Sors"
-                    },
-                    "type": {
-                        "label": "Tip",
-                        "help": "Din il-proprjetà tirreferi għat-tip ta’ Dataset.",
-                        "info": "Din il-proprjetà tirreferi għat-tip ta’ Dataset. Huwa previst tip ta’ data tal-vokabularju rkontrollat rakkomandat.",
-                        "placeholder": "Spazju riżervat għat-Tip ta’ Sett ta’ Data"
-                    },
-                    "pageUrl": {
-                        "label": "URL",
-                        "placeholder": "Sett ta’ data Page Url placeholder text"
-                    },
-                    "admsIdentifierSkosNotation": {
-                        "help": "Datasets ADMS:Identifier Test ta’ għajnuna tal-Iskema",
-                        "label": "Skema"
-                    },
-                    "spatialPlace": {
-                        "placeholder": "Sett ta’ data bi spazju riżervat għal Post Ġeografiku",
-                        "label": "Post"
-                    },
-                    "subject": {
-                        "label": "Suġġett",
-                        "help": "Kategorija tas-Sett ta’ Data.",
-                        "info": "Din il-proprjetà tirreferi għal kategorija tas-Sett ta’ Data. Sett ta’ data jista’ jiġi assoċjat ma’ temi multipli."
-                    },
-                    "qualifiedRelationUrl": {
-                        "placeholder": "Sett ta’ data Kwalifikat Test tal-pompa Url Relamazzjoni",
-                        "label": "URL"
-                    },
-                    "accrualPeriodicity": {
-                        "info": "Din il-proprjetà tirreferi għall-frekwenza li biha jiġi aġġornat is-Sett tad-Data.",
-                        "label": "Perjodu ta’ Doppju",
-                        "placeholder": "Sett ta’ data test ta’ spazju riżervat għall-Perjoodiċità ta’ Sett ta’ Data",
-                        "help": "Din il-proprjetà tirreferi għall-frekwenza li biha jiġi aġġornat is-Sett tad-Data."
-                    },
-                    "isReferencedByUrl": {
-                        "label": "URL",
-                        "placeholder": "Sett ta’ data huwa Riferenzjat permezz ta’ test ta’ spazju riżervat f’Url"
-                    },
-                    "versionNotes": {
-                        "placeholder": "Noti ta’ Verżjoni tas-Sett ta’ Data Test bi spazju riżervat",
-                        "label": "Noti ta’ Verżjoni",
-                        "help": "Deskrizzjoni ta’ bidliet bejn din il-verżjoni u l-verżjoni preċedenti tas-sett tad-data.",
-                        "info": "Din il-proprjetà fiha deskrizzjoni tad-differenzi bejn din il-verżjoni u verżjoni preċedenti tas-Sett tad-Data. Din il-proprjetà tista’ tiġi ripetuta għal verżjonijiet lingwistiċi paralleli tan-noti tal-verżjoni.",
-                        "add-label": "Żid Noti ta’ Verżjoni b’lingwa oħra"
-                    },
-                    "contactPointAddressStreet": {
-                        "label": "Triq ta’ Indirizz",
-                        "placeholder": "Spazju riżervat għall-Punt ta’ Kuntatt tas-Sett ta’ Data tat-Triq"
-                    },
-                    "relationUrl": {
-                        "label": "URL",
-                        "placeholder": "Sett ta’ data Relatat mal-ispazju riżervat Url"
-                    },
-                    "isVersionOfUrl": {
-                        "placeholder": "Sett ta’ data Is Verżjoni ta’ spazju riżervat f’Url",
-                        "label": "URL"
-                    },
-                    "conformsTo": {
-                        "label": "Jikkonforma ma’",
-                        "help": "Din il-proprjetà tirreferi għal regola ta’ implimentazzjoni jew speċifikazzjoni oħra.",
-                        "info": "Din il-proprjetà tirreferi għal regola ta’ implimentazzjoni jew speċifikazzjoni oħra.",
-                        "placeholder": "Sett ta’ data Konformi Għal test bi spazju riżervat",
-                        "add-label": "Żid Konformi Biex"
-                    },
-                    "pageFormat": {
-                        "placeholder": "Spazju riżervat għall-Format tal-Paġna tad-Data",
-                        "label": "Format"
-                    },
-                    "qualifiedAttributionUrl": {
-                        "placeholder": "Sett ta’ data Kwalifikat ta’ Attribuzzjoni Test b’Żomm spazju riżervat għall-Url",
-                        "label": "URL"
-                    },
-                    "isVersionOf": {
-                        "add-label": "Żid I Verżjoni Ta’",
-                        "help": "Dataset huwa verżjoni, edizzjoni, jew adattament.",
-                        "label": "Hija Verżjoni ta’ f",
-                        "info": "Din il-karatteristika tirreferi għal sett tad-data relatat li s-sett tad-data deskritt tiegħu hu verżjoni, edizzjoni, jew adattament.",
-                        "placeholder": "Sett ta’ data Is Verżjoni tat-test bi spazju riżervat"
-                    },
-                    "relation": {
-                        "placeholder": "Test tal-pompa tar-Relazzjoni tas-Sett ta’ Data",
-                        "add-label": "Żid Relazzjoni",
-                        "help": "Din il-karatteristika tirreferi għal riżorsa relatata.",
-                        "info": "Din il-karatteristika tirreferi għal riżorsa relatata.",
-                        "label": "Relazzjoni"
-                    },
-                    "provenance": {
-                        "label": "Provenjenza",
-                        "help": "Din il-karatteristika fiha dikjarazzjoni dwar in-nisel ta’ Sett tad-Data.",
-                        "add-label": "Żid Provenjenza",
-                        "info": "Din il-karatteristika fiha dikjarazzjoni dwar in-nisel ta’ Sett tad-Data.",
-                        "placeholder": "Spazju riżervat għall-Provenjenza tas-Sett ta’ Data"
-                    },
-                    "language": {
-                        "help": "Il-kopertura lingwistika ta’ dan is-sett ta’ data.",
-                        "info": "Il-kopertura lingwistika ta’ dan is-sett ta’ data.",
-                        "placeholder": "Sett ta’ data Test ta’ spazju riżervat għal-Lingwa",
-                        "label": "Il-lingwa"
-                    },
-                    "spatialContinent": {
-                        "placeholder": "Sett ta’ data Spatial Continent placeholder text",
-                        "label": "Kontinent"
-                    },
-                    "spatialResolutionInMeters": {
-                        "help": "Separazzjoni ġeografika minima riżolvibbli f’sett ta’ data.",
-                        "info": "Din il-proprjetà tirreferi għas-separazzjoni ġeografika minima riżolvibbli f’sett ta’ data, imkejla f’metri.",
-                        "label": "Riżoluzzjoni Ġeografika f’Meters",
-                        "placeholder": "Sett ta’ data Riżoluzzjoni Ġeografika f’Meters test bi spazju riżervat"
-                    },
-                    "qualifiedAttribution": {
-                        "add-label": "Żid Attribuzzjoni Kwalifikata",
-                        "help": "Link għal Aġent li għandu xi forma ta’ responsabbiltà għar-riżorsa",
-                        "info": "Din il-proprjetà tirreferi għal rabta ma’ Aġent li għandu xi forma ta’ responsabbiltà għar-riżorsa",
-                        "label": "Kontribuzzjoni Kwalifikata",
-                        "placeholder": "Spazju riżervat għall-Attribuzzjoni Kwalifikata tas-sett ta’ data"
-                    },
-                    "temporal": {
-                        "help": "Din il-proprjetà tirreferi għal perjodu ta’ żmien li jkopri s-Sett tad-Data.",
-                        "info": "Din il-proprjetà tirreferi għal perjodu ta’ żmien li jkopri s-Sett tad-Data.",
-                        "add-label": "Żid Temporanju",
-                        "label": "Temporali",
-                        "placeholder": "Sett ta’ data Test ta’ spazju riżervat temporanju"
-                    },
-                    "temporalResolutionYear": {
-                        "placeholder": "Test tad-detentur tal-post tas-Sena tas-Sett ta’ Data ta’ Riżoluzzjoni Temporali",
-                        "label": "Sena ta’ Riżoluzzjoni temporali"
-                    },
-                    "admsIdentifier": {
-                        "add-label": "Żid ieħor ADMS:Identifier",
-                        "label": "ADMS:Identifier",
-                        "help": "Identifikatur f’kuntest partikolari, li jikkonsisti fl-istring li huwa l-identifikatur.",
-                        "info": "Identifikatur f’kuntest partikolari, li jikkonsisti fl-istring li hija l-identifikatur; identifikatur fakultattiv għall-iskema ta’ identifikazzjoni; identifikatur fakultattiv għall-verżjoni tal-iskema ta’ identifikazzjoni; identifikatur fakultattiv għall-aġenzija li timmaniġġja l-iskema ta’ identifikazzjoni"
-                    },
-                    "accessRights": {
-                        "help": "Drittijiet ta’ Aċċess għas-sett ta’ data.",
-                        "info": "Din il-proprjetà tirreferi għal informazzjoni li tindika jekk is-Sett tad-Data huwiex data miftuħa, għandux restrizzjonijiet fuq l-aċċess jew le.",
-                        "label": "Drittijiet ta’ Aċċess",
-                        "placeholder": "Spazju riżervat għad-drittijiet ta’ aċċess għas-sett ta’ data"
-                    },
-                    "pageDescription": {
-                        "label": "Deskrizzjoni",
-                        "placeholder": "Sett ta’ data It-test tal-pompa Deskrizzjoni tad-Deskrizzjoni"
-                    },
-                    "identifier": {
-                        "add-label": "Żid Identifikatur",
-                        "placeholder": "Spazju riżervat għall-Identifikatur tas-Sett ta’ Data",
-                        "label": "Identifikatur",
-                        "help": "Din il-proprjetà fiha l-identifikatur ewlieni għas-Sett tad-Data.",
-                        "info": "Din il-proprjetà fiha l-identifikatur ewlieni għas-Sett tad-Data, eż. l-URI jew identifikatur uniku ieħor fil-kuntest tal-Katalogu."
-                    },
-                    "creatorName": {
-                        "placeholder": "Test tal-pompa tal-ismijiet tas-sett tad-data",
-                        "label": "Isem"
-                    },
-                    "hasVersionUrl": {
-                        "label": "URL",
-                        "placeholder": "Sett ta’ data Has Version Url placeholder text"
-                    },
-                    "versionInfo": {
-                        "label": "Informazzjoni dwar il-verżjoni",
-                        "placeholder": "Test tal-Verżjoni tas-Sett ta’ Data Info bi spazju riżervat",
-                        "help": "Numru tal-verżjoni tas-Sett ta’ Data.",
-                        "info": "Din il-proprjetà fiha numru tal-verżjoni jew denominazzjoni ta’ verżjoni oħra tas-Sett tad-Data."
-                    },
-                    "theme": {
-                        "label": "Tema",
-                        "placeholder": "Sett ta’ data Teme placeholder text",
-                        "help": "Id-dominji tal-EuroVoc għal dan is-sett tad-data.",
-                        "info": "Il-valuri li għandhom jintużaw għal din il-proprjetà huma l-URIs tal-kunċetti fil-vokabularju."
-                    },
-                    "hasVersion": {
-                        "placeholder": "Sett ta’ data Has Version placeholder text",
-                        "help": "Din hija verżjoni, edizzjoni, jew adattament tas-Sett tad-Data deskritt.",
-                        "info": "Din il-karatteristika tirreferi għal sett tad-data relatat li hu verżjoni, edizzjoni, jew adattament tas-sett tad-data deskritt.",
-                        "add-label": "Żid Verżjoni ta’ Has",
-                        "label": "Għandu Verżjoni"
-                    },
-                    "temporalResolution": {
-                        "label": "Riżoluzzjoni temporali",
-                        "help": "Il-perjodu ta’ żmien minimu riżolvibbli fis-sett tad-data.",
-                        "info": "Din il-proprjetà tirreferi għall-perjodu minimu ta’ żmien riżolvibbli fis-sett tad-data.",
-                        "placeholder": "Sett ta’ data bi spazju riżervat għal Riżoluzzjoni Temporanja"
-                    },
-                    "wasGeneratedBy": {
-                        "label": "Kien Ġenerat By",
-                        "add-label": "Żid Was Ġenerat By",
-                        "placeholder": "Sett ta’ data Was Ġenerat By placeholder text",
-                        "help": "Din il-proprjetà tirreferi għal attività li ġġenerat.",
-                        "info": "Din il-proprjetà tirreferi għal attività li ġġenerat, jew tipprovdi l-kuntest tan-negozju għall-ħolqien tas-sett tad-data."
-                    },
-                    "temporalResolutionHour": {
-                        "placeholder": "Test tad-Detentur tal-Post tas-Sett ta’ Data Temporali",
-                        "label": "Is-Siegħa ta’ Riżoluzzjoni temporali"
-                    },
-                    "qualifiedRelation": {
-                        "help": "Din il-proprjetà tipprovdi rabta ma’ deskrizzjoni ta’ relazzjoni ma’ riżorsa oħra",
-                        "info": "Din il-proprjetà tipprovdi rabta ma’ deskrizzjoni ta’ relazzjoni ma’ riżorsa oħra",
-                        "label": "Relazzjoni Kwalifikata",
-                        "add-label": "Żid Relazzjoni Kwalifikata",
-                        "placeholder": "Spazju riżervat għar-Relazzjoni Kwalifikata tas-sett ta’ data"
-                    },
-                    "pageTitle": {
-                        "placeholder": "Sett ta’ data Paġna ta’ spazju riżervat għat-Titolu",
-                        "label": "Titolu"
-                    },
-                    "landingPageUrl": {
-                        "label": "URL",
-                        "placeholder": "Spazju riżervat għall-Paġna tal-Ħatt tas-Sett ta’ Data Url"
-                    },
-                    "conformsToTitle": {
-                        "placeholder": "Sett ta’ Data Conforms Għalt-Titolu test bi spazju riżervat",
-                        "label": "Titolu"
-                    },
-                    "conformsToUrl": {
-                        "placeholder": "Sett ta’ Data Conforms To Url placeholder text",
-                        "label": "URL"
-                    },
-                    "landingPage": {
-                        "help": "Din il-proprjetà tirreferi għal paġna web li tipprovdi aċċess għas-Sett tad-Data.",
-                        "info": "Din il-karatteristika tirreferi għal paġna web li tipprovdi aċċess għal sett tad-data, id-Distribuzzjonijiet tiegħu u/jew informazzjoni addizzjonali. Hija maħsuba biex tipponta lejn paġna ta’ inżul fil-fornitur oriġinali tad-data, mhux lejn paġna fuq sit ta’ parti terza, bħal aggregatur.",
-                        "label": "Paġna tal-Ħatt l-Art",
-                        "placeholder": "Spazju riżervat għall-Paġna tal-Ħatt tas-Sett ta’ Data",
-                        "add-label": "Żid Paġna tal-Ħatt l-Art"
-                    },
-                    "creatorType": {
-                        "label": "Tip",
-                        "placeholder": "Spazju riżervat għat-Tip ta’ Kreatur tas-Sett ta’ Data"
-                    },
-                    "contactPointAddressPostcode": {
-                        "label": "Indirizz Kodiċi Postcode",
-                        "placeholder": "Indirizz tal-Punt ta’ Kuntatt tal-Punt ta’ Kuntatt tas-Sett tad-data test tal-pompa tal-kodiċi"
-                    },
-                    "contactPointTelephone": {
-                        "label": "Telefon",
-                        "placeholder": "Spazju riżervat għall-Punt ta’ Kuntatt tas-Sett tad-data tat-Telefown"
-                    },
-                    "spatial": {
-                        "placeholder": "Sett ta’ data Test bi spazju riżervat għal spazju spazjali",
-                        "help": "Reġjun ġeografiku li huwa kopert mid-Dataset.",
-                        "info": "Din il-proprjetà tirreferi għal reġjun ġeografiku li huwa kopert mis-Sett tad-Data.",
-                        "label": "Spazjali"
-                    },
-                    "page": {
-                        "label": "Paġna",
-                        "help": "Paġna jew dokument dwar dan is-Sett ta’ Data.",
-                        "placeholder": "Sett ta’ data Paġna bi spazju riżervat",
-                        "info": "Din il-proprjetà tirreferi għal paġna jew dokument dwar dan is-Sett ta’ Data.",
-                        "add-label": "Żid Paġna"
-                    },
-                    "temporalResolutionMonth": {
-                        "placeholder": "Test tad-detentur tal-post tax-xahar tas-sett tad-data",
-                        "label": "Xahar ta’ Riżoluzzjoni temporali"
-                    },
-                    "temporalResolutionSecond": {
-                        "placeholder": "Sett ta’ data Riżoluzzjoni Temporali test tat-tieni detentur ta’ post",
-                        "label": "It-tieni riżoluzzjoni temporali"
-                    },
-                    "identifierText": {
-                        "placeholder": "Spazju riżervat għat-test tal-Identifikatur tas-Sett ta’ Data",
-                        "label": "Test"
-                    },
-                    "contactPointAddressCountry": {
-                        "label": "Pajjiż tal-Indirizz",
-                        "placeholder": "Test tad-Detentur tal-Post tal-Pajjiż tas-sett tad-data Indirizz tal-Punt ta’ Kuntatt"
-                    },
-                    "contactPointName": {
-                        "placeholder": "Test tal-pompa tal-Punt ta’ Kuntatt tas-Sett ta’ Data",
-                        "label": "Isem"
-                    },
-                    "isUsedBy": {
-                        "help": "Is-sett ta’ data jintuża mit-test tal-għajnuna",
-                        "label": "Huwa Użati Minn",
-                        "info": "Is-sett ta’ data jintuża permezz ta’ test ta’ informazzjoni",
-                        "placeholder": "Is-sett ta’ data jintuża skont il-kliem tad-detentur tal-post",
-                        "add-label": "Żid Huwa Użat Minn"
-                    },
-                    "contactPointType": {
-                        "label": "Tip",
-                        "placeholder": "Spazju riżervat għat-Tip ta’ Punt ta’ Kuntatt tas-Sett ta’ Data"
-                    },
-                    "temporalResolutionMinute": {
-                        "placeholder": "Test tad-Detentur tal-Post tal-Minuti tas-sett tad-data",
-                        "label": "Il-Minuta ta’ Riżoluzzjoni temporali"
-                    },
-                    "sourceUrl": {
-                        "label": "URL",
-                        "placeholder": "Sett ta’ data Sors spazju riżervat Url"
-                    },
-                    "spatialCountry": {
-                        "label": "Pajjiż",
-                        "placeholder": "Spazju riżervat għall-Pajjiż Ġeografiku Sett ta’ Data"
-                    },
-                    "creatorEmail": {
-                        "label": "Email",
-                        "placeholder": "Spazju riżervat għall-Kreatur tal-Email għal sett ta’ data"
-                    },
-                    "contactPointEmail": {
-                        "label": "Email",
-                        "placeholder": "Spazju riżervat għall-Punt ta’ Kuntatt għas-Sett tad-Data bl-Email"
-                    },
-                    "contactPointAddress": {
-                        "label": "Indirizz tal-Punt ta’ Kuntatt",
-                        "help": "Test tal-għajnuna tal-Indirizz tal-Punt ta’ Kuntatt tas-Sett tad-Data"
-                    },
-                    "admsIdentifierUrl": {
-                        "label": "URL",
-                        "placeholder": "Sett ta’ data ADMS:Identifier Test tad-detentur tal-post Url"
-                    },
-                    "temporalStart": {
-                        "label": "Bidu"
-                    },
-                    "contactPointOrganisationName": {
-                        "placeholder": "Spazju riżervat għall-Punt ta’ Kuntatt tas-Sett tad-data tal-Organizzazzjoni",
-                        "label": "Isem l-Organizzazzjoni"
-                    },
-                    "creator": {
-                        "help": "Din il-proprjetà tirreferi għall-entità responsabbli għall-produzzjoni tas-sett tad-data.",
-                        "add-label": "Żid Kreatur",
-                        "info": "Din il-proprjetà tirreferi għall-entità responsabbli għall-produzzjoni tas-sett tad-data.",
-                        "label": "Kreatur"
-                    },
-                    "contactPoint": {
-                        "label": "Punt ta’ Kuntatt",
-                        "placeholder": "Spazju riżervat għall-Punt ta’ Kuntatt tas-Sett ta’ Data",
-                        "add-label": "Żid Punt ta’ Kuntatt",
-                        "help": "Din il-proprjetà fiha informazzjoni ta’ kuntatt.",
-                        "info": "Din il-proprjetà fiha informazzjoni ta’ kuntatt li tista’ tintuża biex jintbagħtu kummenti dwar is-Sett tad-Data."
-                    },
-                    "admsIdentifierValue": {
-                        "placeholder": "Sett ta’ data ADMS:Identifier Test tad-detentur tal-post tal-identifikatur",
-                        "label": "Identifikatur"
-                    },
-                    "temporalEnd": {
-                        "label": "Tmiem"
-                    },
-                    "contactPointUrl": {
-                        "label": "URL",
-                        "placeholder": "Spazju riżervat għall-Punt ta’ Kuntatt tas-Sett ta’ Data Url"
-                    },
-                    "temporalResolutionDay": {
-                        "label": "Jum tar-Riżoluzzjoni Temporanja",
-                        "placeholder": "Test tad-detentur tal-post tas-sett tad-data Jum ta’ Riżoluzzjoni Temporali"
-                    },
-                    "creatorHomepage": {
-                        "placeholder": "Spazju riżervat għall-Foomepage tas-Sett ta’ Data",
-                        "label": "Il-paġna ewlenija"
-                    },
-                    "admsIdentifierType": {
-                        "label": "Tip ta’"
-                    },
-                    "admsIdentifierCheckbox": {
-                        "label": "ADMS:Identifier Kaxxa ta’ kontroll"
-                    },
-                    "wasGeneratedByUrl": {
-                        "label": "URL",
-                        "placeholder": "Sett ta’ data Was Ġenerat By Url placeholder text"
-                    },
-                    "provenanceText": {
-                        "label": "Test",
-                        "placeholder": "Test tal-pompa għal Test tal-Provenjenza tas-Sett ta’ Data"
-                    },
-                    "schemeIdentifier": {
-                        "label": "Identifikatur tal-Iskema"
-                    }
-                },
-                "step1": {
-                    "description": {
-                        "label": "Deskrizzjoni",
-                        "add-label": "Żid Deskrizzjoni f’lingwa oħra",
-                        "placeholder": "Test tal-pompa tad-Deskrizzjoni tas-Sett ta’ Data",
-                        "help": "Id-deskrizzjoni ewlenija tas-sett tad-data.",
-                        "info": "Id-deskrizzjoni ewlenija tas-sett tad-data. Ħafna drabi huwa jintwera mat-titlu tal-pakkett. B’mod partikolari, dan għandu jibda b’sentenza qasira li tiddeskrivi sett tad-data b’mod konċiż, għax l-ewwel ftit kelmiet biss jistgħu jintużaw f’xi dehriet tas-settijiet tad-data."
-                    },
-                    "publisherType": {
-                        "label": "Tip",
-                        "placeholder": "Dataset Publisher Type placeholder text"
-                    },
-                    "title": {
-                        "add-label": "Żid it-Titolu f’lingwa oħra",
-                        "placeholder": "Test ta’ spazju riżervat għat-Titlu tas-Sett ta’ Data",
-                        "help": "Titlu deskrittiv qasir għas-sett tad-data.",
-                        "info": "Titlu deskrittiv qasir għas-sett tad-data. Iżda ma għandux ikunu deskrizzjoni — żommha għall-qasam Deskrizzjoni. Tagħtix waqfa sħiħa. Tużax il-kapep kollha.",
-                        "label": "Titolu"
-                    },
-                    "datasetID": {
-                        "help": "Din il-proprjetà fiha l-identifikatur ewlieni għas-Sett ta’ Data.",
-                        "info": "Din il-proprjetà fiha l-identifikatur ewlieni għas-Sett tad-Data, eż. l-URI jew identifikatur uniku ieħor fil-kuntest tal-Katalogu.",
-                        "label": "Id tas-sett ta’ data"
-                    },
-                    "publisherName": {
-                        "placeholder": "Test tal-pompa tal-Isem tal-Pubblikatur tas-Sett ta’ Data",
-                        "label": "Isem"
-                    },
-                    "keyword": {
-                        "add-label": "Żid il-kelma prinċipali",
-                        "help": "Termini separati b’virgola li jistgħu jillinkjaw dan is-sett tad-data ma’ oħrajn simili.",
-                        "placeholder": "Sett ta’ data Keyword placeholder text",
-                        "info": "Termini separati b’virgola li jistgħu jillinkjaw dan is-sett tad-data ma’ oħrajn simili. Il-kliem ewlieni għandu jkun karattri żgħar alfanumeriċi jew simboli: —_. Il-kliem fi frażijiet għandu jkun magħqud b’sing. eż. tniġġis, xmajjar, kawlità-tal-ilma",
-                        "label": "Kelma prinċipali"
-                    },
-                    "modified": {
-                        "label": "Immodifikat",
-                        "help": "L-aktar data reċenti li fiha s-sett tad-data nbidel, ġie aġġornat jew immodifikat.",
-                        "info": "L-aktar data reċenti li fiha s-sett tad-data nbidel, ġie aġġornat jew immodifikat. Formati ta’ data aċċettabbli: SSSS-XX-JJ, SSSS-XX, SSSS.",
-                        "placeholder": "Sett ta’ data Test ta’ spazju riżervat modifikat"
-                    },
-                    "publisher": {
-                        "help": "Entità, bħal persuna, organizzazzjoni, jew servizz, responsabbli biex tagħmel is-sett tad-data disponibbli.",
-                        "add-label": "Żid Pubblikatur b’lingwa oħra",
-                        "info": "Entità, bħal persuna, organizzazzjoni, jew servizz, responsabbli biex tagħmel is-sett tad-data disponibbli.",
-                        "placeholder": "Spazju riżervat għall-Pubblikatur tas-Sett ta’ Data",
-                        "label": "Pubblikatur"
-                    },
-                    "datetime": {
-                        "label": "DataTime"
-                    },
-                    "catalog": {
-                        "placeholder": "Test tad-detentur tal-post tal-katalogu tas-sett tad-data",
-                        "help": "Il-katalogu tas-sett ta’ data.",
-                        "label": "Katalogu",
-                        "info": "Il-katalogu tas-sett ta’ data."
-                    },
-                    "issued": {
-                        "placeholder": "Sett ta’ data Test bi spazju riżervat maħruġ",
-                        "label": "Maħruġ",
-                        "help": "Id-data tal-ħruġ formali (eż., il-pubblikazzjoni) tas-sett tad-data. Formati ta’ data aċċettabbli: SSSS-XX-JJ, SSSS-XX, SSSS.",
-                        "info": "Din il-proprjetà fiha d-data tal-ħruġ formali (eż., il-pubblikazzjoni) tas-Sett tad-Data."
-                    },
-                    "language": {
-                        "placeholder": "Sett ta’ data Test ta’ spazju riżervat għal-Lingwa",
-                        "label": "Il-lingwa",
-                        "help": "Il-kopertura lingwistika ta’ dan is-sett ta’ data.",
-                        "info": "Il-kopertura lingwistika ta’ dan is-sett ta’ data."
-                    },
-                    "publisherEmail": {
-                        "placeholder": "Test tal-pompa tal-Email tal-Pubblikatur tas-Sett ta’ Data",
-                        "label": "Email"
-                    },
-                    "publisherHomepage": {
-                        "label": "Il-paġna ewlenija",
-                        "placeholder": "Dataset Publisher Homepage placeholder text"
-                    },
-                    "date": {
-                        "label": "Data"
-                    }
-                },
-                "step3": {
-                    "temporalResolution": {
-                        "help": "Il-perjodu ta’ żmien minimu riżolvibbli fid-distribuzzjoni tas-sett tad-data.",
-                        "info": "Din il-proprjetà tirreferi għall-perjodu minimu ta’ żmien riżolvibbli fid-distribuzzjoni tas-sett tad-data.",
-                        "placeholder": "Spazju riżervat għar-Riżoluzzjoni Temporanja ta’ Distribuzzjoni",
-                        "label": "Riżoluzzjoni temporali",
-                        "add-label": "Żid Riżoluzzjoni Temporanja"
-                    },
-                    "spatialResolutionInMeters": {
-                        "help": "Separazzjoni ġeografika minima riżolvibbli f’sett ta’ data.",
-                        "info": "Din il-proprjetà tirreferi għas-separazzjoni ġeografika minima riżolvibbli f’sett ta’ data, imkejla f’metri.",
-                        "placeholder": "Spazju riżervat għar-Riżoluzzjoni Ġeografika ta’ Distribuzzjoni fil-Metri",
-                        "label": "Riżoluzzjoni Ġeografika f’Meters"
-                    },
-                    "compressFormat": {
-                        "placeholder": "Spazju riżervat għall-Format tal-Kompressa ta’ Distribuzzjoni",
-                        "help": "Il-format tal-fajl li fih id-data tinsab f’forma kompressata.",
-                        "info": "Din il-proprjetà tirreferi għall-format tal-fajl li fih id-data tinsab f’forma kkompressata, eż. biex jitnaqqas id-daqs tal-fajl li jista’ jitniżżel. IT GĦANDU jiġi espress bl-użu ta’ tip ta’ midja kif definit fir-reġistru uffiċjali tat-tipi ta’ midja mmaniġġjat mill-IANA.",
-                        "label": "Kompressa Format"
-                    },
-                    "mediaType": {
-                        "placeholder": "Spazju riżervat għat-Tip tal-Media ta’ Distribuzzjoni",
-                        "help": "Il-format tal-fajl li fih id-data tinsab f’forma kompressata.",
-                        "info": "Din il-proprjetà tirreferi għall-format tal-fajl li fih id-data tinsab f’forma kkompressata, eż. biex jitnaqqas id-daqs tal-fajl li jista’ jitniżżel. IT GĦANDU jiġi espress bl-użu ta’ tip ta’ midja kif definit fl-uffiċjal",
-                        "label": "Tip ta’ Mezz"
-                    },
-                    "pageTitle": {
-                        "label": "Titolu",
-                        "placeholder": "Spazju riżervat għal Paġna ta’ Distribuzzjoni"
-                    },
-                    "language": {
-                        "placeholder": "Distribuzzjoni It-test ta’ spazju riżervat għal-lingwa",
-                        "label": "Il-lingwa",
-                        "help": "Lingwa użata fid-Distribuzzjoni.",
-                        "info": "Din il-proprjetà tirreferi għal lingwa użata fid-Distribuzzjoni. Din il-proprjetà tista’ tiġi ripetuta jekk il-metadata tiġi pprovduta f’diversi lingwi."
-                    },
-                    "packageFormat": {
-                        "placeholder": "Spazju riżervat għall-Format tal-Pakkett ta’ Distribuzzjoni",
-                        "help": "Il-format tal-fajl li fih fajl tad-data wieħed jew aktar huma miġbura flimkien.",
-                        "info": "Din il-proprjetà tirreferi għall-format tal-fajl li fih fajl tad-data wieħed jew aktar huma miġbura flimkien, eż. biex jippermettu li sett ta’ fajls relatati jitniżżel flimkien. IT GĦANDU jiġi espress bl-użu ta’ tip ta’ midja kif definit fir-reġistru uffiċjali tat-tipi ta’ midja mmaniġġjat mill-IANA.",
-                        "label": "Format tal-Pakkett"
-                    },
-                    "title": {
-                        "placeholder": "Test tal-pompa tat-titolu tad-distribuzzjoni",
-                        "help": "Din il-proprjetà fiha isem mogħti lid-Distribuzzjoni.",
-                        "info": "Din il-proprjetà fiha isem mogħti lid-Distribuzzjoni. Din il-proprjetà tista’ tiġi ripetuta għal verżjonijiet lingwistiċi paralleli tad-deskrizzjoni.",
-                        "add-label": "Żid it-Titolu f’lingwa oħra",
-                        "label": "Titolu"
-                    },
-                    "licenceDescription": {
-                        "label": "Deskrizzjoni tal-Liċenzja",
-                        "placeholder": "Liċenzja tal-Katalogu It-test tad-detentur tal-post tad-deskrizzjoni"
-                    },
-                    "checksumAlgorithm": {
-                        "label": "L-Algoriżmu ta’ Kontrolli"
-                    },
-                    "status": {
-                        "help": "L-istatus tad-distribuzzjoni fil-kuntest taċ-ċiklu tal-ħajja tal-maturità.",
-                        "info": "l-istatus tad-distribuzzjoni fil-kuntest taċ-ċiklu tal-ħajja tal-maturità. Huwa GĦANDU jieħu wieħed mill-valuri Ikkompletati, depredikati, Taħt Żvilupp, Irtirat.",
-                        "label": "Status",
-                        "placeholder": "Spazju riżervat għall-istatus tad-distribuzzjoni"
-                    },
-                    "downloadUrl": {
-                        "placeholder": "Iddawnlowdja t-test tal-pompa tal-Url f’Url",
-                        "help": "Link diretta għal fajl li jista’ jitniżżel f’format partikolari.",
-                        "info": "Din il-proprjetà fiha URL li huwa link dirett għal fajl li jista’ jitniżżel f’format partikolari.",
-                        "label": "Niżżel Url"
-                    },
-                    "checksum": {
-                        "help": "Iċ-checksum huwa relatat mad-downloadUrl.",
-                        "info": "Din il-proprjetà tipprovdi mekkaniżmu li jista’ jintuża biex jiġi vverifikat li l-kontenut ta’ distribuzzjoni ma nbidilx. Iċ-checksum huwa relatat mad-downloadUrl.",
-                        "placeholder": "Spazju riżervat għall-kontroll tad-distribuzzjoni",
-                        "label": "Checksum"
-                    },
-                    "licenceTitle": {
-                        "placeholder": "Test tal-Liċenzja tal-Katalogu Titolu postholder",
-                        "label": "Titolu tal-Liċenzja"
-                    },
-                    "type": {
-                        "label": "Tip ta’",
-                        "help": "It-tip tal-midja tad-Distribuzzjoni.",
-                        "info": "Din il-proprjetà tirreferi għat-tip tal-midja tad-Distribuzzjoni kif definit fir-reġistru uffiċjali tat-tipi tal-midja ġestiti mill-IANA."
-                    },
-                    "hasPolicyUrl": {
-                        "label": "URL",
-                        "placeholder": "Spazju riżervat għal Url Politika ta’ Distribuzzjoni"
-                    },
-                    "accessServiceDescription": {
-                        "add-label": "Żid Deskrizzjoni tas-Servizz tad-Data b’lingwa oħra",
-                        "label": "Deskrizzjoni tas-Servizz tad-Data"
-                    },
-                    "temporalResolutionDay": {
-                        "placeholder": "Test tad-detentur tal-post tas-sett tad-data Jum ta’ Riżoluzzjoni Temporali",
-                        "label": "Jum tar-Riżoluzzjoni Temporanja"
-                    },
-                    "page": {
-                        "placeholder": "Tqassam Paġna ta’ spazju riżervat",
-                        "add-label": "Żid Paġna",
-                        "label": "Paġna",
-                        "help": "Paġna jew dokument dwar din id-Distribuzzjoni.",
-                        "info": "Din il-proprjetà tirreferi għal paġna jew dokument dwar din id-Distribuzzjoni."
-                    },
-                    "accessService": {
-                        "help": "Servizz tad-data li jagħti aċċess għad-distribuzzjoni tas-sett tad-data",
-                        "info": "Din il-proprjetà tirreferi għal servizz tad-data li jagħti aċċess għad-distribuzzjoni tas-sett tad-data.",
-                        "add-label": "Żid Servizz ta’ Data ieħor",
-                        "label": "Servizz ta’ Data"
-                    },
-                    "availability": {
-                        "help": "Għal kemm żmien huwa ppjanat li d-Distribuzzjoni tas-Sett tad-Data tibqa’ disponibbli.",
-                        "info": "Din il-proprjetà tindika kemm hu ppjanat li d-Distribuzzjoni tas-Sett tad-Data tibqa’ disponibbli.",
-                        "placeholder": "Spazju riżervat għad-Disponibbiltà tad-Distribuzzjoni",
-                        "label": "Disponibbiltà"
-                    },
-                    "conformsToTitle": {
-                        "placeholder": "Distribuzzjoni Konformi Għalt-test tad-detentur riżervat tat-Titolu",
-                        "label": "Titolu"
-                    },
-                    "rights": {
-                        "label": "Drittijiet",
-                        "placeholder": "Spazju riżervat għad-Drittijiet ta’ Distribuzzjoni",
-                        "help": "Din il-proprjetà tirreferi għal dikjarazzjoni li tispeċifika d-drittijiet assoċjati mad-Distribuzzjoni.",
-                        "info": "Din il-proprjetà tirreferi għal dikjarazzjoni li tispeċifika d-drittijiet assoċjati mad-Distribuzzjoni."
-                    },
-                    "format": {
-                        "placeholder": "Spazju riżervat għall-Format ta’ Distribuzzjoni",
-                        "help": "Il-format tal-fajl tad-Distribuzzjoni.",
-                        "info": "Din il-proprjetà tirreferi għall-format tal-fajl tad-Distribuzzjoni.",
-                        "label": "Format"
-                    },
-                    "conformsTo": {
-                        "placeholder": "Distribuzzjoni Konformi Għalt-test bi spazju riżervat",
-                        "help": "Skema stabbilita li magħha hija konformi d-Distribuzzjoni deskritta.",
-                        "info": "Din il-proprjetà tirreferi għal skema stabbilita li d-Distribuzzjoni deskritta tikkonforma magħha.",
-                        "label": "Jikkonforma ma’",
-                        "add-label": "Żid Konformi Biex"
-                    },
-                    "pageDescription": {
-                        "placeholder": "Paġna ta’ Distribuzzjoni It-test tal-pompa tad-Deskrizzjoni",
-                        "label": "Deskrizzjoni"
-                    },
-                    "accessServiceTitle": {
-                        "add-label": "Żid Titolu tas-Servizz tad-Data b’lingwa oħra",
-                        "label": "Titolu tas-Servizz tad-Data"
-                    },
-                    "issued": {
-                        "placeholder": "Spazju riżervat maħruġ għad-distribuzzjoni",
-                        "help": "Id-data tal-ħruġ formali (eż., il-pubblikazzjoni) tad-Distribuzzjoni.",
-                        "info": "Din il-proprjetà fiha d-data tal-ħruġ formali (eż., il-pubblikazzjoni) tad-Distribuzzjoni.",
-                        "label": "Maħruġ"
-                    },
-                    "licenceURL": {
-                        "placeholder": "Test tad-detentur tal-post URL tal-Liċenzja tal-Katalogu",
-                        "label": "URL tal-liċenzja"
-                    },
-                    "modified": {
-                        "label": "Immodifikat",
-                        "placeholder": "Distribuzzjoni Test ta’ spazju riżervat modifikat",
-                        "help": "Id-data li fiha d-Distribuzzjoni nbidlet jew ġiet modifikata.",
-                        "info": "Din il-proprjetà fiha l-aktar data reċenti li fiha d-Distribuzzjoni nbidlet jew ġiet modifikata."
-                    },
-                    "description": {
-                        "add-label": "Żid Deskrizzjoni f’lingwa oħra",
-                        "help": "Din il-proprjetà fiha kont b’test liberu tad-Distribuzzjoni.",
-                        "info": "Din il-proprjetà fiha kont b’test liberu tad-Distribuzzjoni. Din il-proprjetà tista’ tiġi ripetuta għal verżjonijiet lingwistiċi paralleli tad-deskrizzjoni.",
-                        "placeholder": "Test tal-pompa tad-Deskrizzjoni tad-Deskrizzjoni",
-                        "label": "Deskrizzjoni"
-                    },
-                    "datetime": {
-                        "label": "DataTime"
-                    },
-                    "temporalResolutionYear": {
-                        "placeholder": "Test tad-detentur tal-post tas-Sena tas-Sett ta’ Data ta’ Riżoluzzjoni Temporali",
-                        "label": "Sena ta’ Riżoluzzjoni temporali"
-                    },
-                    "hasPolicy": {
-                        "add-label": "Żid il-Politika Tagħha",
-                        "help": "Il-politika li tesprimi d-drittijiet.",
-                        "info": "Din il-proprjetà tirreferi għall-politika li tesprimi d-drittijiet assoċjati mad-distribuzzjoni jekk jintuża l-vokabularju tal-ODRL",
-                        "label": "Politika ta’ politika"
-                    },
-                    "byteSize": {
-                        "placeholder": "Spazju riżervat għad-daqs tal-Byte ta’ Distribuzzjoni",
-                        "help": "Id-daqs ta’ Distribuzzjoni f’bytes.",
-                        "info": "Din il-proprjetà fiha d-daqs ta’ Distribuzzjoni f’bytes.",
-                        "label": "Daqs ta’ byte"
-                    },
-                    "temporalResolutionMonth": {
-                        "placeholder": "Test tad-detentur tal-post tax-xahar tas-sett tad-data",
-                        "label": "Xahar ta’ Riżoluzzjoni temporali"
-                    },
-                    "accessUrl": {
-                        "help": "Din il-proprjetà fiha URL li jagħti aċċess għal Distribuzzjoni tas-Sett tad-Data.",
-                        "info": "Din il-proprjetà fiha URL li jagħti aċċess għal Distribuzzjoni tas-Sett tad-Data. Ir-riżorsa fil-URL tal-aċċess jista’ jkun fiha informazzjoni dwar kif tikseb is-Sett tad-Data.",
-                        "label": "Aċċess Url",
-                        "placeholder": "Spazju riżervat għal Url Aċċess għad-Distribuzzjoni",
-                        "add-label": "Żid l-Url ta’ Aċċess"
-                    },
-                    "temporalResolutionMinute": {
-                        "label": "Il-Minuta ta’ Riżoluzzjoni temporali",
-                        "placeholder": "Test tad-Detentur tal-Post tal-Minuti tas-sett tad-data"
-                    },
-                    "temporalResolutionHour": {
-                        "placeholder": "Test tad-Detentur tal-Post tas-Sett ta’ Data Temporali",
-                        "label": "Is-Siegħa ta’ Riżoluzzjoni temporali"
-                    },
-                    "temporalResolutionSecond": {
-                        "label": "It-tieni riżoluzzjoni temporali",
-                        "placeholder": "Sett ta’ data Riżoluzzjoni Temporali test tat-tieni detentur ta’ post"
-                    },
-                    "pageUrl": {
-                        "placeholder": "Spazju riżervat għall-Paġna tad-Distribuzzjoni Url",
-                        "label": "URL"
-                    },
-                    "pageFormat": {
-                        "label": "Format",
-                        "placeholder": "Spazju riżervat għall-Format ta’ Paġna ta’ Distribuzzjoni"
-                    },
-                    "licence": {
-                        "help": "Il-liċenzja li taħtha tkun disponibbli d-Distribuzzjoni.",
-                        "label": "Liċenzja",
-                        "placeholder": "Spazju riżervat għal-Liċenzja ta’ Distribuzzjoni",
-                        "info": "Din il-proprjetà tirreferi għal-liċenzja li taħtha tkun disponibbli d-Distribuzzjoni."
-                    },
-                    "accessServiceEndpointURL": {
-                        "placeholder": "Test tad-detentur tal-post URL tas-Servizz tad-Distribuzzjoni tad-Data",
-                        "label": "URL tal-Punt ta’ Tmiem tas-Servizz tad-Data"
-                    },
-                    "conformsToUrl": {
-                        "placeholder": "Distribuzzjoni Konformi għal Url placeholder text",
-                        "label": "URL"
-                    },
-                    "date": {
-                        "label": "Data"
-                    }
-                },
                 "stepper": {
                     "step3": {
                         "children": {
@@ -853,187 +154,10 @@
                             }
                         }
                     },
-                    "overview": "Ħarsa ġenerali lejn is-sett tad-data",
-                    "step1": {},
-                    "step2": {}
+                    "overview": "Ħarsa ġenerali lejn is-sett tad-data"
                 }
             },
             "catalogues": {
-                "step2": {
-                    "rights": {
-                        "placeholder": "Test tad-detentur tal-post tad-drittijiet tal-katalogu",
-                        "help": "Dikjarazzjoni li tispeċifika d-drittijiet assoċjati mal-Katalogu.",
-                        "label": "Drittijiet",
-                        "info": "Din il-proprjetà tirreferi għal dikjarazzjoni li tispeċifika d-drittijiet assoċjati mal-Katalogu."
-                    },
-                    "isPartOf": {
-                        "label": "Huwa Parti minn",
-                        "placeholder": "Il-katalogu huwa Parti minn test bi spazju riżervat",
-                        "help": "Katalogu relatat li fih il-Katalogu deskritt huwa fiżikament jew loġikament inkluż.",
-                        "info": "Din il-proprjetà tirreferi għal Katalogu relatat li fih il-Katalogu deskritt huwa fiżikament jew loġikament inkluż."
-                    },
-                    "catalog": {
-                        "label": "Katalogu",
-                        "help": "Katalogu li l-kontenut tiegħu huwa ta’ interess fil-kuntest ta’ dan il-katalogu.",
-                        "info": "Din il-proprjetà tirreferi għal katalogu li l-kontenut tiegħu huwa ta ‘interess fil-kuntest ta’ dan il-katalgu.",
-                        "add-label": "Żid Catalog f’lingwa oħra",
-                        "placeholder": "Katalogu It-test tad-detentur tal-post tal-katalogu"
-                    },
-                    "creatorEmail": {
-                        "label": "Email",
-                        "placeholder": "Katalgu Ħallieq Email postholder test"
-                    },
-                    "language": {
-                        "help": "Lingwa użata fil-metadejta testwali li tiddeskrivi t-titli, id-deskrizzjonijiet, eċċ.",
-                        "info": "Din il-proprjetà tirreferi għal lingwa użata fil-metadata testwali li tiddeskrivi t-titli, id-deskrizzjonijiet, eċċ. tas-Sett tad-Data. Din il-proprjetà tista’ tiġi ripetuta jekk il-metadata tiġi pprovduta f’diversi lingwi.",
-                        "label": "Il-lingwa",
-                        "add-label": "Żid il-Lingwa b’lingwa oħra",
-                        "placeholder": "Spazju riżervat għal-Lingwa Katalgu"
-                    },
-                    "spatialContinent": {
-                        "label": "Kontinent",
-                        "placeholder": "Katalgu Spatial Continent placeholder text"
-                    },
-                    "spatial": {
-                        "help": "Din il-proprjetà tirreferi għal żona ġeografika koperta mill-Katalogu.",
-                        "info": "Din il-proprjetà tirreferi għal żona ġeografika koperta mill-Katalogu.",
-                        "add-label": "Żid Spatial b’lingwa oħra",
-                        "label": "Spazjali",
-                        "placeholder": "Katalgu Test bi spazju riżervat għall-spazju spazjali"
-                    },
-                    "creatorType": {
-                        "placeholder": "Katalogu Ħallieq test tad-detentur tal-post tat-tip",
-                        "label": "Tip ta’"
-                    },
-                    "hasPart": {
-                        "add-label": "Żid il-Parti Has",
-                        "label": "Għandu Parti",
-                        "help": "Din il-proprjetà tirreferi għal Katalogu relatat li huwa parti mill-Katalogu deskritt",
-                        "placeholder": "Katalgu It-test ta’ spazju riżervat għall-Parti",
-                        "info": "Din il-proprjetà tirreferi għal Katalogu relatat li huwa parti mill-Katalogu deskritt."
-                    },
-                    "spatialCountry": {
-                        "label": "Pajjiż",
-                        "placeholder": "Katalgu Test bi spazju riżervat għall-Pajjiż Ġeografiku"
-                    },
-                    "creator": {
-                        "help": "L-entità responsabbli għall-produzzjoni tal-katalogu",
-                        "info": "Din il-proprjetà tirreferi għall-entità responsabbli għall-produzzjoni tal-katalgu",
-                        "label": "Ħallieq",
-                        "add-label": "Żid Ħallieq"
-                    },
-                    "hasPartURL": {
-                        "placeholder": "Katalogu Għandu l-URL Parti test ta’ spazju riżervat",
-                        "label": "Għandu Parti"
-                    },
-                    "spatialPlace": {
-                        "placeholder": "Katalgu Test ta’ spazju riżervat għall-Post Ġeografiku",
-                        "label": "Post"
-                    },
-                    "creatorHomepage": {
-                        "label": "Il-paġna ewlenija",
-                        "placeholder": "Katalogu Ħallieq test homepage postholder"
-                    },
-                    "creatorName": {
-                        "placeholder": "Katalgu Ħallieq Isem isem id-detentur tal-post",
-                        "label": "Isem"
-                    }
-                },
-                "step1": {
-                    "issued": {
-                        "info": "Din il-proprjetà fiha d-data li fiha d-deskrizzjoni tas-Sett ta’ Data ġiet inkluża fil-Katalogu.",
-                        "add-label": "Żid Maħruġ b’lingwa oħra",
-                        "label": "Maħruġ",
-                        "placeholder": "Katalgu Test bi spazju riżervat maħruġ",
-                        "help": "Din il-proprjetà fiha d-data li fiha d-deskrizzjoni tas-Sett ta’ Data ġiet inkluża fil-Katalogu."
-                    },
-                    "title": {
-                        "label": "Titolu",
-                        "placeholder": "Katalgu test ta’ spazju riżervat għat-titlu",
-                        "help": "Isem mogħti lir-Reġistru tal-Katalogu. ",
-                        "info": "Din il-proprjetà fiha isem mogħti lir-Reġistru tal-Katalogu. Din il-proprjetà tista’ tiġi ripetuta għal verżjonijiet lingwistiċi paralleli tal-isem.",
-                        "add-label": "Żid it-Titolu f’lingwa oħra"
-                    },
-                    "catalog": {
-                        "help": "A katalogu li l-kontenuti huma ta ‘interess fil-kuntest ta’ dan il-katalgu",
-                        "info": "Din il-proprjetà tirreferi għal katalogu li l-kontenut tiegħu huma ta ‘interess fil-kuntest ta’ dan il-katalgu",
-                        "label": "Katalogu"
-                    },
-                    "description": {
-                        "label": "Deskrizzjoni",
-                        "help": "Din il-proprjetà fiha kont b’test liberu tar-rekord.",
-                        "info": "Din il-proprjetà fiha kont b’test liberu tar-rekord. Din il-proprjetà tista’ tiġi ripetuta għal verżjonijiet lingwistiċi paralleli tad-deskrizzjoni.",
-                        "add-label": "Żid Deskrizzjoni f’lingwa oħra",
-                        "placeholder": "Katalgu Test tal-pompa tad-Deskrizzjoni"
-                    },
-                    "publisherName": {
-                        "placeholder": "Pubblikazzjoni tal-Katalgu Test tal-pompa tal-Isem",
-                        "label": "Isem"
-                    },
-                    "licence": {
-                        "help": "Il-liċenzja li taħtha l-Katalogu jista’ jintuża jew jerġa’ jintuża.",
-                        "info": "Din il-proprjetà tirreferi għal-liċenzja li skontha l-Katalogu jista’ jintuża jew jerġa’ jintuża.",
-                        "label": "Liċenzja",
-                        "placeholder": "Spazju riżervat għal-Liċenzja tal-Katalogu test"
-                    },
-                    "licenceTitle": {
-                        "label": "Titolu tal-Liċenzja",
-                        "placeholder": "Test tal-Liċenzja tal-Katalogu Titolu postholder"
-                    },
-                    "publisherEmail": {
-                        "label": "Email",
-                        "placeholder": "Pubblikazzjoni tal-Katalgu test tal-pompa għall-posta elettronika"
-                    },
-                    "modified": {
-                        "help": "L-aktar data riċenti li fiha l-entrata tal-Katalogu nbidlet jew ġiet modifikata.",
-                        "info": "Din il-proprjetà fiha l-aktar data reċenti li fiha l-entrata tal-Katalogu nbidlet jew ġiet modifikata.",
-                        "placeholder": "Katalgu Test modifikat ta’ spazju riżervat",
-                        "label": "Immodifikat",
-                        "add-label": "Żid Modifikat b’lingwa oħra"
-                    },
-                    "publisher": {
-                        "label": "Pubblikatur",
-                        "placeholder": "Spazju riżervat għall-Pubblikazzjoni tal-Katalgu",
-                        "help": "Din il-proprjetà tirreferi għal entità (organizzazzjoni) responsabbli mit-tqegħid għad-dispożizzjoni tas-Sett tad-Data.",
-                        "info": "Din il-proprjetà tirreferi għal entità (organizzazzjoni) responsabbli mit-tqegħid għad-dispożizzjoni tas-Sett tad-Data."
-                    },
-                    "publisherHomepage": {
-                        "placeholder": "Test tal-pjazzju tal-Paġna Ewlenija tal-Pubblikazzjonijiet tal-Katalgu",
-                        "label": "Il-paġna ewlenija"
-                    },
-                    "licenceDescription": {
-                        "label": "Deskrizzjoni tal-Liċenzja",
-                        "placeholder": "Liċenzja tal-Katalogu It-test tad-detentur tal-post tad-deskrizzjoni"
-                    },
-                    "licenceURL": {
-                        "placeholder": "Test tad-detentur tal-post URL tal-Liċenzja tal-Katalogu",
-                        "label": "URL tal-liċenzja"
-                    },
-                    "publisherType": {
-                        "label": "Tip",
-                        "placeholder": "Test tal-pompa tat-Tip tal-Katalgu"
-                    },
-                    "homepage": {
-                        "placeholder": "Katalgu Test ta’ spazju riżervat għall-Omoepage",
-                        "label": "Il-paġna ewlenija",
-                        "help": "Paġna web li taġixxi bħala l-paġna ewlenija għall-Katalogu.",
-                        "info": "Din il-proprjetà tirreferi għal paġna web li taġixxi bħala l-paġna ewlenija għall-Katalogu."
-                    },
-                    "datetime": {
-                        "label": "DataTime"
-                    },
-                    "language": {
-                        "label": "Il-lingwa",
-                        "placeholder": "Spazju riżervat għal-Lingwa Katalgu"
-                    },
-                    "catalogURL": {
-                        "label": "URL ta’ katalogu",
-                        "placeholder": "Katalgu Catalog URL placeholer test"
-                    },
-                    "date": {
-                        "label": "Data"
-                    }
-                },
                 "stepper": {
                     "overview": "Ħarsa ġenerali lejn il-katalogu",
                     "step1": {
@@ -1133,7 +257,7 @@
             "datasets": {
                 "modal": {
                     "downloadingFiles": "Tniżżil ta’ fajls",
-                    "zipNumberOfFiles": "Zip i-numru tal-faxxikli (zip number)",
+                    "zipNumberOfFiles": "Zip i-numru tal-faxxikli {number}",
                     "waitingForDownload": "(stennija għat-tniżżil)",
                     "downloadProgress": "Niżżel il-Progress",
                     "notDownloaded": "Mhux imniżżel",
@@ -1339,7 +463,13 @@
             },
             "countMessage": "katalogi li nstabu għal",
             "loadingMessage": "Qed jillowdja l-katalogi...",
-            "geoBoundsMessageRemove": "Agħlaq din in-notifika biex tneħħi l-limitazzjoni jew uża l-funzjoni tar-risettjar."
+            "geoBoundsMessageRemove": "Agħlaq din in-notifika biex tneħħi l-limitazzjoni jew uża l-funzjoni tar-risettjar.",
+            "meta": {
+                "page": {
+                    "title": "Katalogi ta’ Settijiet ta’ Data Miftuħa | data.europa.eu"
+                },
+                "description": "Iddawlowdja, ixxerja u analizza settijiet ta’ data għal kull katalogu. Esplora iktar minn 80 katalogu ta’ data minn istituzzjonijiet uffiċjali fl-Ewropa."
+            }
         },
         "datasetFacets": {
             "facets": {
@@ -1360,7 +490,7 @@
                     "goodScoring": "Tajjeb",
                     "excellentScoring": "Eċċellenti"
                 },
-                "publisher": "@: message.metadata.pubblikatur",
+                "publisher": "Pubblikatur",
                 "license": "Liċenzji",
                 "keywords": "Kliem prinċipali",
                 "categories": "Kategoriji",
@@ -1382,7 +512,7 @@
                     "euInternationalData": "Data tal-UE u internazzjonali",
                     "datasets": "Settijiet tad-data",
                     "catalogs": "Katalogi",
-                    "metadataquality": "Kwalità tal-Metadata",
+                    "metadataquality": "Katalogi ta’ Settijiet ta’ Data Miftuħa",
                     "sparqleditor": "Editur ta’ SPARQL",
                     "statistics": "Statistiki",
                     "sparqlsearch": "Tiftix SPARQL",
@@ -1452,7 +582,11 @@
             "countMessage": "settijiet tad-data li nsabtu għal ",
             "foundDatasetsSingular": "1 sett ta’ data misjub",
             "meta": {
-                "translationNotComplete": "It-traduzzjoni mhix kompluta"
+                "translationNotComplete": "It-traduzzjoni mhix kompluta",
+                "page": {
+                    "title": "Settijiet ta’ data miftuħa tal-UE | Portal Uffiċjali għad-Data tal-UE"
+                },
+                "description": "L-ikbar portal ta’ settijiet ta’ data miftuħa fl-Ewropa. Esplora settijiet ta’ data tal-UE għal kull pajjiż, għal kull istituzzjoni, katalogu, kategoriji, kelmiet ewlenin, u ħafna iktar."
             },
             "geoBoundsMessageRemove": "Agħlaq din in-notifika biex tneħħi l-limitazzjoni jew uża l-funzjoni tar-risettjar.",
             "createDataset": "Oħloq Sett tad-Data",
@@ -1486,7 +620,7 @@
             "newsletterText": "Abbona għall-Bullettin tagħna",
             "newsletter": "Bullettin",
             "followUs": "Segwina fuq",
-            "managedBy": "Immaniġġjat mill-Uffiċċju tal-Pubblikazzjonijiet tal-Unjoni Ewropea",
+            "managedBy": "Immaniġġjat mill-Uffiċċju tal-Pubblikazzjonijiet tal-Unjoni Ewropea.",
             "fundedBy": "Iffinanzjat mill-Unjoni Ewropea"
         },
         "helpIcon": {
@@ -1639,6 +773,18 @@
         },
         "imprint": {
             "msg": "DAĦĦAL IL-MARKA HAWN"
+        },
+        "cookieConsent": {
+            "accept": "Accepteren",
+            "text": "Aħna nużaw il-cookies fuq dan is-sit sabiex insaħħu l-esperjenza tiegħek ta' utent"
+        },
+        "notFound": {
+            "contactUsAbout": "Ikkuntattjana dwar dan il-messaġġ ta' żball.",
+            "requested": {
+                "parttwo": "Paġna tat-tfittxija tas-sett tad-dejta",
+                "page": "Il-paġna mitluba ma nstabitx. Inti tista' terġa' tibda mill-paġna ewlenija."
+            },
+            "error": "Żball"
         }
     }
 }
