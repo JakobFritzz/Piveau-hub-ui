@@ -12,7 +12,6 @@
   text-align: left;
 }
 
-
 // Hacky solution to fix the dataset details -- needs to be fixed in the modules #### start ######
 .additional-information-overlay {
   opacity: 0;
@@ -189,6 +188,6 @@
   }
 }
 
-// import empty theme after styles are loaded
+// import empty theme after styles are loaded 
 @import "empty_theme";
 @import "datasets_catalogs";
