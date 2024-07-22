@@ -285,6 +285,7 @@ export default {
       }
     },
     "dataProviderInterface": {
+      "uploadFileTypes": "$VITE_CONTENT_DATA_PROVIDER_INTERFACE_UPLOAD_FILE_TYPES",
       "useService": "$VITE_CONTENT_DATA_PROVIDER_INTERFACE_USE_SERVICE",
       "enableFileUploadReplace": "$VITE_CONTENT_DATA_PROVIDER_INTERFACE_ENABLE_FILE_UPLOAD_REPLACE",
       "basePath": "$VITE_CONTENT_DATA_PROVIDER_INTERFACE_BASE_PATH",
