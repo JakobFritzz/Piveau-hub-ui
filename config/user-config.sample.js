@@ -306,7 +306,7 @@ const glueConfig = {
       },
     },
     dataProviderInterface: {
-      uploadFileTypes: '.txt, .docx, .doc, .pdf, .shp, .json, .xml, .geojson, .rdf, .xlsx, .xls',
+      uploadFileTypes: '.txt,.docx,.doc,.pdf,.shp,.json,.xml,.geojson,.rdf,.xlsx,.xls',
       useService: true,
       basePath: '/dpi',
       specification: 'dcatap',
