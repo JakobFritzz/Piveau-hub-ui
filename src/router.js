@@ -14,8 +14,6 @@ import {
   Datasets,
   Catalogues,
   NotFound,
-  Imprint,
-  PrivacyPolicy,
   SparqlSearch,
   DataProviderInterface,
   DataFetchingComponent,
@@ -27,6 +25,9 @@ import {
   UserCataloguesPage,
   decode,
 } from "@piveau/piveau-hub-ui-modules";
+
+import Imprint from './components/Imprint.vue'
+import PrivacyPolicy from './components/PrivacyPolicy.vue'
 
 const title = GLUE_CONFIG.metadata.title;
 
@@ -231,14 +232,14 @@ router.beforeEach((to, from, next) => {
   let isLinkedDataRequest = false;
 
   // RDF|N3|JSON-LD|TTL|NT redirects
-  if (/^\/(data\/)?datasets\/[a-z0-9-_]+(\.rdf|\.n3|\.jsonld|\.ttl|\.nt)/.test(to.path)) {    
+  if (/^\/(data\/)?datasets\/[a-z0-9-_]+(\.rdf|\.n3|\.jsonld|\.ttl|\.nt)/.test(to.path)) {
     let locale = to.query.locale ? `&locale=${to.query.locale}` : '';
 
     isLinkedDataRequest = true;
     window.location = `${GLUE_CONFIG.api.hubUrl}${to.path}?useNormalizedId=true${locale}`;
   }
 
-  if (/^\/(data\/)?api\/datasets\/[a-z0-9-_]+(\.rdf|\.n3|\.jsonld|\.ttl|\.nt)/.test(to.path)) {   
+  if (/^\/(data\/)?api\/datasets\/[a-z0-9-_]+(\.rdf|\.n3|\.jsonld|\.ttl|\.nt)/.test(to.path)) {
     let locale = to.query.locale ? `?locale=${to.query.locale}` : '';
     let returnPath = to.path.replace('/api', '')
       .replace(/(\.rdf|\.n3|\.jsonld|\.ttl|\.nt)/, '')
@@ -286,7 +287,7 @@ router.beforeEach((to, from, next) => {
   // else if (!to.query.locale && from.query.locale) {
   //   const pathWithCurrentLocale = `${to.path}?locale=${from.query.locale}`; // TODO: Other queries may get lost here?
   //   next({ path: pathWithCurrentLocale });
-  // } 
+  // }
   else {
     document.title = title;
     next();
