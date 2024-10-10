@@ -2,6 +2,7 @@
 import * as Router from 'vue-router';
 import { watch } from 'vue';
 import { glueConfig as GLUE_CONFIG } from '../config/user-config';
+// import {DPIHome} from "@piveau/piveau-hub-ui-modules"
 import {
   Auth,
   DatasetDetailsCategories,
@@ -178,6 +179,12 @@ if (GLUE_CONFIG.content.dataProviderInterface.useService) {
     component: DataFetchingComponent,
     props: true
   }),
+  // router.addRoute({
+  //   path: '/dpi/home',
+  //   name: "DPI-Home-HappyFlow",
+  //   component: DPIHome,
+  //   props: true
+  // }),
   router.addRoute({
     path: "/dpi",
     name: "DataProviderInterface",
