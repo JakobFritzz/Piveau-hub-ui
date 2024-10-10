@@ -2,7 +2,7 @@
   <div class="mb-5">
     <nav id="piveau-header" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" >
       <slot name="logo">
-        <a class="navbar-brand" href="/"><Logo class="piveau-logo"/></a>
+        <router-link class="navbar-brand" to="/"><Logo class="piveau-logo"/></router-link>
       </slot>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
