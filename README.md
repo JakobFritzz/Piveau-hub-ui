@@ -49,11 +49,12 @@ To generate release versions use the semantic release keywords in your commit, f
 
 ```
 fix: 
-chore: 
 feat:
 ```
 
-For further reference see https://semantic-release.gitbook.io/semantic-release for further information.
+A release creeates a tag and a tag becomes a new image.
+
+For further reference see https://semantic-release.gitbook.io/semantic-release#how-does-it-work and https://semver.org/
 
 
 ## Configurations
