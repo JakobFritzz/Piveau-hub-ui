@@ -1,6 +1,6 @@
 # Migration Guide (v4)
 
-This Migration Guide explains how to use Vue 3 together with Vite in your `piveau-hub-ui`. 
+This Migration Guide explains how to use Vue 3 together with Vite in your `piveau-hub-ui`.
 
 It does not contain all breaking changes of Vue 3, but only the ones which are necessary for `piveau-hub-ui`, i.e. all developers are asked to read about Vue 3 themselves.
 
@@ -1070,7 +1070,7 @@ export default {
 
 ## 9. Remove outdated content from piveau-hub-ui
 
-At this point, the acutal Vue 3 migration is done. 
+At this point, the acutal Vue 3 migration is done.
 
 Restore a clean state of the repo by performing the following actions in preparation for Installation & Test:
 
@@ -1113,7 +1113,7 @@ npm run dev
 
 ### 10.3 Check console for errors & warnings
 
-The `@vue/compat` package should show warnings for Vue 2 related behaviour in your project, that is deprecated in Vue 3. 
+The `@vue/compat` package should show warnings for Vue 2 related behaviour in your project, that is deprecated in Vue 3.
 
 Fix all the errors and warnings and add instructions to this Migration Guide if it was not included.
 
@@ -1160,7 +1160,7 @@ If no errors or warnings are shown and the application is running as before, the
 
 <details><summary>Open</summary>
 
-The string values defined in runtime-config.js (in the config folder) have changed (among other changes, they now 
+The string values defined in runtime-config.js (in the config folder) have changed (among other changes, they now
 start with `$Vite_` instead of `$VUE_APP_`) use the latest version of this file in Vanilla-hub-ui and
 adapt variable definitions in your deployment accordingly.
 
