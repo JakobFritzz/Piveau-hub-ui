@@ -43,6 +43,20 @@ $ docker build -t piveau-hub-ui .
 $ docker run -i -p 8080:8080 piveau-hub-ui
 ```
 
+### Semantic release
+
+To generate release versions use the semantic release keywords in your commit, for example
+
+```
+fix: 
+feat:
+```
+
+A release creeates a tag and a tag becomes a new image.
+
+For further reference see https://semantic-release.gitbook.io/semantic-release#how-does-it-work and https://semver.org/
+
+
 ## Configurations
 
 **Note:** _Just like the default configuration, Runtime configurations (or environment variables) will be loaded client-side. Therefore, it is recommended that you <ins>**SHOULD NOT**</ins> store sensitive information like passwords or tokens in environment variables. The Runtime configuration file <ins>**MUST**</ins> be structurally identical to the standard `user-config.js` file. Each value <ins>**MUST**</ins> start with the `$VITE_` prefix and <ins>**SHOULD**</ins> be followed by its path. Their corresponding environment variable keys <ins>**MUST**</ins> equal that value without the `$` sign. Environment variables created by the Runtime configuration will always override the corresponding User configuration from `user-config.js` when used correctly!_
