@@ -7,6 +7,7 @@
             "geocodingDescription": "Beschreibung der Abdeckung",
             "legalBasis": "Rechtsgrundlage für die Zugangseröffnung",
             "qualityProcessURI": "Qualitätssicherungsprozess",
+            "issued":"Erstellt am",
             "references": "Referenziert",
             "contributor": "Bearbeiter",
             "originator": "Urheber",
@@ -1759,6 +1760,34 @@
                     "help": "Start- und Enddatum des Zeitraums.",
                     "info": "Definiert den Bereich des Zeitraums",
                     "label": "Zeitraum des Zeitraums"
+                },
+                "distribution": {
+                    "overview": {
+                        "name": "Name der Distribution",
+                        "notitleinthislanguage": "Kein Titel in dieser Sprache",
+                        "noformatprovided": "Kein Format angegeben"
+                    }
+                },
+                "recommendedproperties": {
+                    "describing": "Die folgenden Eigenschaften beschreiben die empfohlenen Informationen über den Datensatz. Wenn Sie eine der Eigenschaften in der folgenden Liste anzeigen möchten, klicken Sie sie einfach an. Sie finden auch Informationen dazu, wenn Sie den Mauszeiger über das Symbol bewegen."
+                },
+                "advisedproperties": {
+                    "describing": "Die folgenden Eigenschaften beschreiben empfohlene Informationen über den Datensatz. Wenn Sie eine der Eigenschaften in der folgenden Liste anzeigen möchten, klicken Sie sie einfach an. Sie finden auch Informationen dazu, wenn Sie den Mauszeiger über das Symbol bewegen."
+                },
+                "licence": {
+                    "label": "Lizenz"
+                },
+                "homepage": {
+                    "label": "Homepage"
+                },
+                "hasPart": {
+                    "label": "Hat Teilkatalog"
+                },
+                "isPartOf": {
+                    "label": "Ist Teil von"
+                },
+                "rights": {
+                    "label": "Rechte"
                 }
             },
             "distributions": {
