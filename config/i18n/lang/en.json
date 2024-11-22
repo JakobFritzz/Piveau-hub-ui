@@ -164,14 +164,14 @@
                 "confirmReset": "Clear form",
                 "publishDataset": "Are you sure you want to publish this draft?",
                 "confirmHead": "Attention",
-                "deleteDraft":"Are you sure you want to delete this draft?",
-                "confirmModal":"Confirm"
+                "deleteDraft": "Are you sure you want to delete this draft?",
+                "confirmModal": "Confirm"
             },
-            "snackBar":{
-                "datasetPublished":"Dataset published successfully",
-                "draftCreated":"Draft saved successfully",
-                "catalogPublished":"Catalogue saved successfully'",
-                "draftDeleted":"Draft deleted successfully"
+            "snackBar": {
+                "datasetPublished": "Dataset published successfully",
+                "draftCreated": "Draft saved successfully",
+                "catalogPublished": "Catalogue saved successfully'",
+                "draftDeleted": "Draft deleted successfully"
             },
             "drafts": {
                 "intro": "<b>This page provides a comprehensive interface for managing your dataset drafts effectively.</b><br><br>You can download your datasets in <b>various formats</b>, ensuring compatibility with different data analysis tools and platforms. Whether you need JSON-LD, RDF/XML, Turtle, NOTATION3 or N-Triples this page allows you to easily access and download your data.<br><br> <b>Editing drafts</b> is straightforward; simply select a draft to modify its contents. This feature enables you to update and refine your datasets, ensuring they meet your requirements and standards.<br><br> If you need to create variations or backups of your dataset drafts, the <b>duplication feature</b> allows you to effortlessly make copies. This can be useful for testing different data scenarios or preserving original versions before making significant changes. <br><br> For drafts that are no longer needed or relevant, the <b>deletion option </b>helps you keep your workspace organized by removing unnecessary drafts. Manage your dataset drafts efficiently and keep your data management process streamlined with the tools provided on this page."
@@ -199,10 +199,9 @@
                 "newDistribution": "Add Distribution",
                 "deleteDistribution": "Delete all Distributions",
                 "actions": "Actions",
-                "userCatalogues":"My Catalogues",
-                "userCatDescription":"Click the catalogues if you want to be redirected to the associated overview Page.",
-                "vocType":"Choose type of vocabulary"
-
+                "userCatalogues": "My Catalogues",
+                "userCatDescription": "Click the catalogues if you want to be redirected to the associated overview Page.",
+                "vocType": "Choose type of vocabulary"
             },
             "steps": {
                 "Mandatory": "Mandatory fields",
@@ -226,9 +225,9 @@
                     "manually": "Please provide the informations manually",
                     "Text": "Please provide a text",
                     "fileupload": "Provide a file",
-                    "Country":"Country",
-                    "Place":"Place",
-                    "Continent":"Continent"
+                    "Country": "Country",
+                    "Place": "Place",
+                    "Continent": "Continent"
                 },
                 "individual": {
                     "foaf:mbox": "Please provide a valid E-Mail adress",
@@ -1060,6 +1059,34 @@
                     "help": "Start and end date of temporal.",
                     "info": "Defines the range of temporal",
                     "label": "Time period of temporal"
+                },
+                "distribution": {
+                    "overview": {
+                        "name": "Name of the Distribution",
+                        "notitleinthislanguage": "No title in this language",
+                        "noformatprovided": "No format provided"
+                    }
+                },
+                "recommendedproperties": {
+                    "describing": "The following properties are describing recommended Information regarding the dataset. If you'd like to display any of the properties in the following list, just click them. You can also find information on them when you hover over the symbol."
+                },
+                "advisedproperties": {
+                    "describing": "The following properties are describing advised Information regarding the dataset. If you'd like to display any of the properties in the following list, just click them. You can also find information on them when you hover over the symbol."
+                },
+                "licence": {
+                    "label": "License"
+                },
+                "homepage": {
+                    "label": "Homepage"
+                },
+                "hasPart": {
+                    "label": "Has Part"
+                },
+                "isPartOf": {
+                    "label": "Is Part Of"
+                },
+                "rights": {
+                    "label": "Rights"
                 }
             },
             "catalogues": {
@@ -1678,7 +1705,7 @@
                 "logout": "Logout",
                 "setToDraft": "Set to draft",
                 "editCatalogue": "Edit Catalogue",
-                "createDataset":"Create Dataset",
+                "createDataset": "Create Dataset",
                 "editDataset": "Edit Dataset",
                 "deleteDataset": "Delete Dataset",
                 "loggedInAs": "Logged in as",
