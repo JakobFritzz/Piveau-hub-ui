@@ -36,6 +36,7 @@ import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import vueKeyCloak from "./services/keycloakService";
 import UniversalPiwik from '@piveau/piveau-universal-piwik';
+import DatasetDetailsFeaturesCustom from './components/DatasetDetailsFeaturesCustom.vue';
 
 import { glueConfig as GLUE_CONFIG, i18n as I18N_CONFIG } from '../config/user-config';
 import runtimeConfig from '../config/runtime-config';
@@ -99,6 +100,9 @@ configureModules(app, store, {
     useAuthService: env.authentication.useService,
     authToken: env.authentication.authToken,
     defaultScoringFacets: env.content.datasets.facets.scoringFacets.defaultScoringFacets,
+  },
+  components: {
+    DatasetDetailsFeatures: DatasetDetailsFeaturesCustom,
   }
 });
 

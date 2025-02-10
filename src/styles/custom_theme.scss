@@ -47,6 +47,7 @@ $cyan:    #17a2b8 !default;
 $medium-blue: #4A82FA !default;
 $green-fraunhofer: #009374 !default;
 $primary: #6610f2 !default;
+$primary-header: #333333 !default;
 $secondary-blue: #202272 !default;
 $highlight-orange: #f9a01b !default;
 $dark-orange: #DC5149 !default;
@@ -74,6 +75,7 @@ $colors: map-merge((
   "gray-dark":  $gray-800,
   "green-fraunhofer": $green-fraunhofer,
   "primary":   $primary,
+  "primary-header": $primary-header,
   "secondary-blue": $secondary-blue,
   "highlight-orange": $highlight-orange,
   "dark-orange": $dark-orange,
@@ -110,6 +112,7 @@ $dark:          $gray-800 !default;
 $theme-colors: () !default;
 $theme-colors: map-merge((
   "primary":    $primary,
+  "primary-header": $primary-header,
   "primary-light": $primary-light,
   "primary-dark": $primary-dark,
   "medium-blue": $medium-blue,
@@ -782,7 +785,7 @@ $modal-header-border-color:   $gray-200 !default;
 $modal-footer-border-color:   $modal-header-border-color !default;
 $modal-header-border-width:   $modal-content-border-width !default;
 $modal-footer-border-width:   $modal-header-border-width !default;
-$modal-header-padding:        1rem !default;
+$modal-header-padding:        10rem !default;
 
 $modal-xl:                          1140px !default;
 $modal-lg:                          800px !default;

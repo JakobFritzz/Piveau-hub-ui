@@ -1,0 +1,352 @@
+{
+    "availability": {},
+    "applicableLegislation": [],
+    "politicalGeocodingLevelURI": [],
+    "politicalGeocodingURI": [],
+    "contributorID": [],
+    "hvdCategory": [],
+    "contributor": [],
+    "originator": [],
+    "maintainer": [],
+    "accessRights": {},
+    "accrualPeriodicity": {},
+    "admsIdentifiers": [],
+    "attributes": [],
+    "catalog": {
+      "id": "govdata",
+      "title": {
+        "de": "GovData",
+        "en": "GovData"
+      },
+      "description": {
+        "de": "Das Datenportal für Deutschland",
+        "en": "Open Data Portal Germany"
+      },
+      "issued": "2024-11-30T15:29:25Z",
+      "modified": "2024-11-30T15:29:25Z",
+      "language": [
+        {
+          "id": "de",
+          "label": "German",
+          "resource": "http://publications.europa.eu/resource/authority/language/DEU"
+        }
+      ]
+    },
+    "categories": [
+      {
+        "id": "ENVI",
+        "label": {
+          "en": "Environment"
+        }
+      }
+    ],
+    "conformsTo": [],
+    "contactPoints": [],
+    "country": {
+      "id": "eu",
+      "title": "European Union"
+    },
+    "creator": {},
+    "dateIncorrect": false,
+    "description": {
+      "en": "mundraub.org ist die größte deutschsprachige Plattform für die Entdeckung und Nutzung essbarer Landschaften. Sie ermöglicht es, Fundorte zu kartieren, Aktionen anzulegen und Gruppen zu gründen. mundraub.org schafft Bewusstsein für Regionalität und Saisonalität und will motivieren, die Umgebung kulinarisch wahrzunehmen und zu nutzen.\r\n\r\nWeitere Informationen: https://mundraub.org/%C3%BCber-uns"
+    },
+    "dimensions": [],
+    "distributions": [
+      {
+        "accessUrl": [
+          "https://daten.digitale-mrn.de/dataset/6ca716d2-7b1d-4fff-b1f6-73b50db5e2c4/resource/7335dbb3-7d40-40ae-82d3-03582f163ec1#distribution"
+        ],
+        "accessService": [],
+        "checksum": {},
+        "compressFormat": {},
+        "conformsTo": [],
+        "description": {
+          "en": "mundraub.org ist die größte deutschsprachige Plattform für die Entdeckung und Nutzung essbarer Landschaften. Sie ermöglicht es, Fundorte zu kartieren, Aktionen anzulegen und Gruppen zu gründen. mundraub.org schafft Bewusstsein für Regionalität und Saisonalität und will motivieren, die Umgebung kulinarisch wahrzunehmen und zu nutzen.\r\n\r\nWeitere Informationen: https://mundraub.org/%C3%BCber-uns"
+        },
+        "downloadUrls": [
+          "https://geoserver.digitale-mrn.de/geoserver/metropolatlas/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=metropolatlas%3AMRN_mundraub_4326_Point&outputFormat=csv"
+        ],
+        "format": {
+          "id": "CSV",
+          "resource": "http://publications.europa.eu/resource/authority/file-type/CSV",
+          "label": "CSV"
+        },
+        "id": "5ac5de62-8c7c-4bcc-bb24-2dd268f85ead",
+        "languages": [],
+        "licence": {
+          "id": "http://dcat-ap.de/def/licenses/other-opensource",
+          "label": "http://dcat-ap.de/def/licenses/other-opensource",
+          "resource": "http://dcat-ap.de/def/licenses/other-opensource"
+        },
+        "modificationDate": "2024-11-30T00:17:28.583939Z",
+        "packageFormat": {},
+        "pages": [],
+        "releaseDate": "2022-07-27T12:36:05.773266Z",
+        "rights": {},
+        "spatialResolutionInMeters": [],
+        "status": {},
+        "temporalResolution": [],
+        "title": {
+          "en": "Mundraub (CSV)"
+        },
+        "type": {},
+        "applicableLegislation": []
+      },
+      {
+        "accessUrl": [
+          "https://daten.digitale-mrn.de/dataset/6ca716d2-7b1d-4fff-b1f6-73b50db5e2c4/resource/46dca035-b7d6-45e9-88c4-05d66781bf5c#distribution"
+        ],
+        "accessService": [],
+        "checksum": {},
+        "compressFormat": {},
+        "conformsTo": [],
+        "description": {
+          "en": "mundraub.org ist die größte deutschsprachige Plattform für die Entdeckung und Nutzung essbarer Landschaften. Sie ermöglicht es, Fundorte zu kartieren, Aktionen anzulegen und Gruppen zu gründen. mundraub.org schafft Bewusstsein für Regionalität und Saisonalität und will motivieren, die Umgebung kulinarisch wahrzunehmen und zu nutzen.\r\n\r\nWeitere Informationen: https://mundraub.org/%C3%BCber-uns"
+        },
+        "downloadUrls": [
+          "https://geoserver.digitale-mrn.de/geoserver/metropolatlas/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=metropolatlas%3AMRN_mundraub_4326_Point&outputFormat=application%2Fx-gpkg"
+        ],
+        "format": {
+          "id": "GPKG",
+          "resource": "http://publications.europa.eu/resource/authority/file-type/GPKG",
+          "label": "GeoPackage"
+        },
+        "id": "e1dce90f-a322-4247-aa5a-57c95652f109",
+        "languages": [],
+        "licence": {
+          "id": "http://dcat-ap.de/def/licenses/other-opensource",
+          "label": "http://dcat-ap.de/def/licenses/other-opensource",
+          "resource": "http://dcat-ap.de/def/licenses/other-opensource"
+        },
+        "modificationDate": "2024-11-30T00:17:28.584232Z",
+        "packageFormat": {},
+        "pages": [],
+        "releaseDate": "2022-07-27T12:36:05.773263Z",
+        "rights": {},
+        "spatialResolutionInMeters": [],
+        "status": {},
+        "temporalResolution": [],
+        "title": {
+          "en": "Mundraub (GPKG)"
+        },
+        "type": {},
+        "applicableLegislation": []
+      },
+      {
+        "accessUrl": [
+          "https://daten.digitale-mrn.de/dataset/6ca716d2-7b1d-4fff-b1f6-73b50db5e2c4/resource/241ad934-bcbc-4e64-b549-d4697a16d469#distribution"
+        ],
+        "accessService": [],
+        "checksum": {},
+        "compressFormat": {},
+        "conformsTo": [],
+        "description": {
+          "en": "mundraub.org ist die größte deutschsprachige Plattform für die Entdeckung und Nutzung essbarer Landschaften. Sie ermöglicht es, Fundorte zu kartieren, Aktionen anzulegen und Gruppen zu gründen. mundraub.org schafft Bewusstsein für Regionalität und Saisonalität und will motivieren, die Umgebung kulinarisch wahrzunehmen und zu nutzen.\r\n\r\nWeitere Informationen: https://mundraub.org/%C3%BCber-uns"
+        },
+        "downloadUrls": [
+          "https://geoserver.digitale-mrn.de/geoserver/metropolatlas/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=metropolatlas%3AMRN_mundraub_4326_Point&outputFormat=application%2Fjson"
+        ],
+        "format": {
+          "id": "GEOJSON",
+          "resource": "http://publications.europa.eu/resource/authority/file-type/GEOJSON",
+          "label": "GeoJSON"
+        },
+        "id": "28b4374a-35ab-4df4-bb39-36b9eed29e4a",
+        "languages": [],
+        "licence": {
+          "id": "http://dcat-ap.de/def/licenses/other-opensource",
+          "label": "http://dcat-ap.de/def/licenses/other-opensource",
+          "resource": "http://dcat-ap.de/def/licenses/other-opensource"
+        },
+        "modificationDate": "2024-11-30T00:17:28.583161Z",
+        "packageFormat": {},
+        "pages": [],
+        "releaseDate": "2022-07-27T12:36:05.773258Z",
+        "rights": {},
+        "spatialResolutionInMeters": [],
+        "status": {},
+        "temporalResolution": [],
+        "title": {
+          "en": "Mundraub (GeoJSON)"
+        },
+        "type": {},
+        "applicableLegislation": []
+      },
+      {
+        "accessUrl": [
+          "https://daten.digitale-mrn.de/dataset/6ca716d2-7b1d-4fff-b1f6-73b50db5e2c4/resource/afffbef1-a256-49b5-81e7-425541eb060d#distribution"
+        ],
+        "accessService": [],
+        "checksum": {},
+        "compressFormat": {},
+        "conformsTo": [],
+        "description": {
+          "en": "mundraub.org ist die größte deutschsprachige Plattform für die Entdeckung und Nutzung essbarer Landschaften. Sie ermöglicht es, Fundorte zu kartieren, Aktionen anzulegen und Gruppen zu gründen. mundraub.org schafft Bewusstsein für Regionalität und Saisonalität und will motivieren, die Umgebung kulinarisch wahrzunehmen und zu nutzen.\r\n\r\nWeitere Informationen: https://mundraub.org/%C3%BCber-uns"
+        },
+        "downloadUrls": [
+          "https://geoserver.digitale-mrn.de/geoserver/metropolatlas/MRN_mundraub_4326_Point/wms?request=GetCapabilities"
+        ],
+        "format": {
+          "id": "WMS_SRVC",
+          "resource": "http://publications.europa.eu/resource/authority/file-type/WMS_SRVC",
+          "label": "WMS"
+        },
+        "id": "f46e1eab-d5bd-4549-a951-44744d4393e5",
+        "languages": [],
+        "licence": {
+          "id": "http://dcat-ap.de/def/licenses/other-opensource",
+          "label": "http://dcat-ap.de/def/licenses/other-opensource",
+          "resource": "http://dcat-ap.de/def/licenses/other-opensource"
+        },
+        "modificationDate": "2024-11-30T00:17:28.583597Z",
+        "packageFormat": {},
+        "pages": [],
+        "releaseDate": "2022-07-27T12:36:05.773267Z",
+        "rights": {},
+        "spatialResolutionInMeters": [],
+        "status": {},
+        "temporalResolution": [],
+        "title": {
+          "en": "Mundraub (WMS)"
+        },
+        "type": {},
+        "applicableLegislation": []
+      }
+    ],
+    "distributionFormats": [
+      {
+        "id": "CSV",
+        "resource": "http://publications.europa.eu/resource/authority/file-type/CSV",
+        "label": "CSV"
+      },
+      {
+        "id": "GPKG",
+        "resource": "http://publications.europa.eu/resource/authority/file-type/GPKG",
+        "label": "GeoPackage"
+      },
+      {
+        "id": "GEOJSON",
+        "resource": "http://publications.europa.eu/resource/authority/file-type/GEOJSON",
+        "label": "GeoJSON"
+      },
+      {
+        "id": "WMS_SRVC",
+        "resource": "http://publications.europa.eu/resource/authority/file-type/WMS_SRVC",
+        "label": "WMS"
+      }
+    ],
+    "documentations": [],
+    "frequency": {},
+    "geocodingDescription": {},
+    "hasQualityAnnotations": [],
+    "hasVersion": [],
+    "id": "https-daten-digitale-mrn-de-dataset-6ca716d2-7b1d-4fff-b1f6-73b50db5e2c4-dataset",
+    "identifiers": [
+      "https://daten.digitale-mrn.de/dataset/6ca716d2-7b1d-4fff-b1f6-73b50db5e2c4#dataset"
+    ],
+    "isHvd": false,
+    "isReferencedBy": [],
+    "isVersionOf": [],
+    "keywords": [
+      {
+        "id": "nachhaltigkeit",
+        "label": "nachhaltigkeit",
+        "language": "en"
+      }
+    ],
+    "landingPages": [],
+    "languages": [],
+    "licences": [
+      {
+        "id": "http://dcat-ap.de/def/licenses/other-opensource",
+        "label": "http://dcat-ap.de/def/licenses/other-opensource",
+        "resource": "http://dcat-ap.de/def/licenses/other-opensource"
+      },
+      {
+        "id": "http://dcat-ap.de/def/licenses/other-opensource",
+        "label": "http://dcat-ap.de/def/licenses/other-opensource",
+        "resource": "http://dcat-ap.de/def/licenses/other-opensource"
+      },
+      {
+        "id": "http://dcat-ap.de/def/licenses/other-opensource",
+        "label": "http://dcat-ap.de/def/licenses/other-opensource",
+        "resource": "http://dcat-ap.de/def/licenses/other-opensource"
+      },
+      {
+        "id": "http://dcat-ap.de/def/licenses/other-opensource",
+        "label": "http://dcat-ap.de/def/licenses/other-opensource",
+        "resource": "http://dcat-ap.de/def/licenses/other-opensource"
+      }
+    ],
+    "modificationDate": "2024-11-30T00:17:28.570754Z",
+    "otherIdentifiers": [],
+    "pages": [],
+    "provenances": [],
+    "publisher": {
+      "name": "Metropolregion Rhein-Neckar",
+      "type": "Organization",
+      "resource": "https://www.m-r-n.com"
+    },
+    "qualifiedAttributions": [],
+    "qualifiedRelations": [],
+    "relations": [],
+    "releaseDate": "2022-04-05T12:05:38.691204Z",
+    "resource": "https://piveau.io/set/data/https-daten-digitale-mrn-de-dataset-6ca716d2-7b1d-4fff-b1f6-73b50db5e2c4-dataset",
+    "sample": [],
+    "similarDatasetsRequested": "",
+    "similarDatasets": [],
+    "sources": [],
+    "spatial": [],
+    "spatialResource": [],
+    "spatialResolutionInMeters": [],
+    "statUnitMeasures": [],
+    "subject": [],
+    "temporal": [],
+    "theme": [
+      {
+        "id": "ENVI",
+        "label": {
+          "en": "Environment"
+        },
+        "resource": "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+      }
+    ],
+    "translationMetaData": {
+      "fullAvailableLanguages": [],
+      "details": {
+        "en": {
+          "machine_translated": false
+        }
+      },
+      "status": "unknown"
+    },
+    "title": {
+      "en": "Mundraub"
+    },
+    "type": {},
+    "visualisations": [],
+    "wasGeneratedBy": [],
+    "qualityDataRequested": "",
+    "qualityData": [
+      ""
+    ],
+    "qualityDistributionData": [
+      ""
+    ],
+    "isDQVDataRequested": "",
+    "isDQVDataRDFAvailable": false,
+    "isDQVDataTTLAvailable": false,
+    "isDQVDataN3Available": false,
+    "isDQVDataNTAvailable": false,
+    "isDQVDataJSONLDAvailable": false,
+    "catalogRecord": {
+      "issued": "2024-11-25T10:26:17Z",
+      "modified": "2024-11-30T15:23:47Z"
+    },
+    "isUsedBy": {},
+    "extendetMetadata": {},
+    "distributionDownloadAs": {},
+    "distributionDownloadAsOptions": [],
+    "descriptionHeight": 112
+  }

@@ -220,7 +220,8 @@ export default {
   @import '../styles/custom_theme.scss';
 
   .navbar {
-    background: $primary;
+    background: #ffffff !important; // Weißer Hintergrund für die Navbar
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Schatten für leichte Hervorhebung
   }
 
   #piveau-header{
@@ -234,20 +235,26 @@ export default {
     padding-bottom: 10px;
   }
 
+  .mb-5, .my-5{
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+
   .nav-link {
-    color: rgba(250, 250, 250, 0.5) !important;
+    color: rgba(50, 50, 50, 0.7) !important; // Dunklere Schriftfarbe für bessere Lesbarkeit auf weißem Hintergrund
 
     &:hover {
-      color: rgba(250, 250, 250, 0.75) !important;
+      color: rgba(50, 50, 50, 0.9) !important;
     }
   }
 
   .router-link-active {
-    color: rgba(250, 250, 250, 0.9) !important;
+    color: rgba(50, 50, 50, 0.9) !important;
     font-size: 1rem;
 
     &:hover {
-      color: rgba(250, 250, 250, 0.9) !important;
+      color: rgba(50, 50, 50, 0.9) !important;
     }
   }
 </style>

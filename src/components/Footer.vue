@@ -12,6 +12,9 @@
         <li class="mb-2">
           <router-link to="/privacypolicy">Datenschutz</router-link>
         </li>
+        <li class="mb-2">
+          <a href="https://ki-allianz.de" target="_blank" rel="noopener noreferrer">KI-Allianz Baden Würtemberg</a>
+        </li>
       </ul>
     </div>
     <div class="w-33">
