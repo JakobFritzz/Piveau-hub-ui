@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/sh
 
 function join_by { local IFS="$1"; shift; echo "$*"; }
 
