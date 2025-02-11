@@ -46,14 +46,6 @@
                   </button>
                 </li>
               </ul>
-              <!-- Language box -->
-              <div
-                  v-if="useLanguageSelector"
-              >
-                <div class="input-group">
-                  <language-selector :languageObject="languageObject" :override-locale="overrideLocale"></language-selector>
-                </div>
-              </div>
             </slot>
           </div>
         </div>
@@ -76,7 +68,6 @@ export default {
   },
   components: {
     Logo,
-    LanguageSelector,
     FontAwesomeIcon,
   },
   props: {
@@ -87,10 +78,6 @@ export default {
     locale: {
       type: String,
       default: 'en',
-    },
-    useLanguageSelector: {
-      type: Boolean,
-      default: true,
     },
     navItemsHook: {
       type: Function,
@@ -221,7 +208,11 @@ export default {
 
   .navbar {
     background: #ffffff !important; // Weißer Hintergrund für die Navbar
+    //background: gray !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Schatten für leichte Hervorhebung
+    border-radius: 16px;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   #piveau-header{
@@ -229,10 +220,8 @@ export default {
   }
 
   .piveau-logo{
-    max-height: 55px;
+    max-height: 48px;
     width: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   .mb-5, .my-5{
