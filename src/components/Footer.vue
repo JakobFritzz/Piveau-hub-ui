@@ -21,18 +21,33 @@
       <h4></h4>
     </div>
     <div class="w-33">
-      <h4></h4>
+      <h4>
+        <!-- Language box -->
+        <div
+          v-if="useLanguageSelector"
+        >
+          <div class="input-group">
+            <language-selector :languageObject="languageObject" :override-locale="overrideLocale"></language-selector>
+          </div>
+        </div>
+      </h4>
     </div>
   </div>
 </template>
 
 <script>
 
+import LanguageSelector from "@/components/LanguageSelector.vue";
+
 export default {
   name: 'PiveauFooter',
+  components: {LanguageSelector},
   inheritAttrs: false,
   props: {
-
+    useLanguageSelector: {
+      type: Boolean,
+      default: true,
+    },
   },
   data() {
     return {

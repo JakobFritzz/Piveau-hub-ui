@@ -8,7 +8,7 @@
 
  const customConfig = {
    api: {
-     baseUrl: 'http://cypress-stubbed.api.base-url/',
+     baseUrl: 'http://cypress-stubbed.api.base-url/', // http://ki-allianz.dmz.teco.edu:8084/
      qualityBaseUrl: 'http://cypress-stubbed.api.quality-base-url/',
      similarityBaseUrl: 'https://data.europa.eu/api/similarities/',
      gazetteerBaseUrl: 'https://data.europa.eu/api/hub/search/gazetteer/',

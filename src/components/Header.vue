@@ -1,26 +1,26 @@
 <template>
   <div class="mb-5">
-    <nav id="piveau-header" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" >
+    <nav id="piveau-header" class="navbar navbar-expand-lg bg-primary fixed-top" >
       <slot name="logo">
         <router-link class="navbar-brand" to="/"><Logo class="piveau-logo"/></router-link>
       </slot>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler 1px" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="d-flex justify-content-between w-100">
+        <div class="d-flex justify-content-end w-100">
           <ul class="navbar-nav">
             <li
               v-for="(navItem, i) in navItems"
               :key="`navItem@${i}`"
-              class="nav-item"
+              class="nav-item nav-container"
             >
               <slot name="nav-item" v-bind:nav-item="navItem">
                 <component
                   v-if="navItem.to && navItem.show === true"
                   :is="isNuxt ? 'nuxt-link' : 'router-link'"
                   :to="navItem.to"
-                  class="nav-link"
+                  class="nav-link nav-link-overwrite"
                   active-class="router-link-active"
                 >
                   {{ navItem.title }}
@@ -28,13 +28,14 @@
                 <a
                   v-else-if="navItem.show === true"
                   :href="navItem.href"
-                  class="nav-link"
+                  class="nav-link nav-link-overwrite"
                 >
                   {{ navItem.title }}
                 </a>
               </slot>
             </li>
           </ul>
+          <!--
           <div class="ml-5 flex-row ml-md-auto d-md-flex" role="navigation">
             <slot name="right">
               <ul v-if="enableAuthentication" class="navbar-nav">
@@ -46,16 +47,9 @@
                   </button>
                 </li>
               </ul>
-              <!-- Language box -->
-              <div
-                  v-if="useLanguageSelector"
-              >
-                <div class="input-group">
-                  <language-selector :languageObject="languageObject" :override-locale="overrideLocale"></language-selector>
-                </div>
-              </div>
             </slot>
           </div>
+          -->
         </div>
       </div>
     </nav>
@@ -76,7 +70,6 @@ export default {
   },
   components: {
     Logo,
-    LanguageSelector,
     FontAwesomeIcon,
   },
   props: {
@@ -87,10 +80,6 @@ export default {
     locale: {
       type: String,
       default: 'en',
-    },
-    useLanguageSelector: {
-      type: Boolean,
-      default: true,
     },
     navItemsHook: {
       type: Function,
@@ -221,7 +210,20 @@ export default {
 
   .navbar {
     background: #ffffff !important; // Weißer Hintergrund für die Navbar
+    //background: gray !important;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Schatten für leichte Hervorhebung
+    border-radius: 16px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #navbarNav {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
 
   #piveau-header{
@@ -229,10 +231,8 @@ export default {
   }
 
   .piveau-logo{
-    max-height: 55px;
+    max-height: 48px;
     width: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   .mb-5, .my-5{
@@ -241,20 +241,43 @@ export default {
     margin-right: 1rem !important;
   }
 
+  .nav-container {
+    height: 40px;
+  }
+
+  .nav-item {
+    color: black;
+  }
+
   .nav-link {
-    color: rgba(50, 50, 50, 0.7) !important; // Dunklere Schriftfarbe für bessere Lesbarkeit auf weißem Hintergrund
+    color: black;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+    transition: 0.3s padding-bottom ease;
+    padding-bottom: 4px;
+
+    border-bottom: 2px solid black;
 
     &:hover {
-      color: rgba(50, 50, 50, 0.9) !important;
+      color: #000AFA !important;
+      border-bottom-color: #000AFA;
+      padding-bottom: 6px;
+      border-bottom-width: 3px;
     }
   }
 
   .router-link-active {
-    color: rgba(50, 50, 50, 0.9) !important;
-    font-size: 1rem;
+    color: #000AFA !important;
 
-    &:hover {
-      color: rgba(50, 50, 50, 0.9) !important;
-    }
+    border-bottom-color: #000AFA;
+    border-bottom-width: 3px;
+  }
+
+  .nav-link-overwrite {
+    padding-left: 0 !important;
+    margin-left: 1.5rem;
+    padding-right: 0 !important;
+    margin-right: 1.5rem;
   }
 </style>
