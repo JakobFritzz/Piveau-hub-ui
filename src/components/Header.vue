@@ -2,7 +2,7 @@
   <div class="mb-5">
     <nav id="piveau-header" class="navbar navbar-expand-lg bg-primary fixed-top" >
       <slot name="logo">
-        <router-link class="navbar-brand" to="/"><Logo class="piveau-logo"/></router-link>
+        <a class="navbar-brand" href="https://ki-allianz.de/"><Logo class="piveau-logo"/></a>
       </slot>
       <button class="navbar-toggler 1px" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -158,6 +158,31 @@ export default {
           href: this.hrefSparql || '/sparql',
           show: this.showSparql,
         },
+        {
+          title: "Events",
+          href: "https://ki-allianz.de/events/",
+          show: true,
+        },
+        {
+          title: "Magazin",
+          href: "https://ki-allianz.de/magazin/",
+          show: true,
+        },
+        {
+          title: "Newsletter",
+          href: "https://ki-allianz.de/newsletter/",
+          show: true,
+        },
+        {
+          title: "Presse",
+          href: "https://ki-allianz.de/presse/",
+          show: true,
+        },
+        {
+          title: "Kontakt",
+          href: "https://ki-allianz.de/kontakt/",
+          show: true,
+        }
         /* {
           title: this.$t('message.header.navigation.data.metadataquality'),
           href: this.hrefMetadataQuality || `/mqa?locale=${this.$route.query.locale}`,
@@ -262,7 +287,7 @@ export default {
     &:hover {
       color: #000AFA !important;
       border-bottom-color: #000AFA;
-      padding-bottom: 6px;
+      padding-bottom: 5px;
       border-bottom-width: 3px;
     }
   }
