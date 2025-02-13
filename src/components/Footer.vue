@@ -6,6 +6,9 @@
       <div class="footer-inner">
         <div id="piveau-footer" class="p-5 d-flex justify-content-center">
           <div class="w-33">
+            <img width="300" height="58" src="https://ki-allianz.de/wp-content/uploads/2024/09/ki-logo-footer.png" class="attachment-large size-large wp-image-7265" alt="KI-Allianz Logo weiss">
+          </div>
+          <div class="w-33">
             <h4>Information</h4>
 
             <ul>
@@ -20,9 +23,7 @@
               </li>
             </ul>
           </div>
-          <div class="w-33">
-            <h4></h4>
-          </div>
+
           <div class="w-33">
             <h4>
               <!-- Language box -->
@@ -68,8 +69,8 @@ export default {
 @import '../styles/custom_theme.scss';
 
 .footer-outer {
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+  padding-left: 6.6rem !important;
+  padding-right: 6.6rem !important;
 
   background-image: url("https://ki-allianz.de/wp-content/uploads/2024/09/ki-footer-background-no-shape.jpg");
   background-position: center center;
@@ -90,12 +91,10 @@ export default {
 
 .footer-inner {
   padding-top: clamp(5.5rem,3.3077rem + 9.7436vw,15rem) !important;
+  padding-bottom: 20rem;
 }
 
-
-
 #piveau-footer {
-  margin-top: 60px;
 
   font-size: 1rem;
   font-weight: 400;
