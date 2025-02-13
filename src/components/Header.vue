@@ -236,11 +236,16 @@ export default {
   .navbar {
     background: #ffffff !important; // Weißer Hintergrund für die Navbar
     //background: gray !important;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Schatten für leichte Hervorhebung
+    //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Schatten für leichte Hervorhebung
     border-radius: 16px;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 3.75rem;
+    padding-right: 2.3rem;
+
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 80px;
   }
+
 
   #navbarNav {
     flex-direction: row;
@@ -267,7 +272,7 @@ export default {
   }
 
   .nav-container {
-    height: 40px;
+    height: 48px;
   }
 
   .nav-item {
@@ -276,11 +281,11 @@ export default {
 
   .nav-link {
     color: black;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.1rem;
-    letter-spacing: 0.3px;
     transition: 0.3s padding-bottom ease;
-    padding-bottom: 4px;
+    padding-bottom: 3px;
+    border-right: 0 solid black;
 
     border-bottom: 2px solid black;
 
@@ -300,9 +305,11 @@ export default {
   }
 
   .nav-link-overwrite {
+    padding-top: 4px !important;
     padding-left: 0 !important;
-    margin-left: 1.5rem;
     padding-right: 0 !important;
+
+    margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 </style>
