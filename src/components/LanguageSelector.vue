@@ -118,6 +118,8 @@ export default {
 
   .language-selector {
     width: 150px;
+    background: transparent;
+    color: white;
     padding-right: 56px !important;
   }
 

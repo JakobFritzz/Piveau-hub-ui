@@ -1,36 +1,42 @@
 
 
 <template>
-  <div id="piveau-footer" class="p-5 d-flex justify-content-center">
-    <div class="w-33">
-      <h4>Information</h4>
+  <div class="footer-container">
+    <div class="footer-outer">
+      <div class="footer-inner">
+        <div id="piveau-footer" class="p-5 d-flex justify-content-center">
+          <div class="w-33">
+            <h4>Information</h4>
 
-      <ul>
-        <li class="mb-2">
-          <router-link to="/imprint">Impressum</router-link>
-        </li>
-        <li class="mb-2">
-          <router-link to="/privacypolicy">Datenschutz</router-link>
-        </li>
-        <li class="mb-2">
-          <a href="https://ki-allianz.de" target="_blank" rel="noopener noreferrer">KI-Allianz Baden Würtemberg</a>
-        </li>
-      </ul>
-    </div>
-    <div class="w-33">
-      <h4></h4>
-    </div>
-    <div class="w-33">
-      <h4>
-        <!-- Language box -->
-        <div
-          v-if="useLanguageSelector"
-        >
-          <div class="input-group">
-            <language-selector :languageObject="languageObject" :override-locale="overrideLocale"></language-selector>
+            <ul>
+              <li class="mb-2">
+                <router-link to="/imprint">Impressum</router-link>
+              </li>
+              <li class="mb-2">
+                <router-link to="/privacypolicy">Datenschutz</router-link>
+              </li>
+              <li class="mb-2">
+                <a href="https://ki-allianz.de" target="_blank" rel="noopener noreferrer">KI-Allianz Baden Würtemberg</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-33">
+            <h4></h4>
+          </div>
+          <div class="w-33">
+            <h4>
+              <!-- Language box -->
+              <div
+                v-if="useLanguageSelector"
+              >
+                <div class="input-group">
+                  <language-selector :languageObject="languageObject" :override-locale="overrideLocale"></language-selector>
+                </div>
+              </div>
+            </h4>
           </div>
         </div>
-      </h4>
+      </div>
     </div>
   </div>
 </template>
@@ -61,17 +67,44 @@ export default {
 // @import '../styles/footer.scss';
 @import '../styles/custom_theme.scss';
 
+.footer-outer {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+
+  background-image: url("https://ki-allianz.de/wp-content/uploads/2024/09/ki-footer-background-no-shape.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-outer::before {
+  content: url('https://ki-allianz.de/wp-content/uploads/2024/08/shape_curve_top_grey.svg');
+  width: 101% !important;
+  height: auto;
+  margin-top: -1px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.footer-inner {
+  padding-top: clamp(5.5rem,3.3077rem + 9.7436vw,15rem) !important;
+}
+
+
 
 #piveau-footer {
   margin-top: 60px;
-  padding: 60px 0 160px 0;
+
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #FFF;
   text-align: left;
-  background: $primary;
-  background-color: $primary;
+
+  overflow: hidden;
+
 
   ul {
     list-style: none;
