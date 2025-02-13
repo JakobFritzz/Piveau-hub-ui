@@ -131,7 +131,7 @@ export default {
 <style lang="scss" scoped>
 
 .app {
-  background-color: #fff;
+  background-color: #F7F7F7;
 }
 
 .site-wrapper {
