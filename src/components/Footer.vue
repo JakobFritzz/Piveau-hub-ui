@@ -9,19 +9,84 @@
             <img width="300" height="58" src="https://ki-allianz.de/wp-content/uploads/2024/09/ki-logo-footer.png" class="attachment-large size-large wp-image-7265" alt="KI-Allianz Logo weiss">
           </div>
           <div class="w-33">
-            <h4>Information</h4>
-
-            <ul>
-              <li class="mb-2">
-                <router-link to="/imprint">Impressum</router-link>
-              </li>
-              <li class="mb-2">
-                <router-link to="/privacypolicy">Datenschutz</router-link>
-              </li>
-              <li class="mb-2">
-                <a href="https://ki-allianz.de" target="_blank" rel="noopener noreferrer">KI-Allianz Baden Würtemberg</a>
-              </li>
-            </ul>
+            <div class="footer-link-container">
+              <ul>
+                <li class="mb-2">
+                  <a href="https://ki-allianz.de/newsletter/" class="footer-link">
+                  <span class="underlined">
+                    Newsletter
+                  </span>
+                    <span class="icon-arrow-link">
+                  </span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="https://de.linkedin.com/company/ki-allianz" class="footer-link">
+                  <span class="underlined">
+                    LinkedIn
+                  </span>
+                    <span class="icon-arrow-link">
+                  </span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="https://ki-allianz.de/stellenausschreibung-studentische-hilfskraft-unterstuetzung-community-management-und-eventorganisation/" class="footer-link">
+                  <span class="underlined">
+                    Karriere
+                  </span>
+                    <span class="icon-arrow-link">
+                  </span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="https://ki-allianz.de/styleguide/" class="footer-link">
+                  <span class="underlined">
+                    Styleguide
+                  </span>
+                    <span class="icon-arrow-link">
+                  </span>
+                  </a>
+                </li>
+              </ul>
+              <ul>
+                <li class="mb-2">
+                  <a href="https://ki-allianz.de/presse/" class="footer-link">
+                  <span class="underlined">
+                    Presse
+                  </span>
+                    <span class="icon-arrow-link">
+                  </span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="https://ki-allianz.de/kontakt/" class="footer-link">
+                  <span class="underlined">
+                    Kontakt
+                  </span>
+                    <span class="icon-arrow-link">
+                  </span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <router-link to="/imprint" class="footer-link">
+                  <span class="underlined">
+                    Impressum
+                  </span>
+                    <span class="icon-arrow-link">
+                  </span>
+                  </router-link>
+                </li>
+                <li class="mb-2">
+                  <router-link to="/privacypolicy" class="footer-link">
+                  <span class="underlined">
+                    Datenschutz
+                  </span>
+                    <span class="icon-arrow-link">
+                  </span>
+                  </router-link>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div class="w-33">
@@ -106,15 +171,15 @@ export default {
 
 
   ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+
     list-style: none;
     margin: 0;
     padding: 0;
   }
-
-  a {
-    color: white;
-  }
-
 }
 
 .w-33 {
@@ -288,5 +353,100 @@ RESPONSIVE
     padding-left: 5px;
     display: inline-block;
   }
+}
+
+.underlined {
+  fill: #fff;
+  text-align: left !important;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-family: "Nunito Sans", Sans-serif !important;
+  line-height: 156%;
+  font-size: 18px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: inherit;
+  position: relative !important;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 1.5px;
+    width: 100%;
+    transition: .2s !important;
+    z-index: 1 !important;
+    background: white;
+  }
+}
+
+.footer-link {
+  color: white;
+  gap: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: inherit;
+  line-height: 156%;
+  text-transform: none;
+  font-style: normal;
+  text-align: left !important;
+  width: fit-content;
+  &:hover {
+    color: #FFED00 !important;
+
+    text-decoration: none;
+
+    .underlined {
+      &::after {
+        background: #FFED00 !important;
+      }
+    }
+
+    .icon-arrow-link {
+      &::before {
+        color: #FFED00 !important;
+      }
+    }
+  }
+}
+
+.icon-arrow-link {
+  font-family: 'kiallianz_icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 18px;
+  color: #FFFFFF !important;
+  text-align: left !important;
+  fill: #fff;
+  margin-top: 4px;
+
+  &::before {
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+    top: 3px !important;
+    position: relative !important;
+    content: "\e900";
+    font-family: 'kiallianz_icomoon' !important;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 18px;
+  }
+}
+
+.footer-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
 }
 </style>
