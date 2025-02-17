@@ -266,7 +266,7 @@ export default {
   }
 
   .mb-5, .my-5{
-    margin-top: 1rem !important;
+    padding-top: 1rem !important;
     margin-left: 1rem !important;
     margin-right: 1rem !important;
   }
