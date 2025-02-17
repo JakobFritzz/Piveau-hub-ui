@@ -133,6 +133,10 @@ export default {
 // @import '../styles/footer.scss';
 @import '../styles/custom_theme.scss';
 
+.footer-container {
+  padding-top: 6.5rem;
+}
+
 .footer-outer {
   padding-left: 6.6rem !important;
   padding-right: 6.6rem !important;

@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-5">
+  <div class="header-container">
     <nav id="piveau-header" class="navbar navbar-expand-lg bg-primary fixed-top" >
       <slot name="logo">
         <a class="navbar-brand" href="https://ki-allianz.de/"><Logo class="piveau-logo"/></a>
@@ -265,7 +265,7 @@ export default {
     width: auto;
   }
 
-  .mb-5, .my-5{
+  .header-container{
     padding-top: 1rem !important;
     margin-left: 1rem !important;
     margin-right: 1rem !important;
