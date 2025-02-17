@@ -145,6 +145,7 @@ export default {
 
 .footer-outer::before {
   content: url('https://ki-allianz.de/wp-content/uploads/2024/08/shape_curve_top_grey.svg');
+  max-width: 1920px;
   width: 101% !important;
   height: auto;
   margin-top: -1px;
