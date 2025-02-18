@@ -4,11 +4,11 @@
   <div class="footer-container">
     <div class="footer-outer">
       <div class="footer-inner">
-        <div id="piveau-footer" class="p-5 d-flex justify-content-center">
-          <div class="w-33">
+        <div id="piveau-footer" class="p-5">
+          <div class="footer-item grid1-8">
             <img width="300" height="58" src="https://ki-allianz.de/wp-content/uploads/2024/09/ki-logo-footer.png" class="attachment-large size-large wp-image-7265" alt="KI-Allianz Logo weiss">
           </div>
-          <div class="w-33">
+          <div class="footer-item grid15-25">
             <div class="footer-link-container">
               <ul>
                 <li class="mb-2">
@@ -89,7 +89,21 @@
             </div>
           </div>
 
-          <div class="w-33">
+
+          <div class="footer-item grid1-12">
+            <div class="newsletter-container">
+              <h2>KI-Allianz Newsletter</h2>
+              <ul>
+                <li>Top KI-Events erleben</li>
+                <li>KI-Erfolgsgeschichten entdecken</li>
+                <li>Netzwerke aufbauen & erweitern</li>
+              </ul>
+
+              <a href="https://ki-allianz.de/newsletter/">Jetzt zum Newsletter anmelden</a>
+            </div>
+          </div>
+
+          <div class="footer-item gridx">
             <h4>
               <!-- Language box -->
               <div
@@ -161,10 +175,92 @@ export default {
 
 .footer-inner {
   padding-top: clamp(5.5rem,3.3077rem + 9.7436vw,15rem) !important;
-  padding-bottom: 20rem;
+  padding-bottom: 5.5rem;
+}
+
+.grid1-12 {
+  grid-column: 1/12;
+}
+
+.grid1-8 {
+  grid-column: 1/8;
+}
+
+.grid15-25 {
+  grid-column: 15/25;
+}
+
+.gridx {
+  grid-column: 15/25;
+
+  align-content: end;
+}
+
+.footer-item {
+}
+
+.newsletter-container {
+  background-color: #FFFFFF21;
+  backdrop-filter: blur(12.5px);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 20px;
+  padding: 32px 40px 32px 40px;
+
+  list-style-type:circle;
+
+  h2 {
+    font-size: 39.06px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 125%;
+  }
+
+  ul {
+    padding-left: 27px;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    font-size: clamp(1.125rem, 1.0962rem + 0.1282vw, 1.25rem);
+  }
+
+  a {
+    background: white;
+    color: #000AFA !important;
+
+    font-size: 1.125rem;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    line-height: 125%;
+    border-style: none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    cursor: pointer;
+    font-family: "Nunito Sans", Sans-serif;
+
+    transition: .2s !important;
+
+    &:hover {
+      background: #000AFA;
+      color: white !important;
+    }
+  }
 }
 
 #piveau-footer {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 7.5rem 2rem;
+  justify-content: start;
 
   font-size: 1rem;
   font-weight: 400;
@@ -173,18 +269,6 @@ export default {
   text-align: left;
 
   overflow: hidden;
-
-
-  ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 2rem;
-
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
 }
 
 .w-33 {
@@ -197,10 +281,6 @@ export default {
 
 #piveau-footer .container {
   max-width: 1340px !important;
-}
-
-#piveau-footer *:not(.far):not(.fas):not(.fab) {
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 /***********************************
@@ -453,5 +533,16 @@ RESPONSIVE
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 </style>
