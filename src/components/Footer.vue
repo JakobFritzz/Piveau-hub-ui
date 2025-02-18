@@ -250,6 +250,7 @@ export default {
     &:hover {
       background: #000AFA;
       color: white !important;
+      text-decoration: none;
     }
   }
 }
