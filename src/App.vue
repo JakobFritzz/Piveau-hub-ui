@@ -119,6 +119,14 @@ export default {
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+  max-width: 1920px;
+  margin: 0 auto !important;
+  box-shadow: 0 0 12px -1px rgba(0, 0, 0, .2);
+  background-color: white !important;
+}
+
 .site-wrapper header {
   display: initial;
 }
@@ -131,7 +139,7 @@ export default {
 <style lang="scss" scoped>
 
 .app {
-  background-color: #fff;
+  background-color: #F7F7F7;
 }
 
 .site-wrapper {

@@ -1,8 +1,8 @@
 <template>
-  <div class="mb-5">
+  <div class="header-container">
     <nav id="piveau-header" class="navbar navbar-expand-lg bg-primary fixed-top" >
       <slot name="logo">
-        <router-link class="navbar-brand" to="/"><Logo class="piveau-logo"/></router-link>
+        <a class="navbar-brand" href="https://ki-allianz.de/"><Logo class="piveau-logo"/></a>
       </slot>
       <button class="navbar-toggler 1px" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -158,6 +158,31 @@ export default {
           href: this.hrefSparql || '/sparql',
           show: this.showSparql,
         },
+        {
+          title: "Events",
+          href: "https://ki-allianz.de/events/",
+          show: true,
+        },
+        {
+          title: "Magazin",
+          href: "https://ki-allianz.de/magazin/",
+          show: true,
+        },
+        {
+          title: "Newsletter",
+          href: "https://ki-allianz.de/newsletter/",
+          show: true,
+        },
+        {
+          title: "Presse",
+          href: "https://ki-allianz.de/presse/",
+          show: true,
+        },
+        {
+          title: "Kontakt",
+          href: "https://ki-allianz.de/kontakt/",
+          show: true,
+        }
         /* {
           title: this.$t('message.header.navigation.data.metadataquality'),
           href: this.hrefMetadataQuality || `/mqa?locale=${this.$route.query.locale}`,
@@ -211,11 +236,16 @@ export default {
   .navbar {
     background: #ffffff !important; // Weißer Hintergrund für die Navbar
     //background: gray !important;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Schatten für leichte Hervorhebung
+    //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Schatten für leichte Hervorhebung
     border-radius: 16px;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 3.75rem;
+    padding-right: 2.3rem;
+
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 80px;
   }
+
 
   #navbarNav {
     flex-direction: row;
@@ -235,14 +265,14 @@ export default {
     width: auto;
   }
 
-  .mb-5, .my-5{
-    margin-top: 1rem !important;
+  .header-container{
+    padding-top: 1rem !important;
     margin-left: 1rem !important;
     margin-right: 1rem !important;
   }
 
   .nav-container {
-    height: 40px;
+    height: 48px;
   }
 
   .nav-item {
@@ -251,18 +281,18 @@ export default {
 
   .nav-link {
     color: black;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.1rem;
-    letter-spacing: 0.3px;
     transition: 0.3s padding-bottom ease;
-    padding-bottom: 4px;
+    padding-bottom: 3px;
+    border-right: 0 solid black;
 
     border-bottom: 2px solid black;
 
     &:hover {
       color: #000AFA !important;
       border-bottom-color: #000AFA;
-      padding-bottom: 6px;
+      padding-bottom: 5px;
       border-bottom-width: 3px;
     }
   }
@@ -275,9 +305,11 @@ export default {
   }
 
   .nav-link-overwrite {
+    padding-top: 4px !important;
     padding-left: 0 !important;
-    margin-left: 1.5rem;
     padding-right: 0 !important;
+
+    margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 </style>
